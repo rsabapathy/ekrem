@@ -1,0 +1,178 @@
+/*
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+
+STYLES TITLE: 
+	Invicta - Base Styles
+		
+STYLES AUTHOR: 
+	Oitentaecinco
+
+STYLES INDEX:
+
+	@@ General
+	@@ Typography
+	@@ Alignment
+	@@ Tables
+	@@ Images
+	@@ Post Formats
+
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+*/
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ General
+== ------------------------------------------------------------------- ==
+*/
+
+
+/*
+html .mceContentBody {
+	max-width:604px;
+}
+*/
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Typography
+== ------------------------------------------------------------------- ==
+*/
+
+body {
+	color:#141412;
+	font-family:"Source Sans Pro", Helvetica, sans-serif;
+	line-height:1.5;
+	text-rendering:optimizeLegibility;
+	vertical-align:baseline;
+}
+
+a 			{ color:#ca3c08; text-decoration:none; }
+a:visited 	{ color:#ac0404; }
+a:focus 	{ outline:thin dotted; }
+a:hover 	{ text-decoration:underline; }
+a:active, 
+a:hover 	{ color:#ea9629; outline:0; }
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Alignment
+== ------------------------------------------------------------------- ==
+*/
+
+.alignleft {
+	float:left;
+	margin:5px 20px 5px 0;
+	}
+
+.alignright {
+	float:right;
+	margin:5px 0 5px 20px;
+	}
+
+.aligncenter {
+	display:block;
+	margin:5px auto;
+	}
+
+img.alignnone {
+	margin:5px 0;
+	}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Tables
+== ------------------------------------------------------------------- ==
+*/
+
+table {
+	width:100%;
+	padding:0;
+	margin:0 0 20px 0;
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+table caption {
+	padding:0 0 5px 0;
+	width:auto;
+	font-style:italic;
+	text-align:right;
+	}
+th {
+	font-weight:bold;
+	letter-spacing:1.5px;
+	text-transform:uppercase;
+	text-align:left;
+	padding:9px 12px;
+	border-style:solid;
+	border-width:1px;
+	border-left:none;
+	border-top:none;
+	border-color:#e1e1e1;
+	}
+td {
+	padding:7px 12px;
+	border-style:solid;
+	border-width:1px;
+	border-left:none;
+	border-top:none;
+	border-color:#e1e1e1;
+	}
+tr th:first-child, 
+tr td:first-child {
+	border-left-style:solid;
+	border-left-width:1px;
+	}
+tr:first-child th , 
+tr:first-child td {
+	border-top-style:solid;
+	border-top-width:1px;
+	}
+	
+tr:nth-child(odd) {
+	background-color:#fcfcfc;
+	}
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Images
+== ------------------------------------------------------------------- ==
+*/	
+
+img {
+	height:auto;
+	max-width:100%;
+	vertical-align:middle;
+	}
+
+.mceTemp + ul,
+.mceTemp + ol  {
+	list-style-position:inside;
+	}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Post Formats
+== ------------------------------------------------------------------- ==
+*/
+
+.post-format-aside,
+.post-format-link, 
+.post-format-audio, 
+.post-format-video,
+.post-format-image, 
+.post-format-gallery, 
+.post-format-quote, 
+.post-format-status {
+	background-color:#f7f5e7;
+	}

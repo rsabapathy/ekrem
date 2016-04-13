@@ -1,0 +1,513 @@
+.invicta_flag {
+	padding-left:20px;
+	background-position:left center;
+	background-repeat:no-repeat;
+	}
+.invicta_flag.af { background-image:url(images/flags/af.png); } 
+.invicta_flag.al { background-image:url(images/flags/al.png); } 
+.invicta_flag.dz { background-image:url(images/flags/dz.png); } 
+.invicta_flag.as { background-image:url(images/flags/as.png); } 
+.invicta_flag.ad { background-image:url(images/flags/ad.png); } 
+.invicta_flag.ao { background-image:url(images/flags/ao.png); } 
+.invicta_flag.ai { background-image:url(images/flags/ai.png); } 
+.invicta_flag.aq { background-image:url(images/flags/aq.png); } 
+.invicta_flag.ag { background-image:url(images/flags/ag.png); } 
+.invicta_flag.ar { background-image:url(images/flags/ar.png); } 
+.invicta_flag.am { background-image:url(images/flags/am.png); } 
+.invicta_flag.aw { background-image:url(images/flags/aw.png); } 
+.invicta_flag.au { background-image:url(images/flags/au.png); } 
+.invicta_flag.at { background-image:url(images/flags/at.png); } 
+.invicta_flag.az { background-image:url(images/flags/az.png); } 
+.invicta_flag.bh { background-image:url(images/flags/bh.png); } 
+.invicta_flag.bd { background-image:url(images/flags/bd.png); } 
+.invicta_flag.bb { background-image:url(images/flags/bb.png); } 
+.invicta_flag.by { background-image:url(images/flags/by.png); } 
+.invicta_flag.be { background-image:url(images/flags/be.png); } 
+.invicta_flag.bz { background-image:url(images/flags/bz.png); } 
+.invicta_flag.bj { background-image:url(images/flags/bj.png); } 
+.invicta_flag.bm { background-image:url(images/flags/bm.png); } 
+.invicta_flag.bt { background-image:url(images/flags/bt.png); } 
+.invicta_flag.bo { background-image:url(images/flags/bo.png); } 
+.invicta_flag.ba { background-image:url(images/flags/ba.png); } 
+.invicta_flag.bw { background-image:url(images/flags/bw.png); } 
+.invicta_flag.bv { background-image:url(images/flags/bv.png); } 
+.invicta_flag.br { background-image:url(images/flags/br.png); } 
+.invicta_flag.io { background-image:url(images/flags/io.png); } 
+.invicta_flag.vg { background-image:url(images/flags/vg.png); } 
+.invicta_flag.bn { background-image:url(images/flags/bn.png); } 
+.invicta_flag.bg { background-image:url(images/flags/bg.png); } 
+.invicta_flag.bf { background-image:url(images/flags/bf.png); } 
+.invicta_flag.mm { background-image:url(images/flags/mm.png); } 
+.invicta_flag.bi { background-image:url(images/flags/bi.png); } 
+.invicta_flag.kh { background-image:url(images/flags/kh.png); } 
+.invicta_flag.cm { background-image:url(images/flags/cm.png); } 
+.invicta_flag.ca { background-image:url(images/flags/ca.png); } 
+.invicta_flag.cv { background-image:url(images/flags/cv.png); } 
+.invicta_flag.ky { background-image:url(images/flags/ky.png); } 
+.invicta_flag.cf { background-image:url(images/flags/cf.png); } 
+.invicta_flag.td { background-image:url(images/flags/td.png); } 
+.invicta_flag.cl { background-image:url(images/flags/cl.png); } 
+.invicta_flag.cn { background-image:url(images/flags/cn.png); } 
+.invicta_flag.cx { background-image:url(images/flags/cx.png); } 
+.invicta_flag.cc { background-image:url(images/flags/cc.png); } 
+.invicta_flag.co { background-image:url(images/flags/co.png); } 
+.invicta_flag.km { background-image:url(images/flags/km.png); } 
+.invicta_flag.cg { background-image:url(images/flags/cg.png); } 
+.invicta_flag.ck { background-image:url(images/flags/ck.png); } 
+.invicta_flag.cr { background-image:url(images/flags/cr.png); } 
+.invicta_flag.ci { background-image:url(images/flags/ci.png); } 
+.invicta_flag.hr { background-image:url(images/flags/hr.png); } 
+.invicta_flag.cu { background-image:url(images/flags/cu.png); } 
+.invicta_flag.cy { background-image:url(images/flags/cy.png); } 
+.invicta_flag.cz { background-image:url(images/flags/cz.png); } 
+.invicta_flag.cd { background-image:url(images/flags/cd.png); } 
+.invicta_flag.dk { background-image:url(images/flags/dk.png); } 
+.invicta_flag.dj { background-image:url(images/flags/dj.png); } 
+.invicta_flag.dm { background-image:url(images/flags/dm.png); } 
+.invicta_flag.ec { background-image:url(images/flags/ec.png); } 
+.invicta_flag.eg { background-image:url(images/flags/eg.png); } 
+.invicta_flag.sv { background-image:url(images/flags/sv.png); } 
+.invicta_flag.gq { background-image:url(images/flags/gq.png); } 
+.invicta_flag.er { background-image:url(images/flags/er.png); } 
+.invicta_flag.ee { background-image:url(images/flags/ee.png); } 
+.invicta_flag.et { background-image:url(images/flags/et.png); } 
+.invicta_flag.fk { background-image:url(images/flags/fk.png); } 
+.invicta_flag.fo { background-image:url(images/flags/fo.png); } 
+.invicta_flag.fm { background-image:url(images/flags/fm.png); } 
+.invicta_flag.fj { background-image:url(images/flags/fj.png); } 
+.invicta_flag.fi { background-image:url(images/flags/fi.png); } 
+.invicta_flag.fr { background-image:url(images/flags/fr.png); } 
+.invicta_flag.gf { background-image:url(images/flags/gf.png); } 
+.invicta_flag.pf { background-image:url(images/flags/pf.png); } 
+.invicta_flag.tf { background-image:url(images/flags/tf.png); } 
+.invicta_flag.ga { background-image:url(images/flags/ga.png); } 
+.invicta_flag.ps { background-image:url(images/flags/ps.png); } 
+.invicta_flag.ge { background-image:url(images/flags/ge.png); } 
+.invicta_flag.de { background-image:url(images/flags/de.png); } 
+.invicta_flag.gh { background-image:url(images/flags/gh.png); } 
+.invicta_flag.gi { background-image:url(images/flags/gi.png); } 
+.invicta_flag.gr { background-image:url(images/flags/gr.png); } 
+.invicta_flag.gl { background-image:url(images/flags/gl.png); } 
+.invicta_flag.gd { background-image:url(images/flags/gd.png); } 
+.invicta_flag.gu { background-image:url(images/flags/gu.png); } 
+.invicta_flag.gt { background-image:url(images/flags/gt.png); } 
+.invicta_flag.gg { background-image:url(images/flags/gg.png); } 
+.invicta_flag.gn { background-image:url(images/flags/gn.png); } 
+.invicta_flag.gw { background-image:url(images/flags/gw.png); } 
+.invicta_flag.gy { background-image:url(images/flags/gy.png); } 
+.invicta_flag.ht { background-image:url(images/flags/ht.png); } 
+.invicta_flag.hm { background-image:url(images/flags/hm.png); } 
+.invicta_flag.va { background-image:url(images/flags/va.png); } 
+.invicta_flag.hn { background-image:url(images/flags/hn.png); } 
+.invicta_flag.hk { background-image:url(images/flags/hk.png); } 
+.invicta_flag.hu { background-image:url(images/flags/hu.png); } 
+.invicta_flag.is { background-image:url(images/flags/is.png); } 
+.invicta_flag.in { background-image:url(images/flags/in.png); } 
+.invicta_flag.id { background-image:url(images/flags/id.png); } 
+.invicta_flag.ir { background-image:url(images/flags/ir.png); } 
+.invicta_flag.iq { background-image:url(images/flags/iq.png); } 
+.invicta_flag.ie { background-image:url(images/flags/ie.png); } 
+.invicta_flag.im { background-image:url(images/flags/im.png); } 
+.invicta_flag.il { background-image:url(images/flags/il.png); } 
+.invicta_flag.it { background-image:url(images/flags/it.png); } 
+.invicta_flag.jm { background-image:url(images/flags/jm.png); } 
+.invicta_flag.jp { background-image:url(images/flags/jp.png); } 
+.invicta_flag.je { background-image:url(images/flags/je.png); } 
+.invicta_flag.jo { background-image:url(images/flags/jo.png); } 
+.invicta_flag.kz { background-image:url(images/flags/kz.png); } 
+.invicta_flag.ke { background-image:url(images/flags/ke.png); } 
+.invicta_flag.ki { background-image:url(images/flags/ki.png); } 
+.invicta_flag.kw { background-image:url(images/flags/kw.png); } 
+.invicta_flag.kg { background-image:url(images/flags/kg.png); } 
+.invicta_flag.la { background-image:url(images/flags/la.png); } 
+.invicta_flag.lv { background-image:url(images/flags/lv.png); } 
+.invicta_flag.lb { background-image:url(images/flags/lb.png); } 
+.invicta_flag.ls { background-image:url(images/flags/ls.png); } 
+.invicta_flag.lr { background-image:url(images/flags/lr.png); } 
+.invicta_flag.ly { background-image:url(images/flags/ly.png); } 
+.invicta_flag.li { background-image:url(images/flags/li.png); } 
+.invicta_flag.lt { background-image:url(images/flags/lt.png); } 
+.invicta_flag.lu { background-image:url(images/flags/lu.png); } 
+.invicta_flag.mo { background-image:url(images/flags/mo.png); } 
+.invicta_flag.mk { background-image:url(images/flags/mk.png); } 
+.invicta_flag.mg { background-image:url(images/flags/mg.png); } 
+.invicta_flag.mw { background-image:url(images/flags/mw.png); } 
+.invicta_flag.my { background-image:url(images/flags/my.png); } 
+.invicta_flag.mv { background-image:url(images/flags/mv.png); } 
+.invicta_flag.ml { background-image:url(images/flags/ml.png); } 
+.invicta_flag.mt { background-image:url(images/flags/mt.png); } 
+.invicta_flag.mh { background-image:url(images/flags/mh.png); } 
+.invicta_flag.mr { background-image:url(images/flags/mr.png); } 
+.invicta_flag.mu { background-image:url(images/flags/mu.png); } 
+.invicta_flag.yt { background-image:url(images/flags/yt.png); } 
+.invicta_flag.mx { background-image:url(images/flags/mx.png); } 
+.invicta_flag.md { background-image:url(images/flags/md.png); } 
+.invicta_flag.mc { background-image:url(images/flags/mc.png); } 
+.invicta_flag.mn { background-image:url(images/flags/mn.png); } 
+.invicta_flag.me { background-image:url(images/flags/me.png); } 
+.invicta_flag.ms { background-image:url(images/flags/ms.png); } 
+.invicta_flag.ma { background-image:url(images/flags/ma.png); } 
+.invicta_flag.mz { background-image:url(images/flags/mz.png); } 
+.invicta_flag.na { background-image:url(images/flags/na.png); } 
+.invicta_flag.nr { background-image:url(images/flags/nr.png); } 
+.invicta_flag.np { background-image:url(images/flags/np.png); } 
+.invicta_flag.nl { background-image:url(images/flags/nl.png); } 
+.invicta_flag.an { background-image:url(images/flags/an.png); } 
+.invicta_flag.nc { background-image:url(images/flags/nc.png); } 
+.invicta_flag.nz { background-image:url(images/flags/nz.png); } 
+.invicta_flag.ni { background-image:url(images/flags/ni.png); } 
+.invicta_flag.ne { background-image:url(images/flags/ne.png); } 
+.invicta_flag.ng { background-image:url(images/flags/ng.png); } 
+.invicta_flag.nu { background-image:url(images/flags/nu.png); } 
+.invicta_flag.nf { background-image:url(images/flags/nf.png); } 
+.invicta_flag.kp { background-image:url(images/flags/kp.png); } 
+.invicta_flag.mp { background-image:url(images/flags/mp.png); } 
+.invicta_flag.no { background-image:url(images/flags/no.png); } 
+.invicta_flag.om { background-image:url(images/flags/om.png); } 
+.invicta_flag.pk { background-image:url(images/flags/pk.png); } 
+.invicta_flag.pw { background-image:url(images/flags/pw.png); } 
+.invicta_flag.pa { background-image:url(images/flags/pa.png); } 
+.invicta_flag.pg { background-image:url(images/flags/pg.png); } 
+.invicta_flag.py { background-image:url(images/flags/py.png); } 
+.invicta_flag.pe { background-image:url(images/flags/pe.png); } 
+.invicta_flag.ph { background-image:url(images/flags/ph.png); } 
+.invicta_flag.pn { background-image:url(images/flags/pn.png); } 
+.invicta_flag.pl { background-image:url(images/flags/pl.png); } 
+.invicta_flag.pt { background-image:url(images/flags/pt.png); } 
+.invicta_flag.pr { background-image:url(images/flags/pr.png); } 
+.invicta_flag.qa { background-image:url(images/flags/qa.png); } 
+.invicta_flag.ro { background-image:url(images/flags/ro.png); } 
+.invicta_flag.ru { background-image:url(images/flags/ru.png); } 
+.invicta_flag.rw { background-image:url(images/flags/rw.png); } 
+.invicta_flag.sh { background-image:url(images/flags/sh.png); } 
+.invicta_flag.kn { background-image:url(images/flags/kn.png); } 
+.invicta_flag.lc { background-image:url(images/flags/lc.png); } 
+.invicta_flag.pm { background-image:url(images/flags/pm.png); } 
+.invicta_flag.vc { background-image:url(images/flags/vc.png); } 
+.invicta_flag.ws { background-image:url(images/flags/ws.png); } 
+.invicta_flag.sm { background-image:url(images/flags/sm.png); } 
+.invicta_flag.st { background-image:url(images/flags/st.png); } 
+.invicta_flag.sa { background-image:url(images/flags/sa.png); } 
+.invicta_flag.sn { background-image:url(images/flags/sn.png); } 
+.invicta_flag.rs { background-image:url(images/flags/rs.png); } 
+.invicta_flag.sc { background-image:url(images/flags/sc.png); } 
+.invicta_flag.sl { background-image:url(images/flags/sl.png); } 
+.invicta_flag.sg { background-image:url(images/flags/sg.png); } 
+.invicta_flag.sk { background-image:url(images/flags/sk.png); } 
+.invicta_flag.si { background-image:url(images/flags/si.png); } 
+.invicta_flag.sb { background-image:url(images/flags/sb.png); } 
+.invicta_flag.so { background-image:url(images/flags/so.png); } 
+.invicta_flag.za { background-image:url(images/flags/za.png); } 
+.invicta_flag.gs { background-image:url(images/flags/gs.png); } 
+.invicta_flag.kr { background-image:url(images/flags/kr.png); } 
+.invicta_flag.es { background-image:url(images/flags/es.png); } 
+.invicta_flag.lk { background-image:url(images/flags/lk.png); } 
+.invicta_flag.sd { background-image:url(images/flags/sd.png); } 
+.invicta_flag.sr { background-image:url(images/flags/sr.png); } 
+.invicta_flag.sj { background-image:url(images/flags/sj.png); } 
+.invicta_flag.sz { background-image:url(images/flags/sz.png); } 
+.invicta_flag.se { background-image:url(images/flags/se.png); } 
+.invicta_flag.ch { background-image:url(images/flags/ch.png); } 
+.invicta_flag.sy { background-image:url(images/flags/sy.png); } 
+.invicta_flag.tw { background-image:url(images/flags/tw.png); } 
+.invicta_flag.tj { background-image:url(images/flags/tj.png); } 
+.invicta_flag.tz { background-image:url(images/flags/tz.png); } 
+.invicta_flag.th { background-image:url(images/flags/th.png); } 
+.invicta_flag.bs { background-image:url(images/flags/bs.png); } 
+.invicta_flag.do { background-image:url(images/flags/do.png); } 
+.invicta_flag.gm { background-image:url(images/flags/gm.png); } 
+.invicta_flag.tl { background-image:url(images/flags/tl.png); } 
+.invicta_flag.tg { background-image:url(images/flags/tg.png); } 
+.invicta_flag.tk { background-image:url(images/flags/tk.png); } 
+.invicta_flag.to { background-image:url(images/flags/to.png); } 
+.invicta_flag.tt { background-image:url(images/flags/tt.png); } 
+.invicta_flag.tn { background-image:url(images/flags/tn.png); } 
+.invicta_flag.tr { background-image:url(images/flags/tr.png); } 
+.invicta_flag.tm { background-image:url(images/flags/tm.png); } 
+.invicta_flag.tc { background-image:url(images/flags/tc.png); } 
+.invicta_flag.tv { background-image:url(images/flags/tv.png); } 
+.invicta_flag.ug { background-image:url(images/flags/ug.png); } 
+.invicta_flag.ua { background-image:url(images/flags/ua.png); } 
+.invicta_flag.ae { background-image:url(images/flags/ae.png); } 
+.invicta_flag.gb { background-image:url(images/flags/gb.png); } 
+.invicta_flag.us { background-image:url(images/flags/us.png); } 
+.invicta_flag.uy { background-image:url(images/flags/uy.png); } 
+.invicta_flag.uz { background-image:url(images/flags/uz.png); } 
+.invicta_flag.vu { background-image:url(images/flags/vu.png); } 
+.invicta_flag.ve { background-image:url(images/flags/ve.png); } 
+.invicta_flag.vn { background-image:url(images/flags/vn.png); } 
+.invicta_flag.vi { background-image:url(images/flags/vi.png); } 
+.invicta_flag.wf { background-image:url(images/flags/wf.png); } 
+.invicta_flag.eh { background-image:url(images/flags/eh.png); } 
+.invicta_flag.ye { background-image:url(images/flags/ye.png); } 
+.invicta_flag.zm { background-image:url(images/flags/zm.png); } 
+.invicta_flag.zw { background-image:url(images/flags/zw.png); } 
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)     ,
+only screen and (   min--moz-device-pixel-ratio: 2)     ,
+only screen and (     -o-min-device-pixel-ratio: 2/1)   ,
+only screen and (        min-device-pixel-ratio: 2)     ,
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx)  { 
+	
+	
+	.invicta_flag {
+		background-size:16px 11px;
+		}
+	.invicta_flag.af { background-image:url(images/flags/flags@2x/af.png); } 
+	.invicta_flag.al { background-image:url(images/flags/flags@2x/al.png); } 
+	.invicta_flag.dz { background-image:url(images/flags/flags@2x/dz.png); } 
+	.invicta_flag.as { background-image:url(images/flags/flags@2x/as.png); } 
+	.invicta_flag.ad { background-image:url(images/flags/flags@2x/ad.png); } 
+	.invicta_flag.ao { background-image:url(images/flags/flags@2x/ao.png); } 
+	.invicta_flag.ai { background-image:url(images/flags/flags@2x/ai.png); } 
+	.invicta_flag.aq { background-image:url(images/flags/flags@2x/aq.png); } 
+	.invicta_flag.ag { background-image:url(images/flags/flags@2x/ag.png); } 
+	.invicta_flag.ar { background-image:url(images/flags/flags@2x/ar.png); } 
+	.invicta_flag.am { background-image:url(images/flags/flags@2x/am.png); } 
+	.invicta_flag.aw { background-image:url(images/flags/flags@2x/aw.png); } 
+	.invicta_flag.au { background-image:url(images/flags/flags@2x/au.png); } 
+	.invicta_flag.at { background-image:url(images/flags/flags@2x/at.png); } 
+	.invicta_flag.az { background-image:url(images/flags/flags@2x/az.png); } 
+	.invicta_flag.bh { background-image:url(images/flags/flags@2x/bh.png); } 
+	.invicta_flag.bd { background-image:url(images/flags/flags@2x/bd.png); } 
+	.invicta_flag.bb { background-image:url(images/flags/flags@2x/bb.png); } 
+	.invicta_flag.by { background-image:url(images/flags/flags@2x/by.png); } 
+	.invicta_flag.be { background-image:url(images/flags/flags@2x/be.png); } 
+	.invicta_flag.bz { background-image:url(images/flags/flags@2x/bz.png); } 
+	.invicta_flag.bj { background-image:url(images/flags/flags@2x/bj.png); } 
+	.invicta_flag.bm { background-image:url(images/flags/flags@2x/bm.png); } 
+	.invicta_flag.bt { background-image:url(images/flags/flags@2x/bt.png); } 
+	.invicta_flag.bo { background-image:url(images/flags/flags@2x/bo.png); } 
+	.invicta_flag.ba { background-image:url(images/flags/flags@2x/ba.png); } 
+	.invicta_flag.bw { background-image:url(images/flags/flags@2x/bw.png); } 
+	.invicta_flag.bv { background-image:url(images/flags/flags@2x/bv.png); } 
+	.invicta_flag.br { background-image:url(images/flags/flags@2x/br.png); } 
+	.invicta_flag.io { background-image:url(images/flags/flags@2x/io.png); } 
+	.invicta_flag.vg { background-image:url(images/flags/flags@2x/vg.png); } 
+	.invicta_flag.bn { background-image:url(images/flags/flags@2x/bn.png); } 
+	.invicta_flag.bg { background-image:url(images/flags/flags@2x/bg.png); } 
+	.invicta_flag.bf { background-image:url(images/flags/flags@2x/bf.png); } 
+	.invicta_flag.mm { background-image:url(images/flags/flags@2x/mm.png); } 
+	.invicta_flag.bi { background-image:url(images/flags/flags@2x/bi.png); } 
+	.invicta_flag.kh { background-image:url(images/flags/flags@2x/kh.png); } 
+	.invicta_flag.cm { background-image:url(images/flags/flags@2x/cm.png); } 
+	.invicta_flag.ca { background-image:url(images/flags/flags@2x/ca.png); } 
+	.invicta_flag.cv { background-image:url(images/flags/flags@2x/cv.png); } 
+	.invicta_flag.ky { background-image:url(images/flags/flags@2x/ky.png); } 
+	.invicta_flag.cf { background-image:url(images/flags/flags@2x/cf.png); } 
+	.invicta_flag.td { background-image:url(images/flags/flags@2x/td.png); } 
+	.invicta_flag.cl { background-image:url(images/flags/flags@2x/cl.png); } 
+	.invicta_flag.cn { background-image:url(images/flags/flags@2x/cn.png); } 
+	.invicta_flag.cx { background-image:url(images/flags/flags@2x/cx.png); } 
+	.invicta_flag.cc { background-image:url(images/flags/flags@2x/cc.png); } 
+	.invicta_flag.co { background-image:url(images/flags/flags@2x/co.png); } 
+	.invicta_flag.km { background-image:url(images/flags/flags@2x/km.png); } 
+	.invicta_flag.cg { background-image:url(images/flags/flags@2x/cg.png); } 
+	.invicta_flag.ck { background-image:url(images/flags/flags@2x/ck.png); } 
+	.invicta_flag.cr { background-image:url(images/flags/flags@2x/cr.png); } 
+	.invicta_flag.ci { background-image:url(images/flags/flags@2x/ci.png); } 
+	.invicta_flag.hr { background-image:url(images/flags/flags@2x/hr.png); } 
+	.invicta_flag.cu { background-image:url(images/flags/flags@2x/cu.png); } 
+	.invicta_flag.cy { background-image:url(images/flags/flags@2x/cy.png); } 
+	.invicta_flag.cz { background-image:url(images/flags/flags@2x/cz.png); } 
+	.invicta_flag.cd { background-image:url(images/flags/flags@2x/cd.png); } 
+	.invicta_flag.dk { background-image:url(images/flags/flags@2x/dk.png); } 
+	.invicta_flag.dj { background-image:url(images/flags/flags@2x/dj.png); } 
+	.invicta_flag.dm { background-image:url(images/flags/flags@2x/dm.png); } 
+	.invicta_flag.ec { background-image:url(images/flags/flags@2x/ec.png); } 
+	.invicta_flag.eg { background-image:url(images/flags/flags@2x/eg.png); } 
+	.invicta_flag.sv { background-image:url(images/flags/flags@2x/sv.png); } 
+	.invicta_flag.gq { background-image:url(images/flags/flags@2x/gq.png); } 
+	.invicta_flag.er { background-image:url(images/flags/flags@2x/er.png); } 
+	.invicta_flag.ee { background-image:url(images/flags/flags@2x/ee.png); } 
+	.invicta_flag.et { background-image:url(images/flags/flags@2x/et.png); } 
+	.invicta_flag.fk { background-image:url(images/flags/flags@2x/fk.png); } 
+	.invicta_flag.fo { background-image:url(images/flags/flags@2x/fo.png); } 
+	.invicta_flag.fm { background-image:url(images/flags/flags@2x/fm.png); } 
+	.invicta_flag.fj { background-image:url(images/flags/flags@2x/fj.png); } 
+	.invicta_flag.fi { background-image:url(images/flags/flags@2x/fi.png); } 
+	.invicta_flag.fr { background-image:url(images/flags/flags@2x/fr.png); } 
+	.invicta_flag.gf { background-image:url(images/flags/flags@2x/gf.png); } 
+	.invicta_flag.pf { background-image:url(images/flags/flags@2x/pf.png); } 
+	.invicta_flag.tf { background-image:url(images/flags/flags@2x/tf.png); } 
+	.invicta_flag.ga { background-image:url(images/flags/flags@2x/ga.png); } 
+	.invicta_flag.ps { background-image:url(images/flags/flags@2x/ps.png); } 
+	.invicta_flag.ge { background-image:url(images/flags/flags@2x/ge.png); } 
+	.invicta_flag.de { background-image:url(images/flags/flags@2x/de.png); } 
+	.invicta_flag.gh { background-image:url(images/flags/flags@2x/gh.png); } 
+	.invicta_flag.gi { background-image:url(images/flags/flags@2x/gi.png); } 
+	.invicta_flag.gr { background-image:url(images/flags/flags@2x/gr.png); } 
+	.invicta_flag.gl { background-image:url(images/flags/flags@2x/gl.png); } 
+	.invicta_flag.gd { background-image:url(images/flags/flags@2x/gd.png); } 
+	.invicta_flag.gu { background-image:url(images/flags/flags@2x/gu.png); } 
+	.invicta_flag.gt { background-image:url(images/flags/flags@2x/gt.png); } 
+	.invicta_flag.gg { background-image:url(images/flags/flags@2x/gg.png); } 
+	.invicta_flag.gn { background-image:url(images/flags/flags@2x/gn.png); } 
+	.invicta_flag.gw { background-image:url(images/flags/flags@2x/gw.png); } 
+	.invicta_flag.gy { background-image:url(images/flags/flags@2x/gy.png); } 
+	.invicta_flag.ht { background-image:url(images/flags/flags@2x/ht.png); } 
+	.invicta_flag.hm { background-image:url(images/flags/flags@2x/hm.png); } 
+	.invicta_flag.va { background-image:url(images/flags/flags@2x/va.png); } 
+	.invicta_flag.hn { background-image:url(images/flags/flags@2x/hn.png); } 
+	.invicta_flag.hk { background-image:url(images/flags/flags@2x/hk.png); } 
+	.invicta_flag.hu { background-image:url(images/flags/flags@2x/hu.png); } 
+	.invicta_flag.is { background-image:url(images/flags/flags@2x/is.png); } 
+	.invicta_flag.in { background-image:url(images/flags/flags@2x/in.png); } 
+	.invicta_flag.id { background-image:url(images/flags/flags@2x/id.png); } 
+	.invicta_flag.ir { background-image:url(images/flags/flags@2x/ir.png); } 
+	.invicta_flag.iq { background-image:url(images/flags/flags@2x/iq.png); } 
+	.invicta_flag.ie { background-image:url(images/flags/flags@2x/ie.png); } 
+	.invicta_flag.im { background-image:url(images/flags/flags@2x/im.png); } 
+	.invicta_flag.il { background-image:url(images/flags/flags@2x/il.png); } 
+	.invicta_flag.it { background-image:url(images/flags/flags@2x/it.png); } 
+	.invicta_flag.jm { background-image:url(images/flags/flags@2x/jm.png); } 
+	.invicta_flag.jp { background-image:url(images/flags/flags@2x/jp.png); } 
+	.invicta_flag.je { background-image:url(images/flags/flags@2x/je.png); } 
+	.invicta_flag.jo { background-image:url(images/flags/flags@2x/jo.png); } 
+	.invicta_flag.kz { background-image:url(images/flags/flags@2x/kz.png); } 
+	.invicta_flag.ke { background-image:url(images/flags/flags@2x/ke.png); } 
+	.invicta_flag.ki { background-image:url(images/flags/flags@2x/ki.png); } 
+	.invicta_flag.kw { background-image:url(images/flags/flags@2x/kw.png); } 
+	.invicta_flag.kg { background-image:url(images/flags/flags@2x/kg.png); } 
+	.invicta_flag.la { background-image:url(images/flags/flags@2x/la.png); } 
+	.invicta_flag.lv { background-image:url(images/flags/flags@2x/lv.png); } 
+	.invicta_flag.lb { background-image:url(images/flags/flags@2x/lb.png); } 
+	.invicta_flag.ls { background-image:url(images/flags/flags@2x/ls.png); } 
+	.invicta_flag.lr { background-image:url(images/flags/flags@2x/lr.png); } 
+	.invicta_flag.ly { background-image:url(images/flags/flags@2x/ly.png); } 
+	.invicta_flag.li { background-image:url(images/flags/flags@2x/li.png); } 
+	.invicta_flag.lt { background-image:url(images/flags/flags@2x/lt.png); } 
+	.invicta_flag.lu { background-image:url(images/flags/flags@2x/lu.png); } 
+	.invicta_flag.mo { background-image:url(images/flags/flags@2x/mo.png); } 
+	.invicta_flag.mk { background-image:url(images/flags/flags@2x/mk.png); } 
+	.invicta_flag.mg { background-image:url(images/flags/flags@2x/mg.png); } 
+	.invicta_flag.mw { background-image:url(images/flags/flags@2x/mw.png); } 
+	.invicta_flag.my { background-image:url(images/flags/flags@2x/my.png); } 
+	.invicta_flag.mv { background-image:url(images/flags/flags@2x/mv.png); } 
+	.invicta_flag.ml { background-image:url(images/flags/flags@2x/ml.png); } 
+	.invicta_flag.mt { background-image:url(images/flags/flags@2x/mt.png); } 
+	.invicta_flag.mh { background-image:url(images/flags/flags@2x/mh.png); } 
+	.invicta_flag.mr { background-image:url(images/flags/flags@2x/mr.png); } 
+	.invicta_flag.mu { background-image:url(images/flags/flags@2x/mu.png); } 
+	.invicta_flag.yt { background-image:url(images/flags/flags@2x/yt.png); } 
+	.invicta_flag.mx { background-image:url(images/flags/flags@2x/mx.png); } 
+	.invicta_flag.md { background-image:url(images/flags/flags@2x/md.png); } 
+	.invicta_flag.mc { background-image:url(images/flags/flags@2x/mc.png); } 
+	.invicta_flag.mn { background-image:url(images/flags/flags@2x/mn.png); } 
+	.invicta_flag.me { background-image:url(images/flags/flags@2x/me.png); } 
+	.invicta_flag.ms { background-image:url(images/flags/flags@2x/ms.png); } 
+	.invicta_flag.ma { background-image:url(images/flags/flags@2x/ma.png); } 
+	.invicta_flag.mz { background-image:url(images/flags/flags@2x/mz.png); } 
+	.invicta_flag.na { background-image:url(images/flags/flags@2x/na.png); } 
+	.invicta_flag.nr { background-image:url(images/flags/flags@2x/nr.png); } 
+	.invicta_flag.np { background-image:url(images/flags/flags@2x/np.png); } 
+	.invicta_flag.nl { background-image:url(images/flags/flags@2x/nl.png); } 
+	.invicta_flag.an { background-image:url(images/flags/flags@2x/an.png); } 
+	.invicta_flag.nc { background-image:url(images/flags/flags@2x/nc.png); } 
+	.invicta_flag.nz { background-image:url(images/flags/flags@2x/nz.png); } 
+	.invicta_flag.ni { background-image:url(images/flags/flags@2x/ni.png); } 
+	.invicta_flag.ne { background-image:url(images/flags/flags@2x/ne.png); } 
+	.invicta_flag.ng { background-image:url(images/flags/flags@2x/ng.png); } 
+	.invicta_flag.nu { background-image:url(images/flags/flags@2x/nu.png); } 
+	.invicta_flag.nf { background-image:url(images/flags/flags@2x/nf.png); } 
+	.invicta_flag.kp { background-image:url(images/flags/flags@2x/kp.png); } 
+	.invicta_flag.mp { background-image:url(images/flags/flags@2x/mp.png); } 
+	.invicta_flag.no { background-image:url(images/flags/flags@2x/no.png); } 
+	.invicta_flag.om { background-image:url(images/flags/flags@2x/om.png); } 
+	.invicta_flag.pk { background-image:url(images/flags/flags@2x/pk.png); } 
+	.invicta_flag.pw { background-image:url(images/flags/flags@2x/pw.png); } 
+	.invicta_flag.pa { background-image:url(images/flags/flags@2x/pa.png); } 
+	.invicta_flag.pg { background-image:url(images/flags/flags@2x/pg.png); } 
+	.invicta_flag.py { background-image:url(images/flags/flags@2x/py.png); } 
+	.invicta_flag.pe { background-image:url(images/flags/flags@2x/pe.png); } 
+	.invicta_flag.ph { background-image:url(images/flags/flags@2x/ph.png); } 
+	.invicta_flag.pn { background-image:url(images/flags/flags@2x/pn.png); } 
+	.invicta_flag.pl { background-image:url(images/flags/flags@2x/pl.png); } 
+	.invicta_flag.pt { background-image:url(images/flags/flags@2x/pt.png); } 
+	.invicta_flag.pr { background-image:url(images/flags/flags@2x/pr.png); } 
+	.invicta_flag.qa { background-image:url(images/flags/flags@2x/qa.png); } 
+	.invicta_flag.ro { background-image:url(images/flags/flags@2x/ro.png); } 
+	.invicta_flag.ru { background-image:url(images/flags/flags@2x/ru.png); } 
+	.invicta_flag.rw { background-image:url(images/flags/flags@2x/rw.png); } 
+	.invicta_flag.sh { background-image:url(images/flags/flags@2x/sh.png); } 
+	.invicta_flag.kn { background-image:url(images/flags/flags@2x/kn.png); } 
+	.invicta_flag.lc { background-image:url(images/flags/flags@2x/lc.png); } 
+	.invicta_flag.pm { background-image:url(images/flags/flags@2x/pm.png); } 
+	.invicta_flag.vc { background-image:url(images/flags/flags@2x/vc.png); } 
+	.invicta_flag.ws { background-image:url(images/flags/flags@2x/ws.png); } 
+	.invicta_flag.sm { background-image:url(images/flags/flags@2x/sm.png); } 
+	.invicta_flag.st { background-image:url(images/flags/flags@2x/st.png); } 
+	.invicta_flag.sa { background-image:url(images/flags/flags@2x/sa.png); } 
+	.invicta_flag.sn { background-image:url(images/flags/flags@2x/sn.png); } 
+	.invicta_flag.rs { background-image:url(images/flags/flags@2x/rs.png); } 
+	.invicta_flag.sc { background-image:url(images/flags/flags@2x/sc.png); } 
+	.invicta_flag.sl { background-image:url(images/flags/flags@2x/sl.png); } 
+	.invicta_flag.sg { background-image:url(images/flags/flags@2x/sg.png); } 
+	.invicta_flag.sk { background-image:url(images/flags/flags@2x/sk.png); } 
+	.invicta_flag.si { background-image:url(images/flags/flags@2x/si.png); } 
+	.invicta_flag.sb { background-image:url(images/flags/flags@2x/sb.png); } 
+	.invicta_flag.so { background-image:url(images/flags/flags@2x/so.png); } 
+	.invicta_flag.za { background-image:url(images/flags/flags@2x/za.png); } 
+	.invicta_flag.gs { background-image:url(images/flags/flags@2x/gs.png); } 
+	.invicta_flag.kr { background-image:url(images/flags/flags@2x/kr.png); } 
+	.invicta_flag.es { background-image:url(images/flags/flags@2x/es.png); } 
+	.invicta_flag.lk { background-image:url(images/flags/flags@2x/lk.png); } 
+	.invicta_flag.sd { background-image:url(images/flags/flags@2x/sd.png); } 
+	.invicta_flag.sr { background-image:url(images/flags/flags@2x/sr.png); } 
+	.invicta_flag.sj { background-image:url(images/flags/flags@2x/sj.png); } 
+	.invicta_flag.sz { background-image:url(images/flags/flags@2x/sz.png); } 
+	.invicta_flag.se { background-image:url(images/flags/flags@2x/se.png); } 
+	.invicta_flag.ch { background-image:url(images/flags/flags@2x/ch.png); } 
+	.invicta_flag.sy { background-image:url(images/flags/flags@2x/sy.png); } 
+	.invicta_flag.tw { background-image:url(images/flags/flags@2x/tw.png); } 
+	.invicta_flag.tj { background-image:url(images/flags/flags@2x/tj.png); } 
+	.invicta_flag.tz { background-image:url(images/flags/flags@2x/tz.png); } 
+	.invicta_flag.th { background-image:url(images/flags/flags@2x/th.png); } 
+	.invicta_flag.bs { background-image:url(images/flags/flags@2x/bs.png); } 
+	.invicta_flag.do { background-image:url(images/flags/flags@2x/do.png); } 
+	.invicta_flag.gm { background-image:url(images/flags/flags@2x/gm.png); } 
+	.invicta_flag.tl { background-image:url(images/flags/flags@2x/tl.png); } 
+	.invicta_flag.tg { background-image:url(images/flags/flags@2x/tg.png); } 
+	.invicta_flag.tk { background-image:url(images/flags/flags@2x/tk.png); } 
+	.invicta_flag.to { background-image:url(images/flags/flags@2x/to.png); } 
+	.invicta_flag.tt { background-image:url(images/flags/flags@2x/tt.png); } 
+	.invicta_flag.tn { background-image:url(images/flags/flags@2x/tn.png); } 
+	.invicta_flag.tr { background-image:url(images/flags/flags@2x/tr.png); } 
+	.invicta_flag.tm { background-image:url(images/flags/flags@2x/tm.png); } 
+	.invicta_flag.tc { background-image:url(images/flags/flags@2x/tc.png); } 
+	.invicta_flag.tv { background-image:url(images/flags/flags@2x/tv.png); } 
+	.invicta_flag.ug { background-image:url(images/flags/flags@2x/ug.png); } 
+	.invicta_flag.ua { background-image:url(images/flags/flags@2x/ua.png); } 
+	.invicta_flag.ae { background-image:url(images/flags/flags@2x/ae.png); } 
+	.invicta_flag.gb { background-image:url(images/flags/flags@2x/gb.png); } 
+	.invicta_flag.us { background-image:url(images/flags/flags@2x/us.png); } 
+	.invicta_flag.uy { background-image:url(images/flags/flags@2x/uy.png); } 
+	.invicta_flag.uz { background-image:url(images/flags/flags@2x/uz.png); } 
+	.invicta_flag.vu { background-image:url(images/flags/flags@2x/vu.png); } 
+	.invicta_flag.ve { background-image:url(images/flags/flags@2x/ve.png); } 
+	.invicta_flag.vn { background-image:url(images/flags/flags@2x/vn.png); } 
+	.invicta_flag.vi { background-image:url(images/flags/flags@2x/vi.png); } 
+	.invicta_flag.wf { background-image:url(images/flags/flags@2x/wf.png); } 
+	.invicta_flag.eh { background-image:url(images/flags/flags@2x/eh.png); } 
+	.invicta_flag.ye { background-image:url(images/flags/flags@2x/ye.png); } 
+	.invicta_flag.zm { background-image:url(images/flags/flags@2x/zm.png); } 
+	.invicta_flag.zw { background-image:url(images/flags/flags@2x/zw.png); } 
+	
+}
+
+.invicta_usa_map .invicta_flag {
+	background-image:none;
+	position:relative;
+	padding-left:12px;
+	}
+	.invicta_usa_map .invicta_flag:before {
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		text-decoration: inherit;
+		content: "\F105";
+		position:absolute;
+		left:0;
+		}

@@ -1,0 +1,880 @@
+/*
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+
+STYLES TITLE: 
+	Invicta - Admin Styles
+		
+STYLES AUTHOR: 
+	Oitentaecinco
+
+STYLES INDEX:
+
+	@@ Custom Metaboxes 
+	@@ SMOF
+	@@ Theme Options
+	@@ Visual Composer
+	@@ Visual Composer Frontend Editor
+	@@ Portfolio
+	@@ Videos
+	@@ Widgets
+
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+*/
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Custom Metaboxes
+== ------------------------------------------------------------------- ==
+*/
+
+.postbox .custom_metabox {
+	padding-top:2px;
+	padding-bottom:6px;
+	}
+	.postbox .custom_metabox .title {
+		font-weight:bold;
+		margin-top:10px;
+		}
+	.postbox .custom_metabox .field {
+		margin-top:6px;
+		padding-bottom:6px;
+		}
+		.postbox .custom_metabox .field img {
+			max-width:100%;
+			height:auto;
+			}
+	.postbox .custom_metabox p {
+		margin:0;
+		padding:0;
+		}
+	.postbox .custom_metabox select,
+	.postbox .custom_metabox textarea,
+	.postbox .custom_metabox input[type="text"] {
+		width:90%;
+		}
+	.postbox .custom_metabox textarea {
+		height:100px;
+		}
+	.postbox .custom_metabox .radio label { 
+		margin-right:10px; 
+		}
+	.postbox .custom_metabox cite {
+		font-style:normal;
+		}
+	.postbox .custom_metabox i {
+		display:block;
+		font-size:0.9em;
+		line-height:140%;
+		padding-top:5px;
+		padding-bottom:3px;
+		color:#999999;
+		}
+		
+
+.postbox#vc_teaser {
+	display:none;
+}
+
+.postbox#mymetabox_revslider_0 {
+	display:none;
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ SMOF
+== ------------------------------------------------------------------- ==
+*/
+
+#of_container #content .section-info .controls .of-info {
+	background:#fafafa !important;
+	border-color:#e4e4e4 !important;
+	border-style:dashed !important;
+	font-style:italic !important;
+	}
+	
+#of_container #content .section h3.heading { margin-top:30px !important; }
+#of_container #content .group .section:nth-child(2) h3.heading { margin-top:10px !important; }
+
+#of_container #content .section-checkbox .controls {
+	width:10px !important;
+}
+#of_container input.checkbox { 
+	width:16px !important; 
+	position:relative;
+	top:4px;
+	}
+
+/* icons */
+
+#of_container #of-nav li.general a, 
+#of_container #of-nav li.geral a { background-image:url(images/admin/icon-cog.png); }
+#of_container #of-nav li.branding a, 
+#of_container #of-nav li.marca a { background-image:url(images/admin/icon-shield.png); }
+#of_container #of-nav li.estilos a, 
+#of_container #of-nav li.styling a { background-image:url(images/admin/icon-palette.png); }
+#of_container #of-nav li.header a { background-image:url(images/admin/icon-header.png); }
+#of_container #of-nav li.footer a { background-image:url(images/admin/icon-footer.png); }
+#of_container #of-nav li.sidebars a { background-image:url(images/admin/icon-sidebar.png); }
+#of_container #of-nav li.colors a { background-image:url(images/admin/icon-palette.png); }
+#of_container #of-nav li.icons a { background-image:url(images/admin/icon-pin.png); }
+#of_container #of-nav li.tipografia a, 
+#of_container #of-nav li.typography a { background-image:url(images/admin/icon-text.png); }
+#of_container #of-nav li.blog a { background-image:url(images/admin/icon-blog.png); }
+#of_container #of-nav li.portfolio a { background-image:url(images/admin/icon-portfolio.png); }
+#of_container #of-nav li.fotos a, 
+#of_container #of-nav li.photos a { background-image:url(images/admin/icon-photos.png); }
+#of_container #of-nav li.videos a { background-image:url(images/admin/icon-videos.png); }
+#of_container #of-nav li.autorizaçãodosfeeds a, 
+#of_container #of-nav li.feedsauth a { background-image:url(images/admin/icon-magnet.png); }
+#of_container #of-nav li.manutenção a, 
+#of_container #of-nav li.maintenance a { background-image:url(images/admin/icon-hammer.png); }
+#of_container #of-nav li.backups a { background-image:url(images/admin/icon-disk.png) !important; }
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Theme Options
+== ------------------------------------------------------------------- ==
+*/	
+	
+#of-option-icons .section {
+	float:left;
+	margin-bottom:20px !important;
+}
+
+#of_container #content #of-option-icons .section .explain {
+	width:50px;
+	color:#5d5d5d;
+}
+
+#of-option-icons #section-i_icons-extra_icons,
+#of-option-icons .section-info {
+	float:none;
+	clear:both;
+	}
+	
+	
+#of_container #content #of-option-icons #section-i_icons-extra_icons .explain {
+	width:auto;
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Visual Composer
+== ------------------------------------------------------------------- ==
+*/
+
+/* hidding custom layouts links (visual-composer has a bug on this feature so I decided to hide it)*/
+.controls_row .set_columns.custom_columns { display: none !important; }
+
+/* invicta person */
+
+.invicta_shortcode_person_o .icon-wpb-person { background-image:url(images/admin/visual_composer/icon-user.png) !important; }
+.invicta_shortcode_person .vc_element-icon { background-image:url(images/admin/visual_composer/icon-user.png) !important; }
+
+.invicta_shortcode_person .photo, 
+.invicta_shortcode_person .sub_title, 
+.invicta_shortcode_person .link_type, 
+.invicta_shortcode_person .page_id, 
+.invicta_shortcode_person .url, 
+.invicta_shortcode_person .name, 
+.invicta_shortcode_person .position, 
+.invicta_shortcode_person .department,
+.invicta_shortcode_person .country,
+.invicta_shortcode_person .age,
+.invicta_shortcode_person .website, 
+.invicta_shortcode_person .phone, 
+.invicta_shortcode_person .style, 
+.invicta_shortcode_person .admin_label_css_animation {
+	display:none !important;
+	}
+	
+.invicta_shortcode_person .email, 
+.invicta_shortcode_person .twitter, 
+.invicta_shortcode_person .facebook,
+.invicta_shortcode_person .googleplus, 
+.invicta_shortcode_person .linkedin, 
+.invicta_shortcode_person .xing, 
+.invicta_shortcode_person .dribbble, 
+.invicta_shortcode_person .flickr, 
+.invicta_shortcode_person .tumblr, 
+.invicta_shortcode_person .skype, 
+.invicta_shortcode_person .instagram, 
+.invicta_shortcode_person .pinterest, 
+.invicta_shortcode_person .foursquare, 
+.invicta_shortcode_person .youtube {
+	display:none;
+	}
+
+/* invicta instagram feed */
+
+.invicta_shortcode_instagramfeed_o .icon-wpb-instagramfeed 		{ background-image:url(images/admin/visual_composer/icon-instagram.png) !important; }
+.invicta_shortcode_instagramfeed .vc_element-icon 		{ background-image:url(images/admin/visual_composer/icon-instagram.png) !important; }
+
+.invicta_shortcode_instagramfeed .title, 
+.invicta_shortcode_instagramfeed .count, 
+.invicta_shortcode_instagramfeed .cache_timeout, 
+.invicta_shortcode_instagramfeed .access_token {
+	display:none;
+	}
+
+/* invicta twitter feed */
+
+.invicta_shortcode_twitterfeed_o .icon-wpb-twitterfeed 	{ background-image:url(images/admin/visual_composer/icon-twitter.png) !important; }
+.invicta_shortcode_twitterfeed .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-twitter.png) !important; }
+
+.invicta_shortcode_twitterfeed .title, 
+.invicta_shortcode_twitterfeed .count, 
+.invicta_shortcode_twitterfeed .cache_timeout, 
+.invicta_shortcode_twitterfeed .consumer_key, 
+.invicta_shortcode_twitterfeed .consumer_secret, 
+.invicta_shortcode_twitterfeed .access_token, 
+.invicta_shortcode_twitterfeed .access_token_secret {
+	display:none;
+	}
+.invicta_shortcode_twitterfeed .username:before {
+	content:'@';
+	}
+
+/* invicta button */
+
+.invicta_shortcode_button_o .icon-wpb-button		{ background-image:url(images/admin/visual_composer/icon-button.png) !important; }
+.invicta_shortcode_button .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-button.png) !important; }
+
+.invicta_shortcode_button .link_type, 
+.invicta_shortcode_button .page_id, 
+.invicta_shortcode_button .post_id, 
+.invicta_shortcode_button .project_id, 
+.invicta_shortcode_button .photogallery_id, 
+.invicta_shortcode_button .url, 
+.invicta_shortcode_button .target, 
+.invicta_shortcode_button .size, 
+.invicta_shortcode_button .color, 
+.invicta_shortcode_button .icon, 
+.invicta_shortcode_button .icon_position, 
+.invicta_shortcode_button .alignment {
+	display:none;
+	}
+	
+/* call to action button */
+
+.invicta_shortcode_calltoaction_o .icon-wpb-button		{ background-image:url(images/admin/visual_composer/icon-calltoaction.png) !important; }
+.invicta_shortcode_calltoaction .vc_element-icon { background-image:url(images/admin/visual_composer/icon-calltoaction.png) !important; }
+
+.invicta_shortcode_calltoaction .link_type, 
+.invicta_shortcode_calltoaction .page_id, 
+.invicta_shortcode_calltoaction .post_id, 
+.invicta_shortcode_calltoaction .project_id, 
+.invicta_shortcode_calltoaction .photogallery_id, 
+.invicta_shortcode_calltoaction .url, 
+.invicta_shortcode_calltoaction .target, 
+.invicta_shortcode_calltoaction .size, 
+.invicta_shortcode_calltoaction .color, 
+.invicta_shortcode_calltoaction .icon, 
+.invicta_shortcode_calltoaction .icon_position, 
+.invicta_shortcode_calltoaction .alignment, 
+.invicta_shortcode_calltoaction .primary_line, 
+.invicta_shortcode_calltoaction .secondary_line, 
+.invicta_shortcode_calltoaction .primary_line_keywords, 
+.invicta_shortcode_calltoaction .secondary_line_keywords, 
+.invicta_shortcode_calltoaction .style, 
+.invicta_shortcode_calltoaction .admin_label_css_animation {
+	display:none !important;
+	}
+	
+/* pricing tables */
+.invicta_shortcode_gopricingtable_o .icon-wpb-icontab		{ background-image:url(images/admin/visual_composer/icon-table.png) !important; }
+.invicta_shortcode_gopricingtable .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-table.png) !important; }
+
+/* invicta social links */
+
+.invicta_shortcode_sociallinks_o .icon-wpb-sociallinks	{ background-image:url(images/admin/visual_composer/icon-sociallinks.png) !important; }
+.invicta_shortcode_sociallinks .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-sociallinks.png) !important; }
+
+
+.invicta_shortcode_sociallinks div:empty,
+.invicta_shortcode_sociallinks .intro {
+	display:none;
+	}
+.invicta_shortcode_sociallinks .email, 
+.invicta_shortcode_sociallinks .twitter, 
+.invicta_shortcode_sociallinks .facebook,
+.invicta_shortcode_sociallinks .googleplus, 
+.invicta_shortcode_sociallinks .linkedin, 
+.invicta_shortcode_sociallinks .xing, 
+.invicta_shortcode_sociallinks .dribbble, 
+.invicta_shortcode_sociallinks .flickr, 
+.invicta_shortcode_sociallinks .tumblr, 
+.invicta_shortcode_sociallinks .skype, 
+.invicta_shortcode_sociallinks .instagram, 
+.invicta_shortcode_sociallinks .pinterest, 
+.invicta_shortcode_sociallinks .foursquare, 
+.invicta_shortcode_sociallinks .youtube {
+	display:inline;
+	}
+	
+.invicta_shortcode_sociallinks .email:after, 
+.invicta_shortcode_sociallinks .twitter:after, 
+.invicta_shortcode_sociallinks .facebook:after,
+.invicta_shortcode_sociallinks .googleplus:after, 
+.invicta_shortcode_sociallinks .linkedin:after, 
+.invicta_shortcode_sociallinks .xing:after, 
+.invicta_shortcode_sociallinks .dribbble:after, 
+.invicta_shortcode_sociallinks .flickr:after, 
+.invicta_shortcode_sociallinks .tumblr:after, 
+.invicta_shortcode_sociallinks .skype:after, 
+.invicta_shortcode_sociallinks .instagram:after, 
+.invicta_shortcode_sociallinks .pinterest:after, 
+.invicta_shortcode_sociallinks .foursquare:after, 
+.invicta_shortcode_sociallinks .youtube:after {
+	content: ' / ';
+	}
+
+/* invicta contacts */
+
+.invicta_shortcode_contacts_o .icon-wpb-contacts		{ background-image:url(images/admin/visual_composer/icon-contacts.png) !important; }
+.invicta_shortcode_contacts .vc_element-icon 		{ background-image:url(images/admin/visual_composer/icon-contacts.png) !important; }
+
+.invicta_shortcode_contacts .intro, 
+.invicta_shortcode_contacts .address, 
+.invicta_shortcode_contacts .phone, 
+.invicta_shortcode_contacts .mobile,
+.invicta_shortcode_contacts .email, 
+.invicta_shortcode_contacts .google_map, 
+.invicta_shortcode_contacts .url {
+	display:none;
+	}
+	
+/* invicta timespan */
+
+.invicta_shortcode_timespan_o .icon-wpb-timespan		{ background-image:url(images/admin/visual_composer/icon-timespan.png) !important; }
+.invicta_shortcode_timespan .vc_element-icon 		{ background-image:url(images/admin/visual_composer/icon-timespan.png) !important; }
+
+.invicta_shortcode_timespan .begin, 
+.invicta_shortcode_timespan .end {
+	display:inline;
+	}
+.invicta_shortcode_timespan .begin:after {
+	content:'h - ';
+	}
+.invicta_shortcode_timespan .end:after {
+	content:'h';
+	}
+.invicta_shortcode_timespan .title, 	
+.invicta_shortcode_timespan .text, 
+.invicta_shortcode_timespan .animation {
+	display:none;
+	}
+
+
+/* invicta portfolio */
+
+.invicta_shortcode_portfolio_o .icon-wpb-portfolio		{ background-image:url(images/admin/visual_composer/icon-portfolio.png) !important; }
+.invicta_shortcode_portfolio .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-portfolio.png) !important; }
+
+.invicta_shortcode_portfolio .filtered_categories, 
+.invicta_shortcode_portfolio .linking, 
+.invicta_shortcode_portfolio .metadata  {
+	display:none;
+	}
+.invicta_shortcode_portfolio .posts_per_page:after {
+	content:' Projects'
+}
+
+/* invicta blog */
+
+.invicta_shortcode_blog_o .icon-wpb-blog		{ background-image:url(images/admin/visual_composer/icon-blog.png) !important; }
+.invicta_shortcode_blog .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-blog.png) !important; }
+
+.invicta_shortcode_blog .filtered_categories {
+	display:none;
+	}
+.invicta_shortcode_blog .posts_per_page:after {
+	content:' Posts'
+	}
+
+/* invicta icontab */	
+	
+.invicta_shortcode_icontab_o .icon-wpb-icontab		{ background-image:url(images/admin/visual_composer/icon-icontab.png) !important; }
+.invicta_shortcode_icontab .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-icontab.png) !important; }
+
+
+/* invicta steps */
+
+.invicta_shortcode_steps_o .icon-wpb-steps			{ background-image:url(images/admin/visual_composer/icon-steps.png) !important; }
+.invicta_shortcode_steps .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-steps.png) !important; }
+
+.invicta_shortcode_steps > .wpb_element_wrapper {
+	height:auto !important;
+	min-height:1px !important;
+	}
+	
+.invicta_shortcode_steps .animation, 
+.invicta_shortcode_steps .text_1, 
+.invicta_shortcode_steps .icon_1, 
+.invicta_shortcode_steps .text_2, 
+.invicta_shortcode_steps .icon_2, 
+.invicta_shortcode_steps .text_3, 
+.invicta_shortcode_steps .icon_3, 
+.invicta_shortcode_steps .text_4, 
+.invicta_shortcode_steps .icon_4, 
+.invicta_shortcode_steps .text_5, 
+.invicta_shortcode_steps .icon_5 {
+	display:none;
+	}
+	.invicta_shortcode_steps div:empty {
+		display:none;
+		}
+
+.invicta_shortcode_steps .name_1,
+.invicta_shortcode_steps .name_2,
+.invicta_shortcode_steps .name_3,
+.invicta_shortcode_steps .name_4,
+.invicta_shortcode_steps .name_5 {
+	display:inline;
+	}
+	
+.invicta_shortcode_steps .name_1:after,
+.invicta_shortcode_steps .name_2:after,
+.invicta_shortcode_steps .name_3:after,
+.invicta_shortcode_steps .name_4:after,
+.invicta_shortcode_steps .name_5:after {
+	content:" / ";
+	}
+	
+/* invicta counters */
+
+.invicta_shortcode_counters_o .icon-wpb-counters	{ background-image:url(images/admin/visual_composer/icon-counters.png) !important; }
+.invicta_shortcode_counters .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-counters.png) !important; }
+
+
+.invicta_shortcode_counters .animation {
+	display:none;
+	}
+.invicta_shortcode_counters > .wpb_element_wrapper {
+	height:auto !important;
+	word-wrap:break-word;
+}
+
+/* invicta progressbars */
+
+.invicta_shortcode_progressbars_o .icon-wpb-progressbars	{ background-image:url(images/admin/visual_composer/icon-progressbars.png) !important; }
+.invicta_shortcode_progressbars .vc_element-icon 		{ background-image:url(images/admin/visual_composer/icon-progressbars.png) !important; }
+
+.invicta_shortcode_progressbars > .wpb_element_wrapper {
+	height:auto !important;
+	min-height:1px !important;
+	-ms-word-wrap: break-word;
+	    word-wrap: break-word;
+	}
+
+.invicta_shortcode_progressbars .animation, 
+.invicta_shortcode_progressbars .units, 
+.invicta_shortcode_progressbars .admin_label_css_animation {
+	display:none !important;
+	}
+
+/* invicta testimonial */
+
+.invicta_shortcode_testimonial_o .icon-wpb-testimonial	{ background-image:url(images/admin/visual_composer/icon-testimonial.png) !important; }
+.invicta_shortcode_testimonial .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-testimonial.png) !important; }
+
+.invicta_shortcode_testimonial .author_country, 
+.invicta_shortcode_testimonial .author_photo, 
+.invicta_shortcode_testimonial .content, 
+.invicta_shortcode_testimonial .content,
+.invicta_shortcode_testimonial .source_name, 
+.invicta_shortcode_testimonial .source_url, 
+.invicta_shortcode_testimonial .style {
+	display:none;
+	}
+.invicta_shortcode_testimonial .admin_label_css_animation {
+	display:none !important;
+	}
+	
+/* invicta testimonials carousel */
+
+.invicta_shortcode_testimonial_carousel_o .icon-wpb-testimonial_carousel	{ background-image:url(images/admin/visual_composer/icon-testimonial.png) !important; }
+.invicta_shortcode_testimonial_carousel .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-testimonial.png) !important; }
+
+.invicta_shortcode_testimonial_carousel .carousel_timeout, 
+.invicta_shortcode_testimonial_carousel .background_label, 
+.invicta_shortcode_testimonial_carousel .author_country_1, 
+.invicta_shortcode_testimonial_carousel .author_photo_1, 
+.invicta_shortcode_testimonial_carousel .text_1,
+.invicta_shortcode_testimonial_carousel .source_name_1, 
+.invicta_shortcode_testimonial_carousel .source_url_1, 
+.invicta_shortcode_testimonial_carousel .author_country_2, 
+.invicta_shortcode_testimonial_carousel .author_photo_2, 
+.invicta_shortcode_testimonial_carousel .text_2,
+.invicta_shortcode_testimonial_carousel .source_name_2, 
+.invicta_shortcode_testimonial_carousel .source_url_2, 
+.invicta_shortcode_testimonial_carousel .author_country_3, 
+.invicta_shortcode_testimonial_carousel .author_photo_3, 
+.invicta_shortcode_testimonial_carousel .text_3,
+.invicta_shortcode_testimonial_carousel .source_name_3, 
+.invicta_shortcode_testimonial_carousel .source_url_3, 
+.invicta_shortcode_testimonial_carousel .author_country_4, 
+.invicta_shortcode_testimonial_carousel .author_photo_4, 
+.invicta_shortcode_testimonial_carousel .text_4,
+.invicta_shortcode_testimonial_carousel .source_name_4, 
+.invicta_shortcode_testimonial_carousel .source_url_4, 
+.invicta_shortcode_testimonial_carousel .author_country_5, 
+.invicta_shortcode_testimonial_carousel .author_photo_5, 
+.invicta_shortcode_testimonial_carousel .text_5,
+.invicta_shortcode_testimonial_carousel .source_name_5, 
+.invicta_shortcode_testimonial_carousel .source_url_5, 
+.invicta_shortcode_testimonial_carousel .author_country_6, 
+.invicta_shortcode_testimonial_carousel .author_photo_6, 
+.invicta_shortcode_testimonial_carousel .text_6,
+.invicta_shortcode_testimonial_carousel .source_name_6, 
+.invicta_shortcode_testimonial_carousel .source_url_6 {
+	display:none;
+	}
+
+.invicta_shortcode_testimonial_carousel .author_name_1, 
+.invicta_shortcode_testimonial_carousel .author_name_2, 
+.invicta_shortcode_testimonial_carousel .author_name_3, 
+.invicta_shortcode_testimonial_carousel .author_name_4, 
+.invicta_shortcode_testimonial_carousel .author_name_5, 
+.invicta_shortcode_testimonial_carousel .author_name_6 { 
+	display:inline; 
+	}
+	
+.invicta_shortcode_testimonial_carousel .author_name_1:after, 
+.invicta_shortcode_testimonial_carousel .author_name_2:after, 
+.invicta_shortcode_testimonial_carousel .author_name_3:after, 
+.invicta_shortcode_testimonial_carousel .author_name_4:after, 
+.invicta_shortcode_testimonial_carousel .author_name_5:after, 
+.invicta_shortcode_testimonial_carousel .author_name_6:after {
+	content:' - ';
+	}
+
+.invicta_shortcode_testimonial_carousel div:empty {
+	display:none;
+	}
+
+
+/* invicta iconboxs */
+
+.invicta_shortcode_iconbox_o .icon-wpb-iconbox		{ background-image:url(images/admin/visual_composer/icon-iconbox.png) !important; }
+.invicta_shortcode_iconbox .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-iconbox.png) !important; }
+
+.invicta_shortcode_iconbox .icon, 
+.invicta_shortcode_iconbox .text, 
+.invicta_shortcode_iconbox .style, 
+.invicta_shortcode_iconbox .link_type, 
+.invicta_shortcode_iconbox .page_id, 
+.invicta_shortcode_iconbox .post_id, 
+.invicta_shortcode_iconbox .project_id, 
+.invicta_shortcode_iconbox .photogallery_id, 
+.invicta_shortcode_iconbox .url {
+	display:none;
+	}
+.invicta_shortcode_iconbox .admin_label_css_animation {
+	display:none !important;
+	}
+
+.wpb_edit_form_elements .vc_row-fluid input[type="checkbox"]:nth-child(2) {
+	margin-left:5px !important;
+}
+.wpb_edit_form_elements .vc_row-fluid i.invicta_icon {
+	display:inline-block;
+	width:45px;
+	margin-bottom:22px;
+	}
+
+/* invicta partners */
+
+.invicta_shortcode_partners_o .icon-wpb-partners		{ background-image:url(images/admin/visual_composer/icon-partners.png) !important; }
+.invicta_shortcode_partners .vc_element-icon 		{ background-image:url(images/admin/visual_composer/icon-partners.png) !important; }
+
+.invicta_shortcode_partners div:empty {
+	display:none;
+	}
+.invicta_shortcode_partners .admin_label_css_animation,
+.invicta_shortcode_partners .blackandwhite_effect {
+	display:none !important;
+	}
+.invicta_shortcode_partners .name_1, 
+.invicta_shortcode_partners .name_2, 
+.invicta_shortcode_partners .name_3, 
+.invicta_shortcode_partners .name_4, 
+.invicta_shortcode_partners .name_5, 
+.invicta_shortcode_partners .name_6, 
+.invicta_shortcode_partners .name_7, 
+.invicta_shortcode_partners .name_8 {
+	display:inline;
+	}
+	.invicta_shortcode_partners .name_1:after, 
+	.invicta_shortcode_partners .name_2:after, 
+	.invicta_shortcode_partners .name_3:after, 
+	.invicta_shortcode_partners .name_4:after, 
+	.invicta_shortcode_partners .name_5:after, 
+	.invicta_shortcode_partners .name_6:after, 
+	.invicta_shortcode_partners .name_7:after, 
+	.invicta_shortcode_partners .name_8:after {
+		content:' / ';
+		}
+.invicta_shortcode_partners .link_1, 
+.invicta_shortcode_partners .link_2, 
+.invicta_shortcode_partners .link_3, 
+.invicta_shortcode_partners .link_4, 
+.invicta_shortcode_partners .link_5, 
+.invicta_shortcode_partners .link_6, 
+.invicta_shortcode_partners .link_7, 
+.invicta_shortcode_partners .link_8 {
+	display:none;
+	}
+.invicta_shortcode_partners .logo_1, 
+.invicta_shortcode_partners .logo_2, 
+.invicta_shortcode_partners .logo_3, 
+.invicta_shortcode_partners .logo_4, 
+.invicta_shortcode_partners .logo_5, 
+.invicta_shortcode_partners .logo_6, 
+.invicta_shortcode_partners .logo_7, 
+.invicta_shortcode_partners .logo_8 {
+	display:none;
+	}
+	
+/* invicta letter */
+
+.invicta_shortcode_letter_o .icon-wpb-letter		{ background-image:url(images/admin/visual_composer/icon-letter.png) !important; }
+.invicta_shortcode_letter .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-letter.png) !important; }
+		
+.invicta_shortcode_letter > .wpb_element_wrapper {
+	}
+	.invicta_shortcode_letter .author_photo, 
+	.invicta_shortcode_letter .author_signature {
+		display:none;
+		}
+	.invicta_shortcode_letter .title {
+		}
+	.invicta_shortcode_letter .content {
+		display:none;
+		}
+	
+/* invicta heading */
+
+.invicta_shortcode_heading_o .icon-wpb-heading		{ background-image:url(images/admin/visual_composer/icon-heading.png) !important; }
+.invicta_shortcode_heading .vc_element-icon { background-image:url(images/admin/visual_composer/icon-heading.png) !important; }
+
+.invicta_shortcode_heading .secondary_line, 
+.invicta_shortcode_heading .exploded_textarea, 
+.invicta_shortcode_heading .alignment, 
+.invicta_shortcode_heading .size,
+.invicta_shortcode_heading .primary_line_html_elem, 
+.invicta_shortcode_heading .secondary_line_html_elem {
+	display:none;
+	}
+	
+/* vc wordpress */
+
+.wpb_vc_wp_widget .wpb_element_wrapper { background-image:url(images/admin/visual_composer/icon-wordpress.png) !important; }
+
+	
+/* vc toggle */
+
+.wpb_vc_toggle .wpb_element_wrapper {
+	background-image:url(images/admin/visual_composer/icon-plus.png) !important;
+	padding: 10px 10px 10px 62px !important;
+	height:33px !important;
+	}
+.wpb_vc_toggle .wpb_element_wrapper h4.toggle_title { 
+	background:none !important;
+	padding-left:0 !important;
+	}
+
+/* world map */
+
+.invicta_shortcode_world_map_o .icon-wpb-world_map	{ background-image:url(images/admin/visual_composer/icon-worldmap.png) !important; }
+.invicta_shortcode_world_map .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-worldmap.png) !important; }
+
+.invicta_shortcode_world_map .label_positions,
+.invicta_shortcode_world_map .label_visibility,
+.invicta_shortcode_world_map .label_offset,
+.invicta_shortcode_world_map .initial_animation_timeout {
+	display:none;
+	}
+	
+.world_location {
+	width:340px;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:100%;
+	}
+	.world_location .location_label_position {
+		width:110px !important;
+		margin-left:5px !important;
+		font-size:11px;
+		vertical-align:middle;
+		}
+		
+/* europe map */
+
+.invicta_shortcode_europe_map_o .icon-wpb-europe_map	{ background-image:url(images/admin/visual_composer/icon-worldmap.png) !important; }
+.invicta_shortcode_europe_map .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-worldmap.png) !important; }
+
+.invicta_shortcode_europe_map .label_positions,
+.invicta_shortcode_europe_map .label_visibility,
+.invicta_shortcode_europe_map .label_offset,
+.invicta_shortcode_europe_map .initial_animation_timeout {
+	display:none;
+	}
+		
+/* usa map */
+
+.invicta_shortcode_usa_map_o .icon-wpb-usa_map	{ background-image:url(images/admin/visual_composer/icon-worldmap.png) !important; }
+.invicta_shortcode_usa_map .vc_element-icon 	{ background-image:url(images/admin/visual_composer/icon-worldmap.png) !important; }
+
+.invicta_shortcode_usa_map .label_positions,
+.invicta_shortcode_usa_map .label_visibility,
+.invicta_shortcode_usa_map .label_offset,
+.invicta_shortcode_usa_map .initial_animation_timeout {
+	display:none;
+	}
+	
+/* woocommerce */
+
+.icon-wpb-woocommerce {
+	background: url(images/admin/visual_composer/icon-woocommerce.png) no-repeat 0 0 !important;
+}	
+
+/* wordpress */
+
+.icon-wpb-wp {
+	background: url(images/admin/visual_composer/icon-wordpress.png) no-repeat 0 0 !important;
+}	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Visual Composer Frontend Editor
+== ------------------------------------------------------------------- ==
+*/
+
+/* icons fields */
+
+#vc_properties-panel .edit_form_line i.invicta_icon { display:inline-block; width:34px }
+#vc_properties-panel .edit_form_line .icon.checkbox { margin: 0 3px; }
+
+/*
+.vc_ui-panel-window .edit_form_line i.invicta_icon { display: inline-block; width: 45px; font-size: 1.5em; }
+.vc_ui-panel-window .edit_form_line .icon.checkbox { margin: 0 3px; }
+*/
+
+.vc_ui-panel-window .vc_shortcode-param[data-vc-shortcode-param-name="icon"] .vc_checkbox-label { width: 87px; display: inline-block; }
+.vc_ui-panel-window .vc_shortcode-param[data-vc-shortcode-param-name="icon"] i.invicta_icon { font-size: 1.5em; }
+
+/* locations fields */
+
+#vc_properties-panel .edit_form_line .world_location { width:250px; margin-bottom:10px; }
+#vc_properties-panel .edit_form_line .locations.checkbox { margin:0 3px; margin-bottom:10px; }
+#vc_properties-panel .edit_form_line .label_positions { display:none; }
+
+.vc_ui-panel-window .edit_form_line .world_location { width:250px; margin-bottom:10px; }
+.vc_ui-panel-window .edit_form_line .locations.checkbox { margin:0 3px; margin-bottom:10px; }
+.vc_ui-panel-window .edit_form_line .label_positions { display:none; }
+.vc_ui-panel-window .vc_shortcode-param[data-vc-shortcode-param-name="locations"] { width: 590px; }
+
+/* other stuff */
+
+.composer-switch {
+	margin-top: 12px;
+	margin-bottom: 0px !important;
+}
+
+.wpb-elements-list-modal .vc_element-icon {
+	width: 32px;
+	height: 32px;
+}
+
+.wpb-elements-list-modal .vc_element-icon {
+	background: url('images/admin/visual_composer/elements_icons_sprite.png') no-repeat 0 0;
+}
+
+.wpb-elements-list-modal  .icon-wpb-row, 
+.wpb-elements-list-modal .icon-wpb-row[data-is-container="true"] {
+	background-position: 0 -1120px;
+}
+
+.wpb-elements-list-modal .icon-wpb-layer-shape-text { background-position: 0 -256px; }
+.wpb-elements-list-modal .icon-wpb-ui-separator { background-position: 0 -512px; }
+.wpb-elements-list-modal .icon-wpb-ui-separator-label { background-position: 0 -480px; }
+.wpb-elements-list-modal .icon-wpb-toggle-small-expand { background-position: 0 -384px; }
+.wpb-elements-list-modal .icon-wpb-single-image { background-position: 0 -672px; }
+.wpb-elements-list-modal .icon-wpb-film-youtube { background-position: 0 -160px; }
+.wpb-elements-list-modal .icon-wpb-map-pin { background-position: 0 -320px; }
+.wpb-elements-list-modal .icon-wpb-raw-html { background-position: 0 -736px; }
+.wpb-elements-list-modal .icon-wpb-raw-javascript { background-position: 0 -768px; }
+.wpb-elements-list-modal .icon-wpb-ui-empty_space { background-position: 0 -1152px; }
+.wpb-elements-list-modal .icon-wpb-contactform7 { background-position: 0 -832px; }
+.wpb-elements-list-modal .icon-wpb-revslider { background-position: 0 -928px; }
+
+.wpb-elements-list-modal .icon-wpb-ui-tab-content, 
+.wpb-elements-list-modal .icon-wpb-ui-tab-content[data-is-container="true"] {
+    background-position: 0 -544px;
+}
+
+.wpb-elements-list-modal .icon-wpb-ui-tab-content-vertical, 
+.wpb-elements-list-modal .icon-wpb-ui-tab-content-vertical[data-is-container="true"] {
+    background-position: 0 -576px;
+}
+
+.icon-wpb-ui-accordion, .icon-wpb-ui-accordion[data-is-container="true"] {
+    background-position: 0 -416px;
+}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Portfolio
+== ------------------------------------------------------------------- ==
+*/	
+
+.column-portfolio_thumbnail { 
+	width:50px; 
+	}
+	.column-portfolio_thumbnail img {
+		width:39px;
+		height:39px;
+		}
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Videos
+== ------------------------------------------------------------------- ==
+*/	
+
+.column-video_thumbnail { 
+	width:50px; 
+	}
+	.column-video_thumbnail img {
+		width:39px;
+		height:39px;
+		}
+		
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Widgets
+== ------------------------------------------------------------------- ==
+*/	
+	
+.widget .widget-inside p cite {
+	color:#a5a5a5;
+	font-size:0.9em;
+	line-height:150%;
+	}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ WooCommerce
+== ------------------------------------------------------------------- ==
+*/
+
+.woocommerce tr.woocommerce_frontend_css_colors { display:none; }

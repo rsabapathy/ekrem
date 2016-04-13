@@ -1,0 +1,71 @@
+/*
+== ------------------------------------------------------------------- ==
+== @@ Add Sidebar Form
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_add_sidebar_form {
+	background-color: #fcfcfc;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px;
+	border:1px solid #dfdfdf;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+	width:285px;
+	margin:0 auto;
+	padding:10px 10px 30px;
+	text-align:center;
+	}
+	
+	.invicta_add_sidebar_form input[type="text"] {
+		width:80%;
+		margin-bottom:10px;
+		}
+		
+.invicta_add_sidebar_form.new_3_8_ui {
+	margin:0;
+	width:100%;
+	max-width:450px;
+	margin-top:10px;
+}
+
+@media only screen and (min-width: 1250px) {
+	
+	.invicta_add_sidebar_form.new_3_8_ui { 
+		max-width:918px;	
+		}
+		
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Custom Sidebar
+== ------------------------------------------------------------------- ==
+*/
+.sidebar-invicta-custom	{
+	position:relative;
+	}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Delete Sidebar Button
+== ------------------------------------------------------------------- ==
+*/
+	
+.invicta_custom_sidebar_delete {
+	width:24px;
+	height:24px;	
+	background:url(images/icon-remove.png) no-repeat top left;
+	position:absolute;
+	z-index:100;
+	top:11px;
+	right:32px;
+	}
+	.invicta_custom_sidebar_delete:hover{
+		background-position:bottom left;
+		cursor:pointer;
+		}

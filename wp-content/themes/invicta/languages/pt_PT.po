@@ -1,0 +1,6573 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invicta v1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-24 10:59:21+0000\n"
+"Last-Translator: oitentaecinco <pedro.oitentaecinco@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: PORTUGAL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:17
+#@ invicta_dictionary
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Este artigo está protegido por palavra-passe. Introduza a sua palavra-passe para ver os comentários."
+
+#: comments.php:31
+#@ invicta_dictionary
+msgid "No Responses"
+msgstr "Nenhuma Resposta"
+
+#: comments.php:31
+#: template-parts/blog-entry-widget.php:63
+#: template-parts/blog-entry.php:90
+#@ invicta_dictionary
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: comments.php:31
+#: template-parts/blog-entry-widget.php:63
+#: template-parts/blog-entry.php:90
+#@ invicta_dictionary
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: comments.php:38
+#@ invicta_dictionary
+msgid "Older Comments"
+msgstr "Comentários Antigos"
+
+#: comments.php:41
+#@ invicta_dictionary
+msgid "Newer Comments"
+msgstr "Comentários Recentes"
+
+#: comments.php:73
+#@ invicta_dictionary
+msgid "Trackbacks & Pingbacks"
+msgstr "Referências"
+
+#: comments.php:103
+#: includes/visual-composer.php:1298
+#: includes/woocommerce/frontend.php:600
+#@ invicta_dictionary
+msgid "Name"
+msgstr "Nome"
+
+#: comments.php:111
+#@ invicta_dictionary
+msgid "Mail"
+msgstr "E-Mail"
+
+#: comments.php:119
+#@ invicta_dictionary
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:127
+#@ invicta_dictionary
+msgid "Required fields"
+msgstr "Campos obrigatórios"
+
+#: comments.php:128
+#@ invicta_dictionary
+msgid "Please validate the required fields"
+msgstr "Por favor valide os campos obrigatórios"
+
+#: comments.php:141
+#@ invicta_dictionary
+msgid "Leave a Comment"
+msgstr "Escrever Comentário"
+
+#: comments.php:142
+#, php-format
+#@ invicta_dictionary
+msgid "Leave a Reply to %s"
+msgstr "Responder a %s"
+
+#: comments.php:143
+#@ invicta_dictionary
+msgid "Cancel reply"
+msgstr "Cancelar Resposta"
+
+#: comments.php:144
+#@ invicta_dictionary
+msgid "Submit"
+msgstr "Submeter"
+
+#: framework/classes/breadcrumb.php:337
+#@ invicta_dictionary
+msgid "404 Not Found"
+msgstr "404 Não Encontrado"
+
+#: framework/classes/social-links.php:58
+#: framework/classes/social-links.php:59
+#: includes/visual-composer.php:1372
+#: includes/visual-composer.php:2565
+#: includes/widgets/social-links.php:80
+#@ invicta_dictionary
+msgid "Twitter"
+msgstr "Twitter"
+
+#: framework/classes/social-links.php:67
+#: framework/classes/social-links.php:68
+#: includes/visual-composer.php:1381
+#: includes/visual-composer.php:2574
+#: includes/widgets/social-links.php:85
+#@ invicta_dictionary
+msgid "Facebook"
+msgstr "Facebook"
+
+#: framework/classes/social-links.php:85
+#: framework/classes/social-links.php:86
+#: includes/visual-composer.php:1399
+#: includes/visual-composer.php:2592
+#: includes/widgets/social-links.php:95
+#@ invicta_dictionary
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: framework/classes/social-links.php:103
+#: framework/classes/social-links.php:104
+#: includes/visual-composer.php:1417
+#: includes/visual-composer.php:2610
+#: includes/widgets/social-links.php:105
+#@ invicta_dictionary
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: framework/classes/social-links.php:130
+#: framework/classes/social-links.php:131
+#: includes/visual-composer.php:1444
+#: includes/visual-composer.php:2637
+#: includes/widgets/social-links.php:75
+#@ invicta_dictionary
+msgid "Skype"
+msgstr "Skype"
+
+#: framework/classes/social-links.php:139
+#: framework/classes/social-links.php:140
+#: includes/widgets/social-links.php:70
+#@ invicta_dictionary
+msgid "Email"
+msgstr "Email"
+
+#: framework/classes/social-links.php:148
+#: framework/classes/social-links.php:149
+#: includes/visual-composer.php:1760
+#: includes/widgets/contacts.php:83
+#@ invicta_dictionary
+msgid "URL"
+msgstr "URL"
+
+#: framework/classes/social-links.php:193
+#: framework/classes/social-links.php:194
+#@ invicta_dictionary
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: framework/classes/breadcrumb.php:332
+#: includes/frontend.php:400
+#@ invicta_dictionary
+msgid "Search Results for"
+msgstr "Resultados de pesquisa para"
+
+#: includes/frontend.php:403
+#@ invicta_dictionary
+msgid "Archive for the category"
+msgstr "Arquivo para a categoria"
+
+#: includes/frontend.php:406
+#@ invicta_dictionary
+msgid "Articles tagged with"
+msgstr "Artigos etiquetados com"
+
+#: includes/frontend.php:411
+#@ invicta_dictionary
+msgid "Articles posted by"
+msgstr "Artigos publicados por"
+
+#: includes/frontend.php:414
+#@ invicta_dictionary
+msgid "Archive for"
+msgstr "Arquivo para"
+
+#: includes/frontend.php:601
+#, php-format
+#@ invicta_dictionary
+msgid "Page %d of %d"
+msgstr "Página %d de %d"
+
+#: includes/frontend.php:1816
+#@ invicta_dictionary
+msgid "Author"
+msgstr "Autor"
+
+#: includes/frontend.php:1829
+#@ invicta_dictionary
+msgid "Your comment is awaiting moderation"
+msgstr "O seu comentário está a aguardar moderação"
+
+#: includes/frontend.php:1836
+#@ invicta_dictionary
+msgid "Reply to"
+msgstr "Responder a"
+
+#: includes/frontend.php:1837
+#@ invicta_dictionary
+msgid "Log in to reply."
+msgstr "Autenticar para responder"
+
+#: includes/frontend.php:1844
+#@ invicta_dictionary
+msgid "Edit this comment"
+msgstr "Editar este comentário"
+
+#: includes/frontend.php:1877
+#@ invicta_dictionary
+msgid "Edit"
+msgstr "Editar"
+
+#: framework/theme-options/functions/functions.options.php:1455
+#: includes/sidebars.php:154
+#@ invicta_dictionary
+msgid "Pages"
+msgstr "Páginas"
+
+#: includes/post-types/photos.php:81
+#: includes/post-types/photos.php:91
+#: includes/post-types/photos.php:153
+#: includes/post-types/portfolio.php:81
+#: includes/post-types/portfolio.php:91
+#: includes/post-types/portfolio.php:188
+#: includes/post-types/portfolio.php:549
+#: includes/post-types/videos.php:81
+#: includes/post-types/videos.php:91
+#: includes/post-types/videos.php:151
+#: includes/sidebars.php:165
+#: includes/visual-composer.php:1601
+#: includes/visual-composer.php:1662
+#@ invicta_dictionary
+msgid "Categories"
+msgstr "Categorias"
+
+#: includes/sidebars.php:176
+#@ invicta_dictionary
+msgid "Archive"
+msgstr "Arquivo"
+
+#: page.php:15
+#: template-invicta_photos.php:48
+#: template-invicta_videos.php:31
+#@ invicta_dictionary
+msgid "Pages:"
+msgstr "Páginas"
+
+#: includes/frontend.php:924
+#: includes/post-format-filters.php:214
+#: includes/post-format-filters.php:412
+#: includes/post-format-filters.php:463
+#: includes/post-format-filters.php:504
+#: search.php:16
+#: template-parts/blog-entry-widget.php:54
+#@ invicta_dictionary
+msgid "Permalink to"
+msgstr "Ligação para"
+
+#: searchform.php:2
+#@ invicta_dictionary
+msgid "Search the site..."
+msgstr "Procurar na página"
+
+#: template-parts/blog-entry-widget.php:63
+#: template-parts/blog-entry.php:90
+#@ invicta_dictionary
+msgid "Leave a comment"
+msgstr "Escrever comentário"
+
+#: includes/logic.php:150
+#: template-parts/blog-entry.php:9
+#@ invicta_dictionary
+msgid "Read more"
+msgstr "Ler Mais"
+
+#: template-parts/blog-entry.php:113
+#@ invicta_dictionary
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: includes/frontend.php:964
+#, php-format
+#@ invicta_dictionary
+msgid "%s has not yet written their Bio.<br/>Meanwhile we can say that he already contributed with %s articles."
+msgstr "%s ainda não escreveu a sua biografia.<br/>Enquanto isso podemos dizer que ele já contribuiu com %s artigos."
+
+#: includes/frontend.php:1037
+#@ invicta_dictionary
+msgid "Posted by"
+msgstr "Publicado por"
+
+#: includes/frontend.php:1014
+#@ invicta_dictionary
+msgid "has posted"
+msgstr "publicou"
+
+#: includes/frontend.php:1014
+#@ invicta_dictionary
+msgid "article"
+msgid_plural "articles"
+msgstr[0] "artigo"
+msgstr[1] "artigos"
+
+#: includes/frontend.php:1045
+#@ invicta_dictionary
+msgid "View all articles posted by"
+msgstr "Ver todos os artigos publicados por"
+
+#: includes/frontend.php:1194
+#@ invicta_dictionary
+msgid "Next article"
+msgstr "Próximo artigo"
+
+#: framework/classes/breadcrumb.php:11
+#@ invicta_dictionary
+msgid "You are here:"
+msgstr "Você está aqui:"
+
+#: framework/classes/breadcrumb.php:14
+#@ invicta_dictionary
+msgid "Home"
+msgstr "Principal"
+
+#: framework/classes/breadcrumb.php:312
+#, php-format
+#@ invicta_dictionary
+msgid "Week %1$s"
+msgstr "Semana %1$s"
+
+#: framework/sidebar-generator/index.php:52
+#@ invicta_dictionary
+msgid "Custom Sidebars"
+msgstr "Sidebars Personalizadas"
+
+#: framework/sidebar-generator/index.php:53
+#@ invicta_dictionary
+msgid "Enter the name of the new Sidebar"
+msgstr "Introduza o nome da nova Sidebar"
+
+#: framework/sidebar-generator/index.php:54
+#@ invicta_dictionary
+msgid "Create Sidebar"
+msgstr "Criar Sidebar"
+
+#: includes/post-types/pages.php:44
+#: includes/post-types/portfolio.php:454
+#@ invicta_dictionary
+msgid "Layout"
+msgstr "Layout"
+
+#: includes/post-types/pages.php:16
+#@ invicta_dictionary
+msgid "Default (set in Theme Options)"
+msgstr "Por Defeito (especificado nas Opções do Tema)"
+
+#: includes/post-types/pages.php:17
+#@ invicta_dictionary
+msgid "No Sidebar"
+msgstr "Nenhuma Sidebar"
+
+#: includes/post-types/pages.php:18
+#@ invicta_dictionary
+msgid "Right Sidebar"
+msgstr "Sidebar Direita"
+
+#: includes/post-types/pages.php:19
+#@ invicta_dictionary
+msgid "Left Sidebar"
+msgstr "Sidebar Esquerda"
+
+#: includes/post-types/pages.php:45
+#@ invicta_dictionary
+msgid "Select the desired Page layout"
+msgstr "Seleccione o Layout de Página pretendido"
+
+#: search.php:93
+#@ invicta_dictionary
+msgid "Didn't find what you're <strong>looking for?</strong>"
+msgstr "Não encontrou <strong>o que procura?</strong>"
+
+#: search.php:96
+#: search.php:112
+#@ invicta_dictionary
+msgid "Please try again by refining your search!"
+msgstr "Por favor tente novamente refinando a sua pesquisa!"
+
+#: search.php:109
+#@ invicta_dictionary
+msgid "No results <strong>found</strong>"
+msgstr "Nenhum resultado <strong>encontrado</strong>"
+
+#: attachment.php:68
+#@ invicta_dictionary
+msgid "Previous Attachment"
+msgstr "Anexo Anterior"
+
+#: attachment.php:78
+#@ invicta_dictionary
+msgid "Next Attachment"
+msgstr "Anexo Seguinte"
+
+#: includes/frontend.php:915
+#: template-parts/blog-entry-widget.php:12
+#@ invicta_dictionary
+msgid "Untitled Article"
+msgstr "Artigo sem Titulo"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:164
+#: includes/plugin-activation.php:53
+#@ invicta_dictionary
+msgid "Install Required Plugins"
+msgstr "Instale os Plugins Necessários"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:165
+#: includes/plugin-activation.php:54
+#@ invicta_dictionary
+msgid "Install Plugins"
+msgstr "Instalar Plugins"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#: includes/plugin-activation.php:55
+#, php-format
+#@ invicta_dictionary
+msgid "Installing Plugin: %s"
+msgstr "A Instalar Plugin: %s"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:167
+#@ invicta_dictionary
+msgid "Something went wrong."
+msgstr "Alguma coisa correu mal."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:168
+#: includes/plugin-activation.php:57
+#, php-format
+#@ invicta_dictionary
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema necessita o seguinte plugin: %1$s."
+msgstr[1] "Este tema necessita os seguintes plugins: %1$s."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:169
+#: includes/plugin-activation.php:58
+#, php-format
+#@ invicta_dictionary
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomenda o seguinte plugin: %1$s."
+msgstr[1] "Este tema recomenda os seguintes plugins: %1$s."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:170
+#: includes/plugin-activation.php:59
+#, php-format
+#@ invicta_dictionary
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Lamentamos, mas não tem permissões suficientes para instalar o plugin %s. Solicite ao administrador do site a instalação deste plugin."
+msgstr[1] "Lamentamos, mas não tem permissões suficientes para instalar os plugins %s. Solicite ao administrador do site a instalação destes plugins."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:171
+#: includes/plugin-activation.php:60
+#, php-format
+#@ invicta_dictionary
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plugin necessário está neste momento inactivo: %1$s."
+msgstr[1] "Os seguintes plugin necessários estão neste momento inactivos: %1$s."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:172
+#: includes/plugin-activation.php:61
+#, php-format
+#@ invicta_dictionary
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plugin recomendado está neste momento inactivo: %1$s."
+msgstr[1] "Os seguintes plugins recomendados estão neste momento inactivos: %1$s."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:173
+#: includes/plugin-activation.php:62
+#, php-format
+#@ invicta_dictionary
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Lamentamos, mas não tem permissões suficientes para activar o plugin %s. Solicite ao administrador do site a activação deste plugin."
+msgstr[1] "Lamentamos, mas não tem permissões suficientes para activar os plugins %s. Solicite ao administrador do site a activação destes plugins."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:174
+#: includes/plugin-activation.php:63
+#, php-format
+#@ invicta_dictionary
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "O seguinte plugin necessita ser actualizado para a sua ultima versão para garantir a máxima compatibilidade com este tema: %1$s."
+msgstr[1] "Os seguintes plugins necessitam ser actualizados para a sua ultima versão para garantir a máxima compatibilidade com este tema: %1$s."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:175
+#: includes/plugin-activation.php:64
+#, php-format
+#@ invicta_dictionary
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Lamentamos, mas não tem permissões suficientes para actualizar o plugin %s. Solicite ao administrador do site a actualização deste plugin."
+msgstr[1] "Lamentamos, mas não tem permissões suficientes para actualizar os plugins %s. Solicite ao administrador do site a actualização destes plugins."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:176
+#: includes/plugin-activation.php:65
+#@ invicta_dictionary
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Iniciar a instalação do plugin"
+msgstr[1] "Iniciar a instalação dos plugins"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:177
+#: includes/plugin-activation.php:66
+#@ invicta_dictionary
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activar o plugin instalado"
+msgstr[1] "Activar os plugins instalados"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:178
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:490
+#: includes/plugin-activation.php:67
+#@ invicta_dictionary
+msgid "Return to Required Plugins Installer"
+msgstr "Voltar à pagina de Instalação de Plugins Necessários"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:179
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1846
+#: includes/plugin-activation.php:68
+#@ invicta_dictionary
+msgid "Plugin activated successfully."
+msgstr "Plugin activado com sucesso."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+#@ invicta_dictionary
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos os plugins foram instalados e activados com sucesso. %1$s"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:517
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+#@ invicta_dictionary
+msgid "Return to the Dashboard"
+msgstr "Voltar ao Dashboard"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+#@ invicta_dictionary
+msgid "The following plugin was activated successfully: %s."
+msgstr "O seguinte plugin foi activado com sucesso: %s."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:704
+#@ invicta_dictionary
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1091
+#@ invicta_dictionary
+msgid "External Link"
+msgstr "Link Externo"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1096
+#@ invicta_dictionary
+msgid "Private Repository"
+msgstr "Repositório Privado"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1099
+#@ invicta_dictionary
+msgid "Pre-Packaged"
+msgstr "Pre-Empacotado"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+#@ invicta_dictionary
+msgid "WordPress Repository"
+msgstr "Repositório WordPress"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+#@ invicta_dictionary
+msgid "Required"
+msgstr "Necessário"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+#@ invicta_dictionary
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1109
+#@ invicta_dictionary
+msgid "Not Installed"
+msgstr "Não Instalado"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1111
+#@ invicta_dictionary
+msgid "Installed But Not Activated"
+msgstr "Instalado mas não Activo"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ invicta_dictionary
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "Nenhum plugin para instalar ou activar. <a href=\"%1$s\" title=\"Voltar ao Dashboard\">Voltar ao Dashboard</a>"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1297
+#@ invicta_dictionary
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1298
+#@ invicta_dictionary
+msgid "Source"
+msgstr "Origem"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1299
+#@ invicta_dictionary
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+#@ invicta_dictionary
+msgid "Status"
+msgstr "Estado"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1318
+#@ invicta_dictionary
+msgid "Install"
+msgstr "Instalar"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1319
+#@ invicta_dictionary
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1544
+#@ invicta_dictionary
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "O seguinte plugin foi activado com sucesso:"
+msgstr[1] "Os seguintes plugins foram activados com sucesso:"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1829
+#@ invicta_dictionary
+msgid "Install package not available."
+msgstr "Pacote de instalação indisponível"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ invicta_dictionary
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "A descarregar o pacote de instalação de <span class=\"code\">%s</span>&#8230;"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1831
+#@ invicta_dictionary
+msgid "Unpacking the package&#8230;"
+msgstr "A descomprimir o pacote&#8230;"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1832
+#@ invicta_dictionary
+msgid "Installing the plugin&#8230;"
+msgstr "A instalar o plugin&#8230;"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1833
+#@ invicta_dictionary
+msgid "Plugin install failed."
+msgstr "A instalação do plugin falhou."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1834
+#@ invicta_dictionary
+msgid "Plugin installed successfully."
+msgstr "Plugin instalado com sucesso."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1845
+#@ invicta_dictionary
+msgid "Plugin activation failed."
+msgstr "A activação do plugin falhou."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1955
+#@ invicta_dictionary
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação e activação começou. Este processo pode demorar um pouco, portanto seja paciente."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ invicta_dictionary
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado e activado com sucesso."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#: includes/woocommerce/frontend.php:268
+#@ invicta_dictionary
+msgid "Show Details"
+msgstr "Mostar Detalhes"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#@ invicta_dictionary
+msgid "Hide Details"
+msgstr "Esconder Detalhes"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+#@ invicta_dictionary
+msgid "All installations and activations have been completed."
+msgstr "Todas as instalações e activações foram concluídas."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ invicta_dictionary
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "A instalar e a activar o plugin %1$s (%2$d/%3$d)"
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1962
+#@ invicta_dictionary
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação começou. Este processo pode demorar um pouco, portanto seja paciente."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ invicta_dictionary
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ocorreu um erro ao instalar %1$s: <strong>%2$s</strong>."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ invicta_dictionary
+msgid "The installation of %1$s failed."
+msgstr "A instalação de %1$s falhou."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ invicta_dictionary
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1966
+#@ invicta_dictionary
+msgid "All installations have been completed."
+msgstr "Todas as instalações estão concluídas."
+
+#: includes/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ invicta_dictionary
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "A instalar o plugin %1$s (%2$d/%3$d)"
+
+#: includes/post-types/pages.php:25
+#: includes/visual-composer.php:217
+#: includes/visual-composer.php:359
+#: includes/visual-composer.php:1490
+#: includes/visual-composer.php:2267
+#: includes/visual-composer.php:2471
+#@ invicta_dictionary
+msgid "Default"
+msgstr "Por defeito"
+
+#: includes/post-types/pages.php:52
+#@ invicta_dictionary
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: includes/post-types/pages.php:53
+#@ invicta_dictionary
+msgid "Select a custom sidebar for this entry"
+msgstr "Seleccione a sidebar personalizada para esta entrada"
+
+#: includes/plugin-activation.php:56
+#@ invicta_dictionary
+msgid "Something went wrong with the plugin API."
+msgstr "Algo correu mal com o API do plugin"
+
+#: includes/plugin-activation.php:69
+#, php-format
+#@ invicta_dictionary
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Todos os plugins foram instalados e activados com sucesso. %s"
+
+#: includes/post-format-filters.php:508
+#@ invicta_dictionary
+msgid "Status on"
+msgstr "Estado em"
+
+#: includes/sidebars.php:201
+#@ invicta_dictionary
+msgid "About Us"
+msgstr "Sobre Nós"
+
+#: includes/visual-composer.php:1699
+#: includes/widgets/contacts.php:31
+#@ invicta_dictionary
+msgid "Contacts"
+msgstr "Contactos"
+
+#: includes/frontend.php:1183
+#@ invicta_dictionary
+msgid "Previous article"
+msgstr "Artigo anterior"
+
+#: 404.php:7
+#@ invicta_dictionary
+msgid "Error 404 - Page <strong>not Found</strong>"
+msgstr "Erro 404 - Página <strong>não Encontrada</strong>"
+
+#: 404.php:24
+#@ invicta_dictionary
+msgid "Homepage"
+msgstr "Página Principal"
+
+#: 404.php:30
+#@ invicta_dictionary
+msgid "Previous Page"
+msgstr "Página Anterior"
+
+#: 503.php:37
+#: framework/theme-options/functions/functions.options.php:3711
+#@ invicta_dictionary
+msgid "Coming <strong>Soon</strong>"
+msgstr "Voltamos <strong>Brevemente</strong>"
+
+#: 503.php:47
+#@ invicta_dictionary
+msgid "We are preparing something new. Please come back soon.<br/>Meanwhile, stay in touch through the social networks."
+msgstr "Estamos a preparar algo novo. Por favor volte brevemente.<br/>Enquanto isso, esteja em contacto connosco através das redes sociais."
+
+#: framework/classes/social-links.php:76
+#: framework/classes/social-links.php:77
+#: includes/visual-composer.php:1390
+#: includes/visual-composer.php:2583
+#: includes/widgets/social-links.php:90
+#@ invicta_dictionary
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: framework/classes/social-links.php:94
+#: framework/classes/social-links.php:95
+#: includes/visual-composer.php:1408
+#: includes/visual-composer.php:2601
+#: includes/widgets/social-links.php:100
+#@ invicta_dictionary
+msgid "Xing"
+msgstr "Xing"
+
+#: framework/classes/social-links.php:112
+#: framework/classes/social-links.php:113
+#: includes/visual-composer.php:1426
+#: includes/visual-composer.php:2619
+#: includes/widgets/social-links.php:110
+#@ invicta_dictionary
+msgid "Flickr"
+msgstr "Flickr"
+
+#: framework/classes/social-links.php:121
+#: framework/classes/social-links.php:122
+#: includes/visual-composer.php:1435
+#: includes/visual-composer.php:2628
+#: includes/widgets/social-links.php:115
+#@ invicta_dictionary
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: framework/classes/social-links.php:157
+#: framework/classes/social-links.php:158
+#: includes/visual-composer.php:1453
+#: includes/visual-composer.php:2646
+#: includes/widgets/social-links.php:120
+#@ invicta_dictionary
+msgid "Instagram"
+msgstr "Instagram"
+
+#: framework/classes/social-links.php:166
+#: framework/classes/social-links.php:167
+#: includes/visual-composer.php:1462
+#: includes/visual-composer.php:2655
+#: includes/widgets/social-links.php:125
+#@ invicta_dictionary
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: framework/classes/social-links.php:175
+#: framework/classes/social-links.php:176
+#: includes/visual-composer.php:1471
+#: includes/visual-composer.php:2664
+#: includes/widgets/social-links.php:130
+#@ invicta_dictionary
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: framework/classes/social-links.php:184
+#: framework/classes/social-links.php:185
+#: includes/visual-composer.php:1480
+#: includes/visual-composer.php:2673
+#: includes/widgets/social-links.php:135
+#@ invicta_dictionary
+msgid "Youtube"
+msgstr "Youtube"
+
+#: framework/theme-options/functions/functions.options.php:49
+#@ invicta_dictionary
+msgid "Default Slideshow"
+msgstr "Slideshow por defeito"
+
+#: framework/theme-options/functions/functions.options.php:3321
+#: framework/theme-options/functions/functions.options.php:3469
+#: framework/theme-options/functions/functions.options.php:3547
+#@ invicta_dictionary
+msgid "Order Attribute (DESC)"
+msgstr "Atributo Ordem (DEC)"
+
+#: framework/theme-options/functions/functions.options.php:3322
+#: framework/theme-options/functions/functions.options.php:3470
+#: framework/theme-options/functions/functions.options.php:3548
+#@ invicta_dictionary
+msgid "Order Attribute (ASC)"
+msgstr "Atributo Ordem (ASC)"
+
+#: framework/theme-options/functions/functions.options.php:3323
+#: framework/theme-options/functions/functions.options.php:3471
+#: framework/theme-options/functions/functions.options.php:3549
+#@ invicta_dictionary
+msgid "Date (DESC)"
+msgstr "Data (DEC)"
+
+#: framework/theme-options/functions/functions.options.php:3324
+#: framework/theme-options/functions/functions.options.php:3472
+#: framework/theme-options/functions/functions.options.php:3550
+#@ invicta_dictionary
+msgid "Date (ASC)"
+msgstr "Data (ASC)"
+
+#: framework/theme-options/functions/functions.options.php:3167
+#: framework/theme-options/functions/functions.options.php:3329
+#@ invicta_dictionary
+msgid "Metadata Visibility"
+msgstr "Visibilidade de Metadata"
+
+#: framework/theme-options/functions/functions.options.php:3330
+#@ invicta_dictionary
+msgid "Show project client"
+msgstr "Mostrar cliente do projecto"
+
+#: framework/theme-options/functions/functions.options.php:3338
+#@ invicta_dictionary
+msgid "Show project date"
+msgstr "Mostrar data do projecto"
+
+#: framework/theme-options/functions/functions.options.php:3346
+#@ invicta_dictionary
+msgid "Show project categories"
+msgstr "Mostrar categorias do projecto"
+
+#: framework/theme-options/functions/functions.options.php:3354
+#@ invicta_dictionary
+msgid "Show project skills"
+msgstr "Mostrar capacidades do projecto"
+
+#: framework/theme-options/functions/functions.options.php:3362
+#@ invicta_dictionary
+msgid "Show project price"
+msgstr "Mostrar preço do projecto"
+
+#: framework/theme-options/functions/functions.options.php:3370
+#@ invicta_dictionary
+msgid "Show Launch Project button"
+msgstr "Mostrar botão para a página do Projecto"
+
+#: framework/theme-options/functions/functions.options.php:3401
+#: includes/post-types/portfolio.php:510
+#: includes/visual-composer.php:1569
+#@ invicta_dictionary
+msgid "The project date"
+msgstr "A data do projecto"
+
+#: framework/theme-options/functions/functions.options.php:3402
+#: includes/post-types/portfolio.php:511
+#: includes/visual-composer.php:1570
+#@ invicta_dictionary
+msgid "The project categories"
+msgstr "As categorias do projecto"
+
+#: framework/theme-options/functions/functions.options.php:3403
+#: includes/post-types/portfolio.php:509
+#: includes/visual-composer.php:1571
+#@ invicta_dictionary
+msgid "Nothing"
+msgstr "Nada"
+
+#: framework/theme-options/functions/functions.options.php:3294
+#: includes/frontend.php:429
+#: includes/post-types/portfolio.php:32
+#: includes/post-types/portfolio.php:44
+#: includes/visual-composer.php:1580
+#@ invicta_dictionary
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/frontend.php:446
+#@ invicta_dictionary
+msgid "Page Not Found"
+msgstr "Página Não Encontrada"
+
+#: includes/frontend.php:1081
+#@ invicta_dictionary
+msgid "Previous project"
+msgstr "Projecto Anterior"
+
+#: includes/frontend.php:1092
+#@ invicta_dictionary
+msgid "Next project"
+msgstr "Próximo Projecto"
+
+#: framework/theme-options/functions/functions.options.php:3385
+#: includes/frontend.php:1613
+#@ invicta_dictionary
+msgid "Related Projects"
+msgstr "Projectos Relacionados"
+
+#: includes/logic.php:116
+#@ invicta_dictionary
+msgid "Uncategorized"
+msgstr "Sem Categoria"
+
+#: includes/post-types/pages.php:37
+#@ invicta_dictionary
+msgid "Page Layout"
+msgstr "Disposição da Página"
+
+#: includes/post-types/portfolio.php:33
+#@ invicta_dictionary
+msgid "Project"
+msgstr "Projecto"
+
+#: includes/post-types/photos.php:34
+#: includes/post-types/portfolio.php:34
+#: includes/post-types/videos.php:34
+#@ invicta_dictionary
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+#: includes/post-types/portfolio.php:35
+#@ invicta_dictionary
+msgid "Add New Project"
+msgstr "Adicionar Novo Projecto"
+
+#: includes/post-types/portfolio.php:36
+#@ invicta_dictionary
+msgid "Edit Project"
+msgstr "Editar Projecto"
+
+#: includes/post-types/portfolio.php:37
+#@ invicta_dictionary
+msgid "New Project"
+msgstr "Novo Projecto"
+
+#: includes/post-types/portfolio.php:38
+#@ invicta_dictionary
+msgid "All Projects"
+msgstr "Todos os Projectos"
+
+#: includes/post-types/portfolio.php:39
+#@ invicta_dictionary
+msgid "View Project"
+msgstr "Ver Projecto"
+
+#: includes/post-types/portfolio.php:40
+#@ invicta_dictionary
+msgid "Search Projects"
+msgstr "Procurar Projectos"
+
+#: includes/post-types/portfolio.php:41
+#@ invicta_dictionary
+msgid "No projects found"
+msgstr "Nenhum projecto encontrado"
+
+#: includes/post-types/portfolio.php:42
+#@ invicta_dictionary
+msgid "No projects found in Trash"
+msgstr "Nenhum projecto encontrado no Lixo"
+
+#: includes/post-types/photos.php:82
+#: includes/post-types/portfolio.php:82
+#: includes/post-types/videos.php:82
+#: template-parts/portfolio-entry-detailed.php:60
+#: template-parts/portfolio-entry-detailed.php:175
+#@ invicta_dictionary
+msgid "Category"
+msgstr "Categoria"
+
+#: includes/post-types/photos.php:83
+#: includes/post-types/portfolio.php:83
+#: includes/post-types/videos.php:83
+#@ invicta_dictionary
+msgid "Search Categories"
+msgstr "Procurar Categorias"
+
+#: includes/post-types/photos.php:84
+#: includes/post-types/portfolio.php:84
+#: includes/post-types/videos.php:84
+#@ invicta_dictionary
+msgid "All Categories"
+msgstr "Todas as Categorias"
+
+#: includes/post-types/photos.php:85
+#: includes/post-types/portfolio.php:85
+#: includes/post-types/videos.php:85
+#@ invicta_dictionary
+msgid "Parent Category"
+msgstr "Categoria Pai"
+
+#: includes/post-types/photos.php:86
+#: includes/post-types/portfolio.php:86
+#: includes/post-types/videos.php:86
+#@ invicta_dictionary
+msgid "Parent Category:"
+msgstr "Categoria Pai:"
+
+#: includes/post-types/photos.php:87
+#: includes/post-types/portfolio.php:87
+#: includes/post-types/videos.php:87
+#@ invicta_dictionary
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: includes/post-types/photos.php:88
+#: includes/post-types/portfolio.php:88
+#: includes/post-types/videos.php:88
+#@ invicta_dictionary
+msgid "Update Category"
+msgstr "Actualizar Categoria"
+
+#: includes/post-types/photos.php:89
+#: includes/post-types/portfolio.php:89
+#: includes/post-types/videos.php:89
+#@ invicta_dictionary
+msgid "Add New Category"
+msgstr "Adicionar Nova Categoria"
+
+#: includes/post-types/photos.php:90
+#: includes/post-types/portfolio.php:90
+#: includes/post-types/videos.php:90
+#@ invicta_dictionary
+msgid "New Category Name"
+msgstr "Nome da Nova Categoria"
+
+#: includes/post-types/portfolio.php:111
+#: includes/post-types/portfolio.php:125
+#: includes/post-types/portfolio.php:189
+#@ invicta_dictionary
+msgid "Skills"
+msgstr "Capacidades"
+
+#: includes/post-types/portfolio.php:112
+#@ invicta_dictionary
+msgid "Skill"
+msgstr "Capacidade"
+
+#: includes/post-types/portfolio.php:113
+#@ invicta_dictionary
+msgid "Search Skills"
+msgstr "Procurar Capacidades"
+
+#: includes/post-types/portfolio.php:114
+#@ invicta_dictionary
+msgid "Popular Skills"
+msgstr "Capacidades Populares"
+
+#: includes/post-types/portfolio.php:115
+#@ invicta_dictionary
+msgid "All Skills"
+msgstr "Todas as Capacidades"
+
+#: includes/post-types/portfolio.php:118
+#@ invicta_dictionary
+msgid "Edit Skill"
+msgstr "Editar Capacidade"
+
+#: includes/post-types/portfolio.php:119
+#@ invicta_dictionary
+msgid "Update Skill"
+msgstr "Actualizar Capacidade"
+
+#: includes/post-types/portfolio.php:120
+#@ invicta_dictionary
+msgid "Add New Skill"
+msgstr "Adicionar Nova Capacidade"
+
+#: includes/post-types/portfolio.php:121
+#@ invicta_dictionary
+msgid "New Skill Name"
+msgstr "Nome da Nova Capacidade"
+
+#: includes/post-types/portfolio.php:122
+#@ invicta_dictionary
+msgid "Separate skills with commas"
+msgstr "Separar capacidades com virgulas"
+
+#: includes/post-types/portfolio.php:123
+#@ invicta_dictionary
+msgid "Add or remove skills"
+msgstr "Adicionar ou remover capacidades"
+
+#: includes/post-types/portfolio.php:124
+#@ invicta_dictionary
+msgid "Choose from the most used skills"
+msgstr "Escolha a partir das capacidades mais usadas"
+
+#: includes/post-types/portfolio.php:159
+#, php-format
+#@ invicta_dictionary
+msgid "Project updated. <a href=\"%s\">View Project</a>"
+msgstr "Projecto actualizado. <a href=\"%s\">Ver Projecto</a>"
+
+#: includes/post-types/photos.php:127
+#: includes/post-types/portfolio.php:160
+#: includes/post-types/videos.php:124
+#@ invicta_dictionary
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado"
+
+#: includes/post-types/photos.php:128
+#: includes/post-types/portfolio.php:161
+#: includes/post-types/videos.php:125
+#@ invicta_dictionary
+msgid "Custom field deleted."
+msgstr "Campo personalizado apagado."
+
+#: includes/post-types/portfolio.php:162
+#@ invicta_dictionary
+msgid "Project updated."
+msgstr "Projecto actualizado."
+
+#: includes/post-types/portfolio.php:163
+#, php-format
+#@ invicta_dictionary
+msgid "Project restored to revision from %s"
+msgstr "Projecto restaurado para a revisão a partir de %s"
+
+#: includes/post-types/portfolio.php:164
+#, php-format
+#@ invicta_dictionary
+msgid "Project published. <a href=\"%s\">View project</a>"
+msgstr "Projecto publicado. <a href=\"%s\">Ver projecto</a>"
+
+#: includes/post-types/portfolio.php:165
+#@ invicta_dictionary
+msgid "Project saved."
+msgstr "Projecto guardado."
+
+#: includes/post-types/portfolio.php:166
+#, php-format
+#@ invicta_dictionary
+msgid "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr "Projecto submetido. <a target=\"_blank\" href=\"%s\">Pre-visualizar projecto</a>"
+
+#: includes/post-types/portfolio.php:167
+#, php-format
+#@ invicta_dictionary
+msgid "Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview project</a>"
+msgstr "Projecto agendado para: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Pre-visualizar projecto</a>"
+
+#: includes/post-types/photos.php:134
+#: includes/post-types/portfolio.php:167
+#: includes/post-types/videos.php:131
+#@ invicta_dictionary
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/post-types/portfolio.php:168
+#, php-format
+#@ invicta_dictionary
+msgid "Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr "Rascunho de projecto actualizado. <a target=\"_blank\" href=\"%s\">Pre-visualizar projecto</a>"
+
+#: includes/post-types/portfolio.php:186
+#: includes/post-types/videos.php:149
+#@ invicta_dictionary
+msgid "Image"
+msgstr "Imagem"
+
+#: framework/theme-options/functions/functions.options.php:3709
+#: includes/post-types/photos.php:152
+#: includes/post-types/portfolio.php:187
+#: includes/post-types/videos.php:150
+#: includes/visual-composer.php:331
+#: includes/visual-composer.php:1519
+#: includes/visual-composer.php:1709
+#: includes/visual-composer.php:1823
+#: includes/visual-composer.php:2106
+#: includes/visual-composer.php:2539
+#: includes/visual-composer.php:2709
+#: includes/visual-composer.php:2790
+#: includes/widgets/combo-posts.php:48
+#: includes/widgets/contacts.php:52
+#: includes/widgets/instagram-feed.php:64
+#: includes/widgets/latest-posts.php:48
+#: includes/widgets/popular-posts.php:48
+#: includes/widgets/social-links.php:60
+#: includes/widgets/twitter-feed.php:75
+#@ invicta_dictionary
+msgid "Title"
+msgstr "Titulo"
+
+#: includes/post-types/photos.php:154
+#: includes/post-types/portfolio.php:190
+#: includes/post-types/videos.php:152
+#@ invicta_dictionary
+msgid "Order"
+msgstr "Ordem"
+
+#: includes/post-types/photos.php:226
+#: includes/post-types/portfolio.php:291
+#: includes/post-types/portfolio.php:312
+#: includes/post-types/videos.php:239
+#@ invicta_dictionary
+msgid "Show All"
+msgstr "Mostar Todos"
+
+#: includes/post-types/portfolio.php:385
+#: template-parts/portfolio-entry-detailed.php:42
+#: template-parts/portfolio-entry-detailed.php:157
+#@ invicta_dictionary
+msgid "Project Details"
+msgstr "Detalhes do Projecto"
+
+#: includes/post-types/portfolio.php:392
+#@ invicta_dictionary
+msgid "Project Price"
+msgstr "Preço do Projecto"
+
+#: includes/post-types/portfolio.php:393
+#@ invicta_dictionary
+msgid "The price that this project costed"
+msgstr "O preço que este projecto custou"
+
+#: includes/post-types/portfolio.php:399
+#@ invicta_dictionary
+msgid "Project URL"
+msgstr "URL do Projecto"
+
+#: includes/post-types/portfolio.php:400
+#@ invicta_dictionary
+msgid "The URL of this project so users can check it directly"
+msgstr "O URL do projecto para os visitantes o poderem consultar directamente"
+
+#: includes/post-types/portfolio.php:406
+#@ invicta_dictionary
+msgid "Client Name"
+msgstr "Nome do Cliente"
+
+#: includes/post-types/portfolio.php:407
+#@ invicta_dictionary
+msgid "The name of those who this work was made for"
+msgstr "O nome de para quem foi feito este projecto"
+
+#: includes/post-types/portfolio.php:413
+#@ invicta_dictionary
+msgid "Client Website"
+msgstr "Website do Cliente"
+
+#: includes/post-types/portfolio.php:414
+#@ invicta_dictionary
+msgid "The website url of those who this work was made for"
+msgstr "O URL do website de para quem foi feito este projecto"
+
+#: includes/post-types/portfolio.php:420
+#@ invicta_dictionary
+msgid "Extra Field (Name)"
+msgstr "Campo Extra (Nome)"
+
+#: includes/post-types/portfolio.php:421
+#@ invicta_dictionary
+msgid "The name of an extra field you need"
+msgstr "O nome de um campo extra que necessite"
+
+#: includes/post-types/portfolio.php:427
+#@ invicta_dictionary
+msgid "Extra Field (Value)"
+msgstr "Campo Extra (Valor)"
+
+#: includes/post-types/portfolio.php:428
+#@ invicta_dictionary
+msgid "The value of an extra field you need"
+msgstr "O valor de um campo extra que necessite"
+
+#: includes/post-types/portfolio.php:440
+#@ invicta_dictionary
+msgid "Automatic"
+msgstr "Automatico"
+
+#: includes/post-types/portfolio.php:441
+#: includes/visual-composer.php:1491
+#@ invicta_dictionary
+msgid "Condensed"
+msgstr "Condensado"
+
+#: includes/post-types/portfolio.php:442
+#@ invicta_dictionary
+msgid "Extended"
+msgstr "Extendido"
+
+#: includes/post-types/portfolio.php:447
+#@ invicta_dictionary
+msgid "Project Layout"
+msgstr "Layout do Projecto"
+
+#: includes/post-types/portfolio.php:455
+#@ invicta_dictionary
+msgid "Select the layout of the project<i>The Condensed layout is recommended for projects with short descriptions (main text)</i><i>If \"Automatic\" is set, the theme will decide which is the best layout for this project.</i>"
+msgstr "Seleccione o layout do projecto<i>O Layout condensado é recomendado para projectos com uma curta descrição (texto principal)</i><i>Se o \"Automatico\" estiver seleccionado, o template irá decidir qual será o layout mais adequado para este projecto.</i>"
+
+#: includes/post-types/portfolio.php:481
+#@ invicta_dictionary
+msgid "2 Columns"
+msgstr "2 Colunas"
+
+#: includes/post-types/portfolio.php:482
+#@ invicta_dictionary
+msgid "3 Columns"
+msgstr "3 Colunas"
+
+#: includes/post-types/portfolio.php:483
+#@ invicta_dictionary
+msgid "4 Columns"
+msgstr "4 Colunas"
+
+#: includes/post-types/portfolio.php:487
+#@ invicta_dictionary
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/post-types/portfolio.php:488
+#: includes/visual-composer.php:106
+#@ invicta_dictionary
+msgid "No"
+msgstr "Não"
+
+#: includes/post-types/portfolio.php:492
+#: includes/post-types/portfolio.php:498
+#: template-invicta_portfolio.php:108
+#@ invicta_dictionary
+msgid "All"
+msgstr "Todos"
+
+#: includes/post-types/portfolio.php:504
+#: includes/visual-composer.php:1575
+#@ invicta_dictionary
+msgid "Open the single project page"
+msgstr "Abrir a página do projecto"
+
+#: includes/post-types/portfolio.php:505
+#: includes/visual-composer.php:1576
+#@ invicta_dictionary
+msgid "Display the featured image in a lightbox"
+msgstr "Apresentar a image de destaque numa lightbox"
+
+#: includes/post-types/portfolio.php:518
+#@ invicta_dictionary
+msgid "Portfolio Settings"
+msgstr "Configurações do Portfolio"
+
+#: includes/post-types/portfolio.php:525
+#@ invicta_dictionary
+msgid "Columns Layout"
+msgstr "Layout das Colunas"
+
+#: includes/post-types/portfolio.php:526
+#@ invicta_dictionary
+msgid "Select the desired Columns layout"
+msgstr "Seleccione o layout de colunas pretendido"
+
+#: includes/post-types/portfolio.php:533
+#@ invicta_dictionary
+msgid "Projects per page"
+msgstr "Projectos por página"
+
+#: includes/post-types/portfolio.php:534
+#@ invicta_dictionary
+msgid "How many projects should be displayed per page?"
+msgstr "Quantos projectos devem ser apresentados por página?"
+
+#: includes/post-types/portfolio.php:541
+#@ invicta_dictionary
+msgid "Sortable"
+msgstr "Filtragem"
+
+#: includes/post-types/portfolio.php:542
+#@ invicta_dictionary
+msgid "Should the sorting options based on categories be displayed?"
+msgstr "As opções de filtragem baseadas nas categorias devem ser apresentadas?"
+
+#: includes/post-types/portfolio.php:550
+#: includes/visual-composer.php:1602
+#@ invicta_dictionary
+msgid "Which categories should be used for the portfolio?"
+msgstr "Que categorias devem ser usadas para o portfolio?"
+
+#: includes/post-types/portfolio.php:557
+#: includes/visual-composer.php:1609
+#@ invicta_dictionary
+msgid "Link Handling"
+msgstr "Comportamento do Link"
+
+#: includes/post-types/portfolio.php:558
+#: includes/visual-composer.php:1610
+#@ invicta_dictionary
+msgid "What do you want to happen when a portfolio item is clicked?"
+msgstr "O que pretende que aconteça quando um projecto for clicado?"
+
+#: includes/post-types/portfolio.php:565
+#: includes/visual-composer.php:1618
+#@ invicta_dictionary
+msgid "Metadata"
+msgstr "Metadata"
+
+#: framework/theme-options/functions/functions.options.php:3395
+#: includes/post-types/portfolio.php:566
+#: includes/visual-composer.php:1619
+#@ invicta_dictionary
+msgid "What extra info do you want to show with the project title?"
+msgstr "Que informação extra pretende apresentado junto ao titulo do projecto?"
+
+#: includes/shortcodes/button.php:8
+#: includes/shortcodes/call-to-action.php:12
+#: includes/visual-composer.php:2162
+#: includes/visual-composer.php:2366
+#@ invicta_dictionary
+msgid "Click me"
+msgstr "Clique-me"
+
+#: includes/shortcodes/contacts.php:56
+#: includes/widgets/contacts.php:171
+#@ invicta_dictionary
+msgid "Find us on the map"
+msgstr "Encontre-nos no mapa"
+
+#: includes/shortcodes/iconbox.php:9
+#: includes/visual-composer.php:321
+#@ invicta_dictionary
+msgid "Iconbox"
+msgstr "Caixa de Icon"
+
+#: includes/shortcodes/letter.php:8
+#@ invicta_dictionary
+msgid "Dear Customer..."
+msgstr "Caro Cliente..."
+
+#: includes/shortcodes/letter.php:74
+#: includes/shortcodes/testimonial-carousel.php:209
+#: includes/shortcodes/testimonial.php:124
+#: includes/shortcodes/testimonial.php:153
+#: includes/visual-composer.php:897
+#: includes/visual-composer.php:1013
+#: includes/visual-composer.php:1060
+#: includes/visual-composer.php:1107
+#: includes/visual-composer.php:1154
+#: includes/visual-composer.php:1201
+#: includes/visual-composer.php:1248
+#: includes/visual-composer.php:1536
+#@ invicta_dictionary
+msgid "Author Photo"
+msgstr "Foto do Autor"
+
+#: includes/shortcodes/letter.php:80
+#: includes/visual-composer.php:1545
+#@ invicta_dictionary
+msgid "Author Signature"
+msgstr "Assinatura do Autor"
+
+#: includes/shortcodes/person.php:42
+#@ invicta_dictionary
+msgid "Person Name"
+msgstr "Nome da Pessoa"
+
+#: includes/shortcodes/person.php:44
+#@ invicta_dictionary
+msgid "Person Label"
+msgstr "Etiqueta da Pessoa"
+
+#: includes/visual-composer.php:1306
+#@ invicta_dictionary
+msgid "Department"
+msgstr "Departamento"
+
+#: includes/visual-composer.php:1733
+#: includes/widgets/contacts.php:67
+#@ invicta_dictionary
+msgid "Phone"
+msgstr "Telefone"
+
+#: includes/visual-composer.php:102
+#@ invicta_dictionary
+msgid "CSS Animation"
+msgstr "Animação CSS"
+
+#: includes/visual-composer.php:107
+#@ invicta_dictionary
+msgid "Top to bottom"
+msgstr "Cima para baixo"
+
+#: includes/visual-composer.php:108
+#@ invicta_dictionary
+msgid "Bottom to top"
+msgstr "Baixo para cima"
+
+#: includes/visual-composer.php:109
+#@ invicta_dictionary
+msgid "Left to right"
+msgstr "Esquerda para direita"
+
+#: includes/visual-composer.php:110
+#@ invicta_dictionary
+msgid "Right to left"
+msgstr "Direita para esquerda"
+
+#: includes/visual-composer.php:111
+#@ invicta_dictionary
+msgid "Appear from center"
+msgstr "Aparecer do centro"
+
+#: includes/visual-composer.php:113
+#@ invicta_dictionary
+msgid "Select animation type if you want this element to be animated when it enters into the browsers viewport. <br />Note: Works only in modern browsers."
+msgstr "Seleccione o tipo de animação se pretender que este elemento seja animado quando aparecer no viewport do browser. <br />Nota: Funciona apenas nos browsers modernos."
+
+#: includes/visual-composer.php:127
+#: includes/visual-composer.php:134
+#: includes/visual-composer.php:138
+#@ invicta_dictionary
+msgid "Set Manually"
+msgstr "Atribuido Manualmente"
+
+#: includes/visual-composer.php:128
+#: includes/visual-composer.php:135
+#: includes/visual-composer.php:139
+#@ invicta_dictionary
+msgid "Page"
+msgstr "Página"
+
+#: includes/visual-composer.php:129
+#: includes/visual-composer.php:140
+#@ invicta_dictionary
+msgid "Post"
+msgstr "Artigo"
+
+#: includes/visual-composer.php:130
+#: includes/visual-composer.php:141
+#: search.php:60
+#@ invicta_dictionary
+msgid "Portfolio Project"
+msgstr "Projecto do Portfolio"
+
+#: framework/theme-options/functions/functions.options.php:3522
+#: includes/visual-composer.php:133
+#: includes/visual-composer.php:137
+#@ invicta_dictionary
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/visual-composer.php:1339
+#: includes/visual-composer.php:1352
+#@ invicta_dictionary
+msgid "Where should the photo link to?"
+msgstr "Para onde a foto deve redireccionar?"
+
+#: includes/visual-composer.php:1362
+#: includes/visual-composer.php:1751
+#: includes/visual-composer.php:2555
+#: includes/widgets/contacts.php:77
+#@ invicta_dictionary
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: framework/theme-options/functions/functions.options.php:1206
+#: framework/theme-options/functions/functions.options.php:3745
+#: includes/visual-composer.php:1373
+#: includes/visual-composer.php:2566
+#@ invicta_dictionary
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: framework/theme-options/functions/functions.options.php:1215
+#: framework/theme-options/functions/functions.options.php:3754
+#: includes/visual-composer.php:1382
+#: includes/visual-composer.php:2575
+#@ invicta_dictionary
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: framework/theme-options/functions/functions.options.php:1224
+#: framework/theme-options/functions/functions.options.php:3763
+#: includes/visual-composer.php:1391
+#: includes/visual-composer.php:2584
+#@ invicta_dictionary
+msgid "Google Plus URL"
+msgstr "Google Plus URL"
+
+#: framework/theme-options/functions/functions.options.php:1233
+#: framework/theme-options/functions/functions.options.php:3772
+#: includes/visual-composer.php:1400
+#: includes/visual-composer.php:2593
+#@ invicta_dictionary
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: framework/theme-options/functions/functions.options.php:1242
+#: framework/theme-options/functions/functions.options.php:3781
+#: includes/visual-composer.php:1409
+#: includes/visual-composer.php:2602
+#@ invicta_dictionary
+msgid "Xing URL"
+msgstr "Xing URL"
+
+#: framework/theme-options/functions/functions.options.php:1269
+#: framework/theme-options/functions/functions.options.php:3808
+#: includes/visual-composer.php:1418
+#: includes/visual-composer.php:2611
+#@ invicta_dictionary
+msgid "Dribbble URL"
+msgstr "Dribbble URL"
+
+#: framework/theme-options/functions/functions.options.php:1251
+#: framework/theme-options/functions/functions.options.php:3790
+#: includes/visual-composer.php:1427
+#: includes/visual-composer.php:2620
+#@ invicta_dictionary
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: framework/theme-options/functions/functions.options.php:1260
+#: framework/theme-options/functions/functions.options.php:3799
+#: includes/visual-composer.php:1436
+#: includes/visual-composer.php:2629
+#@ invicta_dictionary
+msgid "Tumblr URL"
+msgstr "Tumblr URL"
+
+#: framework/theme-options/functions/functions.options.php:1278
+#: framework/theme-options/functions/functions.options.php:3817
+#: includes/visual-composer.php:1445
+#: includes/visual-composer.php:2638
+#@ invicta_dictionary
+msgid "Skype Username"
+msgstr "Skype Username"
+
+#: framework/theme-options/functions/functions.options.php:1287
+#: framework/theme-options/functions/functions.options.php:3826
+#: includes/visual-composer.php:1454
+#: includes/visual-composer.php:2647
+#@ invicta_dictionary
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: framework/theme-options/functions/functions.options.php:1305
+#: framework/theme-options/functions/functions.options.php:3844
+#: includes/visual-composer.php:1472
+#: includes/visual-composer.php:2665
+#@ invicta_dictionary
+msgid "Foursquare URL"
+msgstr "Foursquare URL"
+
+#: framework/theme-options/functions/functions.options.php:1314
+#: framework/theme-options/functions/functions.options.php:3853
+#: includes/visual-composer.php:1481
+#: includes/visual-composer.php:2674
+#@ invicta_dictionary
+msgid "Youtube URL"
+msgstr "Youtube URL"
+
+#: includes/visual-composer.php:356
+#: includes/visual-composer.php:925
+#: includes/visual-composer.php:1488
+#: includes/visual-composer.php:2504
+#@ invicta_dictionary
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/visual-composer.php:2718
+#: includes/visual-composer.php:2808
+#@ invicta_dictionary
+msgid "How many entries do you want to display?"
+msgstr "Quantas entradas pretende apresentar?"
+
+#: includes/visual-composer.php:2727
+#: includes/visual-composer.php:2817
+#: includes/widgets/instagram-feed.php:84
+#: includes/widgets/twitter-feed.php:100
+#@ invicta_dictionary
+msgid "Cache Timeout"
+msgstr "Duração da Cache"
+
+#: includes/visual-composer.php:2728
+#@ invicta_dictionary
+msgid "For how long do you want to cache the items?"
+msgstr "Durante quanto tempo pretende manter os items em cache?"
+
+#: includes/visual-composer.php:2730
+#: includes/widgets/instagram-feed.php:86
+#@ invicta_dictionary
+msgid "Don't cache items"
+msgstr "Não colocar os items em cache"
+
+#: includes/visual-composer.php:2731
+#: includes/visual-composer.php:2821
+#: includes/widgets/instagram-feed.php:87
+#: includes/widgets/twitter-feed.php:103
+#@ invicta_dictionary
+msgid "5 Minutes"
+msgstr "5 Minutos"
+
+#: includes/visual-composer.php:2732
+#: includes/visual-composer.php:2822
+#: includes/widgets/instagram-feed.php:88
+#: includes/widgets/twitter-feed.php:104
+#@ invicta_dictionary
+msgid "30 Minutes"
+msgstr "30 Minutos"
+
+#: includes/visual-composer.php:2733
+#: includes/visual-composer.php:2823
+#@ invicta_dictionary
+msgid "60 Minutes"
+msgstr "60 Minutos"
+
+#: includes/visual-composer.php:2734
+#: includes/visual-composer.php:2824
+#: includes/widgets/instagram-feed.php:90
+#: includes/widgets/twitter-feed.php:106
+#@ invicta_dictionary
+msgid "6 Hours"
+msgstr "6 Horas"
+
+#: framework/theme-options/functions/functions.options.php:3666
+#: includes/visual-composer.php:2741
+#: includes/widgets/instagram-feed.php:101
+#@ invicta_dictionary
+msgid "User ID"
+msgstr "ID do Utilizador"
+
+#: includes/visual-composer.php:2742
+#@ invicta_dictionary
+msgid "To obtain the <strong>User ID</strong> you need to register this website on <a href=\"http://instagram.com/developer\" target=\"_blank\">Instagram's Dev Center</a>"
+msgstr "Para obter o <strong>User ID</strong> necessita registar o seu website no <a href=\"http://instagram.com/developer\" target=\"_blank\">Instagram's Dev Center</a>"
+
+#: framework/theme-options/functions/functions.options.php:3643
+#: framework/theme-options/functions/functions.options.php:3674
+#: includes/visual-composer.php:2750
+#: includes/visual-composer.php:2849
+#: includes/widgets/instagram-feed.php:106
+#: includes/widgets/twitter-feed.php:127
+#@ invicta_dictionary
+msgid "Access Token"
+msgstr "Token de Acesso"
+
+#: includes/visual-composer.php:2751
+#@ invicta_dictionary
+msgid "To obtain the <strong>Access Token</strong> you need to register this website on <a href=\"http://instagram.com/developer\" target=\"_blank\">Instagram's Dev Center</a>"
+msgstr "Para obter o <strong>Access Token</strong> necessita registar o seu website no <a href=\"http://instagram.com/developer\" target=\"_blank\">Instagram's Dev Center</a>"
+
+#: includes/visual-composer.php:2798
+#: includes/widgets/twitter-feed.php:80
+#@ invicta_dictionary
+msgid "Username"
+msgstr "Nome de Utilizador"
+
+#: includes/visual-composer.php:2799
+#@ invicta_dictionary
+msgid "The username of the account you want to display the tweets"
+msgstr "O nome de utilizador da conta da qual quer apresentar os tweets"
+
+#: includes/visual-composer.php:2818
+#@ invicta_dictionary
+msgid "For how long do you want to cache the tweets?"
+msgstr "Por quanto tempo pretende manter os tweets em cache?"
+
+#: includes/visual-composer.php:2820
+#: includes/widgets/twitter-feed.php:102
+#@ invicta_dictionary
+msgid "Don't cache tweets"
+msgstr "Não manter os tweets em cache"
+
+#: framework/theme-options/functions/functions.options.php:3627
+#: includes/visual-composer.php:2831
+#: includes/widgets/twitter-feed.php:117
+#@ invicta_dictionary
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: includes/visual-composer.php:2832
+#@ invicta_dictionary
+msgid "To obtain your <strong>Consumer Key</strong> you need to register this website on <a href=\"https://dev.twitter.com/apps\" target=\"_blank\">Twitter's Dev Center</a>"
+msgstr "Para obter o <strong>Consumer Key</strong> necessita registar o seu website no <a href=\"http://instagram.com/developer\" target=\"_blank\">Twitter's Dev Center</a>"
+
+#: framework/theme-options/functions/functions.options.php:3635
+#: includes/visual-composer.php:2840
+#: includes/widgets/twitter-feed.php:122
+#@ invicta_dictionary
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: includes/visual-composer.php:2841
+#@ invicta_dictionary
+msgid "To obtain your <strong>Consumer Secret</strong> you need to register this website on <a href=\"https://dev.twitter.com/apps\" target=\"_blank\">Twitter's Dev Center</a>"
+msgstr "Para obter o <strong>Consumer Secret</strong> necessita registar o seu website no <a href=\"http://instagram.com/developer\" target=\"_blank\">Twitter's Dev Center</a>"
+
+#: includes/visual-composer.php:2850
+#@ invicta_dictionary
+msgid "To obtain your <strong>Access Token</strong> you need to register this website on <a href=\"https://dev.twitter.com/apps\" target=\"_blank\">Twitter's Dev Center</a>"
+msgstr "Para obter o <strong>Access Token</strong> necessita registar o seu website no <a href=\"http://instagram.com/developer\" target=\"_blank\">Instagram's Dev Center</a>"
+
+#: framework/theme-options/functions/functions.options.php:3651
+#: includes/visual-composer.php:2858
+#: includes/widgets/twitter-feed.php:132
+#@ invicta_dictionary
+msgid "Access Token Secret"
+msgstr "Segredo do Token de Acesso"
+
+#: includes/visual-composer.php:2859
+#@ invicta_dictionary
+msgid "To obtain your <strong>Access Token Secret</strong> you need to register this website on <a href=\"https://dev.twitter.com/apps\" target=\"_blank\">Twitter's Dev Center</a>"
+msgstr "Para obter o <strong>Access Token Secret</strong> necessita registar o seu website no <a href=\"http://instagram.com/developer\" target=\"_blank\">Instagram's Dev Center</a>"
+
+#: includes/visual-composer.php:2163
+#@ invicta_dictionary
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/visual-composer.php:2164
+#: includes/visual-composer.php:2368
+#@ invicta_dictionary
+msgid "The text that appears on the button"
+msgstr "O texto que aparece no botão"
+
+#: includes/visual-composer.php:2171
+#@ invicta_dictionary
+msgid "Button Link"
+msgstr "Link to Botão"
+
+#: includes/visual-composer.php:377
+#: includes/visual-composer.php:401
+#: includes/visual-composer.php:413
+#: includes/visual-composer.php:426
+#: includes/visual-composer.php:2179
+#: includes/visual-composer.php:2191
+#: includes/visual-composer.php:2203
+#: includes/visual-composer.php:2215
+#: includes/visual-composer.php:2228
+#@ invicta_dictionary
+msgid "Where should the button link to?"
+msgstr "Para onde o botão deve redireccionar?"
+
+#: includes/visual-composer.php:2239
+#@ invicta_dictionary
+msgid "Link Target"
+msgstr "Destino do Link"
+
+#: includes/visual-composer.php:2240
+#: includes/visual-composer.php:2444
+#@ invicta_dictionary
+msgid "Do you want to open the linked page in a new window?"
+msgstr "Pretende abrir a página do link numa nova janela?"
+
+#: includes/visual-composer.php:2242
+#: includes/visual-composer.php:2446
+#@ invicta_dictionary
+msgid "Open in same window"
+msgstr "Abrir na mesma janela"
+
+#: includes/visual-composer.php:2243
+#: includes/visual-composer.php:2447
+#@ invicta_dictionary
+msgid "Open in new window"
+msgstr "Abrir numa nova janela"
+
+#: includes/visual-composer.php:2251
+#@ invicta_dictionary
+msgid "Button Size"
+msgstr "Tamanho do Botão"
+
+#: includes/visual-composer.php:2252
+#: includes/visual-composer.php:2456
+#@ invicta_dictionary
+msgid "Choose the size of the button"
+msgstr "Escolha o tamanho do botão"
+
+#: includes/visual-composer.php:2254
+#: includes/visual-composer.php:2458
+#@ invicta_dictionary
+msgid "Small"
+msgstr "Pequeno"
+
+#: includes/visual-composer.php:2255
+#: includes/visual-composer.php:2459
+#@ invicta_dictionary
+msgid "Medium"
+msgstr "Medio"
+
+#: includes/visual-composer.php:2256
+#: includes/visual-composer.php:2460
+#@ invicta_dictionary
+msgid "Large"
+msgstr "Grande"
+
+#: includes/visual-composer.php:2264
+#@ invicta_dictionary
+msgid "Button Color"
+msgstr "Cor do Botão"
+
+#: includes/visual-composer.php:2265
+#: includes/visual-composer.php:2469
+#@ invicta_dictionary
+msgid "Choose the color of the button"
+msgstr "Escolha a cor do botão"
+
+#: includes/visual-composer.php:2268
+#: includes/visual-composer.php:2472
+#@ invicta_dictionary
+msgid "Silver"
+msgstr "Prateado"
+
+#: includes/visual-composer.php:2269
+#: includes/visual-composer.php:2473
+#@ invicta_dictionary
+msgid "Gold"
+msgstr "Dourado"
+
+#: includes/visual-composer.php:2270
+#: includes/visual-composer.php:2474
+#@ invicta_dictionary
+msgid "Red"
+msgstr "Vermelho"
+
+#: includes/visual-composer.php:2271
+#: includes/visual-composer.php:2475
+#@ invicta_dictionary
+msgid "Green"
+msgstr "Verde"
+
+#: includes/visual-composer.php:2272
+#: includes/visual-composer.php:2476
+#@ invicta_dictionary
+msgid "Blue"
+msgstr "Azul"
+
+#: includes/visual-composer.php:2281
+#@ invicta_dictionary
+msgid "Button Icon"
+msgstr "Icon do Botão"
+
+#: includes/visual-composer.php:2282
+#: includes/visual-composer.php:2486
+#@ invicta_dictionary
+msgid "Choose an icon to be displayed within the button"
+msgstr "Escolha um icon para aparecer dentro do botão"
+
+#: includes/visual-composer.php:2289
+#@ invicta_dictionary
+msgid "Icon Position"
+msgstr "Posição do Icon"
+
+#: includes/visual-composer.php:2290
+#: includes/visual-composer.php:2494
+#@ invicta_dictionary
+msgid "Choose the position of the icon"
+msgstr "Escolha a posição do icon"
+
+#: includes/visual-composer.php:2292
+#: includes/visual-composer.php:2496
+#@ invicta_dictionary
+msgid "Before the Label"
+msgstr "Antes da Palavra"
+
+#: includes/visual-composer.php:2293
+#: includes/visual-composer.php:2497
+#@ invicta_dictionary
+msgid "After the Label"
+msgstr "Depois da Palavra"
+
+#: includes/visual-composer.php:2301
+#@ invicta_dictionary
+msgid "Button Alignment"
+msgstr "Alinhamento do Botão"
+
+#: includes/visual-composer.php:2302
+#@ invicta_dictionary
+msgid "Choose the alignment of the button"
+msgstr "Escolha o alinhamento do botão"
+
+#: includes/visual-composer.php:2304
+#@ invicta_dictionary
+msgid "Align Left (Default)"
+msgstr "Alinhar à Esquerda (Por Defeito)"
+
+#: includes/visual-composer.php:2305
+#@ invicta_dictionary
+msgid "Align Center"
+msgstr "Alinhar ao Centro"
+
+#: includes/visual-composer.php:2306
+#@ invicta_dictionary
+msgid "Align Right"
+msgstr "Alinhar à Direita"
+
+#: includes/visual-composer.php:1717
+#: includes/visual-composer.php:2547
+#: includes/widgets/contacts.php:57
+#: includes/widgets/social-links.php:65
+#@ invicta_dictionary
+msgid "Intro"
+msgstr "Introdução"
+
+#: includes/visual-composer.php:1725
+#: includes/widgets/contacts.php:62
+#@ invicta_dictionary
+msgid "Address"
+msgstr "Morada"
+
+#: includes/visual-composer.php:1736
+#: includes/visual-composer.php:1745
+#: includes/visual-composer.php:1754
+#: includes/visual-composer.php:1763
+#: includes/widgets/contacts.php:79
+#: includes/widgets/contacts.php:85
+#@ invicta_dictionary
+msgid "One per line"
+msgstr "Um por linha"
+
+#: includes/visual-composer.php:1742
+#: includes/widgets/contacts.php:72
+#@ invicta_dictionary
+msgid "Mobile"
+msgstr "Telemóvel"
+
+#: includes/visual-composer.php:1769
+#: includes/widgets/contacts.php:89
+#@ invicta_dictionary
+msgid "Google Map Link"
+msgstr "Link para Google Map"
+
+#: includes/visual-composer.php:1832
+#@ invicta_dictionary
+msgid "Begin"
+msgstr "Inicio"
+
+#: includes/visual-composer.php:1833
+#@ invicta_dictionary
+msgid "At what time the period begin?"
+msgstr "A que horas inicia o periodo?"
+
+#: includes/visual-composer.php:1841
+#@ invicta_dictionary
+msgid "End"
+msgstr "Fim"
+
+#: includes/visual-composer.php:1842
+#@ invicta_dictionary
+msgid "At what time the period end?"
+msgstr "A que horas termina o periodo?"
+
+#: includes/visual-composer.php:347
+#: includes/visual-composer.php:1849
+#@ invicta_dictionary
+msgid "Text"
+msgstr "Texto"
+
+#: includes/visual-composer.php:1593
+#@ invicta_dictionary
+msgid "How many projects should be displayed?"
+msgstr "Quantos projectos devem ser apresentados?"
+
+#: includes/widgets/combo-posts.php:28
+#@ invicta_dictionary
+msgid "A widget to display latest and popular post entries, within different tabs."
+msgstr "Um widget para apresentar, em diferentes tabs, os artigos mais recentes e mais populares."
+
+#: includes/widgets/combo-posts.php:31
+#@ invicta_dictionary
+msgid "Combo Posts"
+msgstr "Combo de Artigos"
+
+#: includes/widgets/combo-posts.php:53
+#: includes/widgets/latest-posts.php:53
+#: includes/widgets/popular-posts.php:53
+#@ invicta_dictionary
+msgid "How many entries do you want to display"
+msgstr "Quantas entradas pretende apresentar"
+
+#: includes/widgets/combo-posts.php:68
+#: includes/widgets/latest-posts.php:68
+#: includes/widgets/popular-posts.php:68
+#@ invicta_dictionary
+msgid "Restrict to a category"
+msgstr "Restringir a uma categoria"
+
+#: includes/widgets/combo-posts.php:75
+#: includes/widgets/latest-posts.php:75
+#: includes/widgets/popular-posts.php:75
+#@ invicta_dictionary
+msgid "Show Featured Image"
+msgstr "Apresentar Imagem de Destaque"
+
+#: includes/widgets/combo-posts.php:102
+#@ invicta_dictionary
+msgid "Blog Posts"
+msgstr "Artigos do Blog"
+
+#: includes/widgets/combo-posts.php:187
+#@ invicta_dictionary
+msgid "Latest"
+msgstr "Recentes"
+
+#: includes/widgets/combo-posts.php:191
+#@ invicta_dictionary
+msgid "Popular"
+msgstr "Populares"
+
+#: includes/widgets/contacts.php:28
+#@ invicta_dictionary
+msgid "A widget to display a set of contacts"
+msgstr "Um widget para apresentar uma lista de contactos"
+
+#: includes/widgets/latest-posts.php:31
+#: includes/widgets/latest-posts.php:101
+#: includes/widgets/popular-posts.php:102
+#@ invicta_dictionary
+msgid "Latest Posts"
+msgstr "Ultimos Artigos"
+
+#: includes/widgets/instagram-feed.php:28
+#@ invicta_dictionary
+msgid "A widget to display a Instagram Feed"
+msgstr "Um widget para apresentar um feed do Instagram"
+
+#: includes/visual-composer.php:2699
+#: includes/widgets/instagram-feed.php:31
+#: includes/widgets/instagram-feed.php:133
+#@ invicta_dictionary
+msgid "Instagram Feed"
+msgstr "Feed do Instagram"
+
+#: includes/widgets/instagram-feed.php:89
+#: includes/widgets/twitter-feed.php:105
+#@ invicta_dictionary
+msgid "1 Hour"
+msgstr "1 Hora"
+
+#: includes/widgets/instagram-feed.php:96
+#, php-format
+#@ invicta_dictionary
+msgid "To obtain your authorization keys you should register the website on <a href=\"%s\" target=\"_blank\">Instagram's Dev Center</a>."
+msgstr "Para obter a sua chave de autorização deve registar o seu website em <a href=\"%s\" target=\"_blank\">Instagram's Dev Center</a>."
+
+#: includes/widgets/latest-posts.php:28
+#@ invicta_dictionary
+msgid "A widget to display latest post entries"
+msgstr "Um widget para apresentar os últimos artigos"
+
+#: includes/widgets/popular-posts.php:28
+#@ invicta_dictionary
+msgid "A widget to display popular post entries"
+msgstr "Um widget para apresentar os artigos mais populares"
+
+#: includes/widgets/popular-posts.php:31
+#@ invicta_dictionary
+msgid "Popular Posts"
+msgstr "Artigos Populares"
+
+#: includes/widgets/twitter-feed.php:28
+#@ invicta_dictionary
+msgid "A widget to display a Twitter Feed"
+msgstr "Um widget para apresentar um feed do Twitter"
+
+#: includes/visual-composer.php:2780
+#: includes/widgets/twitter-feed.php:31
+#: includes/widgets/twitter-feed.php:162
+#@ invicta_dictionary
+msgid "Twitter Feed"
+msgstr "Feed do Twitter"
+
+#: includes/widgets/twitter-feed.php:112
+#, php-format
+#@ invicta_dictionary
+msgid "To obtain your authorization keys you should register the website on <a href=\"%s\" target=\"_blank\">Twitter's Dev Center</a>."
+msgstr "Para obter as suas chaves de autorização, deve registar o seu website no <a href=\"%s\" target=\"_blank\">Twitter's Dev Center</a>."
+
+#: includes/widgets/twitter-feed.php:252
+#@ invicta_dictionary
+msgid "ago"
+msgstr "atrás"
+
+#: template-parts/portfolio-entry-detailed.php:46
+#: template-parts/portfolio-entry-detailed.php:161
+#@ invicta_dictionary
+msgid "Client"
+msgstr "Cliente"
+
+#: includes/woocommerce/frontend.php:602
+#: template-parts/portfolio-entry-detailed.php:53
+#: template-parts/portfolio-entry-detailed.php:168
+#@ invicta_dictionary
+msgid "Date"
+msgstr "Data"
+
+#: includes/woocommerce/frontend.php:601
+#: template-parts/portfolio-entry-detailed.php:67
+#: template-parts/portfolio-entry-detailed.php:182
+#@ invicta_dictionary
+msgid "Price"
+msgstr "Preço"
+
+#: template-parts/portfolio-entry-detailed.php:85
+#: template-parts/portfolio-entry-detailed.php:200
+#@ invicta_dictionary
+msgid "Project Skills"
+msgstr "Capacidades do Projecto"
+
+#: template-parts/portfolio-entry-detailed.php:101
+#: template-parts/portfolio-entry-detailed.php:216
+#@ invicta_dictionary
+msgid "Sharing"
+msgstr "Partilha"
+
+#: template-parts/portfolio-entry-detailed.php:110
+#: template-parts/portfolio-entry-detailed.php:225
+#@ invicta_dictionary
+msgid "Launch Project"
+msgstr "Lançar Projecto"
+
+#: template-parts/portfolio-entry-detailed.php:143
+#@ invicta_dictionary
+msgid "Project Description"
+msgstr "Descrição do Projecto"
+
+#: framework/theme-options/classes/class.options_machine.php:556
+#@ invicta_dictionary
+msgid "Last Backup :"
+msgstr "Último Backup :"
+
+#: framework/theme-options/classes/class.options_machine.php:650
+#@ invicta_dictionary
+msgid "On"
+msgstr "On"
+
+#: framework/theme-options/classes/class.options_machine.php:657
+#@ invicta_dictionary
+msgid "Off"
+msgstr "Off"
+
+#: framework/theme-options/functions/functions.interface.php:58
+#: includes/logic-hooks.php:64
+#@ invicta_dictionary
+msgid "Theme Options"
+msgstr "Opções do Tema"
+
+#: includes/frontend.php:112
+#@ invicta_dictionary
+msgid "Go to..."
+msgstr "Ir para..."
+
+#: includes/visual-composer.php:1287
+#@ invicta_dictionary
+msgid "Person"
+msgstr "Pessoa"
+
+#: includes/visual-composer.php:1323
+#@ invicta_dictionary
+msgid "Photo"
+msgstr "Fotos"
+
+#: includes/visual-composer.php:1324
+#@ invicta_dictionary
+msgid "Upload the person's photo. A square (1x1) photo is recommended."
+msgstr "Carregue a foto da pessoa. Uma foto quadrada (1x1) é recomendada."
+
+#: includes/visual-composer.php:2151
+#@ invicta_dictionary
+msgid "Button"
+msgstr "Botão"
+
+#: includes/visual-composer.php:2529
+#: includes/widgets/social-links.php:31
+#@ invicta_dictionary
+msgid "Social Links"
+msgstr "Links Sociais"
+
+#: includes/visual-composer.php:1813
+#@ invicta_dictionary
+msgid "Timespan"
+msgstr "Intervalo de Tempo"
+
+#: includes/visual-composer.php:2877
+#@ invicta_dictionary
+msgid "Icon 4 Tab"
+msgstr "Icon para Tab"
+
+#: includes/visual-composer.php:2889
+#@ invicta_dictionary
+msgid "This icons are supposed to be added inside any Tab or Tour Section element,<br/>in order to display a icon near each tab navigation link."
+msgstr "Estes icons é suposto serem adicionados dentro de uma secção de Tabs,<br/>por forma a apresentar um icon dentro do titulo de cada tab."
+
+#: includes/visual-composer.php:447
+#@ invicta_dictionary
+msgid "Steps"
+msgstr "Passos"
+
+#: includes/visual-composer.php:457
+#: includes/visual-composer.php:607
+#: includes/visual-composer.php:1857
+#: includes/visual-composer.php:2131
+#@ invicta_dictionary
+msgid "Animation"
+msgstr "Animação"
+
+#: includes/visual-composer.php:460
+#@ invicta_dictionary
+msgid "Add animation to the icons"
+msgstr "Adicionar animação aos icons"
+
+#: includes/visual-composer.php:468
+#@ invicta_dictionary
+msgid "Step #1"
+msgstr "Passo #1"
+
+#: includes/visual-composer.php:470
+#: includes/visual-composer.php:494
+#: includes/visual-composer.php:518
+#: includes/visual-composer.php:542
+#: includes/visual-composer.php:566
+#@ invicta_dictionary
+msgid "Step Name"
+msgstr "Nome do Passo"
+
+#: includes/visual-composer.php:477
+#: includes/visual-composer.php:501
+#: includes/visual-composer.php:525
+#: includes/visual-composer.php:549
+#: includes/visual-composer.php:573
+#@ invicta_dictionary
+msgid "Step Description"
+msgstr "Descrição do Passo"
+
+#: includes/visual-composer.php:485
+#: includes/visual-composer.php:509
+#: includes/visual-composer.php:533
+#: includes/visual-composer.php:557
+#: includes/visual-composer.php:581
+#@ invicta_dictionary
+msgid "Step Icon"
+msgstr "Icon do Passo"
+
+#: includes/visual-composer.php:492
+#@ invicta_dictionary
+msgid "Step #2"
+msgstr "Passo #2"
+
+#: includes/visual-composer.php:516
+#@ invicta_dictionary
+msgid "Step #3"
+msgstr "Passo #3"
+
+#: includes/visual-composer.php:540
+#@ invicta_dictionary
+msgid "Step #4"
+msgstr "Passo #4"
+
+#: includes/visual-composer.php:564
+#@ invicta_dictionary
+msgid "Step #5"
+msgstr "Passo #5"
+
+#: includes/visual-composer.php:2096
+#@ invicta_dictionary
+msgid "Progress Bars"
+msgstr "Barras de Progresso"
+
+#: includes/visual-composer.php:2114
+#@ invicta_dictionary
+msgid "Graphic values"
+msgstr "Valores do Gráfico"
+
+#: includes/visual-composer.php:2117
+#@ invicta_dictionary
+msgid "Input graph values here. Divide values with linebreaks (Enter). Example: 90|Development"
+msgstr "Introduza os valores do gráfico aqui. Divida valores com novas linhas (Enter). Example: 90|Programação"
+
+#: includes/visual-composer.php:2123
+#@ invicta_dictionary
+msgid "Units"
+msgstr "Unidades"
+
+#: includes/visual-composer.php:2125
+#@ invicta_dictionary
+msgid "Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and unit will be appended to the graph title."
+msgstr "Introduza as unidades de medida (se necessário) Ex.: %, px, points, etc. "
+
+#: includes/visual-composer.php:2134
+#@ invicta_dictionary
+msgid "Add animation to the progress bars"
+msgstr "Adicionar animação às barras de progresso"
+
+#: includes/visual-composer.php:863
+#: includes/visual-composer.php:949
+#@ invicta_dictionary
+msgid "Select Country"
+msgstr "Seleccione o País"
+
+#: includes/visual-composer.php:869
+#@ invicta_dictionary
+msgid "Testimonial"
+msgstr "Testemunho"
+
+#: includes/visual-composer.php:879
+#: includes/visual-composer.php:881
+#: includes/visual-composer.php:997
+#: includes/visual-composer.php:1044
+#: includes/visual-composer.php:1091
+#: includes/visual-composer.php:1138
+#: includes/visual-composer.php:1185
+#: includes/visual-composer.php:1232
+#@ invicta_dictionary
+msgid "Author Name"
+msgstr "Nome do Autor"
+
+#: includes/visual-composer.php:887
+#: includes/visual-composer.php:1003
+#: includes/visual-composer.php:1050
+#: includes/visual-composer.php:1097
+#: includes/visual-composer.php:1144
+#: includes/visual-composer.php:1191
+#: includes/visual-composer.php:1238
+#@ invicta_dictionary
+msgid "Author Country"
+msgstr "País do Autor"
+
+#: includes/visual-composer.php:231
+#: includes/visual-composer.php:325
+#: includes/visual-composer.php:451
+#: includes/visual-composer.php:601
+#: includes/visual-composer.php:640
+#: includes/visual-composer.php:873
+#: includes/visual-composer.php:903
+#: includes/visual-composer.php:959
+#: includes/visual-composer.php:1291
+#: includes/visual-composer.php:1513
+#: includes/visual-composer.php:1527
+#: includes/visual-composer.php:1584
+#: includes/visual-composer.php:1645
+#: includes/visual-composer.php:1703
+#: includes/visual-composer.php:1817
+#: includes/visual-composer.php:1888
+#: includes/visual-composer.php:1961
+#: includes/visual-composer.php:2034
+#: includes/visual-composer.php:2100
+#: includes/visual-composer.php:2155
+#: includes/visual-composer.php:2327
+#: includes/visual-composer.php:2881
+#@ invicta_dictionary
+msgid "Content"
+msgstr "Conteúdo"
+
+#: includes/visual-composer.php:905
+#@ invicta_dictionary
+msgid "<p>I am test testimonial. Please populate me a couple of phrases.</p>"
+msgstr "<p>Eu sou um testemunho. Por favor preencha-me com algumas frases.</p>"
+
+#: includes/visual-composer.php:911
+#: includes/visual-composer.php:1027
+#: includes/visual-composer.php:1074
+#: includes/visual-composer.php:1121
+#: includes/visual-composer.php:1168
+#: includes/visual-composer.php:1215
+#: includes/visual-composer.php:1262
+#@ invicta_dictionary
+msgid "Source Name"
+msgstr "Nome da Origem"
+
+#: includes/visual-composer.php:918
+#: includes/visual-composer.php:1034
+#: includes/visual-composer.php:1081
+#: includes/visual-composer.php:1128
+#: includes/visual-composer.php:1175
+#: includes/visual-composer.php:1222
+#: includes/visual-composer.php:1269
+#@ invicta_dictionary
+msgid "Source URL"
+msgstr "URL da Origem"
+
+#: includes/visual-composer.php:928
+#: includes/visual-composer.php:2507
+#@ invicta_dictionary
+msgid "Style #1"
+msgstr "Estilo #1"
+
+#: includes/visual-composer.php:929
+#: includes/visual-composer.php:2508
+#@ invicta_dictionary
+msgid "Style #2"
+msgstr "Estilo #2"
+
+#: includes/visual-composer.php:333
+#@ invicta_dictionary
+msgid "Iconbox Title"
+msgstr "Titulo da Caixa de Icon"
+
+#: includes/visual-composer.php:339
+#@ invicta_dictionary
+msgid "Icon"
+msgstr "Icon"
+
+#: includes/visual-composer.php:360
+#@ invicta_dictionary
+msgid "Centered"
+msgstr "Centrado"
+
+#: includes/visual-composer.php:361
+#@ invicta_dictionary
+msgid "Clean"
+msgstr "Limpo"
+
+#: includes/visual-composer.php:636
+#@ invicta_dictionary
+msgid "Partners"
+msgstr "Parceiros"
+
+#: includes/visual-composer.php:660
+#@ invicta_dictionary
+msgid "Partner #1"
+msgstr "Parceiro #1"
+
+#: includes/visual-composer.php:662
+#: includes/visual-composer.php:686
+#: includes/visual-composer.php:710
+#: includes/visual-composer.php:734
+#: includes/visual-composer.php:758
+#: includes/visual-composer.php:782
+#: includes/visual-composer.php:806
+#: includes/visual-composer.php:830
+#@ invicta_dictionary
+msgid "Partner Name"
+msgstr "Nome do Parceiro"
+
+#: includes/visual-composer.php:669
+#: includes/visual-composer.php:693
+#: includes/visual-composer.php:717
+#: includes/visual-composer.php:741
+#: includes/visual-composer.php:765
+#: includes/visual-composer.php:789
+#: includes/visual-composer.php:813
+#: includes/visual-composer.php:837
+#@ invicta_dictionary
+msgid "Partner URL"
+msgstr "URL do Parceiro"
+
+#: includes/visual-composer.php:677
+#: includes/visual-composer.php:701
+#: includes/visual-composer.php:725
+#: includes/visual-composer.php:749
+#: includes/visual-composer.php:773
+#: includes/visual-composer.php:797
+#: includes/visual-composer.php:821
+#: includes/visual-composer.php:845
+#@ invicta_dictionary
+msgid "Partner Logo"
+msgstr "Logo do Parceiro"
+
+#: includes/visual-composer.php:684
+#@ invicta_dictionary
+msgid "Partner #2"
+msgstr "Parceiro #2"
+
+#: includes/visual-composer.php:708
+#@ invicta_dictionary
+msgid "Partner #3"
+msgstr "Parceiro #3"
+
+#: includes/visual-composer.php:732
+#@ invicta_dictionary
+msgid "Partner #4"
+msgstr "Parceiro #4"
+
+#: includes/visual-composer.php:756
+#@ invicta_dictionary
+msgid "Partner #5"
+msgstr "Parceiro #5"
+
+#: includes/visual-composer.php:780
+#@ invicta_dictionary
+msgid "Partner #6"
+msgstr "Parceiro #6"
+
+#: includes/visual-composer.php:804
+#@ invicta_dictionary
+msgid "Partner #7"
+msgstr "Parceiro #7"
+
+#: includes/visual-composer.php:828
+#@ invicta_dictionary
+msgid "Partner #8"
+msgstr "Parceiro #8"
+
+#: includes/visual-composer.php:1521
+#@ invicta_dictionary
+msgid "The title of the Letter"
+msgstr "O título da Carta"
+
+#: includes/visual-composer.php:1529
+#@ invicta_dictionary
+msgid "<p>I am test text block. Click edit button to change this text.</p>"
+msgstr "<p>Eu sou o exemplo de uma caixa de texto. Clique no botão editar para alterar este texto.</p>"
+
+#: includes/visual-composer.php:1530
+#@ invicta_dictionary
+msgid "The content of the Letter"
+msgstr "O conteúdo da Carta"
+
+#: includes/visual-composer.php:1539
+#@ invicta_dictionary
+msgid "Upload the author's photo. A square (1x1) photo is recommended."
+msgstr "Carregue a foto do autor. Uma foto quadrada (1x1) é recomendada."
+
+#: includes/visual-composer.php:237
+#@ invicta_dictionary
+msgid "Primary Line"
+msgstr "Linha Principal"
+
+#: includes/visual-composer.php:239
+#@ invicta_dictionary
+msgid "The primary heading line"
+msgstr "A linha principal do Título"
+
+#: includes/visual-composer.php:245
+#@ invicta_dictionary
+msgid "Primary Line Keywords"
+msgstr "Palavras-Chave da linha principal do Título"
+
+#: includes/visual-composer.php:247
+#: includes/visual-composer.php:2343
+#@ invicta_dictionary
+msgid "Keywords that should be highlighted in primary line (one per line)"
+msgstr "Palavras-chave que devam aparecer destacadas na linha principal (uma por linha)"
+
+#: includes/visual-composer.php:262
+#@ invicta_dictionary
+msgid "Secondary Line"
+msgstr "Linha Secundária"
+
+#: includes/visual-composer.php:264
+#@ invicta_dictionary
+msgid "The secondary heading line"
+msgstr "A linha secundária do Título"
+
+#: includes/visual-composer.php:270
+#@ invicta_dictionary
+msgid "Secondary Line Keywords"
+msgstr "Palavras-chave da linha secundária do Título"
+
+#: includes/visual-composer.php:272
+#: includes/visual-composer.php:2359
+#@ invicta_dictionary
+msgid "Keywords that should be highlighted in secondary line (one per line)"
+msgstr "Palavras-chave que devam aparecer destacadas na linha secundária (uma por linha)"
+
+#: includes/visual-composer.php:287
+#: includes/visual-composer.php:299
+#@ invicta_dictionary
+msgid "Text Alignment"
+msgstr "Alinhamento do Texto"
+
+#: framework/theme-options/functions/functions.options.php:92
+#@ invicta_dictionary
+msgid "General"
+msgstr "Geral"
+
+#: framework/theme-options/functions/functions.options.php:97
+#@ invicta_dictionary
+msgid "Front Page Slideshow"
+msgstr "Slideshow da Página Principal"
+
+#: framework/theme-options/functions/functions.options.php:98
+#@ invicta_dictionary
+msgid "Display slideshow on FrontPage"
+msgstr "Apresentar slideshow na Homepage"
+
+#: framework/theme-options/functions/functions.options.php:116
+#@ invicta_dictionary
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+#: framework/theme-options/functions/functions.options.php:152
+#@ invicta_dictionary
+msgid "Comments on Pages"
+msgstr "Comentários nas Páginas"
+
+#: framework/theme-options/functions/functions.options.php:153
+#@ invicta_dictionary
+msgid "Allow comments on pages"
+msgstr "Permitir comentários nas páginas"
+
+#: framework/theme-options/functions/functions.options.php:160
+#@ invicta_dictionary
+msgid "Featured Images on Pages"
+msgstr "Imagens de Destaque nas Páginas"
+
+#: framework/theme-options/functions/functions.options.php:161
+#@ invicta_dictionary
+msgid "Show Featured Images on pages"
+msgstr "Apresentar Imagens de Destaque nas páginas"
+
+#: framework/theme-options/functions/functions.options.php:195
+#@ invicta_dictionary
+msgid "Search Results"
+msgstr "Resultados de Pesquisa"
+
+#: framework/theme-options/functions/functions.options.php:196
+#@ invicta_dictionary
+msgid "Choose which type of content you want to display on search results page"
+msgstr "Escolha o tipo de conteúdo que pretende apresentar nos resultados de pesquisa"
+
+#: framework/theme-options/functions/functions.options.php:209
+#@ invicta_dictionary
+msgid "Highlight search keywords"
+msgstr "Destacar palavras pesquisadas"
+
+#: framework/theme-options/functions/functions.options.php:216
+#@ invicta_dictionary
+msgid "Responsiveness"
+msgstr "Responsiveness"
+
+#: framework/theme-options/functions/functions.options.php:217
+#@ invicta_dictionary
+msgid "Activate Responsive Design Features"
+msgstr "Activar as funcionalidades Responsivas"
+
+#: framework/theme-options/functions/functions.options.php:224
+#@ invicta_dictionary
+msgid "iOS Add to HomeScreen Popup"
+msgstr "Popup de Adicionar ao HomeScreen do iOS"
+
+#: framework/theme-options/functions/functions.options.php:225
+#@ invicta_dictionary
+msgid "Activate the floating balloon inviting the users to add your website to the home screen on iOS devices"
+msgstr "Activar o balão flutuante a convidar os utilizadores a adicionar o seu website ao home screen dos dispositivos iOS"
+
+#: framework/theme-options/functions/functions.options.php:234
+#@ invicta_dictionary
+msgid "Define the message to display within the balloon"
+msgstr "Defina a mensagem a apresentar dentro do balão"
+
+#: framework/theme-options/functions/functions.options.php:243
+#@ invicta_dictionary
+msgid "Milliseconds to wait before hiding the message"
+msgstr "Milisegundos a aguardar antes de esconder a mensagem"
+
+#: framework/theme-options/functions/functions.options.php:252
+#@ invicta_dictionary
+msgid "Minutes before displaying the message again (0 = Show Always)"
+msgstr "Minutos a aguardar antes de apresentar a mensagem novamente (0 = Apresentar Sempre)"
+
+#: framework/theme-options/functions/functions.options.php:261
+#@ invicta_dictionary
+msgid "Show the message to returning visitors only"
+msgstr "Apresentar a mensagem apenas a utilizadores que já estiveram no seu website anteriormente"
+
+#: framework/theme-options/functions/functions.options.php:270
+#@ invicta_dictionary
+msgid "Display the application icon next to the message"
+msgstr "Apresentar o icon da aplicação junto da mensagem"
+
+#: framework/theme-options/functions/functions.options.php:309
+#@ invicta_dictionary
+msgid "Branding"
+msgstr "Marca"
+
+#: framework/theme-options/functions/functions.options.php:314
+#@ invicta_dictionary
+msgid "Main Logo"
+msgstr "Logo Principal"
+
+#: framework/theme-options/functions/functions.options.php:315
+#@ invicta_dictionary
+msgid "Upload your logo to display in the header"
+msgstr "Carregue o seu logotipo para apresentar no header"
+
+#: framework/theme-options/functions/functions.options.php:330
+#@ invicta_dictionary
+msgid "Favicon"
+msgstr "Favicon"
+
+#: framework/theme-options/functions/functions.options.php:331
+#@ invicta_dictionary
+msgid "The icon (.ico) could have both retina (32x32px) and non-retina (16x16px) versions embedded"
+msgstr "O icons (.ico) pode conter tanto a versão retina (32x32px) como a não-retina (16x16px)"
+
+#: framework/theme-options/functions/functions.options.php:338
+#@ invicta_dictionary
+msgid "iOS Home Screen Icon"
+msgstr "Icon do Home Screen do iOS"
+
+#: framework/theme-options/functions/functions.options.php:339
+#@ invicta_dictionary
+msgid "iPhone<br/>(57x57 px)"
+msgstr "iPhone<br/>(57x57 px)"
+
+#: framework/theme-options/functions/functions.options.php:347
+#@ invicta_dictionary
+msgid "iPad<br/>(72x72 px)"
+msgstr "iPad<br/>(72x72 px)"
+
+#: framework/theme-options/functions/functions.options.php:355
+#@ invicta_dictionary
+msgid "iPhone & iPad (Retina Display)<br/>(114x114 px)"
+msgstr "iPhone & iPad (Retina Display)<br/>(114x114 px)"
+
+#: framework/theme-options/functions/functions.options.php:363
+#@ invicta_dictionary
+msgid "Add Reflective Shine Effect"
+msgstr "Adicionar o efeito de reflexo brilhante"
+
+#: framework/theme-options/functions/functions.options.php:370
+#@ invicta_dictionary
+msgid "Admin Logo"
+msgstr "Logo do Admin"
+
+#: framework/theme-options/functions/functions.options.php:371
+#@ invicta_dictionary
+msgid "Upload your logo to display in the WordPress login page.<br/>Recommended size: 323x67px"
+msgstr "Carregue o seu logo para apresentar na página de login do WordPress.<br/>Tamanho recomendado: 323x67px"
+
+#: framework/theme-options/functions/functions.options.php:1165
+#@ invicta_dictionary
+msgid "Header"
+msgstr "Header"
+
+#: framework/theme-options/functions/functions.options.php:1178
+#@ invicta_dictionary
+msgid "Meta Bar"
+msgstr "Meta Bar"
+
+#: framework/theme-options/functions/functions.options.php:1179
+#@ invicta_dictionary
+msgid "Display a bar with some meta information"
+msgstr "Apresentar uma barra com alguma meta-informação"
+
+#: framework/theme-options/functions/functions.options.php:1188
+#@ invicta_dictionary
+msgid "Call Us phone number"
+msgstr "Numero de telefone do \\\"Telefone-nos\\\" "
+
+#: framework/theme-options/functions/functions.options.php:1197
+#@ invicta_dictionary
+msgid "Mail Us address"
+msgstr "Endereço para o \\\"Envie-nos um Email\\\""
+
+#: framework/theme-options/functions/functions.options.php:1296
+#: framework/theme-options/functions/functions.options.php:3835
+#: includes/visual-composer.php:1463
+#: includes/visual-composer.php:2656
+#@ invicta_dictionary
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: framework/theme-options/functions/functions.options.php:1323
+#@ invicta_dictionary
+msgid "Show Search Box"
+msgstr "Apresentar Caixa de Pesquisa"
+
+#: framework/theme-options/functions/functions.options.php:1365
+#@ invicta_dictionary
+msgid "Footer"
+msgstr "Footer"
+
+#: framework/theme-options/functions/functions.options.php:1370
+#@ invicta_dictionary
+msgid "Columns"
+msgstr "Colunas"
+
+#: framework/theme-options/functions/functions.options.php:1371
+#@ invicta_dictionary
+msgid "How many columns should be displayed in the footer"
+msgstr "Quantas colunas devem ser apresentadas no footer"
+
+#: framework/theme-options/functions/functions.options.php:1392
+#@ invicta_dictionary
+msgid "Socket Area"
+msgstr "Area do Rodapé"
+
+#: framework/theme-options/functions/functions.options.php:1393
+#@ invicta_dictionary
+msgid "Show Socket Area"
+msgstr "Apresentar Área do Rodapé"
+
+#: framework/theme-options/functions/functions.options.php:1401
+#@ invicta_dictionary
+msgid "Copyright"
+msgstr "Copyright"
+
+#: framework/theme-options/functions/functions.options.php:1402
+#@ invicta_dictionary
+msgid "Add a custom copyright text at the bottom of your site"
+msgstr "Adicionar o uma mensagem de copyright ao fundo do seu site."
+
+#: framework/theme-options/functions/functions.options.php:1423
+#@ invicta_dictionary
+msgid "Sidebars"
+msgstr "Sidebars"
+
+#: framework/theme-options/functions/functions.options.php:1428
+#@ invicta_dictionary
+msgid "Blog Page"
+msgstr "Página do Blog"
+
+#: framework/theme-options/functions/functions.options.php:1429
+#@ invicta_dictionary
+msgid "Select main content and sidebar alignment on the Blog List Page"
+msgstr "Seleccione o posicionamento da área principal e da sidebar na página de listagem do Blog"
+
+#: framework/theme-options/functions/functions.options.php:1437
+#@ invicta_dictionary
+msgid "Blog Post"
+msgstr "Artigo do Blog"
+
+#: framework/theme-options/functions/functions.options.php:1438
+#@ invicta_dictionary
+msgid "Select main content and sidebar alignment on the Blog Post Page"
+msgstr "Seleccione o posicionamento da área principal e da sidebar na página de detalhe do Blog"
+
+#: framework/theme-options/functions/functions.options.php:1446
+#@ invicta_dictionary
+msgid "Blog Archives"
+msgstr "Arquivos do Blog"
+
+#: framework/theme-options/functions/functions.options.php:1447
+#@ invicta_dictionary
+msgid "Select main content and sidebar alignment on the Blog Archives Page"
+msgstr "Seleccione o posicionamento da área principal e da sidebar nas páginas de arquivo do Blog"
+
+#: framework/theme-options/functions/functions.options.php:1456
+#@ invicta_dictionary
+msgid "Select main content and sidebar alignment on common Pages"
+msgstr "Seleccione o posicionamento da área principal e da sidebar nas páginas comuns"
+
+#: framework/theme-options/functions/functions.options.php:537
+#@ invicta_dictionary
+msgid "Accent Color"
+msgstr "Cor de Destaque"
+
+#: framework/theme-options/functions/functions.options.php:1502
+#@ invicta_dictionary
+msgid "Icons"
+msgstr "Icons"
+
+#: framework/theme-options/functions/functions.options.php:1508
+#@ invicta_dictionary
+msgid "Select the icons you want to use in the website.<br/>The selected icons will be available on your shortcodes, widgets, etc."
+msgstr "Seleccione os icons que pretende apresentar no website.<br/>Os icons seleccionados estarão disponíveis nos widgets, shortcodes, etc."
+
+#: framework/theme-options/functions/functions.options.php:2833
+#@ invicta_dictionary
+msgid "One icon ID per line.<br/><br/>Example:<br/><i>icon-star-empty</i><br/><i>icon-heart-empty</i><br/><i>icon-archive</i>"
+msgstr "Um ID de icon por linha.<br/><br/>Exemplo:<br/><i>icon-star-empty</i><br/><i>icon-heart-empty</i><br/><i>icon-archive</i>"
+
+#: framework/theme-options/functions/functions.options.php:2861
+#@ invicta_dictionary
+msgid "Typography"
+msgstr "Tipografia"
+
+#: framework/theme-options/functions/functions.options.php:2880
+#@ invicta_dictionary
+msgid "Specify the base font size for the website. (default = 13px)"
+msgstr "Especifique o tamanho de letra base para o website (defeito = 13px)"
+
+#: framework/theme-options/functions/functions.options.php:2890
+#@ invicta_dictionary
+msgid "Headings"
+msgstr "Títulos"
+
+#: framework/theme-options/functions/functions.options.php:2904
+#@ invicta_dictionary
+msgid "Uppercase Widget Titles"
+msgstr "Tornar os Títulos dos widgets em maiusculas"
+
+#: framework/theme-options/functions/functions.options.php:2912
+#@ invicta_dictionary
+msgid "Uppercase Page Title"
+msgstr "Tornar os Títulos das Páginas em maiusculas"
+
+#: framework/theme-options/functions/functions.options.php:2920
+#@ invicta_dictionary
+msgid "Uppercase Content Titles"
+msgstr "Tornar os Títulos dos conteúdos em maiusculas"
+
+#: framework/theme-options/functions/functions.options.php:2935
+#@ invicta_dictionary
+msgid "Page Title Font-size"
+msgstr "Tamanho da letra do Título da Página"
+
+#: framework/theme-options/functions/functions.options.php:2946
+#@ invicta_dictionary
+msgid "Heading 1 Font-size"
+msgstr "Tamanho da letra no Título 1"
+
+#: framework/theme-options/functions/functions.options.php:2957
+#@ invicta_dictionary
+msgid "Heading 2 Font-size"
+msgstr "Tamanho da letra no Título 2"
+
+#: framework/theme-options/functions/functions.options.php:2968
+#@ invicta_dictionary
+msgid "Heading 3 Font-size"
+msgstr "Tamanho da letra no Título 3"
+
+#: framework/theme-options/functions/functions.options.php:2979
+#@ invicta_dictionary
+msgid "Heading 4 Font-size"
+msgstr "Tamanho da letra no Título 4"
+
+#: framework/theme-options/functions/functions.options.php:2990
+#@ invicta_dictionary
+msgid "Heading 5 Font-size"
+msgstr "Tamanho da letra no Título 5"
+
+#: framework/theme-options/functions/functions.options.php:3001
+#@ invicta_dictionary
+msgid "Heading 6 Font-size"
+msgstr "Tamanho da letra no Título 6"
+
+#: framework/theme-options/functions/functions.options.php:3011
+#@ invicta_dictionary
+msgid "Menu"
+msgstr "Menu"
+
+#: framework/theme-options/functions/functions.options.php:3025
+#@ invicta_dictionary
+msgid "Uppercase Root Elements"
+msgstr "Converter os elementos da raiz em maiusculas"
+
+#: framework/theme-options/functions/functions.options.php:3033
+#@ invicta_dictionary
+msgid "Uppercase Child Elements"
+msgstr "Converter os elementos filho em maiusculas"
+
+#: framework/theme-options/functions/functions.options.php:3041
+#@ invicta_dictionary
+msgid "<strong>Menu Font-size</strong> <cite>(Percentage (%) relative to the body font-size)</cite>"
+msgstr "<strong>Tamanho da Letra do Menu</strong> <cite>(Percentagem (%) relativa ao tamanho de letra do corpo principal)</cite>"
+
+#: framework/theme-options/functions/functions.options.php:3051
+#@ invicta_dictionary
+msgid "Google Font Subsets"
+msgstr "Subconjuntos Google Font"
+
+#: framework/theme-options/functions/functions.options.php:3052
+#@ invicta_dictionary
+msgid "Latin Extended"
+msgstr "Latim Estendido"
+
+#: framework/theme-options/functions/functions.options.php:3060
+#@ invicta_dictionary
+msgid "Cyrillic"
+msgstr "Cirílico"
+
+#: framework/theme-options/functions/functions.options.php:3068
+#@ invicta_dictionary
+msgid "Cyrillic Extended"
+msgstr "Cirílico Estendido"
+
+#: framework/theme-options/functions/functions.options.php:3076
+#@ invicta_dictionary
+msgid "Greek"
+msgstr "Grego"
+
+#: framework/theme-options/functions/functions.options.php:3084
+#@ invicta_dictionary
+msgid "Greek Extended"
+msgstr "Grego Estendido"
+
+#: framework/theme-options/functions/functions.options.php:3092
+#@ invicta_dictionary
+msgid "Khmer"
+msgstr "Khmer"
+
+#: framework/theme-options/functions/functions.options.php:3100
+#@ invicta_dictionary
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: framework/theme-options/functions/functions.options.php:3128
+#: includes/visual-composer.php:1641
+#@ invicta_dictionary
+msgid "Blog"
+msgstr "Blog"
+
+#: framework/theme-options/functions/functions.options.php:3133
+#@ invicta_dictionary
+msgid "Default Layout"
+msgstr "Layout por Defeito"
+
+#: framework/theme-options/functions/functions.options.php:3134
+#@ invicta_dictionary
+msgid "Specify how you want to display the posts"
+msgstr "Especifique como pretende apresentar os artigos"
+
+#: framework/theme-options/functions/functions.options.php:3150
+#@ invicta_dictionary
+msgid "Archive Layout"
+msgstr "Layout do Arquivo"
+
+#: framework/theme-options/functions/functions.options.php:3151
+#@ invicta_dictionary
+msgid "Specify how you want to display the archived posts"
+msgstr "Especifique como pretende apresentar o arquivo de artigos"
+
+#: framework/theme-options/functions/functions.options.php:3159
+#: framework/theme-options/functions/functions.options.php:3299
+#@ invicta_dictionary
+msgid "Date Format"
+msgstr "Formato da Data"
+
+#: framework/theme-options/functions/functions.options.php:3160
+#: framework/theme-options/functions/functions.options.php:3300
+#@ invicta_dictionary
+msgid "Read more about"
+msgstr "Ler mais sobre"
+
+#: framework/theme-options/functions/functions.options.php:3160
+#: framework/theme-options/functions/functions.options.php:3300
+#@ invicta_dictionary
+msgid "Formatting Date &amp; Time"
+msgstr "Formatação da Data &amp; Tempo"
+
+#: framework/theme-options/functions/functions.options.php:3217
+#@ invicta_dictionary
+msgid "Custom post-page title"
+msgstr "Titulo personalizado de artigo-pagina"
+
+#: framework/theme-options/functions/functions.options.php:3218
+#@ invicta_dictionary
+msgid "You could use a custom title for the Single Post Page, instead of the default's post title. <strong>e.g.: If you use the custom title 'Blog' all posts will have this same title</strong>"
+msgstr "Você pode utilizar um titulo personalizado para a página de detalhe do artigo, em vez do titulo do artigo. <strong>Exemplo: Se utilizar 'Blog' como titulo personalizado todas as páginas de artigos terão o mesmo título</strong>"
+
+#: framework/theme-options/functions/functions.options.php:3235
+#: framework/theme-options/functions/functions.options.php:3408
+#@ invicta_dictionary
+msgid "Share on Twitter"
+msgstr "Partilhar no Twitter"
+
+#: framework/theme-options/functions/functions.options.php:3236
+#: framework/theme-options/functions/functions.options.php:3409
+#@ invicta_dictionary
+msgid "Specify if you want to display a Twitter sharer button on the post page"
+msgstr "Especifique se pretende apresentar o botão de partilha no Twitter na página do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3245
+#: framework/theme-options/functions/functions.options.php:3418
+#@ invicta_dictionary
+msgid "Add <strong>via username</strong> to the tweet"
+msgstr "Adicione <strong>via username</strong> ao tweet"
+
+#: framework/theme-options/functions/functions.options.php:3254
+#: framework/theme-options/functions/functions.options.php:3427
+#@ invicta_dictionary
+msgid "Add <strong>hashtags</strong> to the tweet (comma separated)"
+msgstr "Adicione <strong>hashtags</strong> ao tweet (separadas por virgulas)"
+
+#: framework/theme-options/functions/functions.options.php:3263
+#: framework/theme-options/functions/functions.options.php:3436
+#@ invicta_dictionary
+msgid "Show Tweet counter"
+msgstr "Apresentar o contador do tweets"
+
+#: framework/theme-options/functions/functions.options.php:3271
+#: framework/theme-options/functions/functions.options.php:3444
+#@ invicta_dictionary
+msgid "Share on Facebook"
+msgstr "Partilhar no Facebook"
+
+#: framework/theme-options/functions/functions.options.php:3272
+#: framework/theme-options/functions/functions.options.php:3445
+#@ invicta_dictionary
+msgid "Specify if you want to display a Facebook Like button on the post page"
+msgstr "Especifique se pretende apresentar o botão de partilha no Facebook na página do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3307
+#@ invicta_dictionary
+msgid "Project Permalink Slug"
+msgstr "Slug da Ligação Permanente nos Projectos"
+
+#: framework/theme-options/functions/functions.options.php:3315
+#@ invicta_dictionary
+msgid "Project Sort"
+msgstr "Ordenação de Projectos"
+
+#: framework/theme-options/functions/functions.options.php:3316
+#@ invicta_dictionary
+msgid "How you want to sort your projects in the portfolio listing view?"
+msgstr "Como pretende ordenar os projectos na vista de listagem?"
+
+#: framework/theme-options/functions/functions.options.php:3377
+#@ invicta_dictionary
+msgid "Project Navigation"
+msgstr "Navegação de Projectos"
+
+#: framework/theme-options/functions/functions.options.php:3378
+#@ invicta_dictionary
+msgid "Specify if you want to display the project navigation links on each individual project page"
+msgstr "Especifique se pretende apresentar a navegação de projectos na página de detalhe de cada projecto"
+
+#: framework/theme-options/functions/functions.options.php:3386
+#@ invicta_dictionary
+msgid "Specify if you want to display a list of related projects on the individual project page"
+msgstr "Especifique se pretende apresentar os projectos relacionados na página de detalhe de cada projecto"
+
+#: framework/theme-options/functions/functions.options.php:3394
+#@ invicta_dictionary
+msgid "Related Projects Metadata"
+msgstr "Metadata de projectos relacionados"
+
+#: framework/theme-options/functions/functions.options.php:3621
+#@ invicta_dictionary
+msgid "Feeds Auth"
+msgstr "Autorização dos Feeds"
+
+#: framework/theme-options/functions/functions.options.php:3626
+#@ invicta_dictionary
+msgid "Twitter Authorization"
+msgstr "Autorização do Twitter"
+
+#: framework/theme-options/functions/functions.options.php:3665
+#@ invicta_dictionary
+msgid "Instagram Authorization"
+msgstr "Autorização do Instagram"
+
+#: framework/theme-options/functions/functions.options.php:3695
+#@ invicta_dictionary
+msgid "Maintenance"
+msgstr "Manutenção"
+
+#: framework/theme-options/functions/functions.options.php:3700
+#@ invicta_dictionary
+msgid "Maintenance Mode"
+msgstr "Modo de Manutenção"
+
+#: framework/theme-options/functions/functions.options.php:3701
+#@ invicta_dictionary
+msgid "The website will only be visible for the administrator"
+msgstr "O website será visível apenas para o administrador"
+
+#: framework/theme-options/functions/functions.options.php:3718
+#@ invicta_dictionary
+msgid "Message"
+msgstr "Mensagem"
+
+#: framework/theme-options/functions/functions.options.php:3720
+#@ invicta_dictionary
+msgid ""
+"We are preparing something new. Please come back soon.\n"
+"Meanwhile, stay in touch through the social networks."
+msgstr ""
+"Estamos a preparar algo novo. Por favor volte brevemente.\n"
+"Enquanto isso, esteja em contacto através das redes sociais."
+
+#: framework/theme-options/functions/functions.options.php:3726
+#@ invicta_dictionary
+msgid "Logo"
+msgstr "Logo"
+
+#: framework/theme-options/functions/functions.options.php:3727
+#@ invicta_dictionary
+msgid "Upload your logo to display at the top"
+msgstr "Carregue o logo para apresentar no topo"
+
+#: framework/theme-options/functions/functions.options.php:3735
+#@ invicta_dictionary
+msgid "Social Networks"
+msgstr "Redes Sociais"
+
+#: framework/theme-options/functions/functions.options.php:3736
+#@ invicta_dictionary
+msgid "Mail Address"
+msgstr "Endereço Email"
+
+#: framework/theme-options/functions/functions.options.php:3873
+#@ invicta_dictionary
+msgid "Backup and Restore Options"
+msgstr "Opções de Backup e Restauro"
+
+#: framework/theme-options/functions/functions.options.php:3877
+#@ invicta_dictionary
+msgid "You can use the two buttons below to backup your current options, and then restore it back at a later time. This is useful if you want to experiment on the options but would like to keep the old settings in case you need it back."
+msgstr "Você pode usar os dois botões abaixo para fazer backup das suas opções actuais, e mais tarde restaurá-las. Isto pode ser útil se pretender experimentar diferentes opções mantendo as anteriores para o caso de necessitar retroceder."
+
+#: framework/theme-options/functions/functions.options.php:3881
+#@ invicta_dictionary
+msgid "Transfer Theme Options Data"
+msgstr "Transferir dados da Opções do Tema"
+
+#: framework/theme-options/functions/functions.options.php:3885
+#@ invicta_dictionary
+msgid "You can tranfer the saved options data between different installs by copying the text inside the text box. To import data from another install, replace the data in the text box with the one from another install and click \"Import Options\"."
+msgstr "Você pode transferir opções de tema entre diferentes instalações, copiando o texto dentro desta caixa de texto. Para importar os dados de outra instalação, substitua o conteúdo da caixa de texto com o conteúdo de outra instalação e clique em \\\"Importar Opções\\\""
+
+#: framework/theme-options/front-end/options.php:43
+#: framework/theme-options/front-end/options.php:67
+#@ invicta_dictionary
+msgid "Save All Changes"
+msgstr "Guardar Alterações"
+
+#: framework/theme-options/front-end/options.php:68
+#@ invicta_dictionary
+msgid "Options Reset"
+msgstr "Repor Opções"
+
+#: 404.php:10
+#@ invicta_dictionary
+msgid "Sorry, the page you are looking for is not available right now.<br/>Maybe you want to perform a search?"
+msgstr "Lamentamos, a página que está à procura não está disponível de momento<br/>Talvez queira efectuar uma pesquisa?"
+
+#: framework/theme-options/functions/functions.options.php:1150
+#@ invicta_dictionary
+msgid "Custom CSS Code"
+msgstr "Código CSS Personalizado"
+
+#: framework/theme-options/functions/functions.options.php:1151
+#@ invicta_dictionary
+msgid "Add here your custom CSS code"
+msgstr "Adicione aqui o seu código CSS personalizado"
+
+#: framework/theme-options/functions/functions.options.php:286
+#@ invicta_dictionary
+msgid "Google Analytics Tracking Code"
+msgstr "Código de Rastreamento do Google Analytics"
+
+#: framework/theme-options/functions/functions.options.php:287
+#@ invicta_dictionary
+msgid "Add here your Google Analytics tracking code"
+msgstr "Adicione aqui o seu código de rastreamento do Google Analytics"
+
+#: framework/theme-options/functions/functions.options.php:1464
+#@ invicta_dictionary
+msgid "Photo Galleries"
+msgstr "Galerias de Fotos"
+
+#: framework/theme-options/functions/functions.options.php:1465
+#@ invicta_dictionary
+msgid "Select main content and sidebar alignment on Photo Gallery Pages"
+msgstr "Seleccione o posicionamento da área principal e da sidebar nas páginas de Galerias de Fotos"
+
+#: framework/theme-options/functions/functions.options.php:3279
+#@ invicta_dictionary
+msgid "Post Navigation"
+msgstr "Navegação dos Artigos"
+
+#: framework/theme-options/functions/functions.options.php:3280
+#@ invicta_dictionary
+msgid "Specify if you want to display the post navigation links on each individual post page"
+msgstr "Especifique se pretende apresentar a navegação de artigos nas página de detalhe do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3463
+#@ invicta_dictionary
+msgid "Gallery Sort"
+msgstr "Ordenação da Galeria"
+
+#: framework/theme-options/functions/functions.options.php:3464
+#@ invicta_dictionary
+msgid "How you want to sort your galleries in the gallery listing view?"
+msgstr "Como pretende ordenar as galerias na página de listagem?"
+
+#: framework/theme-options/functions/functions.options.php:3477
+#@ invicta_dictionary
+msgid "Photo Gallery Permalink Slug"
+msgstr "Slug da Ligação Permanente nas Galerias de Fotos"
+
+#: framework/theme-options/functions/functions.options.php:3494
+#@ invicta_dictionary
+msgid "Photo Gallery Columns"
+msgstr "Colunas nas Galerias de Fotos"
+
+#: framework/theme-options/functions/functions.options.php:3495
+#@ invicta_dictionary
+msgid "On how many columns do you want to display the photos in the single gallery page?"
+msgstr "Em quantas colunas pretende apresentar as fotos na página de galeria?"
+
+#: framework/theme-options/functions/functions.options.php:3515
+#@ invicta_dictionary
+msgid "Photo Behavior"
+msgstr "Comportamento da Foto"
+
+#: framework/theme-options/functions/functions.options.php:3516
+#@ invicta_dictionary
+msgid "What do you want to happen when user clicks on a photo?"
+msgstr "O que pretende que aconteça quando um utilizador clica na foto?"
+
+#: framework/theme-options/functions/functions.options.php:3523
+#@ invicta_dictionary
+msgid "Open in a Lightbox"
+msgstr "Abrir numa Lightbox"
+
+#: framework/theme-options/functions/functions.options.php:3524
+#@ invicta_dictionary
+msgid "Redirect to Attachment Page"
+msgstr "Redireccionar para a Página de Anexo"
+
+#: framework/theme-options/functions/functions.options.php:3458
+#: includes/frontend.php:440
+#: includes/post-types/photos.php:32
+#: includes/post-types/photos.php:44
+#@ invicta_dictionary
+msgid "Photos"
+msgstr "Fotos"
+
+#: includes/frontend.php:1659
+#@ invicta_dictionary
+msgid "All Galleries"
+msgstr "Todas as Galerias"
+
+#: includes/frontend.php:1762
+#@ invicta_dictionary
+msgid "Choose an album above to view their photos"
+msgstr "Escolha um album acima para ver as suas fotos"
+
+#: includes/frontend.php:1767
+#@ invicta_dictionary
+msgid "Choose a category above to view albums from that category"
+msgstr "Escolha uma categoria acima para ver os albuns dessa categoria"
+
+#: includes/post-types/photos.php:33
+#: includes/visual-composer.php:131
+#: includes/visual-composer.php:142
+#: search.php:54
+#@ invicta_dictionary
+msgid "Photo Gallery"
+msgstr "Galeria de Fotos"
+
+#: includes/post-types/photos.php:35
+#@ invicta_dictionary
+msgid "Add New Photo Gallery"
+msgstr "Adicionar nova Galeria de Fotos"
+
+#: includes/post-types/photos.php:36
+#@ invicta_dictionary
+msgid "Edit Photo Gallery"
+msgstr "Editar Galeria de Fotos"
+
+#: includes/post-types/photos.php:37
+#@ invicta_dictionary
+msgid "New Photo Gallery"
+msgstr "Nova Galeria de Fotos"
+
+#: includes/post-types/photos.php:39
+#@ invicta_dictionary
+msgid "View Photo Gallery"
+msgstr "Ver Galeria de Fotos"
+
+#: includes/post-types/photos.php:40
+#@ invicta_dictionary
+msgid "Search Photo Galleries"
+msgstr "Procurar Galeria de Fotos"
+
+#: includes/post-types/photos.php:41
+#@ invicta_dictionary
+msgid "No Photo Galleries found"
+msgstr "Nenhuma Galeria de Fotos encontrada"
+
+#: includes/post-types/photos.php:42
+#@ invicta_dictionary
+msgid "No Photo Galleries found in Trash"
+msgstr "Nenhuma Galeria de Fotos encontrada no Lixo"
+
+#: includes/post-types/photos.php:129
+#@ invicta_dictionary
+msgid "Photo Gallery updated."
+msgstr "Galeria de Fotos actualizada."
+
+#: includes/post-types/photos.php:130
+#, php-format
+#@ invicta_dictionary
+msgid "Photo Gallery restored to revision from %s"
+msgstr "Galeria de Fotos actualizada para a revisão a partir de %s"
+
+#: includes/post-types/photos.php:131
+#, php-format
+#@ invicta_dictionary
+msgid "Photo Gallery published. <a href=\"%s\">View Photo Gallery</a>"
+msgstr "Galeria de Fotos publicada. <a href=\"%s\">Ver Galeria de Fotos</a>"
+
+#: includes/post-types/photos.php:132
+#@ invicta_dictionary
+msgid "Photo Gallery saved."
+msgstr "Galeria de Fotos guardada."
+
+#: includes/post-types/photos.php:133
+#, php-format
+#@ invicta_dictionary
+msgid "Photo Gallery submitted. <a target=\"_blank\" href=\"%s\">Preview Photo Gallery</a>"
+msgstr "Galeria de Fotos submetida. <a target=\"_blank\" href=\"%s\">Pre-visualizar Galeria de Fotos</a>"
+
+#: includes/post-types/photos.php:134
+#, php-format
+#@ invicta_dictionary
+msgid "Photo Gallery scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Photo Gallery</a>"
+msgstr "Galeria de Fotos agendada para: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Pre-visualizar Galeria de Fotos</a>"
+
+#: includes/post-types/photos.php:135
+#, php-format
+#@ invicta_dictionary
+msgid "Photo Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview Photo Gallery</a>"
+msgstr "Rascunho de Galeria de Fotos actualizado. <a target=\"_blank\" href=\"%s\">Pre-visualizar Galeria de Fotos</a>"
+
+#: includes/visual-composer.php:2717
+#@ invicta_dictionary
+msgid "Number of Items"
+msgstr "Número de Items"
+
+#: includes/visual-composer.php:2807
+#@ invicta_dictionary
+msgid "Number of Tweets"
+msgstr "Número de Tweets"
+
+#: includes/visual-composer.php:1851
+#@ invicta_dictionary
+msgid "We can meet you by appointment from <b>Monday</b> to <b>Friday</b> between 10:00 and 17:00"
+msgstr "Podemos agendar uma reunião desde <b>Segunda</b> até <b>Sexta</b> entre as 10:00 e as 17:00"
+
+#: includes/visual-composer.php:1590
+#: includes/visual-composer.php:1651
+#@ invicta_dictionary
+msgid "Number of items"
+msgstr "Número de items"
+
+#: includes/widgets/instagram-feed.php:69
+#@ invicta_dictionary
+msgid "Number of Items?"
+msgstr "Número de Items?"
+
+#: includes/widgets/twitter-feed.php:85
+#@ invicta_dictionary
+msgid "Number of Tweets?"
+msgstr "Numero de Tweets?"
+
+#: template-parts/photos-entry.php:129
+#@ invicta_dictionary
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "foto"
+msgstr[1] "fotos"
+
+#: framework/theme-options/functions/functions.options.php:107
+#, php-format
+#@ invicta_dictionary
+msgid "Specify the slideshow to be displayed on the front page. You can create and manage slideshows under the %sRevolution Slider%s panel"
+msgstr "Especifique o slideshow a ser apresentado na homepage. Pode criar e gerir slideshows no painel %sRevolution Slider%s"
+
+#: framework/theme-options/functions/functions.options.php:3308
+#: framework/theme-options/functions/functions.options.php:3478
+#: framework/theme-options/functions/functions.options.php:3608
+#, php-format
+#@ invicta_dictionary
+msgid "Don't use characters that are not allowed in urls and make sure that this slug is not used anywhere else on your site (for example as a category or a page).<br/><br/>Ex.: if the slug is '%s' the link to the project will be %s<br/><br/><strong>Important:</strong> Every time you change this field you should update your permalinks structure. To do that just go to %sSettings > Permalinks%s and hit the Save Changes button."
+msgstr "Não use caracteres que não são permitidos em urls e confime que este slug não é usado em mais nenhum lado no seu site (por exemplo como categoria ou página).<br/><br/>Ex.: se o slug for '%s' o link para o projecto será %s<br/><br/><strong>Importante:</strong> Cada vez que alterar este campo deve actualizar a sua estrutura de ligações permanentes. Para tal vá até %sSettings > Permalinks%s e apenas clique no botão de Guardar Alterações."
+
+#: framework/theme-options/functions/functions.options.php:236
+#, php-format
+#@ invicta_dictionary
+msgid "Add this website as an App on your <strong>%device</strong>: tap %icon and then Add to Home Screen"
+msgstr "Adicione este website como uma aplicação no seu <strong>%device</strong>: toque no %icon e depois em Adicionar ao Ecrã Principal"
+
+#: framework/theme-options/functions/functions.options.php:2826
+#, php-format
+#@ invicta_dictionary
+msgid "All of this icons are based on the %s iconic font.<br/><br/>If you check their %sfull list of icons%s you will see that only some of them are included by default in the theme. If you want to include any other icon, please use the following field."
+msgstr "Todos estes icons são baseados na font de icons %s.<br/><br/>Se consultar a sua %slista de icons completa%s verá que apenas alguns estão incluidos por defeito no template. Se pretender incluir um outro icon, por favor use o campo seguinte."
+
+#: framework/theme-options/functions/functions.options.php:3108
+#, php-format
+#@ invicta_dictionary
+msgid "<p>Latin subset is already included by default.</p><p>Using many subsets will slow down your website, so only select subsets that you actually need.<br> Make sure the fonts you are using supports the chosen subsets. More info on %s</p>"
+msgstr "<p>O subconjunto de Latim está incluído por defeito.</p><p>Utilizar muitos subconjuntos irá tornar o seu site mais lento, portanto seleccione apenas aqueles que realmente precise<br> Confirme se os tipos de letra selecionados suportam os subconjuntos especificados. Mais informações em %s</p>"
+
+#: framework/theme-options/functions/functions.options.php:3659
+#, php-format
+#@ invicta_dictionary
+msgid "<p>In order to your Twitter Feed widgets work, you'll have to request permission to Twitter. Please login at %s, create a new application and generate an access token.</p><p>Twitter will provide you with a <strong>Consumer Key</strong>, a <strong>Consumer Secret</strong>, an <strong>Access Token</strong> and an <strong>Access Token Secret</strong> that you should copy and paste here.</p>"
+msgstr "<p>Para os seus widgets do Twitter funcionarem, deve solicitar permissão junto do Twitter. Por favor, faça login em %s, crie uma nova aplicação e gere um token de acesso.</p><p>O Twitter irá fornecer-lhe um <strong>Consumer Key</strong>, um <strong>Consumer Secret</strong>, um <strong>Access Token</strong> e um <strong>Access Token Secret</strong> que deverá copiar e colar aqui.</p>"
+
+#: framework/theme-options/functions/functions.options.php:3682
+#, php-format
+#@ invicta_dictionary
+msgid "<p>In order to your Instagram Feed widgets work, you'll have to request permission to Instagram. Please login at %s and create a new application</p><p>Instagram will provide you with a <strong>User ID</strong> and an <strong>Access Token</strong> that you should copy and paste here.</p>"
+msgstr "<p>Para os seus widgets do Instagram funcionarem, deve solicitar permissão junto do Instagram. Por favor, faça login em %s, crie uma nova aplicação e gere um token de acesso.</p><p>O Instagram irá fornecer-lhe um <strong>User ID</strong> e um <strong>Access Token</strong> que deverá copiar e colar aqui.</p>"
+
+#: framework/theme-options/functions/functions.options.php:322
+#@ invicta_dictionary
+msgid "Logo (Retina Version @2x)"
+msgstr "Logo (Vesão Retina @2x)"
+
+#: framework/theme-options/functions/functions.options.php:323
+#@ invicta_dictionary
+msgid "Please choose an image file for the retina version of the logo. It should be 2x the size of main logo."
+msgstr "Escolha uma imagem para a versão retina do logo. A imagem deve ter exactamente 2x o tamanho do logo principal."
+
+#: framework/theme-options/functions/functions.options.php:1332
+#@ invicta_dictionary
+msgid "Show Tagline"
+msgstr "Mostar Slogan"
+
+#: framework/theme-options/functions/functions.options.php:1473
+#@ invicta_dictionary
+msgid "Video Pages"
+msgstr "Páginas de Video"
+
+#: framework/theme-options/functions/functions.options.php:1474
+#@ invicta_dictionary
+msgid "Select main content and sidebar alignment on Video Pages"
+msgstr "Seleccione o posicionamento da área principal e da sidebar nas páginas de Video"
+
+#: framework/theme-options/functions/functions.options.php:3536
+#: includes/post-types/videos.php:32
+#: includes/post-types/videos.php:44
+#@ invicta_dictionary
+msgid "Videos"
+msgstr "Videos"
+
+#: framework/theme-options/functions/functions.options.php:3607
+#@ invicta_dictionary
+msgid "Video Permalink Slug"
+msgstr "Video Permalink Slug"
+
+#: framework/theme-options/functions/functions.options.php:3867
+#@ invicta_dictionary
+msgid "Backups"
+msgstr "Backups"
+
+#: includes/logic-hooks.php:606
+#, php-format
+#@ invicta_dictionary
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: includes/post-types/photos.php:38
+#@ invicta_dictionary
+msgid "All Photos"
+msgstr "Todas as Fotos"
+
+#: includes/post-types/videos.php:33
+#: includes/post-types/videos.php:311
+#: search.php:57
+#@ invicta_dictionary
+msgid "Video"
+msgstr "Video"
+
+#: includes/post-types/videos.php:35
+#@ invicta_dictionary
+msgid "Add New Video"
+msgstr "Adicionar Novo Video"
+
+#: includes/post-types/videos.php:36
+#@ invicta_dictionary
+msgid "Edit Video"
+msgstr "Editar Video"
+
+#: includes/post-types/videos.php:37
+#@ invicta_dictionary
+msgid "New Video"
+msgstr "Novo Video"
+
+#: includes/post-types/videos.php:38
+#@ invicta_dictionary
+msgid "All Videos"
+msgstr "Todos os Videos"
+
+#: includes/post-types/videos.php:39
+#@ invicta_dictionary
+msgid "View Video"
+msgstr "Ver Video"
+
+#: includes/post-types/videos.php:40
+#@ invicta_dictionary
+msgid "Search Videos"
+msgstr "Procurar Videos"
+
+#: includes/post-types/videos.php:41
+#@ invicta_dictionary
+msgid "No Videos found"
+msgstr "Nenhum Video encontrado"
+
+#: includes/post-types/videos.php:42
+#@ invicta_dictionary
+msgid "No Videos found in Trash"
+msgstr "Nenhum video encontrado no Lixo"
+
+#: includes/post-types/videos.php:126
+#@ invicta_dictionary
+msgid "Video updated."
+msgstr "Video actualizado."
+
+#: includes/post-types/videos.php:127
+#, php-format
+#@ invicta_dictionary
+msgid "Video restored to revision from %s"
+msgstr "Video restaurado para a revisão a partir de %s"
+
+#: includes/post-types/videos.php:128
+#, php-format
+#@ invicta_dictionary
+msgid "Video published. <a href=\"%s\">View Video</a>"
+msgstr "Video publicado. <a href=\"%s\">Ver Video</a>"
+
+#: includes/post-types/videos.php:129
+#@ invicta_dictionary
+msgid "Video saved."
+msgstr "Video guardado."
+
+#: includes/post-types/videos.php:130
+#, php-format
+#@ invicta_dictionary
+msgid "Video submitted. <a target=\"_blank\" href=\"%s\">Preview Video</a>"
+msgstr "Video submetido. <a target=\"_blank\" href=\"%s\">Pre-visualizar Video</a>"
+
+#: includes/post-types/videos.php:131
+#, php-format
+#@ invicta_dictionary
+msgid "Video scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Video</a>"
+msgstr "Video agendado para: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Pre-visualizar Video</a>"
+
+#: includes/post-types/videos.php:132
+#, php-format
+#@ invicta_dictionary
+msgid "Video draft updated. <a target=\"_blank\" href=\"%s\">Preview Video</a>"
+msgstr "Rascunho do video actualizado. <a target=\"_blank\" href=\"%s\">Pre-visualizar Video</a>"
+
+#: includes/post-types/videos.php:318
+#@ invicta_dictionary
+msgid "Video URL"
+msgstr "URL do Video"
+
+#: includes/post-types/videos.php:319
+#@ invicta_dictionary
+msgid "Specify the Vimeo or Youtube video URL"
+msgstr "Especifique o URL do video Vimeo ou Youtube"
+
+#: includes/shortcodes/iconbox.php:87
+#: includes/shortcodes/iconbox.php:95
+#@ invicta_dictionary
+msgid "Learn more about"
+msgstr "Saber mais acerca de"
+
+#: includes/visual-composer.php:218
+#@ invicta_dictionary
+msgid "h1"
+msgstr "h1"
+
+#: includes/visual-composer.php:219
+#@ invicta_dictionary
+msgid "h2"
+msgstr "h2"
+
+#: includes/visual-composer.php:220
+#@ invicta_dictionary
+msgid "h3"
+msgstr "h3"
+
+#: includes/visual-composer.php:221
+#@ invicta_dictionary
+msgid "h4"
+msgstr "h4"
+
+#: includes/visual-composer.php:222
+#@ invicta_dictionary
+msgid "h5"
+msgstr "h5"
+
+#: includes/visual-composer.php:223
+#@ invicta_dictionary
+msgid "h6"
+msgstr "h6"
+
+#: includes/visual-composer.php:253
+#@ invicta_dictionary
+msgid "Primary Line HTML Element"
+msgstr "Elemento HTML da linha principal"
+
+#: includes/visual-composer.php:255
+#@ invicta_dictionary
+msgid "HTML Element to wrap the title's primary line"
+msgstr "Elemento HTML para envolver a linha principal do título."
+
+#: includes/visual-composer.php:278
+#@ invicta_dictionary
+msgid "Secondary Line HTML Element"
+msgstr "Elemento HTML da linha secundária"
+
+#: includes/visual-composer.php:280
+#@ invicta_dictionary
+msgid "HTML Element to wrap the title's secondary line"
+msgstr "Elemento HTML para envolver a linha secundária do título."
+
+#: includes/visual-composer.php:349
+#@ invicta_dictionary
+msgid "I am test iconbox. Please populate me a couple of words."
+msgstr "Eu sou uma caixa de icon exemplo. Por favor acrescente-me algumas palavras."
+
+#: includes/visual-composer.php:2533
+#: includes/visual-composer.php:2703
+#: includes/visual-composer.php:2784
+#@ invicta_dictionary
+msgid "Social"
+msgstr "Social"
+
+#: template-parts/videos-entry.php:33
+#, php-format
+#@ invicta_dictionary
+msgid "Posted %1$s ago"
+msgstr "Colocado %1$s atrás"
+
+#: includes/visual-composer.php:227
+#@ invicta_dictionary
+msgid "Heading"
+msgstr "Título"
+
+#: includes/visual-composer.php:369
+#: includes/visual-composer.php:1331
+#@ invicta_dictionary
+msgid "Link"
+msgstr "Link"
+
+#: includes/visual-composer.php:389
+#@ invicta_dictionary
+msgid "Where should the link redirect to?"
+msgstr "Para onde deve o link redireccionar?"
+
+#: includes/visual-composer.php:1509
+#@ invicta_dictionary
+msgid "Letter"
+msgstr "Carta"
+
+#: includes/visual-composer.php:649
+#@ invicta_dictionary
+msgid "Activate Black & White Effect on Logos (works better on .jpg with background images)"
+msgstr "Active o efeito Preto & Branco nos logotipos (funciona melhor em imagens .jpg com fundo)"
+
+#: includes/visual-composer.php:651
+#@ invicta_dictionary
+msgid "Black White Effect"
+msgstr "Efeito Preto e Branco"
+
+#: includes/visual-composer.php:1548
+#@ invicta_dictionary
+msgid "Upload the author's signature image."
+msgstr "Carregue a imagem com a assinatura do autor."
+
+#: includes/visual-composer.php:1772
+#: includes/widgets/contacts.php:91
+#@ invicta_dictionary
+msgid "Link to your map. Visit <a href=\"http://maps.google.com/\">Google maps</a> to find your address and then click \"Link\" button to obtain your map link."
+msgstr "Link para o seu mapa. Visite o <a href=\"http://maps.google.com/\">Google maps</a> para encontrar o seu endereço e de seguida clique no botão \"Ligação\" para obter o link do seu mapa."
+
+#: framework/theme-options/functions/functions.options.php:2928
+#@ invicta_dictionary
+msgid "The following values are percentages (%) relatives to the body font size.<br/> If you set 200% and your body font size is 13px, the real value of the heading will be 26px."
+msgstr "Os seguintes valores são percentagens (%) relativas ao tamanho da letra do corpo do texto.<br/> Se especificar 200% e o tamanho da letra do corpo de texto for 13px, o valor real do título será 26px."
+
+#: includes/post-types/photos.php:126
+#, php-format
+#@ invicta_dictionary
+msgid "Photo Gallery updated. <a href=\"%s\">View Gallery</a>"
+msgstr "Galeria de Fotos actualizada. <a href=\"%s\">Ver Galeria</a>"
+
+#: includes/post-types/videos.php:123
+#, php-format
+#@ invicta_dictionary
+msgid "Video updated. <a href=\"%s\">View Video</a>"
+msgstr "Video actualizado. <a href=\"%s\">Ver Video</a>"
+
+#: framework/theme-options/functions/functions.options.php:187
+#@ invicta_dictionary
+msgid "Scroll to Top Button"
+msgstr "Botão Scroll para o Topo"
+
+#: framework/theme-options/functions/functions.options.php:188
+#@ invicta_dictionary
+msgid "Show a scroll to top button at the right-bottom corner of the page"
+msgstr "Apresentar o botão de scroll para o topo no canto inferior direito da página"
+
+#: framework/theme-options/functions/functions.options.php:296
+#@ invicta_dictionary
+msgid "Don't track logged-in-administrator activity"
+msgstr "Não rastrear a actividade para o administrador loggado"
+
+#: framework/theme-options/functions/functions.options.php:384
+#@ invicta_dictionary
+msgid "Styling"
+msgstr "Estilo"
+
+#: framework/theme-options/functions/functions.options.php:389
+#@ invicta_dictionary
+msgid "Boxed Layout"
+msgstr "Layout em Caixa"
+
+#: framework/theme-options/functions/functions.options.php:398
+#@ invicta_dictionary
+msgid "Boxed Layout > Vertical Margin"
+msgstr "Layout em Caixa > Margem Vertical"
+
+#: framework/theme-options/functions/functions.options.php:410
+#@ invicta_dictionary
+msgid "Boxed Layout > Drop Shadow"
+msgstr "Layout em Caixa > Sombra"
+
+#: framework/theme-options/functions/functions.options.php:411
+#@ invicta_dictionary
+msgid "Show Drop-Shadow"
+msgstr "Apresentar Sombra"
+
+#: framework/theme-options/functions/functions.options.php:419
+#@ invicta_dictionary
+msgid "Boxed Layout > Background Color"
+msgstr "Layout em Caixa > Cor de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:420
+#: framework/theme-options/functions/functions.options.php:497
+#: framework/theme-options/functions/functions.options.php:626
+#: framework/theme-options/functions/functions.options.php:756
+#: framework/theme-options/functions/functions.options.php:868
+#: framework/theme-options/functions/functions.options.php:1007
+#: framework/theme-options/functions/functions.options.php:1124
+#@ invicta_dictionary
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:428
+#@ invicta_dictionary
+msgid "Boxed Layout > Background Pattern"
+msgstr "Layout em Caixa > Padrão de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:438
+#@ invicta_dictionary
+msgid "Boxed Layout > Background Image"
+msgstr "Layout em Caixa > Imagem de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:439
+#@ invicta_dictionary
+msgid "If you specify a background image, it will overload the background pattern"
+msgstr "Se especificar uma imagem de fundo, o padrão de fundo será ignorado"
+
+#: framework/theme-options/functions/functions.options.php:448
+#@ invicta_dictionary
+msgid "Background Repeat"
+msgstr "Repetição do Fundo"
+
+#: framework/theme-options/functions/functions.options.php:454
+#: framework/theme-options/functions/functions.options.php:575
+#: framework/theme-options/functions/functions.options.php:705
+#: framework/theme-options/functions/functions.options.php:817
+#: framework/theme-options/functions/functions.options.php:956
+#@ invicta_dictionary
+msgid "No Repeat"
+msgstr "Não Repetir"
+
+#: framework/theme-options/functions/functions.options.php:455
+#: framework/theme-options/functions/functions.options.php:576
+#: framework/theme-options/functions/functions.options.php:706
+#: framework/theme-options/functions/functions.options.php:818
+#: framework/theme-options/functions/functions.options.php:957
+#@ invicta_dictionary
+msgid "Repeat"
+msgstr "Repetir"
+
+#: framework/theme-options/functions/functions.options.php:456
+#: framework/theme-options/functions/functions.options.php:577
+#: framework/theme-options/functions/functions.options.php:707
+#: framework/theme-options/functions/functions.options.php:819
+#: framework/theme-options/functions/functions.options.php:958
+#@ invicta_dictionary
+msgid "Tile Vertically"
+msgstr "Repetir Verticalmente"
+
+#: framework/theme-options/functions/functions.options.php:457
+#: framework/theme-options/functions/functions.options.php:578
+#: framework/theme-options/functions/functions.options.php:708
+#: framework/theme-options/functions/functions.options.php:820
+#: framework/theme-options/functions/functions.options.php:959
+#@ invicta_dictionary
+msgid "Tile Horizontally"
+msgstr "Repetir Horizontalmente"
+
+#: framework/theme-options/functions/functions.options.php:458
+#@ invicta_dictionary
+msgid "Stretch Fullscreen"
+msgstr "Ocupar o Ecrã Completo"
+
+#: framework/theme-options/functions/functions.options.php:464
+#@ invicta_dictionary
+msgid "Background Attachment"
+msgstr "Anexo do Fundo"
+
+#: framework/theme-options/functions/functions.options.php:470
+#: framework/theme-options/functions/functions.options.php:589
+#: framework/theme-options/functions/functions.options.php:720
+#: framework/theme-options/functions/functions.options.php:832
+#: framework/theme-options/functions/functions.options.php:971
+#@ invicta_dictionary
+msgid "Scroll"
+msgstr "Rolar"
+
+#: framework/theme-options/functions/functions.options.php:471
+#: framework/theme-options/functions/functions.options.php:590
+#: framework/theme-options/functions/functions.options.php:721
+#: framework/theme-options/functions/functions.options.php:833
+#: framework/theme-options/functions/functions.options.php:972
+#@ invicta_dictionary
+msgid "Fixed"
+msgstr "Fixo"
+
+#: framework/theme-options/functions/functions.options.php:477
+#@ invicta_dictionary
+msgid "Background Position"
+msgstr "Posição do Fundo"
+
+#: framework/theme-options/functions/functions.options.php:483
+#: framework/theme-options/functions/functions.options.php:601
+#: framework/theme-options/functions/functions.options.php:733
+#: framework/theme-options/functions/functions.options.php:845
+#: framework/theme-options/functions/functions.options.php:984
+#@ invicta_dictionary
+msgid "Top Left"
+msgstr "Cima Esquerda"
+
+#: framework/theme-options/functions/functions.options.php:484
+#: framework/theme-options/functions/functions.options.php:602
+#: framework/theme-options/functions/functions.options.php:734
+#: framework/theme-options/functions/functions.options.php:846
+#: framework/theme-options/functions/functions.options.php:985
+#@ invicta_dictionary
+msgid "Top Center"
+msgstr "Cima Centro"
+
+#: framework/theme-options/functions/functions.options.php:485
+#: framework/theme-options/functions/functions.options.php:603
+#: framework/theme-options/functions/functions.options.php:735
+#: framework/theme-options/functions/functions.options.php:847
+#: framework/theme-options/functions/functions.options.php:986
+#@ invicta_dictionary
+msgid "Top Right"
+msgstr "Cima Direita"
+
+#: framework/theme-options/functions/functions.options.php:486
+#: framework/theme-options/functions/functions.options.php:604
+#: framework/theme-options/functions/functions.options.php:736
+#: framework/theme-options/functions/functions.options.php:848
+#: framework/theme-options/functions/functions.options.php:987
+#@ invicta_dictionary
+msgid "Bottom Left"
+msgstr "Baixo Esquerda"
+
+#: framework/theme-options/functions/functions.options.php:487
+#: framework/theme-options/functions/functions.options.php:605
+#: framework/theme-options/functions/functions.options.php:737
+#: framework/theme-options/functions/functions.options.php:849
+#: framework/theme-options/functions/functions.options.php:988
+#@ invicta_dictionary
+msgid "Bottom Center"
+msgstr "Baixo Centro"
+
+#: framework/theme-options/functions/functions.options.php:488
+#: framework/theme-options/functions/functions.options.php:606
+#: framework/theme-options/functions/functions.options.php:738
+#: framework/theme-options/functions/functions.options.php:850
+#: framework/theme-options/functions/functions.options.php:989
+#@ invicta_dictionary
+msgid "Bottom Right"
+msgstr "Baixo Direita"
+
+#: framework/theme-options/functions/functions.options.php:489
+#: framework/theme-options/functions/functions.options.php:607
+#: framework/theme-options/functions/functions.options.php:739
+#: framework/theme-options/functions/functions.options.php:851
+#: framework/theme-options/functions/functions.options.php:990
+#@ invicta_dictionary
+msgid "Center Left"
+msgstr "Centro Esquerda"
+
+#: framework/theme-options/functions/functions.options.php:490
+#: framework/theme-options/functions/functions.options.php:608
+#: framework/theme-options/functions/functions.options.php:740
+#: framework/theme-options/functions/functions.options.php:852
+#: framework/theme-options/functions/functions.options.php:991
+#@ invicta_dictionary
+msgid "Center Center"
+msgstr "Centro Centro"
+
+#: framework/theme-options/functions/functions.options.php:491
+#: framework/theme-options/functions/functions.options.php:609
+#: framework/theme-options/functions/functions.options.php:741
+#: framework/theme-options/functions/functions.options.php:853
+#: framework/theme-options/functions/functions.options.php:992
+#@ invicta_dictionary
+msgid "Center Right"
+msgstr "Centro Direita"
+
+#: framework/theme-options/functions/functions.options.php:496
+#@ invicta_dictionary
+msgid "Base Styles"
+msgstr "Estilos Base"
+
+#: framework/theme-options/functions/functions.options.php:505
+#: framework/theme-options/functions/functions.options.php:635
+#: framework/theme-options/functions/functions.options.php:877
+#@ invicta_dictionary
+msgid "Background Color - Alternate"
+msgstr "Cor de Fundo - Alternativa"
+
+#: framework/theme-options/functions/functions.options.php:513
+#: framework/theme-options/functions/functions.options.php:644
+#: framework/theme-options/functions/functions.options.php:774
+#: framework/theme-options/functions/functions.options.php:895
+#: framework/theme-options/functions/functions.options.php:1016
+#: framework/theme-options/functions/functions.options.php:1052
+#: framework/theme-options/functions/functions.options.php:1133
+#@ invicta_dictionary
+msgid "Text Color"
+msgstr "Cor do Texto"
+
+#: framework/theme-options/functions/functions.options.php:521
+#: framework/theme-options/functions/functions.options.php:653
+#: framework/theme-options/functions/functions.options.php:783
+#: framework/theme-options/functions/functions.options.php:904
+#: framework/theme-options/functions/functions.options.php:1025
+#@ invicta_dictionary
+msgid "Text Color - Alternate"
+msgstr "Cor do Texto - Alternativa"
+
+#: framework/theme-options/functions/functions.options.php:529
+#: framework/theme-options/functions/functions.options.php:913
+#@ invicta_dictionary
+msgid "Text Color - Titles"
+msgstr "Cor do Texto - Titulos"
+
+#: framework/theme-options/functions/functions.options.php:545
+#: framework/theme-options/functions/functions.options.php:922
+#@ invicta_dictionary
+msgid "Graphics Color (icons, borders, tables, etc)"
+msgstr "Cor dos Gráficos (icons, bordas, tabelas, etc)"
+
+#: framework/theme-options/functions/functions.options.php:553
+#: framework/theme-options/functions/functions.options.php:680
+#: framework/theme-options/functions/functions.options.php:792
+#: framework/theme-options/functions/functions.options.php:931
+#@ invicta_dictionary
+msgid "Background Pattern"
+msgstr "Padrão de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:562
+#: framework/theme-options/functions/functions.options.php:690
+#: framework/theme-options/functions/functions.options.php:802
+#: framework/theme-options/functions/functions.options.php:941
+#@ invicta_dictionary
+msgid "Background Image"
+msgstr "Imagem de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:570
+#: framework/theme-options/functions/functions.options.php:699
+#: framework/theme-options/functions/functions.options.php:811
+#: framework/theme-options/functions/functions.options.php:950
+#@ invicta_dictionary
+msgid "Background Image Repeat"
+msgstr "Repetição da Imagem de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:584
+#: framework/theme-options/functions/functions.options.php:714
+#: framework/theme-options/functions/functions.options.php:826
+#: framework/theme-options/functions/functions.options.php:965
+#@ invicta_dictionary
+msgid "Background Image Attachment"
+msgstr "Anexo da Imagem de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:596
+#: framework/theme-options/functions/functions.options.php:727
+#: framework/theme-options/functions/functions.options.php:839
+#: framework/theme-options/functions/functions.options.php:978
+#@ invicta_dictionary
+msgid "Background Image Position"
+msgstr "Posição da Imagem de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:616
+#@ invicta_dictionary
+msgid "Header Styles"
+msgstr "Estilos do Header"
+
+#: framework/theme-options/functions/functions.options.php:617
+#: framework/theme-options/functions/functions.options.php:747
+#: framework/theme-options/functions/functions.options.php:859
+#: framework/theme-options/functions/functions.options.php:998
+#: framework/theme-options/functions/functions.options.php:1043
+#: framework/theme-options/functions/functions.options.php:1115
+#@ invicta_dictionary
+msgid "Override Base Styles"
+msgstr "Ultrapassar Estilos Base"
+
+#: framework/theme-options/functions/functions.options.php:662
+#@ invicta_dictionary
+msgid "Borders Color"
+msgstr "Cor da Borda"
+
+#: framework/theme-options/functions/functions.options.php:671
+#@ invicta_dictionary
+msgid "Top Border Line Color"
+msgstr "Cor da Linha do Topo"
+
+#: framework/theme-options/functions/functions.options.php:746
+#@ invicta_dictionary
+msgid "Title Area Styles"
+msgstr "Estilos da Área de Titulo"
+
+#: framework/theme-options/functions/functions.options.php:765
+#: framework/theme-options/functions/functions.options.php:886
+#@ invicta_dictionary
+msgid "Border Color"
+msgstr "Cor da Borda"
+
+#: framework/theme-options/functions/functions.options.php:858
+#@ invicta_dictionary
+msgid "Footer Styles"
+msgstr "Estilos do Footer"
+
+#: framework/theme-options/functions/functions.options.php:997
+#@ invicta_dictionary
+msgid "Socket Styles"
+msgstr "Estilos da Área de Rodapé"
+
+#: framework/theme-options/functions/functions.options.php:1034
+#@ invicta_dictionary
+msgid "Bottom Border Line Color"
+msgstr "Cor da Linha de Fundo"
+
+#: framework/theme-options/functions/functions.options.php:1042
+#@ invicta_dictionary
+msgid "Menu Styles"
+msgstr "Estilos do Menu"
+
+#: framework/theme-options/functions/functions.options.php:1061
+#@ invicta_dictionary
+msgid "Accent Color (hover, active, etc.)"
+msgstr "Cor de Destaque (hover, activo, etc.)"
+
+#: framework/theme-options/functions/functions.options.php:1070
+#@ invicta_dictionary
+msgid "Child Nodes Background Color"
+msgstr "Cor de Fundo dos Nós Filhos"
+
+#: framework/theme-options/functions/functions.options.php:1079
+#@ invicta_dictionary
+msgid "Child Nodes Background Color - Alternate"
+msgstr "Cor de Fundo dos Nós Filhos - Alternativa"
+
+#: framework/theme-options/functions/functions.options.php:1088
+#@ invicta_dictionary
+msgid "Child Nodes Divider Color - Top"
+msgstr "Cor do Divisor dos Nós Filhos - Cima"
+
+#: framework/theme-options/functions/functions.options.php:1097
+#@ invicta_dictionary
+msgid "Child Nodes Divider Color - Bottom"
+msgstr "Cor do Divisor dos Nós Filhos - Baixo"
+
+#: framework/theme-options/functions/functions.options.php:1106
+#@ invicta_dictionary
+msgid "Arrows Color"
+msgstr "Cor das Setas"
+
+#: framework/theme-options/functions/functions.options.php:1114
+#@ invicta_dictionary
+msgid "Hover Effect Styles"
+msgstr "Estilos do Efeito Hover"
+
+#: framework/theme-options/functions/functions.options.php:1142
+#@ invicta_dictionary
+msgid "Other Styles"
+msgstr "Outros Estilos"
+
+#: framework/theme-options/functions/functions.options.php:1143
+#@ invicta_dictionary
+msgid "Front Page Slideshow Border Color"
+msgstr "Cor da Borda do Slideshow da Página Principal"
+
+#: includes/visual-composer.php:1860
+#@ invicta_dictionary
+msgid "Add animation to the timepsan"
+msgstr "Adicionar animação ao intervalo de tempo"
+
+#: framework/theme-options/functions/functions.options.php:3485
+#@ invicta_dictionary
+msgid "Show photos in mosaic"
+msgstr "Mostrar fotos em mosaico"
+
+#: framework/theme-options/functions/functions.options.php:3541
+#@ invicta_dictionary
+msgid "Videos List Page"
+msgstr "Página de Listagem de Videos"
+
+#: framework/theme-options/functions/functions.options.php:3542
+#@ invicta_dictionary
+msgid "Video Sort"
+msgstr "Ordenação dos Videos"
+
+#: framework/theme-options/functions/functions.options.php:3556
+#@ invicta_dictionary
+msgid "Show Popular Videos Carousel"
+msgstr "Mostrar Carrossel de Videos Populares"
+
+#: framework/theme-options/functions/functions.options.php:3565
+#@ invicta_dictionary
+msgid "Show Videos by Category Carousel"
+msgstr "Mostrar Carrossel de Videos por Categoria"
+
+#: framework/theme-options/functions/functions.options.php:3574
+#@ invicta_dictionary
+msgid "Num. of items per Carousel"
+msgstr "Num. de items por Carrossel"
+
+#: framework/theme-options/functions/functions.options.php:3581
+#@ invicta_dictionary
+msgid "Video Detail Page"
+msgstr "Página de Detalhe do Vídeo"
+
+#: framework/theme-options/functions/functions.options.php:3582
+#@ invicta_dictionary
+msgid "Show Related Videos"
+msgstr "Mostrar Videos Relacionados"
+
+#: framework/theme-options/functions/functions.options.php:3591
+#@ invicta_dictionary
+msgid "Show Other Videos"
+msgstr "Mostrar Outros Vídeos"
+
+#: framework/theme-options/functions/functions.options.php:3600
+#@ invicta_dictionary
+msgid "Num. of items per List"
+msgstr "Num. de items por lista"
+
+#: includes/visual-composer.php:955
+#@ invicta_dictionary
+msgid "Testimonial Carousel"
+msgstr "Carrossel de Testemunhos"
+
+#: includes/visual-composer.php:965
+#@ invicta_dictionary
+msgid "Carousel Timeout"
+msgstr "Tempo limite do Carrossel"
+
+#: includes/visual-composer.php:968
+#@ invicta_dictionary
+msgid "Don't auto scroll"
+msgstr "Não rodar automaticamente"
+
+#: includes/visual-composer.php:969
+#@ invicta_dictionary
+msgid "5 seconds"
+msgstr "5 segundos"
+
+#: includes/visual-composer.php:970
+#@ invicta_dictionary
+msgid "6 seconds"
+msgstr "6 segundos"
+
+#: includes/visual-composer.php:971
+#@ invicta_dictionary
+msgid "7 seconds"
+msgstr "7 segundos"
+
+#: includes/visual-composer.php:972
+#@ invicta_dictionary
+msgid "8 seconds"
+msgstr "8 segundos"
+
+#: includes/visual-composer.php:973
+#@ invicta_dictionary
+msgid "9 seconds"
+msgstr "9 segundos"
+
+#: includes/visual-composer.php:974
+#@ invicta_dictionary
+msgid "10 seconds"
+msgstr "10 segundos"
+
+#: includes/visual-composer.php:975
+#@ invicta_dictionary
+msgid "11 seconds"
+msgstr "11 segundos"
+
+#: includes/visual-composer.php:976
+#@ invicta_dictionary
+msgid "12 seconds"
+msgstr "12 segundos"
+
+#: includes/visual-composer.php:977
+#@ invicta_dictionary
+msgid "13 seconds"
+msgstr "13 segundos"
+
+#: includes/visual-composer.php:978
+#@ invicta_dictionary
+msgid "14 seconds"
+msgstr "14 segundos"
+
+#: includes/visual-composer.php:979
+#@ invicta_dictionary
+msgid "15 seconds"
+msgstr "15 segundos"
+
+#: includes/visual-composer.php:986
+#@ invicta_dictionary
+msgid "Background Label"
+msgstr "Etiqueta de Fundo"
+
+#: includes/visual-composer.php:994
+#@ invicta_dictionary
+msgid "Testimonial #1"
+msgstr "Testemunho #1"
+
+#: includes/visual-composer.php:1019
+#: includes/visual-composer.php:1066
+#: includes/visual-composer.php:1113
+#: includes/visual-composer.php:1160
+#: includes/visual-composer.php:1207
+#: includes/visual-composer.php:1254
+#@ invicta_dictionary
+msgid "Testimonial Text"
+msgstr "Texto do Testemunho"
+
+#: includes/visual-composer.php:1041
+#@ invicta_dictionary
+msgid "Testimonial #2"
+msgstr "Testemunho #2"
+
+#: includes/visual-composer.php:1088
+#@ invicta_dictionary
+msgid "Testimonial #3"
+msgstr "Testemunho #3"
+
+#: includes/visual-composer.php:1135
+#@ invicta_dictionary
+msgid "Testimonial #4"
+msgstr "Testemunho #4"
+
+#: includes/visual-composer.php:1182
+#@ invicta_dictionary
+msgid "Testimonial #5"
+msgstr "Testemunho #5"
+
+#: includes/visual-composer.php:1229
+#@ invicta_dictionary
+msgid "Testimonial #6"
+msgstr "Testemunho #6"
+
+#: includes/visual-composer.php:1654
+#@ invicta_dictionary
+msgid "How many posts should be displayed?"
+msgstr "Quantos posts devem ser apresentados?"
+
+#: includes/visual-composer.php:1663
+#@ invicta_dictionary
+msgid "Which categories should be used?"
+msgstr "Que categorias devem ser usadas?"
+
+#: includes/visual-composer.php:1884
+#@ invicta_dictionary
+msgid "World Map"
+msgstr "Mapa Mundo"
+
+#: includes/visual-composer.php:1895
+#: includes/visual-composer.php:1968
+#: includes/visual-composer.php:2041
+#@ invicta_dictionary
+msgid "Label Visibility"
+msgstr "Visibilidade das Etiquetas"
+
+#: includes/visual-composer.php:1897
+#: includes/visual-composer.php:1970
+#: includes/visual-composer.php:2043
+#@ invicta_dictionary
+msgid "Always"
+msgstr "Sempre"
+
+#: includes/visual-composer.php:1898
+#: includes/visual-composer.php:1971
+#: includes/visual-composer.php:2044
+#@ invicta_dictionary
+msgid "On Mouse Hover"
+msgstr "Ao passar o rato por cima"
+
+#: includes/visual-composer.php:1899
+#: includes/visual-composer.php:1972
+#: includes/visual-composer.php:2045
+#@ invicta_dictionary
+msgid "Never"
+msgstr "Nunca"
+
+#: includes/visual-composer.php:1906
+#: includes/visual-composer.php:1979
+#: includes/visual-composer.php:2052
+#@ invicta_dictionary
+msgid "Label Position Offset"
+msgstr "Posição Compensada da Etiqueta"
+
+#: includes/visual-composer.php:1907
+#: includes/visual-composer.php:1980
+#: includes/visual-composer.php:2053
+#@ invicta_dictionary
+msgid "in pixels"
+msgstr "em pixeis"
+
+#: includes/visual-composer.php:1915
+#: includes/visual-composer.php:1988
+#: includes/visual-composer.php:2061
+#@ invicta_dictionary
+msgid "Initial Animation Timeout"
+msgstr "Intervalo de tempo da Animação Inicial"
+
+#: includes/visual-composer.php:1916
+#: includes/visual-composer.php:1989
+#: includes/visual-composer.php:2062
+#@ invicta_dictionary
+msgid "The delay (miliseconds) between each marker display"
+msgstr "O atraso (milisegundos) na apresentação de cada marcador"
+
+#: includes/visual-composer.php:1924
+#: includes/visual-composer.php:1997
+#: includes/visual-composer.php:2070
+#@ invicta_dictionary
+msgid "Locations"
+msgstr "Localizações"
+
+#: single-invicta_videos.php:76
+#: template-parts/videos-featured.php:58
+#, php-format
+#@ invicta_dictionary
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] "%1$s comentário"
+msgstr[1] "%1$s comentários"
+
+#: single-invicta_videos.php:138
+#@ invicta_dictionary
+msgid "Related Videos"
+msgstr "Videos Relacionados"
+
+#: single-invicta_videos.php:186
+#@ invicta_dictionary
+msgid "Other Videos"
+msgstr "Outros Vídeos"
+
+#: template-parts/blog-entry-shortcode.php:10
+#@ invicta_dictionary
+msgid " Continue Reading"
+msgstr "Continuar a Ler"
+
+#: template-parts/videos-carousels.php:30
+#@ invicta_dictionary
+msgid "Popular Videos"
+msgstr "Videos Populares"
+
+#: template-parts/videos-featured.php:66
+#@ invicta_dictionary
+msgid "View Details"
+msgstr "Ver Detalhes"
+
+#: framework/theme-options/functions/functions.options.php:170
+#@ invicta_dictionary
+msgid "Use Parallax Effect"
+msgstr "Usar Efeito Parallax"
+
+#: framework/theme-options/functions/functions.options.php:179
+#@ invicta_dictionary
+msgid "Parallax Image Height (px)"
+msgstr "Altura da Imagem Parallax (px)"
+
+#: framework/theme-options/functions/functions.options.php:278
+#@ invicta_dictionary
+msgid "Custom JavaScript Code"
+msgstr "Código JavaScript Personalizado"
+
+#: framework/theme-options/functions/functions.options.php:279
+#@ invicta_dictionary
+msgid "Add here your custom JavaScript code"
+msgstr "Adicione aqui o seu código JavaScript personalizado"
+
+#: includes/shortcodes/person.php:206
+#@ invicta_dictionary
+msgid " View More"
+msgstr "Ver Mais"
+
+#: includes/visual-composer.php:597
+#@ invicta_dictionary
+msgid "Counters"
+msgstr "Contadores"
+
+#: includes/visual-composer.php:610
+#@ invicta_dictionary
+msgid "Add animation to the counters"
+msgstr "Adicionar animação aos contadores"
+
+#: includes/visual-composer.php:617
+#@ invicta_dictionary
+msgid "Counters Values"
+msgstr "Valores dos Contadores"
+
+#: includes/visual-composer.php:620
+#@ invicta_dictionary
+msgid "Input counters values here. Divide values with linebreaks (Enter). Example: 85|Products"
+msgstr "Introduza os valores dos contadores aqui. Separe os valores com quebras de linha (Enter). Exemplo: 85|Produtos"
+
+#: includes/visual-composer.php:1314
+#@ invicta_dictionary
+msgid "Excerpt"
+msgstr "Excerto"
+
+#: framework/theme-options/functions/functions.options.php:1170
+#@ invicta_dictionary
+msgid "Fixed Header"
+msgstr "Header Fixo"
+
+#: framework/theme-options/functions/functions.options.php:1171
+#@ invicta_dictionary
+msgid "If the header is Fixed it will be always visible, even when user scrolls down the page"
+msgstr "Se o header estiver fixo, ele estará sempre visível, mesmo quando os utilizadores fizerem scroll na página."
+
+#: framework/theme-options/functions/functions.options.php:1385
+#@ invicta_dictionary
+msgid "Hide dummy widgets from footer<br/> when their sidebars are empty"
+msgstr "Esconder os widgets fictícios do footer<br/> quando as suas sidebars estiverem vazias"
+
+#: includes/visual-composer.php:1957
+#@ invicta_dictionary
+msgid "Europe Map"
+msgstr "Mapa da Europa"
+
+#: includes/visual-composer.php:2323
+#@ invicta_dictionary
+msgid "Call to Action"
+msgstr "Chamada para Acção"
+
+#: includes/visual-composer.php:2333
+#@ invicta_dictionary
+msgid "[Text] Primary Line"
+msgstr "[Texto] Linha Primária"
+
+#: includes/visual-composer.php:2335
+#@ invicta_dictionary
+msgid "Call to action title"
+msgstr "Título"
+
+#: includes/visual-composer.php:2341
+#@ invicta_dictionary
+msgid "[Text] Primary Line Keywords"
+msgstr "[Texto] Keywords da linha primária"
+
+#: includes/visual-composer.php:2349
+#@ invicta_dictionary
+msgid "[Text] Secondary Line"
+msgstr "[Texto] Linha Secundária"
+
+#: includes/visual-composer.php:2351
+#@ invicta_dictionary
+msgid "Call to action short description"
+msgstr ""
+
+#: includes/visual-composer.php:2357
+#@ invicta_dictionary
+msgid "[Text] Secondary Line Keywords"
+msgstr "[Texto] Palavras-chave da linha secundária"
+
+#: includes/visual-composer.php:2367
+#@ invicta_dictionary
+msgid "[Button] Label"
+msgstr "[Botão] Label"
+
+#: includes/visual-composer.php:2375
+#@ invicta_dictionary
+msgid "[Button] Link"
+msgstr "[Botão] Link"
+
+#: includes/visual-composer.php:2383
+#: includes/visual-composer.php:2395
+#: includes/visual-composer.php:2407
+#: includes/visual-composer.php:2419
+#: includes/visual-composer.php:2432
+#@ invicta_dictionary
+msgid "[Button] Where should the button link to?"
+msgstr "[Botão] Para onde o botão deve redireccionar?"
+
+#: includes/visual-composer.php:2443
+#@ invicta_dictionary
+msgid "[Button] Link Target"
+msgstr "[Botão] Destino do Link"
+
+#: includes/visual-composer.php:2455
+#@ invicta_dictionary
+msgid "[Button] Button Size"
+msgstr "[Botão] Tamanho do botão"
+
+#: includes/visual-composer.php:2468
+#@ invicta_dictionary
+msgid "[Button] Button Color"
+msgstr "[Botão] Cor do Botão"
+
+#: includes/visual-composer.php:2485
+#@ invicta_dictionary
+msgid "[Button] Button Icon"
+msgstr "[Botão] Icon do Botão"
+
+#: includes/visual-composer.php:2493
+#@ invicta_dictionary
+msgid "[Button] Icon Position"
+msgstr "[Botão] Posição do Icon"
+
+#: includes/visual-composer.php:2509
+#@ invicta_dictionary
+msgid "Style #3"
+msgstr "Estilo #3"
+
+#: includes/visual-composer.php:2510
+#@ invicta_dictionary
+msgid "Style #4"
+msgstr "Estilo #4"
+
+#: includes/visual-composer.php:2511
+#@ invicta_dictionary
+msgid "Style #5"
+msgstr "Estilo #5"
+
+#: includes/widgets/social-links.php:28
+#@ invicta_dictionary
+msgid "A widget to display a set of social links"
+msgstr "Widget que apresenta um conjunto de links para as redes sociais"
+
+#: framework/theme-options/classes/class.options_machine.php:773
+#@ invicta_dictionary
+msgid "Upload"
+msgstr "Upload"
+
+#: framework/theme-options/functions/functions.options.php:117
+#@ invicta_dictionary
+msgid "Show the breadcrumb trail on the page title"
+msgstr "Mostrar o breadcrumb no titulo da página"
+
+#: framework/theme-options/functions/functions.options.php:126
+#@ invicta_dictionary
+msgid "Custom prefix eg.: <strong>\"You are here:\"</strong>"
+msgstr "Prefixo personalizado ex.: <strong>\"Você está aqui:\"</strong>"
+
+#: framework/theme-options/functions/functions.options.php:135
+#@ invicta_dictionary
+msgid "Separator"
+msgstr "Separador"
+
+#: framework/theme-options/functions/functions.options.php:144
+#@ invicta_dictionary
+msgid "Home Node Name"
+msgstr "Nome do nó inicial"
+
+#: framework/theme-options/functions/functions.options.php:1341
+#, php-format
+#@ invicta_dictionary
+msgid "Show WPML Language Switcher<br/><small>%s plugin must be installed</small>"
+msgstr "Mostrar modificador de idioma WPML<br/><small>O plugin %s deve estar instalado</small>"
+
+#: framework/theme-options/functions/functions.options.php:1350
+#, php-format
+#@ invicta_dictionary
+msgid "Show WooCommerce Cart DropDown<br/><small>%s plugin must be installed</small>"
+msgstr "Mostrar a DropDown do carrinho de compras WooCommerce<br/><small>O plugin %s deve estar instalado</small>"
+
+#: framework/theme-options/functions/functions.options.php:1484
+#@ invicta_dictionary
+msgid "Shop Pages"
+msgstr "Páginas da Loja"
+
+#: framework/theme-options/functions/functions.options.php:1485
+#@ invicta_dictionary
+msgid "Select main content and sidebar alignment on Shop Pages"
+msgstr "Select main content and sidebar alignment on Shop Pages"
+
+#: framework/theme-options/functions/functions.options.php:2872
+#@ invicta_dictionary
+msgid "This is my preview text!"
+msgstr "Isto é uma amostra do texto!"
+
+#: framework/theme-options/functions/functions.options.php:3143
+#@ invicta_dictionary
+msgid "Activate clean style<br/> <small>(no container around each post)</small>"
+msgstr "Activar o estilo limpo<br/> <small>(sem contorno à volta de cada artigo)</small>"
+
+#: framework/theme-options/functions/functions.options.php:3168
+#@ invicta_dictionary
+msgid "Show post author"
+msgstr "Mostrar autor do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3177
+#@ invicta_dictionary
+msgid "Show post author details"
+msgstr "Mostar detalhes do autor do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3186
+#@ invicta_dictionary
+msgid "Show post date"
+msgstr "Mostrar data do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3194
+#@ invicta_dictionary
+msgid "Show post categories"
+msgstr "Mostrar categorias do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3202
+#@ invicta_dictionary
+msgid "Show post comments"
+msgstr "Mostrar comentários do artigo"
+
+#: framework/theme-options/functions/functions.options.php:3210
+#@ invicta_dictionary
+msgid "Show post tags"
+msgstr "Mostrar etiquetas do artigo"
+
+#: includes/frontend.php:1132
+#@ invicta_dictionary
+msgid "Previous product"
+msgstr "Produto anterior"
+
+#: includes/frontend.php:1143
+#@ invicta_dictionary
+msgid "Next product"
+msgstr "Próximo produto"
+
+#: includes/visual-composer.php:2030
+#@ invicta_dictionary
+msgid "USA Map"
+msgstr "Mapa EUA"
+
+#: includes/woocommerce/admin-settings.php:93
+#@ invicta_dictionary
+msgid "Column and Product Count"
+msgstr "Número de Colunas e Produtos"
+
+#: includes/woocommerce/admin-settings.php:95
+#@ invicta_dictionary
+msgid "The following settings allow you to choose how many columns and items should appear on your default shop overview page and your product archive pages.<br/><small>Notice: These options are added by the <strong>Invicta Theme</strong> and wont appear on other themes</small>"
+msgstr "The following settings allow you to choose how many columns and items should appear on your default shop overview page and your product archive pages.<br/><small>Notice: These options are added by the <strong>Invicta Theme</strong> and wont appear on other themes</small>"
+
+#: includes/woocommerce/admin-settings.php:100
+#@ invicta_dictionary
+msgid "Column Count"
+msgstr "Número de Colunas"
+
+#: includes/woocommerce/admin-settings.php:105
+#@ invicta_dictionary
+msgid "How many columns should appear on overview pages."
+msgstr "Quantas colunas devem aparecer nas páginas de listagem."
+
+#: includes/woocommerce/admin-settings.php:119
+#@ invicta_dictionary
+msgid "Product Count"
+msgstr "Número de Produtos"
+
+#: includes/woocommerce/admin-settings.php:123
+#@ invicta_dictionary
+msgid "This controls how many products should appear on overview pages."
+msgstr "Controla quantos produtos devem aparecer nas páginas de listagem."
+
+#: includes/woocommerce/frontend.php:67
+#@ invicta_dictionary
+msgid "Shop"
+msgstr "Loja"
+
+#: includes/woocommerce/frontend.php:262
+#@ invicta_dictionary
+msgid "Select options"
+msgstr "Seleccionar opções"
+
+#: includes/woocommerce/frontend.php:438
+#@ invicta_dictionary
+msgid "Search results for"
+msgstr "Resultados de pesquisa para"
+
+#: includes/woocommerce/frontend.php:492
+#@ invicta_dictionary
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: includes/woocommerce/frontend.php:530
+#@ invicta_dictionary
+msgid "was added to the cart"
+msgstr "foi adicionado ao carrinho"
+
+#: includes/woocommerce/frontend.php:599
+#@ invicta_dictionary
+msgid "Default Order"
+msgstr "Ordem por defeito"
+
+#: includes/woocommerce/frontend.php:603
+#@ invicta_dictionary
+msgid "Popularity"
+msgstr "Popularidade"
+
+#: includes/woocommerce/frontend.php:607
+#@ invicta_dictionary
+msgid "Click to order products ascending"
+msgstr "Clique para ordenar produtos de forma crescente"
+
+#: includes/woocommerce/frontend.php:608
+#@ invicta_dictionary
+msgid "Click to order products descending"
+msgstr "Clique para ordenar produtos de forma descendente"
+
+#: includes/woocommerce/frontend.php:612
+#@ invicta_dictionary
+msgid "Products per page"
+msgstr "Produtos por página"
+
+#: includes/woocommerce/frontend.php:644
+#@ invicta_dictionary
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: includes/woocommerce/frontend.php:670
+#@ invicta_dictionary
+msgid "Display"
+msgstr "Mostrar"
+
+#: framework/theme-options/functions/functions.options.php:2866
+#@ invicta_dictionary
+msgid "Body Font"
+msgstr "Tipo de Letra Principal"
+
+#: framework/theme-options/functions/functions.options.php:2867
+#@ invicta_dictionary
+msgid "Select a font for body text"
+msgstr "Seleccione um tipo de letra "
+
+#: framework/theme-options/functions/functions.options.php:2891
+#@ invicta_dictionary
+msgid "Select a font for headings"
+msgstr "Seleccione um tipo de letra para os cabeçalhos"
+
+#: framework/theme-options/functions/functions.options.php:3012
+#@ invicta_dictionary
+msgid "Select a font for the main menu"
+msgstr "Seleccione um tipo de letra para o Menu"
+
+#: framework/theme-options/functions/functions.admin.php:49
+#, php-format
+#@ invicta_dictionary
+msgid "This theme comes with an <a href=\"%s\"\">options panel</a> to configure settings. This theme also supports widgets, please visit the <a href=\"%s\">widgets settings page</a> to configure them."
+msgstr "Este tema vem com um <a href=\"%s\"\">painel de opções</a> para configurar vários aspectos do site. Este tema também suporta widgets, por favor visite a <a href=\"%s\">página de widgets</a> para os configurar."
+
+#: framework/theme-options/classes/class.options_machine.php:557
+#@ invicta_dictionary
+msgid "Backup Options"
+msgstr ""
+
+#: framework/theme-options/classes/class.options_machine.php:558
+#@ invicta_dictionary
+msgid "Restore Options"
+msgstr ""
+
+#: framework/theme-options/functions/functions.options.php:202
+#@ invicta_dictionary
+msgid "Only Pages"
+msgstr ""
+
+#: framework/theme-options/functions/functions.options.php:203
+#@ invicta_dictionary
+msgid "Only Posts"
+msgstr ""
+
+#: includes/flags.php:6
+#@ invicta_dictionary
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/flags.php:7
+#: includes/flags.php:255
+#@ invicta_dictionary
+msgid "Albania"
+msgstr ""
+
+#: includes/flags.php:8
+#@ invicta_dictionary
+msgid "Algeria"
+msgstr ""
+
+#: includes/flags.php:9
+#@ invicta_dictionary
+msgid "American Samoa"
+msgstr ""
+
+#: includes/flags.php:10
+#: includes/flags.php:256
+#@ invicta_dictionary
+msgid "Andorra"
+msgstr ""
+
+#: includes/flags.php:11
+#@ invicta_dictionary
+msgid "Angola"
+msgstr ""
+
+#: includes/flags.php:12
+#@ invicta_dictionary
+msgid "Anguilla"
+msgstr ""
+
+#: includes/flags.php:13
+#@ invicta_dictionary
+msgid "Antarctica"
+msgstr ""
+
+#: includes/flags.php:14
+#@ invicta_dictionary
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/flags.php:15
+#@ invicta_dictionary
+msgid "Argentina"
+msgstr ""
+
+#: includes/flags.php:16
+#@ invicta_dictionary
+msgid "Armenia"
+msgstr ""
+
+#: includes/flags.php:17
+#@ invicta_dictionary
+msgid "Aruba"
+msgstr ""
+
+#: includes/flags.php:18
+#@ invicta_dictionary
+msgid "Australia"
+msgstr ""
+
+#: includes/flags.php:19
+#: includes/flags.php:257
+#@ invicta_dictionary
+msgid "Austria"
+msgstr ""
+
+#: includes/flags.php:20
+#: includes/flags.php:258
+#@ invicta_dictionary
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/flags.php:21
+#@ invicta_dictionary
+msgid "Bahrain"
+msgstr ""
+
+#: includes/flags.php:22
+#@ invicta_dictionary
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/flags.php:23
+#@ invicta_dictionary
+msgid "Barbados"
+msgstr ""
+
+#: includes/flags.php:24
+#: includes/flags.php:259
+#@ invicta_dictionary
+msgid "Belarus"
+msgstr ""
+
+#: includes/flags.php:25
+#: includes/flags.php:260
+#@ invicta_dictionary
+msgid "Belgium"
+msgstr ""
+
+#: includes/flags.php:26
+#@ invicta_dictionary
+msgid "Belize"
+msgstr ""
+
+#: includes/flags.php:27
+#@ invicta_dictionary
+msgid "Benin"
+msgstr ""
+
+#: includes/flags.php:28
+#@ invicta_dictionary
+msgid "Bermuda"
+msgstr ""
+
+#: includes/flags.php:29
+#@ invicta_dictionary
+msgid "Bhutan"
+msgstr ""
+
+#: includes/flags.php:30
+#@ invicta_dictionary
+msgid "Bolivia"
+msgstr ""
+
+#: includes/flags.php:31
+#: includes/flags.php:261
+#@ invicta_dictionary
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/flags.php:32
+#@ invicta_dictionary
+msgid "Botswana"
+msgstr ""
+
+#: includes/flags.php:33
+#@ invicta_dictionary
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/flags.php:34
+#@ invicta_dictionary
+msgid "Brazil"
+msgstr ""
+
+#: includes/flags.php:35
+#@ invicta_dictionary
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/flags.php:36
+#@ invicta_dictionary
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/flags.php:37
+#@ invicta_dictionary
+msgid "Brunei"
+msgstr ""
+
+#: includes/flags.php:38
+#: includes/flags.php:262
+#@ invicta_dictionary
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/flags.php:39
+#@ invicta_dictionary
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/flags.php:40
+#@ invicta_dictionary
+msgid "Burma"
+msgstr ""
+
+#: includes/flags.php:41
+#@ invicta_dictionary
+msgid "Burundi"
+msgstr ""
+
+#: includes/flags.php:42
+#@ invicta_dictionary
+msgid "Cambodia"
+msgstr ""
+
+#: includes/flags.php:43
+#@ invicta_dictionary
+msgid "Cameroon"
+msgstr ""
+
+#: includes/flags.php:44
+#@ invicta_dictionary
+msgid "Canada"
+msgstr ""
+
+#: includes/flags.php:45
+#@ invicta_dictionary
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/flags.php:46
+#@ invicta_dictionary
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/flags.php:47
+#@ invicta_dictionary
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/flags.php:48
+#@ invicta_dictionary
+msgid "Chad"
+msgstr ""
+
+#: includes/flags.php:49
+#@ invicta_dictionary
+msgid "Chile"
+msgstr ""
+
+#: includes/flags.php:50
+#@ invicta_dictionary
+msgid "China"
+msgstr ""
+
+#: includes/flags.php:51
+#@ invicta_dictionary
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/flags.php:52
+#@ invicta_dictionary
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/flags.php:53
+#@ invicta_dictionary
+msgid "Colombia"
+msgstr ""
+
+#: includes/flags.php:54
+#@ invicta_dictionary
+msgid "Comoros"
+msgstr ""
+
+#: includes/flags.php:55
+#@ invicta_dictionary
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: includes/flags.php:56
+#@ invicta_dictionary
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/flags.php:57
+#@ invicta_dictionary
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/flags.php:58
+#@ invicta_dictionary
+msgid "Cote d Ivoire"
+msgstr ""
+
+#: includes/flags.php:59
+#: includes/flags.php:263
+#@ invicta_dictionary
+msgid "Croatia"
+msgstr ""
+
+#: includes/flags.php:60
+#@ invicta_dictionary
+msgid "Cuba"
+msgstr ""
+
+#: includes/flags.php:61
+#: includes/flags.php:264
+#@ invicta_dictionary
+msgid "Cyprus"
+msgstr ""
+
+#: includes/flags.php:62
+#: includes/flags.php:265
+#@ invicta_dictionary
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/flags.php:63
+#@ invicta_dictionary
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#: includes/flags.php:64
+#: includes/flags.php:266
+#@ invicta_dictionary
+msgid "Denmark"
+msgstr ""
+
+#: includes/flags.php:65
+#@ invicta_dictionary
+msgid "Djibouti"
+msgstr ""
+
+#: includes/flags.php:66
+#@ invicta_dictionary
+msgid "Dominica"
+msgstr ""
+
+#: includes/flags.php:67
+#@ invicta_dictionary
+msgid "Ecuador"
+msgstr ""
+
+#: includes/flags.php:68
+#@ invicta_dictionary
+msgid "Egypt"
+msgstr ""
+
+#: includes/flags.php:69
+#@ invicta_dictionary
+msgid "El Salvador"
+msgstr ""
+
+#: includes/flags.php:70
+#@ invicta_dictionary
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/flags.php:71
+#@ invicta_dictionary
+msgid "Eritrea"
+msgstr ""
+
+#: includes/flags.php:72
+#: includes/flags.php:267
+#@ invicta_dictionary
+msgid "Estonia"
+msgstr ""
+
+#: includes/flags.php:73
+#@ invicta_dictionary
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/flags.php:74
+#@ invicta_dictionary
+msgid "Falkland Islands (Islas Malvinas)"
+msgstr ""
+
+#: includes/flags.php:75
+#@ invicta_dictionary
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/flags.php:76
+#@ invicta_dictionary
+msgid "Federated States of Micronesia"
+msgstr ""
+
+#: includes/flags.php:77
+#@ invicta_dictionary
+msgid "Fiji"
+msgstr ""
+
+#: includes/flags.php:78
+#: includes/flags.php:268
+#@ invicta_dictionary
+msgid "Finland"
+msgstr ""
+
+#: includes/flags.php:79
+#: includes/flags.php:269
+#@ invicta_dictionary
+msgid "France"
+msgstr ""
+
+#: includes/flags.php:80
+#@ invicta_dictionary
+msgid "French Guiana"
+msgstr ""
+
+#: includes/flags.php:81
+#@ invicta_dictionary
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/flags.php:82
+#@ invicta_dictionary
+msgid "French Southern and Antarctic Lands"
+msgstr ""
+
+#: includes/flags.php:83
+#@ invicta_dictionary
+msgid "Gabon"
+msgstr ""
+
+#: includes/flags.php:84
+#@ invicta_dictionary
+msgid "Gaza Strip"
+msgstr ""
+
+#: includes/flags.php:85
+#: includes/flags.php:270
+#: includes/flags.php:323
+#@ invicta_dictionary
+msgid "Georgia"
+msgstr ""
+
+#: includes/flags.php:86
+#: includes/flags.php:271
+#@ invicta_dictionary
+msgid "Germany"
+msgstr ""
+
+#: includes/flags.php:87
+#@ invicta_dictionary
+msgid "Ghana"
+msgstr ""
+
+#: includes/flags.php:88
+#@ invicta_dictionary
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/flags.php:89
+#: includes/flags.php:272
+#@ invicta_dictionary
+msgid "Greece"
+msgstr ""
+
+#: includes/flags.php:90
+#@ invicta_dictionary
+msgid "Greenland"
+msgstr ""
+
+#: includes/flags.php:91
+#@ invicta_dictionary
+msgid "Grenada"
+msgstr ""
+
+#: includes/flags.php:92
+#@ invicta_dictionary
+msgid "Guam"
+msgstr ""
+
+#: includes/flags.php:93
+#@ invicta_dictionary
+msgid "Guatemala"
+msgstr ""
+
+#: includes/flags.php:94
+#@ invicta_dictionary
+msgid "Guernsey"
+msgstr ""
+
+#: includes/flags.php:95
+#@ invicta_dictionary
+msgid "Guinea"
+msgstr ""
+
+#: includes/flags.php:96
+#@ invicta_dictionary
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/flags.php:97
+#@ invicta_dictionary
+msgid "Guyana"
+msgstr ""
+
+#: includes/flags.php:98
+#@ invicta_dictionary
+msgid "Haiti"
+msgstr ""
+
+#: includes/flags.php:99
+#@ invicta_dictionary
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/flags.php:100
+#: includes/flags.php:273
+#@ invicta_dictionary
+msgid "Vatican City"
+msgstr ""
+
+#: includes/flags.php:101
+#@ invicta_dictionary
+msgid "Honduras"
+msgstr ""
+
+#: includes/flags.php:102
+#@ invicta_dictionary
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/flags.php:103
+#: includes/flags.php:274
+#@ invicta_dictionary
+msgid "Hungary"
+msgstr ""
+
+#: includes/flags.php:104
+#: includes/flags.php:275
+#@ invicta_dictionary
+msgid "Iceland"
+msgstr ""
+
+#: includes/flags.php:105
+#@ invicta_dictionary
+msgid "India"
+msgstr ""
+
+#: includes/flags.php:106
+#@ invicta_dictionary
+msgid "Indonesia"
+msgstr ""
+
+#: includes/flags.php:107
+#@ invicta_dictionary
+msgid "Iran"
+msgstr ""
+
+#: includes/flags.php:108
+#@ invicta_dictionary
+msgid "Iraq"
+msgstr ""
+
+#: includes/flags.php:109
+#: includes/flags.php:276
+#@ invicta_dictionary
+msgid "Ireland"
+msgstr ""
+
+#: includes/flags.php:110
+#@ invicta_dictionary
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/flags.php:111
+#@ invicta_dictionary
+msgid "Israel"
+msgstr ""
+
+#: includes/flags.php:112
+#: includes/flags.php:277
+#@ invicta_dictionary
+msgid "Italy"
+msgstr ""
+
+#: includes/flags.php:113
+#@ invicta_dictionary
+msgid "Jamaica"
+msgstr ""
+
+#: includes/flags.php:114
+#@ invicta_dictionary
+msgid "Japan"
+msgstr ""
+
+#: includes/flags.php:115
+#@ invicta_dictionary
+msgid "Jersey"
+msgstr ""
+
+#: includes/flags.php:116
+#@ invicta_dictionary
+msgid "Jordan"
+msgstr ""
+
+#: includes/flags.php:117
+#@ invicta_dictionary
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/flags.php:118
+#@ invicta_dictionary
+msgid "Kenya"
+msgstr ""
+
+#: includes/flags.php:119
+#@ invicta_dictionary
+msgid "Kiribati"
+msgstr ""
+
+#: includes/flags.php:120
+#@ invicta_dictionary
+msgid "Kuwait"
+msgstr ""
+
+#: includes/flags.php:121
+#@ invicta_dictionary
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/flags.php:122
+#@ invicta_dictionary
+msgid "Laos"
+msgstr ""
+
+#: includes/flags.php:123
+#: includes/flags.php:278
+#@ invicta_dictionary
+msgid "Latvia"
+msgstr ""
+
+#: includes/flags.php:124
+#@ invicta_dictionary
+msgid "Lebanon"
+msgstr ""
+
+#: includes/flags.php:125
+#@ invicta_dictionary
+msgid "Lesotho"
+msgstr ""
+
+#: includes/flags.php:126
+#@ invicta_dictionary
+msgid "Liberia"
+msgstr ""
+
+#: includes/flags.php:127
+#@ invicta_dictionary
+msgid "Libya"
+msgstr ""
+
+#: includes/flags.php:128
+#: includes/flags.php:279
+#@ invicta_dictionary
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/flags.php:129
+#: includes/flags.php:280
+#@ invicta_dictionary
+msgid "Lithuania"
+msgstr ""
+
+#: includes/flags.php:130
+#: includes/flags.php:281
+#@ invicta_dictionary
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/flags.php:131
+#@ invicta_dictionary
+msgid "Macau"
+msgstr ""
+
+#: includes/flags.php:132
+#: includes/flags.php:282
+#@ invicta_dictionary
+msgid "Macedonia"
+msgstr ""
+
+#: includes/flags.php:133
+#@ invicta_dictionary
+msgid "Madagascar"
+msgstr ""
+
+#: includes/flags.php:134
+#@ invicta_dictionary
+msgid "Malawi"
+msgstr ""
+
+#: includes/flags.php:135
+#@ invicta_dictionary
+msgid "Malaysia"
+msgstr ""
+
+#: includes/flags.php:136
+#@ invicta_dictionary
+msgid "Maldives"
+msgstr ""
+
+#: includes/flags.php:137
+#@ invicta_dictionary
+msgid "Mali"
+msgstr ""
+
+#: includes/flags.php:138
+#: includes/flags.php:283
+#@ invicta_dictionary
+msgid "Malta"
+msgstr ""
+
+#: includes/flags.php:139
+#@ invicta_dictionary
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/flags.php:140
+#@ invicta_dictionary
+msgid "Mauritania"
+msgstr ""
+
+#: includes/flags.php:141
+#@ invicta_dictionary
+msgid "Mauritius"
+msgstr ""
+
+#: includes/flags.php:142
+#@ invicta_dictionary
+msgid "Mayotte"
+msgstr ""
+
+#: includes/flags.php:143
+#@ invicta_dictionary
+msgid "Mexico"
+msgstr ""
+
+#: includes/flags.php:144
+#: includes/flags.php:284
+#@ invicta_dictionary
+msgid "Moldova"
+msgstr ""
+
+#: includes/flags.php:145
+#: includes/flags.php:285
+#@ invicta_dictionary
+msgid "Monaco"
+msgstr ""
+
+#: includes/flags.php:146
+#@ invicta_dictionary
+msgid "Mongolia"
+msgstr ""
+
+#: includes/flags.php:147
+#: includes/flags.php:286
+#@ invicta_dictionary
+msgid "Montenegro"
+msgstr ""
+
+#: includes/flags.php:148
+#@ invicta_dictionary
+msgid "Montserrat"
+msgstr ""
+
+#: includes/flags.php:149
+#@ invicta_dictionary
+msgid "Morocco"
+msgstr ""
+
+#: includes/flags.php:150
+#@ invicta_dictionary
+msgid "Mozambique"
+msgstr ""
+
+#: includes/flags.php:151
+#@ invicta_dictionary
+msgid "Namibia"
+msgstr ""
+
+#: includes/flags.php:152
+#@ invicta_dictionary
+msgid "Nauru"
+msgstr ""
+
+#: includes/flags.php:153
+#@ invicta_dictionary
+msgid "Nepal"
+msgstr ""
+
+#: includes/flags.php:154
+#: includes/flags.php:287
+#@ invicta_dictionary
+msgid "Netherlands"
+msgstr ""
+
+#: includes/flags.php:155
+#@ invicta_dictionary
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/flags.php:156
+#@ invicta_dictionary
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/flags.php:157
+#@ invicta_dictionary
+msgid "New Zealand"
+msgstr ""
+
+#: includes/flags.php:158
+#@ invicta_dictionary
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/flags.php:159
+#@ invicta_dictionary
+msgid "Niger"
+msgstr ""
+
+#: includes/flags.php:160
+#@ invicta_dictionary
+msgid "Nigeria"
+msgstr ""
+
+#: includes/flags.php:161
+#@ invicta_dictionary
+msgid "Niue"
+msgstr ""
+
+#: includes/flags.php:162
+#@ invicta_dictionary
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/flags.php:163
+#@ invicta_dictionary
+msgid "North Korea"
+msgstr ""
+
+#: includes/flags.php:164
+#@ invicta_dictionary
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/flags.php:165
+#: includes/flags.php:288
+#@ invicta_dictionary
+msgid "Norway"
+msgstr ""
+
+#: includes/flags.php:166
+#@ invicta_dictionary
+msgid "Oman"
+msgstr ""
+
+#: includes/flags.php:167
+#@ invicta_dictionary
+msgid "Pakistan"
+msgstr ""
+
+#: includes/flags.php:168
+#@ invicta_dictionary
+msgid "Palau"
+msgstr ""
+
+#: includes/flags.php:169
+#@ invicta_dictionary
+msgid "Panama"
+msgstr ""
+
+#: includes/flags.php:170
+#@ invicta_dictionary
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/flags.php:171
+#@ invicta_dictionary
+msgid "Paraguay"
+msgstr ""
+
+#: includes/flags.php:172
+#@ invicta_dictionary
+msgid "Peru"
+msgstr ""
+
+#: includes/flags.php:173
+#@ invicta_dictionary
+msgid "Philippines"
+msgstr ""
+
+#: includes/flags.php:174
+#@ invicta_dictionary
+msgid "Pitcairn Islands"
+msgstr ""
+
+#: includes/flags.php:175
+#: includes/flags.php:289
+#@ invicta_dictionary
+msgid "Poland"
+msgstr ""
+
+#: includes/flags.php:176
+#: includes/flags.php:290
+#@ invicta_dictionary
+msgid "Portugal"
+msgstr ""
+
+#: includes/flags.php:177
+#@ invicta_dictionary
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/flags.php:178
+#@ invicta_dictionary
+msgid "Qatar"
+msgstr ""
+
+#: includes/flags.php:179
+#: includes/flags.php:291
+#@ invicta_dictionary
+msgid "Romania"
+msgstr ""
+
+#: includes/flags.php:180
+#: includes/flags.php:292
+#@ invicta_dictionary
+msgid "Russia"
+msgstr ""
+
+#: includes/flags.php:181
+#@ invicta_dictionary
+msgid "Rwanda"
+msgstr ""
+
+#: includes/flags.php:182
+#@ invicta_dictionary
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/flags.php:183
+#@ invicta_dictionary
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/flags.php:184
+#@ invicta_dictionary
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/flags.php:185
+#@ invicta_dictionary
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/flags.php:186
+#@ invicta_dictionary
+msgid "Samoa"
+msgstr ""
+
+#: includes/flags.php:187
+#: includes/flags.php:293
+#@ invicta_dictionary
+msgid "San Marino"
+msgstr ""
+
+#: includes/flags.php:188
+#@ invicta_dictionary
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/flags.php:189
+#@ invicta_dictionary
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/flags.php:190
+#@ invicta_dictionary
+msgid "Senegal"
+msgstr ""
+
+#: includes/flags.php:191
+#: includes/flags.php:294
+#@ invicta_dictionary
+msgid "Serbia"
+msgstr ""
+
+#: includes/flags.php:192
+#@ invicta_dictionary
+msgid "Seychelles"
+msgstr ""
+
+#: includes/flags.php:193
+#@ invicta_dictionary
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/flags.php:194
+#@ invicta_dictionary
+msgid "Singapore"
+msgstr ""
+
+#: includes/flags.php:195
+#: includes/flags.php:295
+#@ invicta_dictionary
+msgid "Slovakia"
+msgstr ""
+
+#: includes/flags.php:196
+#: includes/flags.php:296
+#@ invicta_dictionary
+msgid "Slovenia"
+msgstr ""
+
+#: includes/flags.php:197
+#@ invicta_dictionary
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/flags.php:198
+#@ invicta_dictionary
+msgid "Somalia"
+msgstr ""
+
+#: includes/flags.php:199
+#@ invicta_dictionary
+msgid "South Africa"
+msgstr ""
+
+#: includes/flags.php:200
+#@ invicta_dictionary
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: includes/flags.php:201
+#@ invicta_dictionary
+msgid "South Korea"
+msgstr ""
+
+#: includes/flags.php:202
+#: includes/flags.php:297
+#@ invicta_dictionary
+msgid "Spain"
+msgstr ""
+
+#: includes/flags.php:203
+#@ invicta_dictionary
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/flags.php:204
+#@ invicta_dictionary
+msgid "Sudan"
+msgstr ""
+
+#: includes/flags.php:205
+#@ invicta_dictionary
+msgid "Suriname"
+msgstr ""
+
+#: includes/flags.php:206
+#@ invicta_dictionary
+msgid "Svalbard"
+msgstr ""
+
+#: includes/flags.php:207
+#@ invicta_dictionary
+msgid "Swaziland"
+msgstr ""
+
+#: includes/flags.php:208
+#: includes/flags.php:298
+#@ invicta_dictionary
+msgid "Sweden"
+msgstr ""
+
+#: includes/flags.php:209
+#: includes/flags.php:299
+#@ invicta_dictionary
+msgid "Switzerland"
+msgstr ""
+
+#: includes/flags.php:210
+#@ invicta_dictionary
+msgid "Syria"
+msgstr ""
+
+#: includes/flags.php:211
+#@ invicta_dictionary
+msgid "Taiwan"
+msgstr ""
+
+#: includes/flags.php:212
+#@ invicta_dictionary
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/flags.php:213
+#@ invicta_dictionary
+msgid "Tanzania"
+msgstr ""
+
+#: includes/flags.php:214
+#@ invicta_dictionary
+msgid "Thailand"
+msgstr ""
+
+#: includes/flags.php:215
+#@ invicta_dictionary
+msgid "The Bahamas"
+msgstr ""
+
+#: includes/flags.php:216
+#@ invicta_dictionary
+msgid "The Dominican"
+msgstr ""
+
+#: includes/flags.php:217
+#@ invicta_dictionary
+msgid "The Gambia"
+msgstr ""
+
+#: includes/flags.php:218
+#@ invicta_dictionary
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/flags.php:219
+#@ invicta_dictionary
+msgid "Togo"
+msgstr ""
+
+#: includes/flags.php:220
+#@ invicta_dictionary
+msgid "Tokelau"
+msgstr ""
+
+#: includes/flags.php:221
+#@ invicta_dictionary
+msgid "Tonga"
+msgstr ""
+
+#: includes/flags.php:222
+#@ invicta_dictionary
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/flags.php:223
+#@ invicta_dictionary
+msgid "Tunisia"
+msgstr ""
+
+#: includes/flags.php:224
+#: includes/flags.php:300
+#@ invicta_dictionary
+msgid "Turkey"
+msgstr ""
+
+#: includes/flags.php:225
+#@ invicta_dictionary
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/flags.php:226
+#@ invicta_dictionary
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/flags.php:227
+#@ invicta_dictionary
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/flags.php:228
+#@ invicta_dictionary
+msgid "Uganda"
+msgstr ""
+
+#: includes/flags.php:229
+#: includes/flags.php:301
+#@ invicta_dictionary
+msgid "Ukraine"
+msgstr ""
+
+#: includes/flags.php:230
+#@ invicta_dictionary
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/flags.php:231
+#: includes/flags.php:302
+#@ invicta_dictionary
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/flags.php:232
+#@ invicta_dictionary
+msgid "United States"
+msgstr ""
+
+#: includes/flags.php:233
+#@ invicta_dictionary
+msgid "Uruguay"
+msgstr ""
+
+#: includes/flags.php:234
+#@ invicta_dictionary
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/flags.php:235
+#@ invicta_dictionary
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/flags.php:236
+#@ invicta_dictionary
+msgid "Venezuela"
+msgstr ""
+
+#: includes/flags.php:237
+#@ invicta_dictionary
+msgid "Vietnam"
+msgstr ""
+
+#: includes/flags.php:238
+#@ invicta_dictionary
+msgid "Virgin Islands"
+msgstr ""
+
+#: includes/flags.php:239
+#@ invicta_dictionary
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/flags.php:240
+#@ invicta_dictionary
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/flags.php:241
+#@ invicta_dictionary
+msgid "Yemen"
+msgstr ""
+
+#: includes/flags.php:242
+#@ invicta_dictionary
+msgid "Zambia"
+msgstr ""
+
+#: includes/flags.php:243
+#@ invicta_dictionary
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/flags.php:314
+#@ invicta_dictionary
+msgid "Alabama"
+msgstr ""
+
+#: includes/flags.php:316
+#@ invicta_dictionary
+msgid "Arizona"
+msgstr ""
+
+#: includes/flags.php:317
+#@ invicta_dictionary
+msgid "Arkansas"
+msgstr ""
+
+#: includes/flags.php:318
+#@ invicta_dictionary
+msgid "California"
+msgstr ""
+
+#: includes/flags.php:319
+#@ invicta_dictionary
+msgid "Colorado"
+msgstr ""
+
+#: includes/flags.php:320
+#@ invicta_dictionary
+msgid "Connecticut"
+msgstr ""
+
+#: includes/flags.php:321
+#@ invicta_dictionary
+msgid "Delaware"
+msgstr ""
+
+#: includes/flags.php:322
+#@ invicta_dictionary
+msgid "Florida"
+msgstr ""
+
+#: includes/flags.php:325
+#@ invicta_dictionary
+msgid "Idaho"
+msgstr ""
+
+#: includes/flags.php:326
+#@ invicta_dictionary
+msgid "Illinois"
+msgstr ""
+
+#: includes/flags.php:327
+#@ invicta_dictionary
+msgid "Indiana"
+msgstr ""
+
+#: includes/flags.php:328
+#@ invicta_dictionary
+msgid "Iowa"
+msgstr ""
+
+#: includes/flags.php:329
+#@ invicta_dictionary
+msgid "Kansas"
+msgstr ""
+
+#: includes/flags.php:330
+#@ invicta_dictionary
+msgid "Kentucky"
+msgstr ""
+
+#: includes/flags.php:331
+#@ invicta_dictionary
+msgid "Louisiana"
+msgstr ""
+
+#: includes/flags.php:332
+#@ invicta_dictionary
+msgid "Maine"
+msgstr ""
+
+#: includes/flags.php:333
+#@ invicta_dictionary
+msgid "Maryland"
+msgstr ""
+
+#: includes/flags.php:334
+#@ invicta_dictionary
+msgid "Massachusetts"
+msgstr ""
+
+#: includes/flags.php:335
+#@ invicta_dictionary
+msgid "Michigan"
+msgstr ""
+
+#: includes/flags.php:336
+#@ invicta_dictionary
+msgid "Minnesota"
+msgstr ""
+
+#: includes/flags.php:337
+#@ invicta_dictionary
+msgid "Mississippi"
+msgstr ""
+
+#: includes/flags.php:338
+#@ invicta_dictionary
+msgid "Missouri"
+msgstr ""
+
+#: includes/flags.php:339
+#@ invicta_dictionary
+msgid "Montana"
+msgstr ""
+
+#: includes/flags.php:340
+#@ invicta_dictionary
+msgid "Nebraska"
+msgstr ""
+
+#: includes/flags.php:341
+#@ invicta_dictionary
+msgid "Nevada"
+msgstr ""
+
+#: includes/flags.php:342
+#@ invicta_dictionary
+msgid "New Hampshire"
+msgstr ""
+
+#: includes/flags.php:343
+#@ invicta_dictionary
+msgid "New Jersey"
+msgstr ""
+
+#: includes/flags.php:344
+#@ invicta_dictionary
+msgid "New Mexico"
+msgstr ""
+
+#: includes/flags.php:345
+#@ invicta_dictionary
+msgid "New York"
+msgstr ""
+
+#: includes/flags.php:346
+#@ invicta_dictionary
+msgid "North Carolina"
+msgstr ""
+
+#: includes/flags.php:347
+#@ invicta_dictionary
+msgid "North Dakota"
+msgstr ""
+
+#: includes/flags.php:348
+#@ invicta_dictionary
+msgid "Ohio"
+msgstr ""
+
+#: includes/flags.php:349
+#@ invicta_dictionary
+msgid "Oklahoma"
+msgstr ""
+
+#: includes/flags.php:350
+#@ invicta_dictionary
+msgid "Oregon"
+msgstr ""
+
+#: includes/flags.php:351
+#@ invicta_dictionary
+msgid "Pennsylvania"
+msgstr ""
+
+#: includes/flags.php:352
+#@ invicta_dictionary
+msgid "Rhode Island"
+msgstr ""
+
+#: includes/flags.php:353
+#@ invicta_dictionary
+msgid "South Carolina"
+msgstr ""
+
+#: includes/flags.php:354
+#@ invicta_dictionary
+msgid "South Dakota"
+msgstr ""
+
+#: includes/flags.php:355
+#@ invicta_dictionary
+msgid "Tennessee"
+msgstr ""
+
+#: includes/flags.php:356
+#@ invicta_dictionary
+msgid "Texas"
+msgstr ""
+
+#: includes/flags.php:357
+#@ invicta_dictionary
+msgid "Utah"
+msgstr ""
+
+#: includes/flags.php:358
+#@ invicta_dictionary
+msgid "Vermont"
+msgstr ""
+
+#: includes/flags.php:359
+#@ invicta_dictionary
+msgid "Virginia"
+msgstr ""
+
+#: includes/flags.php:360
+#@ invicta_dictionary
+msgid "Washington"
+msgstr ""
+
+#: includes/flags.php:361
+#@ invicta_dictionary
+msgid "West Virginia"
+msgstr ""
+
+#: includes/flags.php:362
+#@ invicta_dictionary
+msgid "Wisconsin"
+msgstr ""
+
+#: includes/flags.php:363
+#@ invicta_dictionary
+msgid "Wyoming"
+msgstr ""
+

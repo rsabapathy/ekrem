@@ -1,0 +1,182 @@
+/*
+== ------------------------------------------------------------------- ==
+== @@ Style Switcher
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_style_switcher {
+	color:#dfdfdf;
+	font-size:0.9em;
+	background:#3e3e3e;
+	box-shadow: 0 2px 6px 2px rgba(0,0,0,0.14);
+	width:215px;
+	min-height:200px;
+	position:fixed;
+	top:100px;
+	left:0;
+	z-index:101;	
+	-webkit-border-bottom-right-radius:4px;
+	   -webkit-border-top-right-radius:4px;
+	    -moz-border-radius-bottomright:4px;
+	       -moz-border-radius-topright:4px;
+	        border-bottom-right-radius:4px;
+	           border-top-right-radius:4px;
+	-webkit-transition:left 0.5s ease;
+	   -moz-transition:left 0.5s ease;
+	     -o-transition:left 0.5s ease;
+	        transition:left 0.5s ease;
+	display:none;
+	}
+	.invicta_style_switcher .toggler {
+		width:40px;
+		height:40px;
+		background:#303030;
+		display:block;
+		position:absolute;
+		right:-37px;
+		top:10px;
+		border:solid 1px #3e3e3e;
+		border-left:none;
+		-webkit-border-bottom-right-radius:3px;
+		   -webkit-border-top-right-radius:3px;
+		    -moz-border-radius-bottomright:3px;
+		       -moz-border-radius-topright:3px;
+		        border-bottom-right-radius:3px;
+		           border-top-right-radius:3px;
+		}
+		.invicta_style_switcher .toggler .visible { display:none; }
+		.invicta_style_switcher .toggler .invisible { display:block; }
+		.invicta_style_switcher .toggler.visible .visible { display:block; }
+		.invicta_style_switcher .toggler.visible .invisible { display:none; }
+		
+		.invicta_style_switcher .toggler i {
+			position:absolute;
+			top:50%;
+			left:50%;
+			font-size:15px;
+			margin-top:-7px;
+			margin-left:-7px;
+			color:#FFF;
+			}
+		.invicta_style_switcher .toggler i.icon-angle-left {
+			margin-left:-4px;
+			margin-top:-10px;
+			font-size:20px;
+			}
+			
+	.invicta_style_switcher .header {
+		background:#303030;
+		height:40px;
+		color:#e1e1e1;
+		padding:10px 15px;
+		margin-top:10px;
+		text-align:center;
+		font-size:1.1em;
+		}
+		
+	.invicta_style_switcher .body {
+		padding:10px 20px;
+		}
+		
+	.invicta_style_switcher .footer {
+		background:#303030;
+		height:24px;
+		line-height:24px;
+		text-align:center;
+		font-size:9px;
+		width:100%;
+		color:#838383;
+		position:absolute;
+		bottom:10px;
+		left:0;
+		border-top:solid 1px #5A5A5A;
+		border-bottom:solid 1px #5A5A5A;
+		-webkit-border-bottom-right-radius:3px;
+		    -moz-border-radius-bottomright:3px;
+		        border-bottom-right-radius:3px;
+		}
+
+	.invicta_style_switcher .group {
+		margin-bottom:15px;
+		}
+		.invicta_style_switcher .group.action {
+			text-align:center;
+			margin-top:30px;
+			margin-bottom:30px;
+			}
+			
+	.invicta_style_switcher a {
+		color:#dfdfdf;
+		}
+	.invicta_style_switcher label {
+		display:block;
+		margin-bottom:2px;
+		}
+	.invicta_style_switcher cite {
+		line-height: 130% !important;
+		display: block;
+		font-size: 0.85em;
+		font-style: italic;
+		color: #BBB;
+		}
+	.invicta_style_switcher select,
+	.invicta_style_switcher input[type="text"] {
+		padding:7px 10px;
+		background-color:#313131;
+		border-color:#797979;
+		color:#DDD;
+		}
+		.invicta_style_switcher input[type="text"]:focus {
+			background-color:#272727;
+			color:#f3f3f3;
+			}
+			
+	.invicta_style_switcher .minicolors-theme-default .minicolors-swatch {
+		top:8px;
+		left:7px;
+		}
+	.invicta_style_switcher .minicolors-theme-default.minicolors {
+		width:100%;
+		}
+		
+	.invicta_style_switcher #color {
+		height:auto;
+		width:100%;
+		max-width:100%;
+		padding-left:30px;
+		}
+	.invicta_style_switcher #pattern {
+		}
+	.invicta_style_switcher #image img {
+		width:100%;
+		height:100%;
+		display:block;
+		}
+	.invicta_style_switcher ul.patterns {
+		overflow:hidden;
+		}
+		.invicta_style_switcher ul.patterns li {
+			float:left;
+			margin-right:6px;
+			margin-bottom:6px;
+			}
+		.invicta_style_switcher ul.patterns a {
+			display:block;
+			width:37px;
+			height:37px;
+			border:2px solid #7d7d7d;
+			}
+			.invicta_style_switcher ul.patterns a.active {
+				border-color:#FFF;
+				}
+				
+	.invicta_style_switcher .invicta_button {
+		padding:5px 12px;
+		}
+		.invicta_style_switcher .invicta_button:hover {
+			background:#eeeeee;
+			}
+		.invicta_style_switcher .invicta_button:active {
+			position:relative;
+			top:1px;
+			}

@@ -1,0 +1,240 @@
+/*
+== ------------------------------------------------------------------- ==
+
+Math Notes...
+
+	$num_columns = 
+	$canvas_width = 940
+	$column_margin_pixels = 50
+	
+	$column_margin = ( ( $column_margin_pixels * 100 ) / $canvas_width )
+	
+	$column_width = ( 100.0 - ( ($num_columns - 1) * $column_margin ) ) / $num_columns;
+	for ( $i = 2; $i < num_columns; $i ++ ) {
+		$merged_column_width = ( ( $column_width * $i) + ( $column_margin * ( $i - 1 ) ) )
+	}	
+
+== ------------------------------------------------------------------- ==
+*/
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Sections
+== ------------------------------------------------------------------- ==
+*/
+
+.section {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Groups
+== ------------------------------------------------------------------- ==
+*/
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+	}
+.group:after {
+    clear:both;
+	}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Columns
+== ------------------------------------------------------------------- ==
+*/
+
+.col {
+	display:block;
+	float:left;
+	margin:0 0 0 5.31914894%;
+	}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+@media only screen and (max-width: 767px) {
+	.responsive .col { margin: 0 0 50px 0%; }
+	.responsive .col:last-child { margin-bottom:0; }
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Grid of Two
+== ------------------------------------------------------------------- ==
+*/
+
+.span_2_of_2 { width:100%; }
+.span_1_of_2 { width:47.34042553%; }
+
+@media only screen and (max-width: 767px) {
+	.responsive .span_2_of_2, 
+	.responsive .span_1_of_2 { width:100%; }
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Grid of Three
+== ------------------------------------------------------------------- ==
+*/
+	
+.span_3_of_3 { width:100%; }
+.span_2_of_3 { width:64.89361702%; }
+.span_1_of_3 { width:29.78723404%; }
+
+@media only screen and (max-width: 767px) {
+	.responsive .span_3_of_3, 
+	.responsive .span_2_of_3, 
+	.responsive .span_1_of_3 { width:100%; }
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Grid of Four
+== ------------------------------------------------------------------- ==
+*/
+
+.span_4_of_4 { width:100%; }
+.span_3_of_4 { width:73.670212765%; }
+.span_2_of_4 { width:47.340425530%; }
+.span_1_of_4 { width:21.010638295%; }
+
+@media only screen and (max-width: 767px) {
+	.responsive .span_4_of_4, 
+	.responsive .span_3_of_4, 
+	.responsive .span_2_of_4, 
+	.responsive .span_1_of_4 { width: 100%; }
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Grid of Five
+== ------------------------------------------------------------------- ==
+*/
+	
+.span_5_of_5 { width:100%; }
+.span_4_of_5 { width:78.936170212%; }
+.span_3_of_5 { width:57.872340424%; }
+.span_2_of_5 { width:36.808510636%; }
+.span_1_of_5 { width:15.744680848%; }
+
+@media only screen and (max-width: 767px) {
+	.responsive .span_5_of_5, 
+	.responsive .span_4_of_5, 
+	.responsive .span_3_of_5, 
+	.responsive .span_2_of_5,
+	.responsive .span_1_of_5 { width: 100%; }
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Grid of Six
+== ------------------------------------------------------------------- ==
+*/
+
+.span_6_of_6 { width:100%; }
+.span_5_of_6 { width:82.44680851%; }
+.span_4_of_6 { width:64.89361702%; }
+.span_3_of_6 { width:47.34042553%; }
+.span_2_of_6 { width:29.78723404%; }
+.span_1_of_6 { width:12.23404255%; }
+
+@media only screen and (max-width: 767px) {
+	.responsive .span_6_of_6, 
+	.responsive .span_5_of_6, 
+	.responsive .span_4_of_6, 
+	.responsive .span_3_of_6, 
+	.responsive .span_2_of_6, 
+	.responsive .span_1_of_6 { width: 100%; }
+}
+
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Visual Composer Grid Overload
+== ------------------------------------------------------------------- ==
+*/
+
+body.visual_composer_invicta_styles .wpb_row {
+	margin-left:-25px;
+	margin-right:-25px;
+	margin-bottom:0px;
+}
+
+body.visual_composer_invicta_styles .wpb_content_element,
+body.visual_composer_invicta_styles ul.wpb_thumbnails-fluid > li,
+body.visual_composer_invicta_styles .last_toggle_el_margin,
+body.visual_composer_invicta_styles .wpb_button {
+	margin-bottom:50px !important;
+	}
+	
+body.visual_composer_invicta_styles .wpb_row .wpb_row .wpb_content_element,
+body.visual_composer_invicta_styles .wpb_row .wpb_row ul.wpb_thumbnails-fluid > li,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .last_toggle_el_margin,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .wpb_button {
+	margin-bottom:0px !important;
+	}
+
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-1,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-2,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-3,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-4,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-5,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-6,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-7,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-8,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-9,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-10,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-11,
+body.visual_composer_invicta_styles .wpb_row .vc_col-sm-12 {
+	padding-left:25px;
+	padding-right:25px;	
+}
+
+
+/* child/nested rows */
+body.visual_composer_invicta_styles .wpb_row .wpb_row {
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-bottom:25px;
+}
+
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-1,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-2,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-3,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-4,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-5,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-6,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-7,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-8,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-9,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-10,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-11,
+body.visual_composer_invicta_styles .wpb_row .wpb_row .vc_col-sm-12 {
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+body.visual_composer_invicta_styles .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab > .wpb_content_element:last-child, 
+body.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content > .wpb_content_element:last-child, 
+body.visual_composer_invicta_styles .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab .wpb_row:last-child > div > div.wpb_wrapper .wpb_content_element:last-child, 
+body.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content .wpb_row:last-child > div > div.wpb_wrapper .wpb_content_element:last-child {
+	margin-bottom: 0 !important;
+}
+
+body.visual_composer_invicta_styles .wpb_tour_tabs_wrapper .wpb_content_element {
+	margin-bottom: 20px !important;
+}
+
+body.visual_composer_invicta_styles .wpb_tour_tabs_wrapper .wpb_content_element:last-child {
+	margin-bottom: 0 !important;
+}

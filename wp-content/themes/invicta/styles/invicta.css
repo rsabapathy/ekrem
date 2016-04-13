@@ -1,0 +1,6745 @@
+/*
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+
+STYLES TITLE: 
+	Invicta - Base Styles
+		
+STYLES AUTHOR: 
+	Oitentaecinco
+
+STYLES INDEX:
+
+	@@ Reset Styles
+	@@ Canvas & Columns
+	@@ Typography
+	@@ Branding Colors
+	@@ WordPress
+	
+	@@ Header
+	@@ Header Meta
+	@@ Header Slideshow
+	@@ Fixed Header
+	@@ Footer
+	
+	@@ Breadcrumb
+	@@ Menu UL
+	@@ Menu Select
+	@@ Scroll to Top Arrow
+	
+	@@ Text Styles
+	
+	@@ Page Body
+	@@ Page 404
+	@@ Page 503
+	
+	@@ Page Loop
+	@@ Blog Loop
+	@@ Comments List
+	@@ Comments Nav
+	@@ Comment Form
+	@@ Pings List
+	@@ Portfolio Filters
+	@@ Portfolio Loop
+	@@ Portfolio Details
+	@@ Photos Loop
+	@@ Videos Loop
+	@@ Search Loop
+	
+	@@ Grid / Isotope
+	@@ Isotope
+	
+	@@ Forms
+	@@ Search Form
+	@@ Hover Effect
+	
+	@@ Post/Project Navigation
+	@@ Tags
+	@@ Avatar
+	@@ Image Hover Effect
+	@@ Pagination
+	@@ Highlights
+	@@ Headings
+	@@ Heading Separators
+		
+	@@ Widgets
+	
+	@@ Video/Audio Players (MediaElementJS)
+	@@ Invicta Gallery
+	@@ WP Gallery
+	
+	@@ Visual Composer Shortcodes
+	@@ Shortcodes
+	@@ Contact Form 7
+	@@ WPML
+	
+	@@ Media Queries - Larger Screens
+	@@ Media Queries - Smaller than standard 960px
+	@@ Media Queries - Tablet portrait size to standard 960px
+	@@ Media Queries - All mobile sizes
+	@@ Media Queries - Phone landscape size to tablet portrait
+	@@ Media Queries - Phone portrait size to phone landscape size
+	@@ Media Queries - Retina
+	@@ Media Queries - Dead spaces on boxed layout
+
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+== ------------------------------------------------------------------- ==
+*/
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Reset Styles
+== ------------------------------------------------------------------- ==
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+	}
+	
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+	
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+.special-quote { quotes: none; }
+
+.special-quote:before, .special-quote:after {
+	content: '';
+	content: none; 
+	}
+	
+table {
+	border-collapse: collapse;
+	border-spacing: 0; 
+	}
+	
+* { 
+	-webkit-font-smoothing:subpixel-antialiased;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;    
+            box-sizing: border-box;  
+    }
+    
+:focus {
+	outline:none;
+	}
+	
+.hidden { display:none; }
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Canvas & Columns
+== ------------------------------------------------------------------- ==
+*/
+
+body { 
+	min-width:960px; 
+	}
+body.responsive { 
+	min-width:0;
+	}
+
+.invicta_canvas {
+	width:960px;
+	padding:0 10px;
+	margin:0 auto;
+	position:relative;
+	}
+	
+	/* right sidebar = default */
+	.invicta_canvas .main_column {
+		float:left;
+		width:690px;
+		}
+	.invicta_canvas .side_column {
+		float:right;
+		width:200px;
+		}
+		
+	/* left sidebar */
+	.invicta_canvas.left_sidebar .main_column {
+		float:right;
+		}
+	.invicta_canvas.left_sidebar .side_column {
+		float:left;
+		}
+	
+	
+	/* no sidebar */
+	.invicta_canvas.no_sidebar .main_column {
+		width:auto !important;
+		float:none !important;
+		}
+		
+/* boxed layout */
+
+.invicta_boxed_layout {
+	background:#e2e2e2;
+	}
+	.invicta_boxed_layout #invicta_root {
+		max-width:1060px;
+		margin:0 auto;
+		background-color:#FFF;
+		}
+
+
+img { max-width:100%; height:auto; }
+video { max-width:100%; }
+iframe { max-width:100%; }
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Typography
+== ------------------------------------------------------------------- ==
+*/
+
+body {
+	font: 13px/1.65em Arial, Helvetica, sans-serif;
+	color: #737373;
+	/* -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	}
+	
+a { 
+	-webkit-transition:color 0.3s ease;
+	   -moz-transition:color 0.3s ease;
+	     -o-transition:color 0.3s ease;
+	        transition:color 0.3s ease;
+	text-decoration:none;
+	color: #737373;
+	}
+a:hover { color:#fb652b; }
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	color:#282828;
+	margin-top:40px;
+	line-height:130%;
+	}
+
+h1 { font-size:2.0em; margin-bottom:20px; }
+h2 { font-size:1.5em; margin-bottom:15px; }
+h3 { font-size:1.3em; margin-bottom:10px; }
+h4 { font-size:1.1em; margin-bottom:6px; }
+h5 { font-size:1.0em; margin-bottom:3px; }
+h6 { font-size:0.9em; margin-bottom:3px; }
+	
+h2 { margin-top:30px; }
+h3 { margin-top:20px; }
+h4 { margin-top:15px; }
+h5 { margin-top:14px; }
+h6 { margin-top:10px; }
+	
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover {
+	text-decoration:none;
+	}
+	
+.page_footer .col h1:first-child, 
+.page_footer .col h2:first-child, 
+.page_footer .col h3:first-child, 
+.page_footer .col h4:first-child, 
+.page_footer .col h5:first-child, 
+.page_footer .col h6:first-child {
+	margin-top:0;
+	}
+
+.invicta_canvas .side_column,
+.page_footer {
+	font-size:0.9em;
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Branding Colors
+== ------------------------------------------------------------------- ==
+*/
+
+::selection {
+	background:#fb652b;
+	color:#FFF;
+	}	
+::-moz-selection {
+	background:#fb652b;
+	color:#FFF;
+	}
+
+
+.text_styles a {
+	color:#fb652b;
+	}
+	
+.inherit-color,
+.inherit-color-on_children >* {
+	color:inherit;
+	}
+
+.accentcolor-text, 
+.accentcolor-text-on_children >*,
+.accentcolor-text-on_hover:hover, 
+.accentcolor-text-on_children-on_hover >*:hover {
+	color:#fb652b !important;
+	}
+
+.accentcolor-border, 
+.accentcolor-border-on_children >*, 
+.accentcolor-border-on_hover:hover, 
+.accentcolor-border-on_children-on_hover >*:hover { 
+	border-color:#fb652b !important; 
+	}
+
+.accentcolor-background, 
+.accentcolor-background-on_children >*, 
+.accentcolor-background-on_hover:hover, 
+.accentcolor-background-on_children-on_hover >*:hover {
+	background-color:#fb652b !important;
+	}
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ WordPress
+== ------------------------------------------------------------------- ==
+*/
+
+.alignleft {
+	float:left;
+	display:block;
+	margin:4px 15px 5px 0;
+	}
+
+.alignright {
+	float:right;
+	display:block;
+	margin:4px 0 5px 15px;
+	}
+
+.aligncenter {
+	clear:both;
+	display:block;
+	margin:10px 0;
+	padding:10px 0;
+	}
+	
+.alignclear {
+	clear:both;
+	}	
+	
+.alignleft img,
+.alignright img {
+	display:block;
+	}
+	
+img.aligncenter {
+	display:inline;
+	padding:0;
+	}
+	
+.wp-caption {
+	position:relative;
+	max-width:100%;
+	margin-bottom:20px;
+	border-width:1px;
+	border-style:solid;
+	font-size:11px;
+	font-style:italic;
+	border-color:#c5c5c5;	
+	}
+	.wp-caption img {
+		display:block;
+		padding:5px;
+		margin:0;
+		width:100%;
+		}
+.wp-caption.aligncenter {
+	padding:0;
+	margin:20px auto 30px auto;
+	}
+	
+.wp-caption-text {
+	display:block;
+	margin:0 auto;
+	padding:5px 10px 10px;
+	margin-bottom:0 !important;
+	text-align:center;
+	font-size:11px;
+	font-style:italic;
+	}
+
+			
+/*
+== ------------------------------------------------------------------- ==
+== @@ Header
+== ------------------------------------------------------------------- ==
+*/		
+
+.page_header .header_main {
+	height:150px;
+	}
+	.page_header .header_main .invicta_canvas {
+		height:100%;
+		}
+
+.page_header .header_main nav {
+	float:none;
+	position:absolute;
+	right:10px;
+	margin-top:56px;
+	}
+
+	.page_header .header_main nav select {
+		display:none;
+		}
+
+.page_header .title_area {
+	background:#fafafa;
+	border-top:1px solid #e3e3e3;
+	border-bottom:1px solid #e3e3e3;
+	padding:26px 0 28px 0;
+	}
+	.page_header .title_area h1 {
+		margin:0;
+		font-size:1.8em;
+		}
+
+.page_header .logo {
+	float:left;
+	height:100%;
+	}
+	.page_header .logo a {
+		display:block;
+		height:100%;
+	}
+	.page_header .logo img {
+		max-height:100%;
+		padding:40px 0;
+		display:block;
+		}
+
+.page_image_static {
+	text-align:center;
+	padding:0 0 1px 0;
+	border-bottom: 1px solid #e3e3e3;
+	}
+	.page_image_static img {
+		width:100%;
+		display:block;
+		margin:0 auto;
+		}
+
+	
+.page_image_paralax .image {
+	height:350px;
+	background-repeat:repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	background-color:transparent;
+	background-size:cover;
+	}
+		
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Header Meta
+== ------------------------------------------------------------------- ==
+*/
+
+.page_header .header_meta {
+	border-top:6px solid #424242;
+	border-bottom:1px solid #e2e2e2;
+	background-color:#fdfdfd;
+	padding:3px 0 3px 0;
+	color:#737373;
+	}
+	.page_header .header_meta .callus { float:left; line-height:27px; }
+	.page_header .header_meta .social { float:right; margin-top:2px; }
+	
+	.page_header .header_meta .meta {
+		margin-right:10px;
+		font-size:0.85em;
+		}
+	.page_header .header_meta a {
+		text-decoration:none;
+		}
+	.page_header .header_meta {
+		}
+		
+	.page_header .header_meta .social_links {
+		display:inline-block;
+		color:#a2a2a2;
+		}
+	.page_header .header_meta .social_links a {
+		margin-right:6px;
+		font-size:1.15em;
+		line-height:100%;
+		display:inline-block;
+		vertical-align:middle;
+		}
+		
+	.page_header .header_meta .tagline {
+		font-style:italic;
+		letter-spacing:1.1px;
+		color:#A2A2A9;
+		}
+		.page_header .header_meta .tagline:before {
+			content:'\2014  ';
+		}
+				
+/* search box */
+				
+.page_header .header_meta .searchbox {
+	display:inline-block;
+	/* margin-left:8px; */
+	color:#a2a2a2;
+	}
+	.page_header .header_meta .searchbox .divider {
+		color:#d1d1d1;
+		}
+		
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Header Slideshow
+== ------------------------------------------------------------------- ==
+*/
+
+.page_header .home_slideshow {
+	background:#f5f6f6;
+	border-top:1px solid #d3d3d3;
+	border-bottom:1px solid #d3d3d3;
+	}	
+	.page_header .home_slideshow .default_slideshow {
+		height:440px;
+		background:url(images/defaults/home_slideshow_bg.png) no-repeat center center;
+		background-size:cover;
+		}
+		.page_header .home_slideshow .default_slideshow img {
+			margin-top:40px;
+			}
+			
+.page_header .home_slideshow.fixed, 
+.page_header .home_slideshow.responsitive {
+	background:none;
+	border:none;
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Fixed Header
+== ------------------------------------------------------------------- ==
+*/	
+
+.invicta_fixed_header .header_wrapper {
+	position:fixed;
+	width:100%;
+	background:rgb(255,255,255);
+	background:rgba(255,255,255,0.85);
+	z-index:30;
+	}
+	.invicta_fixed_header .header_wrapper.scrolled {
+		border-bottom:1px solid #e3e3e3;
+		}
+.invicta_fixed_header .header_wrapper_extras {
+	padding-top:192px;
+	}
+	
+.invicta_fixed_header .page_header .header_main nav { margin-bottom:10px; }
+
+.invicta_boxed_layout.invicta_fixed_header .header_wrapper {
+	width:1060px;
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Footer
+== ------------------------------------------------------------------- ==
+*/	
+
+/* widgets */
+
+.page_footer .widgets {
+	background-color:#fcfcfc;
+	border-top:1px solid #dddddd;
+	padding:50px 0;
+	}
+
+/* socket */
+
+.page_footer .socket {
+	background-color:#424242;
+	color:#b2b2b2;
+	font-size:0.85em;
+	line-height:150%;
+	border-bottom:2px solid #fb652b;
+	padding:12px 0 10px 0;
+	overflow:hidden;
+	}
+	.page_footer .socket .copyrights { float:left; }
+	.page_footer .socket .navigation { float:right; }
+
+.page_footer .socket a			{ color:#b2b2b2; }
+.page_footer .socket a:hover	{ color:#FFFFFF; }
+
+.page_footer .socket .navigation ul li {
+	float:left;
+	margin-left:20px;
+	}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Breadcrumb
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_breadcrumb { font-size:0.85em; margin-top:6px; }
+	.invicta_breadcrumb .before { color:#aaaaaa; }
+	.invicta_breadcrumb .end { font-weight:600; }
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Menu UL
+== ------------------------------------------------------------------- ==
+*/
+
+.sf-menu, .sf-menu * {
+	margin:0;
+	padding:0;
+	list-style:none;
+	-webkit-font-smoothing:subpixel-antialiased;
+	}
+.sf-menu li {
+	position:relative;
+	}
+.sf-menu ul {
+	position:absolute;
+	display:none;
+	top:100%;
+	left:0;
+	z-index:99;
+	}
+.sf-menu > li {
+	float:left;
+	}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	display:block;
+	}
+.sf-menu a {
+	display:block;
+	position:relative;
+	cursor:pointer;
+	}
+.sf-menu ul ul {
+	top:0;
+	left:100%;
+	}
+
+.sf-menu ul {
+	min-width:12em;
+	*width:12em;
+	}
+	.sf-menu li {
+		white-space:nowrap;
+		*white-space:normal;
+		-webkit-transition:background .2s;
+		        transition:background .2s;
+	}
+	.sf-menu a {
+		text-decoration:none;
+		zoom:1;
+		color:#737373;
+		}
+		
+/* root level */
+.sf-menu > li {
+	margin-left:5px;
+	}
+.sf-menu > li > a {
+	padding-right:20px;
+	}
+	.sf-menu > li:last-child > a {
+		padding-right:0;
+	}
+.sf-menu > li:hover > a,
+.sf-menu > li.sfHover > a {
+	color:#fb652b;
+	}
+.sf-menu > .current_page_item > a,
+.sf-menu > .current_page_parent > a,
+.sf-menu > .current_page_ancestor > a {
+	color:#fb652b;
+	}
+	
+/* child level */
+.sf-menu > li { 
+	line-height:40px;
+	}
+.sf-menu ul {
+	border-top:2px solid #fb652b;
+	font-size:.9em;
+	line-height:180%;
+	-webkit-box-shadow: 1px 1px 3px -1px rgba(50, 50, 50, 0.65);
+	   -moz-box-shadow: 1px 1px 3px -1px rgba(50, 50, 50, 0.65);
+	        box-shadow: 1px 1px 3px -1px rgba(50, 50, 50, 0.65);
+	}
+	.sf-menu ul ul {
+		font-size:1em;
+		}
+	.sf-menu ul ul {
+		margin-top:-3px;
+		margin-left:1px;
+		}
+.sf-menu ul li {
+	background:#f9f9f9;
+	border-bottom:1px solid #e2e2e2;
+	border-top:1px solid #fdfdfd;
+	}
+	.sf-menu ul li:hover,
+	.sf-menu ul li.sfHover {
+		background:#FFF;
+		-webkit-transition:none .4s;
+		        transition:none .4s;
+		}		
+	.sf-menu ul .current_page_item,
+	.sf-menu ul .current_page_parent,
+	.sf-menu ul .current_page_ancestor {
+		background:#FFF;
+		}
+		.sf-menu ul .current_page_item > a, 
+		.sf-menu ul .current_page_parent > a, 
+		.sf-menu ul .current_page_ancestor > a {
+			color:#fb652b;
+			}
+		
+.sf-menu ul a {
+	padding:5px 12px;
+	}
+
+/* arrows */
+.sf-arrows ul .sf-with-ul {
+	padding-right: 2.5em;
+	*padding-right: 1em;
+	}
+.sf-arrows ul .sf-with-ul:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	margin-top: -3px;
+	height: 0;
+	width: 0;
+	border: 5px solid transparent;
+	border-top-color: #000;
+	}
+.sf-arrows ul .sf-with-ul:after {
+	margin-top: -5px;
+	margin-right: -7px;
+	border-color: transparent;
+	border-left-color:#aaaaaa;
+	}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: #fb652b;
+	}
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Menu Select
+== ------------------------------------------------------------------- ==
+*/
+
+.page_header .header_main nav select {
+   -webkit-appearance: none;
+      -moz-appearance: none;
+           appearance: none;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px; 
+	-webkit-transition:width 0.3s ease;
+	   -moz-transition:width 0.3s ease;
+	     -o-transition:width 0.3s ease;
+	        transition:width 0.3s ease;
+	outline:none;
+	background:#fafafa url('images/icons/dropdown_arrow.png') no-repeat right center;
+	border:1px solid #dadada;
+	color:#7e7e7e;
+	padding:10px;	
+	margin:0 auto;
+	}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Scroll to Top Arrow
+== ------------------------------------------------------------------- ==
+*/
+
+#invicta_top_arrow {
+	background:#efefef;
+	border:3px solid #ededed;
+	opacity:0.4;
+	width:40px;
+	height:40px;
+	-webkit-border-radius:50px;
+	   -moz-border-radius:50px;
+	     -o-border-radius:50px;
+	        border-radius:50px;
+	-webkit-transition:all 0.3s ease;
+	   -moz-transition:all 0.3s ease;
+	     -o-transition:all 0.3s ease;
+	        transition:all 0.3s ease;
+	display:none;
+	position:fixed;
+	right:50px;
+	bottom:50px;
+	text-align:center;
+	z-index:100;
+	}
+	#invicta_top_arrow i {
+		font-size:22px;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-top:-12px;
+		margin-left:-7px;
+		}
+#invicta_top_arrow:hover {
+	opacity:1;
+	border-color:#dadada;
+	background:#f1f1f1;
+	color:#a0a0a0;
+	}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Text Styles
+== ------------------------------------------------------------------- ==
+*/
+
+.text_styles {
+	-ms-word-wrap:break-word;
+        word-wrap:break-word;
+	}
+
+.text_styles h1:first-child, 
+.text_styles h2:first-child, 
+.text_styles h3:first-child, 
+.text_styles h4:first-child, 
+.text_styles h5:first-child, 
+.text_styles h6:first-child {
+	margin-top:0;
+	}
+	
+.text_styles a:hover {
+	text-decoration:underline;
+	opacity:0.9;
+	}
+.text_styles p {
+	margin-bottom:15px;
+	}
+	.text_styles p:last-child {
+		margin-bottom:0;
+		}
+
+/* lists */	
+.text_styles ul,
+.text_styles ol {
+	margin-bottom:20px;
+	}
+.text_styles ol {
+	margin-left:20px;
+	}
+.text_styles ol ul,
+.text_styles ul ul { 
+	margin-left:20px;
+	margin-bottom:0px;
+	}
+.text_styles ol ol,
+.text_styles ul ol {
+	margin-left:40px;
+	margin-bottom:0px;	
+	}
+	.text_styles ul > li {
+		margin:5px 0;
+		padding-left:12px;
+		position:relative;
+		}	
+		.text_styles .rev_slider ul > li {
+			position: absolute;
+		}
+		.text_styles ul > li:before {
+			font-family:FontAwesome;
+			font-weight:normal;
+			font-style:normal;
+			display:inline-block;
+			text-decoration: inherit;
+			content:"\F105";
+			color:#fb652b;
+			position:absolute;
+			left:0;
+			}
+	.text_styles ol > li { 
+		list-style:decimal;
+		margin:5px 0;
+		}
+.text_styles dl {
+	margin-bottom:20px;
+	}
+	.text_styles dl dt {
+		font-weight:bold;
+		}
+	.text_styles dl dd {
+		margin:0 10px 10px 10px;
+		font-size:0.9em;
+		line-height:150%;
+		}
+		
+.text_styles .rev_slider ul > li {
+	margin:0;
+}
+		
+/* common tags */
+.text_styles strong,
+.text_styles b {
+	font-weight:bold;
+	}
+.text_styles address {
+	margin-bottom:15px;
+	font-weight:lighter;
+	line-height:150%;
+	}
+.text_styles abbr,
+.text_styles acronym {
+	border-bottom:1px dotted #999999;
+	font-weight:lighter;
+	}
+.text_styles cite {
+	font-style:italic;
+	font-weight:lighter;
+	}
+.text_styles code {	
+	font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
+	}
+.text_styles em {
+	font-style:italic;
+	}
+.text_styles ins {
+	text-decoration:underline;
+	}
+.text_styles sub,
+.text_styles sup {
+	height:0;
+	font-size:0.7em;
+	line-height:1;
+	vertical-align:baseline;
+	position:relative;	
+	}
+	.text_styles sub { bottom:-3px; }
+	.text_styles sup { top:-6px; }
+	
+/* blockquotes */	
+.text_styles blockquote {
+	font-size:1.2em;
+	line-height:150%;
+	margin-left:20px;
+	padding-left:15px;
+	border-left:5px solid #eee;
+	font-family:Georgia;
+	margin-bottom:20px;
+	}	
+	.text_styles blockquote cite {
+		font-size:0.85em;
+		font-style:normal;
+		opacity:0.8;
+		margin-left:5px;
+		}
+		.text_styles blockquote cite:before {
+			content: "";
+			}
+
+/* preformatted tag */			
+.text_styles pre {
+	border:1px solid #e1e1e1;
+	overflow:auto;
+	padding:2em;
+	line-height:2em;
+	font-size:12px;
+	background-image:-webkit-linear-gradient(rgba(0, 0, 0, .03) 50%, transparent 50%, transparent);
+	background-image:-moz-linear-gradient(rgba(0, 0, 0, .03) 50%, transparent 50%, transparent);
+	background-image:-ms-linear-gradient(rgba(0, 0, 0, .03) 50%, transparent 50%, transparent);
+	background-image:-o-linear-gradient(rgba(0, 0, 0, .03) 50%, transparent 50%, transparent);
+	background-image:linear-gradient(rgba(0, 0, 0, .03) 50%, transparent 50%, transparent);
+	-webkit-background-size:100% 4em ;
+	   -moz-background-size:100% 4em ;
+	        background-size:100% 4em;
+	-webkit-transition:all ease-in-out 0.5s;
+	   -moz-transition:all ease-in-out 0.5s;
+	     -o-transition:all ease-in-out 0.5s;
+	        transition:all ease-in-out 0.5s;
+	margin-bottom:20px;
+	position:relative;
+	left:0;
+	font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
+	text-transform: none;
+	}
+
+/* tables */	
+.text_styles table {
+	width:100%;
+	padding:0;
+	margin:0 0 20px 0;
+	}
+.text_styles table caption {
+	padding:0 0 5px 0;
+	width:auto;
+	font-style:italic;
+	text-align:right;
+	font-size:0.9em;
+	}
+.text_styles th {
+	font-weight:bold;
+	letter-spacing:1.5px;
+	text-transform:uppercase;
+	text-align:left;
+	padding:9px 12px;
+	border-style:solid;
+	border-width:1px;
+	border-left:none;
+	border-top:none;
+	border-color:#e1e1e1;
+	}
+.text_styles td {
+	padding:7px 12px;
+	border-style:solid;
+	border-width:1px;
+	border-left:none;
+	border-top:none;
+	border-color:#e1e1e1;
+	font-size:0.9em;
+	}
+.text_styles tr th:first-child, 
+.text_styles tr td:first-child {
+	border-left-style:solid;
+	border-left-width:1px;
+	}
+.text_styles tr:first-child th , 
+.text_styles tr:first-child td {
+	border-top-style:solid;
+	border-top-width:1px;
+	}
+	
+.text_styles tr:nth-child(odd) {
+	background-color:#fcfcfc;
+	}
+
+/* fitvids */
+.text_styles .invicta_fitvids {
+	margin-bottom:15px;
+	}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Page Body
+== ------------------------------------------------------------------- ==
+*/
+
+#page_body {
+	padding:50px 0;
+	padding-bottom:0;
+	zoom:1;
+	}
+		
+.attachment #page_body {
+	padding-bottom:50px;
+	}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Page 404
+== ------------------------------------------------------------------- ==
+*/
+
+.error404 {
+	}
+	.error404 #page_body {
+		background:url(images/backgrounds/clouds.jpg) repeat-x center top;
+		}
+		.error404 #page_body .invicta_canvas {
+			padding:30px 0 110px 0;
+			}
+	.error404 .search_container {
+		width:60%;
+		margin-right:auto;
+		margin-left:auto;
+		}
+	.error404 .buttons {
+		text-align:center;
+		}
+		.error404 .buttons .invicta_button_wrapper {
+			margin:0 5px;
+		}
+	.error404 .links {
+		width:75%;
+		margin-right:auto;
+		margin-left:auto;
+		}
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Page 503
+== ------------------------------------------------------------------- ==
+*/
+
+.error503 {
+	background:url(images/backgrounds/clouds_full.png) repeat-x center top;
+	text-align:center;
+	}
+	.error503 section {
+		display:none;
+		width:100%;
+		padding:80px 0;
+		}
+		.error503 .logo {
+			}
+		.error503 section .invicta_heading {
+			margin-top:30px;
+			margin-bottom:30px !important;
+			}
+		.error503 section .social_networks {
+			font-size:1.2em;
+			}
+			.error503 section .social_networks a { 
+				margin:0 4px; 
+				color:#8b8b8b;
+				}
+				.error503 section .social_networks a .icon-envelope { 
+					font-size:0.9em; 
+					position:relative;
+					top:-1px; 
+					}
+	
+	
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Page Loop
+== ------------------------------------------------------------------- ==
+*/
+
+.page_loop .entry {
+	}
+	.page_loop .entry h1 { margin-top:0; }
+	.page_loop .entry.extra_margin { margin-bottom:50px; }
+	
+	
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Blog Loop
+== ------------------------------------------------------------------- ==
+*/
+
+.blog_loop {
+	/* overflow:hidden; */
+	}
+	
+.blog_loop:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.blog_loop .entry { 
+	margin-bottom:50px; 
+	}
+	
+	/* title */
+	.blog_loop .entry .post_title,
+	.search_loop .entry .post_title { 
+		margin:0; 
+		-ms-word-wrap: break-word;
+		    word-wrap: break-word;
+		}
+			
+	/* meta */
+	.blog_loop .entry .post_meta {
+		font-size:0.9em;
+		margin-top:5px;
+		margin-bottom:15px;
+		}
+		.blog_loop .entry .post_meta .meta {
+			margin-right:7px;
+			display:inline;
+			}
+		.blog_loop .entry .post_meta .primary_meta { 
+			float:left; 
+			}
+		.blog_loop .entry .post_meta .secondary_meta { 
+			float:right;
+			text-align:right; 
+			}
+	
+	/* thumbnail */		
+	
+	.blog_loop .entry .post_thumbnail img {
+		display:block;
+		}
+			
+	.blog_loop .entry .post_thumbnail a {
+		margin-bottom:15px;
+		}
+		
+	/* extras */	
+	.blog_loop .entry .post_extras {
+		margin:40px 0;
+		}
+		.blog_loop .entry .post_extras .post_sharing { float:right; }
+		.blog_loop .entry .post_extras .post_sharing .invicta_social_sharer { margin-right:10px; }
+		.blog_loop .entry .post_extras .post_sharing .invicta_social_sharer { vertical-align:top; }
+		.blog_loop .entry .post_extras .post_tags { float:left; }
+		.blog_loop .entry .post_extras .post_tags strong {
+			margin-right:5px;
+			color:#282828;
+			}
+	
+	/* author */		
+	.blog_loop .entry .post_author {
+		background:#faf9f9;
+		padding:20px 25px;
+		}
+		.blog_loop .entry .post_author .media {
+			float:left;
+			width:160px;
+			padding:0 20px 0 0;
+			text-align:center;
+			}
+			.blog_loop .entry .post_author .media .social_links {
+				color:#a2a2a2;
+				text-align:center;
+				}
+				.blog_loop .entry .post_author .media .social_links a {
+					margin:0 3px;
+					}
+		.blog_loop .entry .post_author .text {
+			padding-left:160px;
+			font-size:0.9em;
+			line-height:160%;
+			}
+			.blog_loop .entry .post_author .text .author_name {
+				font-size:1.3em;
+				color:#282828;
+				margin-bottom:15px;
+				}
+			.blog_loop .entry .post_author .text .author_bio {
+				margin-bottom:15px;
+				}
+				
+/* exeptions */
+
+.single .blog_loop .entry { margin-bottom:0; }			
+.single .blog_loop .entry .post_meta { margin-bottom:20px; }
+.single .blog_loop .entry .post_thumbnail img { margin-bottom:15px; }
+
+.blog_loop .entry .post_author.without_media .media,
+.blog_loop .entry .post_author.without_media .text { float:none; width:auto; }
+
+.blog_loop_pagination { clear:both; margin-bottom:50px; }
+
+.blog_loop .sticky {
+	background:#fcfcfc;
+	padding:15px;
+	border:1px solid #ececec;
+	}
+	
+.blog_loop .entry.attachment .post_text {
+	text-align:center;
+	}
+	
+/* post formats */
+
+.blog_loop .format-video .post_thumbnail, 
+.blog_loop .format-audio .post_thumbnail { margin-bottom:15px; }
+
+.blog_loop .format-link {
+	background:#f8f8f8;
+	padding:20px 20px 15px 20px;
+	}
+	.blog_loop .format-link .post_title:after {
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		display: inline-block;
+		text-decoration: inherit;
+		content: "\F08E";
+		margin-left:5px;
+		color:#bebebe;
+		font-size:0.7em;
+		}
+	.blog_loop .format-link .post_meta {
+		margin-bottom:0;
+		}
+.single .blog_loop .format-link {
+	background:none;
+	padding:0;
+	}
+	
+.blog_loop .format-aside {
+	background:#f8f8f8;
+	padding:20px 20px 15px 20px;
+	}
+	.blog_loop .format-aside .post_meta {
+		margin-bottom:0;
+		}
+.single .blog_loop .format-aside {
+	background:none;
+	padding:0;
+	}
+
+.blog_loop .format-quote {
+	background:#f8f8f8;
+	padding:20px 20px;
+	}		
+	.blog_loop .format-quote .before_meta {
+		font-size: 1.3em;
+		font-style:italic;
+		color:#282828;
+		line-height:150%;
+		padding-left:60px;
+		margin-bottom:15px;
+		position:relative;
+		}
+		.blog_loop .format-quote .before_meta:before {
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			display: inline-block;
+			text-decoration: inherit;
+			content: "\F10D";
+			margin-right:5px;
+			color:#bebebe;
+			font-size: 2.3em;
+			line-height:0.8;
+			position: absolute;
+			left:4px;
+			top:8px;
+			}
+		.blog_loop .format-quote .before_meta p:last-child {
+			margin-bottom:0px;
+			}
+	.blog_loop .format-quote .post_meta {
+		margin-left:60px;
+		margin-bottom:0;
+		}
+.single .blog_loop .format-quote {
+	background:none;
+	padding:0;
+	}
+		
+.blog_loop .format-status {
+	background:#f8f8f8;
+	padding:20px 20px;
+	}
+	.blog_loop .format-status .before_meta {
+		font-size: 1.3em;
+		font-style:italic;
+		color:#282828;
+		line-height:150%;
+		margin-bottom:15px;
+		position:relative;
+		}
+	.blog_loop .format-status .post_meta {
+		margin-bottom:0;
+		}
+.single .blog_loop .format-status {
+	background:none;
+	padding:0;
+	}
+
+	
+/* other layouts */
+
+.blog_loop.small_thumbnail .post_thumbnail a,
+.blog_loop.small_thumbnail .post_thumbnail .invicta_gallery {
+	width:240px;
+	margin-bottom:30px;
+	}
+	.blog_loop.small_thumbnail .post_meta .primary_meta, 
+	.blog_loop.small_thumbnail .post_meta .secondary_meta,
+	.blog_loop.grid .post_meta .primary_meta, 
+	.blog_loop.grid .post_meta .secondary_meta {
+		float:none;
+		display:inline;
+		text-align:left;
+		}
+	.blog_loop.small_thumbnail .post_meta .alignclear { clear:none; }
+	.blog_loop.small_thumbnail .text_styles .more-link:before { content: ''; }
+	.blog_loop.small_thumbnail .clear { clear:both; }
+	
+.blog_loop.left_thumbnail .post_thumbnail a,
+.blog_loop.left_thumbnail .post_thumbnail .invicta_gallery {
+	float:left;
+	margin-right:25px;
+	}
+.blog_loop.right_thumbnail .post_thumbnail a,
+.blog_loop.right_thumbnail .post_thumbnail .invicta_gallery {
+	float:right;
+	margin-left:25px;
+	}
+.blog_loop.grid .entry { 
+	margin-bottom:50px;
+	}
+	.blog_loop.grid .sticky { 
+		padding:0;
+		}
+		.blog_loop.grid .sticky .post_title,
+		.blog_loop.grid .sticky .post_meta,
+		.blog_loop.grid .sticky .post_text {
+			margin-left:15px;
+			margin-right:15px;
+		}
+	
+	
+/* layout tweeks */
+
+.blog .blog_loop .entry, 
+.archive .blog_loop .entry {
+	background-color:#fafafa;
+	padding-bottom:20px;
+	border-bottom:2px solid #e3e3e3;
+	-webkit-transition:border-color 0.3s ease;
+	   -moz-transition:border-color 0.3s ease;
+	     -o-transition:border-color 0.3s ease;
+	        transition:border-color 0.3s ease;
+	}
+	.blog .blog_loop .entry:hover,
+	.archive .blog_loop .entry:hover {
+		border-color:#fb652b;
+		}
+	.blog .blog_loop .entry .post_title, 
+	.blog .blog_loop .entry .post_meta, 
+	.blog .blog_loop .entry .post_text,
+	.archive .blog_loop .entry .post_title, 
+	.archive .blog_loop .entry .post_meta, 
+	.archive .blog_loop .entry .post_text { 
+		padding:0 20px; 
+		}
+	.blog .blog_loop .entry .post_title, 
+	.archive .blog_loop .entry .post_title {
+		padding-top:20px;
+		}
+		
+	.blog .blog_loop .format-status .post_meta, 
+	.blog .blog_loop .format-aside .post_meta, 
+	.blog .blog_loop .format-quote .post_meta,
+	.blog .blog_loop .format-link .post_title, 
+	.blog .blog_loop .format-link .post_meta, 
+	.archive .blog_loop .format-status .post_meta, 
+	.archive .blog_loop .format-aside .post_meta, 
+	.archive .blog_loop .format-quote .post_meta,
+	.archive .blog_loop .format-link .post_title, 
+	.archive .blog_loop .format-link .post_meta { padding:0; }
+	
+	.blog .blog_loop .format-status, 
+	.blog .blog_loop .format-aside, 
+	.blog .blog_loop .format-quote,
+	.blog .blog_loop .format-link, 
+	.blog .blog_loop .format-link,
+	.archive .blog_loop .format-status, 
+	.archive .blog_loop .format-aside, 
+	.archive .blog_loop .format-quote,
+	.archive .blog_loop .format-link, 
+	.archive .blog_loop .format-link {
+		border:2px solid #e3e3e3;
+	}
+	
+.blog .blog_loop .entry .post_thumbnail a,
+.blog .blog_loop .format-video .post_thumbnail, 
+.blog .blog_loop .format-audio .post_thumbnail, 
+.blog .blog_loop .entry .invicta_gallery, 
+.archive .blog_loop .entry .post_thumbnail a,
+.archive .blog_loop .format-video .post_thumbnail, 
+.archive .blog_loop .format-audio .post_thumbnail, 
+.archive .blog_loop .entry .invicta_gallery {
+	margin-bottom:0;
+	}
+	
+.blog .blog_loop .entry .more-link, 
+.archive .blog_loop .entry .more-link {
+	font-size:0.90em;
+	margin-top:15px;
+	padding:8px 16px;
+	}
+	
+.blog .blog_loop .entry.sticky, 
+.archive .blog_loop .entry.sticky {
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	padding-right:0;
+	padding-left:0;
+	padding-top:0;
+	}
+	
+/* clean style layout tweeks */	
+
+.blog .blog_loop.clean_style .entry.invicta_simple_style_entry, 
+.archive .blog_loop.clean_style .entry.invicta_simple_style_entry {
+	background-color:transparent;
+	border-bottom-width:0;
+	padding-bottom:0;
+	}	
+
+.blog .blog_loop.clean_style .entry.invicta_simple_style_entry .post_title, 
+.blog .blog_loop.clean_style .entry.invicta_simple_style_entry .post_meta, 
+.blog .blog_loop.clean_style .entry.invicta_simple_style_entry .post_text,
+.archive .blog_loop.clean_style .entry.invicta_simple_style_entry .post_title, 
+.archive .blog_loop.clean_style .entry.invicta_simple_style_entry .post_meta, 
+.archive .blog_loop.clean_style .entry.invicta_simple_style_entry .post_text { 
+	padding:0px; 
+	}
+	
+.blog .blog_loop.clean_style .entry.invicta_simple_style_entry .post_title, 
+.archive .blog_loop.clean_style .entry.invicta_simple_style_entry .post_title {
+	padding-top:20px;
+	}
+	
+.blog .blog_loop.clean_style.small_thumbnail .entry.invicta_simple_style_entry .post_title, 
+.archive .blog_loop.clean_style.small_thumbnail .entry.invicta_simple_style_entry .post_title {
+	padding-top:0px;
+	}
+	
+.blog_loop.grid.clean_style .sticky.invicta_simple_style_entry .post_title, 
+.blog_loop.grid.clean_style .sticky.invicta_simple_style_entry .post_meta, 
+.blog_loop.grid.clean_style .sticky.invicta_simple_style_entry .post_text {
+	margin-left:0;
+	margin-right:0;
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Blog Loop Shortcode
+== ------------------------------------------------------------------- ==
+*/
+
+.blog_loop_shortcode {
+	overflow:hidden;
+	}
+	.blog_loop_shortcode .entry {
+		float:left;
+		width:50%;
+		margin-bottom:50px;
+		}
+		.blog_loop_shortcode .entry .post_thumbnail {
+			margin-bottom:10px;
+		}
+		.blog_loop_shortcode .entry .post_title { 
+			font-size:1.2em;
+			margin-bottom:1px;
+			}
+			.blog_loop_shortcode .entry .post_title a { color:inherit; }
+			.blog_loop_shortcode .entry .post_title a:hover { text-decoration:none; opacity:1; }
+		.blog_loop_shortcode .entry .post_meta {
+			font-size:0.9em;
+			line-height:140%;
+			}
+			.blog_loop_shortcode .entry .post_meta .meta { margin-right:8px; }
+			.blog_loop_shortcode .entry .post_meta a { color:inherit; }
+			.blog_loop_shortcode .entry .post_meta a:hover { text-decoration:none; opacity:1; }
+	.blog_loop_shortcode .entry .post_text {
+		margin-top:10px;
+		}
+		.blog_loop_shortcode .entry .post_text p {
+			margin-bottom:0;
+		}
+		
+.no_sidebar .vc_col-sm-12 .columns_2 .blog_loop_shortcode .entry .post_thumbnail {
+	float:left;
+	}
+	.no_sidebar .vc_col-sm-12 .columns_2 .blog_loop_shortcode .entry .post_thumbnail a { 
+		width:140px;
+		margin-right:17px;
+	}
+	.no_sidebar .vc_col-sm-12 .columns_2 .blog_loop_shortcode .entry .invicta_hover_effect .mask { border-width:6px; }
+	.no_sidebar .vc_col-sm-12 .columns_2 .blog_loop_shortcode .entry .invicta_hover_effect .caption i { font-size:24px; }
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Comments List
+== ------------------------------------------------------------------- ==
+*/
+
+.post_comments { 
+	margin-top:40px;
+	}
+
+.comments_loop {
+	border-bottom:1px dashed #d4d4d4;
+	}
+
+.comments_loop .entry {
+	border-top:1px dashed #d4d4d4;
+	padding-top:16px;
+	padding-bottom:16px;
+	}
+	.comments_loop .entry .media {
+		float:left;
+		width:75px;
+		padding-right:15px;
+		}
+	.comments_loop .entry .text {
+		width:auto;
+		padding-left:75px;
+		}
+		
+	/* avatar */
+	.comments_loop .invicta_avatar {
+		border-width:4px;
+		max-width:100%;
+		}
+		
+	/* headline */
+	.comments_loop .entry .text .head {
+		overflow:hidden;
+		margin-bottom:10px;
+		}
+	.comments_loop .entry .text .head .author {
+		float:left;
+		font-size:1.15em;
+		color:#282828;
+		}
+	.comments_loop .entry .text .head .date { 
+		float:right;
+		font-size:0.85em;
+		font-style:italic;
+		color:#b2b2b2;
+		margin-left:5px;
+		}
+		.comments_loop .entry .text .head .date i {
+			font-size:1.2em;
+			margin-right:3px;
+			}
+				
+	/* body */
+	.comments_loop .entry .text .body { 
+		font-size:0.95em;
+		line-height:150%;
+		}
+		.comments_loop .entry .text .body .moderation {
+			display:block;
+			margin-bottom:10px;
+			border:1px dashed #d4d4d4;
+			padding:5px 10px;
+			text-align:center;
+			background:#FAF9F9;
+			}
+		
+		.comments_loop .entry .text .body p {
+			margin-bottom:10px;
+			}
+		.comments_loop .entry .text .body .reply,
+		.comments_loop .entry .text .body .edit {
+			font-size:0.95em;
+			display:block;
+			}
+			.comments_loop .entry .text .body .reply i,
+			.comments_loop .entry .text .body .edit i { margin-right:5px; }
+		
+			
+.comments_loop .children {
+	margin-left:75px;
+	}
+			
+.comments_loop .entry .author_marker {	
+	background:#ffd321;
+	color:#5b5b5b;
+	text-transform:uppercase;
+	font-size:8px;
+	font-weight:bold;
+	font-family:Arial;
+	padding:3px 4px 1px 4px;
+	vertical-align:middle;
+	border: 1px solid #E7BF05;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	     -o-border-radius: 3px;
+	        border-radius: 3px;
+	margin-left:5px;
+	display:none;
+    }
+    .comments_loop .entry.bypostauthor .author_marker { display:inline; }
+  
+  
+/*
+== ------------------------------------------------------------------- ==
+== @@ Comments Nav
+== ------------------------------------------------------------------- ==
+*/
+
+.comments_nav {	
+	overflow:hidden;
+	font-style:italic;
+	}
+	.comments_nav .prev {
+		float:left;
+		}
+    .comments_nav .next {
+		float:right;
+		}
+	.comments_nav a {
+		margin-top:40px;
+		}
+	.comments_nav a:hover {
+		text-decoration:underline;
+		opacity:0.9;
+		}
+/*
+== ------------------------------------------------------------------- ==
+== @@ Comment Form
+== ------------------------------------------------------------------- ==
+*/
+
+.comment_form {
+	margin-top:50px;
+	}
+.comment_form p {
+	margin-bottom:15px;
+	position:relative;
+	}
+	.comment_form p.form-submit {
+		margin-bottom:0;
+		}
+.comment_form input[type="text"] {
+	margin-right:5px;
+	width:50%;
+	}
+.comment_form textarea {
+	width:100%;
+	}
+.comment_form label {
+	font-size:0.9em;
+	color:#282828;
+	}
+
+.comment_form .legend {
+	position:absolute;
+    right:0;
+    top:0px;
+	text-align:right;
+    }
+	.comment_form .legend > span {
+		display:block;
+		font-size:0.9em;
+		line-height:150%;
+		font-style:italic;
+		}	
+		.comment_form .legend .legend_invalid { display:none; }
+		.comment_form .legend .legend_required span { margin-right:3px; font-size:1.1em; font-style:normal; }
+		.comment_form .legend span i { margin-right:5px; }
+		
+#cancel-comment-reply-link {
+	font-size:0.7em;
+	}
+	#cancel-comment-reply-link:before { content:'('; }
+	#cancel-comment-reply-link:after { content:')'; }
+	
+	
+.comments_loop .comment_form {
+	margin:10px 0 30px 0;
+	padding-left:75px;
+	}
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Pings List
+== ------------------------------------------------------------------- ==
+*/
+
+.pings_loop {
+	padding-left:20px;
+	}
+	.pings_loop .entry {
+		margin-top:15px;
+		margin-bottom:0;
+		list-style:decimal;
+		}
+		.pings_loop .entry .date {
+			font-size:0.9em;
+			display:block;
+			color:#b2b2b2;
+			}
+		.pings_loop .entry .body {
+			margin-top:10px;
+			font-style:italic;
+			}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Portfolio Filters
+== ------------------------------------------------------------------- ==
+*/
+	
+.portfolio_filters {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:38px;
+	border-top:1px solid #e3e3e3;
+	position:relative;
+	}	
+	.portfolio_filters ul {
+		background-color:#FFF;	
+		display:inline;
+		position:relative;
+		top:-11px;
+		padding-left:10px;
+		padding-right:5px;
+		}
+	.portfolio_filters li {
+		display:inline;
+		margin-left:7px;
+		}
+		.portfolio_filters li:after {
+			content:'\2022';
+			margin-left:10px;
+			}
+			.portfolio_filters li:last-child:after { content:''; }
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Portfolio Loop
+== ------------------------------------------------------------------- ==
+*/
+
+.portfolio_loop {
+	}
+	.portfolio_loop .entry {
+		text-align:center;
+		border-bottom:none;
+		margin-bottom:50px;
+		line-height:150%;
+		border-bottom:2px solid #e3e3e3;
+		}
+		.portfolio_loop .entry:hover {
+			border-bottom-color:#fb652b;
+			}
+	.portfolio_loop .entry .project_thumbnail img {
+		display:block;
+		}
+		.portfolio_loop .entry .project_thumbnail a:hover {
+			opacity:1;
+			}
+	.portfolio_loop .entry .project_info {
+		padding:10px 15px;
+		}
+
+.portfolio_loop .entry .meta {
+	margin:1px 0px;
+	background-color:#fafafa;
+	padding:15px 5px;
+	line-height:120%;
+	-webkit-font-smoothing:subpixel-antialiased;
+	}
+	.portfolio_loop .entry .meta .title {
+		margin-bottom:2px;
+		}
+	.portfolio_loop .entry .meta .description {
+		font-size:0.85em;
+		font-weight:400;
+		color:#b2b2b2;
+		}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Portfolio Details
+== ------------------------------------------------------------------- ==
+*/
+
+.portfolio_details {
+	}
+	
+	.portfolio_details .entry .project_thumbnail {
+		margin-bottom:30px;
+		}
+		.portfolio_details .entry.condensed .project_thumbnail {
+			margin-bottom:0;
+			}
+
+	
+	.portfolio_details .entry .project_title {
+		margin-top:0;
+		-ms-word-wrap:break-word;
+		    word-wrap:break-word;
+		}
+	
+	.portfolio_details .entry .project_text	{
+		margin-bottom:30px;
+		}
+	.portfolio_details .entry .project_meta {
+		font-size:0.9em;
+		}		
+		.portfolio_details .entry .project_meta label {
+			color:#282828
+			}
+
+.portfolio_details .entry .project_skills ul li {
+	padding-left:15px;
+	}			
+.portfolio_details .entry .project_skills ul li:before {
+	content:'\F00C';
+	margin-right:2px;
+	font-size:0.9em;
+	color:#aeaeae;
+	}
+
+.portfolio_details .entry .project_sharer .invicta_social_sharer {
+	display:block;
+	}
+	
+.portfolio_related_projects {
+	margin-top:50px;
+	}
+	
+.portfolio_details .entry .project_info .widget {
+	margin-bottom:30px !important;
+	}
+	.portfolio_details .entry .project_info .widget:last-child {
+		margin-bottom:0 !important;
+		}
+	.portfolio_details .entry .project_info .widget .widget_title {
+		margin-bottom:8px;
+		}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Photos Loop
+== ------------------------------------------------------------------- ==
+*/
+
+.photos_loop {
+	}
+	.photos_loop .entry {
+		text-align:center;
+		margin-bottom:50px;
+		line-height:150%;
+		border-bottom:2px solid #e3e3e3;
+		}
+		.photos_loop .entry .gallery_photos {
+			display:block;
+			overflow:hidden;
+			}
+			.photos_loop .entry .gallery_photos img {
+				display:block;
+				}
+				.photos_loop .entry .gallery_photos img.main {
+					border-bottom:1px solid #FFF;
+					}
+				.photos_loop .entry .gallery_photos img.thumbnail {
+					float:left;
+					width:20%;
+					height:30px;
+					border-right:1px solid #FFF;
+					border-bottom:1px solid #FFF;
+					}
+					.photos_loop .entry .gallery_photos img.thumbnail:nth-child(6),
+					.photos_loop .entry .gallery_photos img.thumbnail:nth-child(11) {
+						border-right:none;
+						}
+						
+.photos_loop .entry .meta {
+	margin:1px 0px;
+	background-color:#fafafa;
+	padding:10px 5px;
+	line-height:120%;
+	-webkit-font-smoothing:subpixel-antialiased;
+	}
+	.photos_loop .entry .meta .title {
+		margin-bottom:2px;
+		}
+	.photos_loop .entry .meta .description {
+		font-size:0.85em;
+		font-weight:400;
+		color:#B2B2B8;
+		}
+		
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Videos Loop
+== ------------------------------------------------------------------- ==
+*/
+
+/* video page */
+
+.video_page {
+	padding-bottom:50px;
+	}
+	.video_page .video_details .entry {
+		background-color:#fafafa;
+		border-bottom:1px solid #e3e3e3;
+		}
+		.video_page .video_details .entry .post_text {
+			padding-left:25px;
+			padding-bottom:25px;
+			}
+		.video_page .video_details .entry .post_meta {
+			padding-left:25px;
+			padding-right:25px;
+			}
+	.video_page .post_thumbnail {
+		margin-bottom:20px;
+		}
+	.video_page .post_text {
+		font-size:0.9em;
+		line-height:150%;
+		}
+	.video_page .post_meta { 
+		font-size:0.90em;
+		line-height:150%;
+		}
+		.video_page .post_meta .meta { 
+			margin-right:10px;
+			}	
+	.video_page .condensed .post_text {
+		float:left;
+		width:70%;
+		}
+	.video_page .condensed .post_meta {
+		margin-bottom:10px;
+		float:right;
+		width:30%;
+		padding-left:50px;
+		}
+		.video_page .condensed .post_meta .meta {
+			display:block;
+			margin-bottom:3px;
+			}
+		
+/* videos loop list */		
+	
+.videos_loop_list { font-size:0.9em; }
+.side_column .videos_loop_list { font-size:1em; }
+
+.videos_loop_list .entry {
+	margin-bottom:25px;
+	border-bottom:2px solid #e3e3e3;
+	-webkit-transition:border-color 0.3s ease;
+	   -moz-transition:border-color 0.3s ease;
+	     -o-transition:border-color 0.3s ease;
+	        transition:border-color 0.3s ease;
+	}
+	.videos_loop_list .entry .video_thumbnail img {
+		width:200px;
+		height:120px;
+		}
+	.videos_loop_list .entry .info {
+		margin-top:3px;
+		}
+	.videos_loop_list .entry .title {
+		line-height: 140%;
+		}
+	.videos_loop_list .entry .meta {
+		margin:1px 0px;
+		background-color:#fafafa;
+		padding:10px 5px;
+		line-height:120%;
+		text-align:center;
+		}
+		.videos_loop_list .entry .meta .title {
+			margin-bottom:2px;
+			}
+		.videos_loop_list .entry .meta .description {
+			font-size:0.85em;
+			font-weight:400;
+			line-height:120%;
+			color:#b2b2b2;
+			}
+		
+	.videos_loop_list .entry .invicta_hover_effect .caption i { font-size:20px; }
+
+.videos_loop_list.condensed .entry { overflow:hidden; margin-bottom:10px; border:none !important; }
+.videos_loop_list.condensed .entry .video_thumbnail { float:left; width:50px; }
+.videos_loop_list.condensed .entry .video_thumbnail img { width:50px; height:35px; }
+.videos_loop_list.condensed .entry .info { padding-left:50px; margin-top:0; margin-left:10px; line-height:160%; }
+
+.videos_loop_list.condensed .entry .invicta_hover_effect .mask { border-width:0px; }
+.videos_loop_list.condensed .entry .invicta_hover_effect .caption i { font-size:12px; }
+
+.videos_loop_list.condensed .entry .meta { background-color:transparent !important; text-align:left !important; padding:0; padding-left:60px !important; }
+
+/* videos carousel */
+		
+.video_list_page .videos_carousel { 
+	position:relative;
+	}		
+	.video_list_page .videos_carousel .entry {
+		float:left;
+		margin-right:20px;
+		margin-bottom:0;
+		}	
+.video_list_page .videos_carousel .videos_wrapper {
+	overflow:hidden;
+	position:relative;
+	}			
+	.video_list_page .videos_carousel .videos_wrapper .stage {
+		width:5000px;
+		}
+.video_list_page .videos_carousel .entry { width:216px; }
+.video_list_page.no_sidebar .videos_carousel .entry { width:220px; }
+.video_list_page .videos_carousel .entry .video_thumbnail img { width:220px; height:130px; }
+
+.video_list_page .videos_carousel .nav_arrows {
+	position:absolute;
+	top:50%;
+	width:100%;
+	margin-top:-25px;
+	}
+	.video_list_page .videos_carousel .nav_arrows .prev { position:absolute; left:-20px; }
+	.video_list_page .videos_carousel .nav_arrows .next { position:absolute; right:-20px; }
+		
+/* featured video */
+.video_list_page .featured_video {
+	overflow:hidden;
+	background-color:#fafafa;
+	border-right:2px solid;
+	border-bottom:2px solid;
+	border-bottom-width:0;
+	border-color:#e3e3e3;
+	padding:0px;
+	}
+	.video_list_page .featured_video .video {
+		float:left;
+		width:70%;
+		}
+	.video_list_page .featured_video .info {
+		float:right;
+		width:30%;
+		padding:15px 25px;
+		overflow:hidden;
+		}
+		.video_list_page .featured_video h2 {
+			margin-top:0;
+			margin-bottom:10px;
+			font-size:1.3em;
+			}
+		.video_list_page .featured_video .excerpt {
+			font-size:0.9em;
+			line-height:160%;
+			}
+		.video_list_page .featured_video .post_meta {
+			margin-top:25px;
+			font-size:0.85em;
+			line-height:130%;
+			}
+			.video_list_page .featured_video .post_meta .meta {
+				display:block;
+				margin-bottom:5px;
+				}
+		.video_list_page .featured_video .button {
+			margin-top:30px;
+			}
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Search Loop
+== ------------------------------------------------------------------- ==
+*/
+
+.search_loop .entry { 
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #e3e3e3;
+	}
+	.search_loop .entry .post_title { 
+		margin:0; 
+		font-size:1.2em;
+		}
+		
+	/* meta */
+	.search_loop .entry .post_meta {
+		font-size:0.9em;
+		margin-bottom:5px;
+		}
+		.search_loop .entry .post_meta .meta {
+			margin-right:7px;
+			display:inline;
+			}
+		.search_loop .entry .post_meta .post_type {
+			text-transform:capitalize;
+			}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Grid / Isotope
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_grid {
+	}
+
+/* default = 2 columns */
+.invicta_grid .entry { width:320px; }
+
+/* default + no sidebar = 2 columns */
+.no_sidebar .invicta_grid .entry { width:280px; }
+
+/* 2 columns */
+.columns_2 .invicta_grid .entry { width:320px; }
+
+/* 2 columns + no sidebar */				
+.columns_2.no_sidebar .invicta_grid .entry { width:445px; }
+
+/* 3 columns */
+.columns_3 .invicta_grid .entry { width:196px; }
+
+/* 3 columns + no sidebar */				
+.columns_3.no_sidebar .invicta_grid .entry { width:280px; }
+
+/* 4 columns */
+.columns_4 .invicta_grid .entry { width:135px; }
+
+/* 4 columns + no sidebar */				
+.columns_4.no_sidebar .invicta_grid .entry { width:197px; }
+
+			
+.no_sidebar .columns_2.grid_shortcode .invicta_grid .entry { width:445px; }
+			.columns_2.grid_shortcode .invicta_grid .entry { width:320px; }
+
+
+/* shortcode - full width */
+.no_sidebar .grid_shortcode .invicta_grid .entry { width:197px; }
+			.grid_shortcode .invicta_grid .entry { width:196px; }
+
+/* shortcode - 1/2 */
+.no_sidebar .vc_col-sm-6 .grid_shortcode .invicta_grid .entry { width:197px; }
+			.vc_col-sm-6 .grid_shortcode .invicta_grid .entry { width:138px; }
+			
+/* shortcode - 1/3 */
+.no_sidebar .vc_col-sm-4 .grid_shortcode .invicta_grid .entry { width:100%; }
+			.vc_col-sm-4 .grid_shortcode .invicta_grid .entry { width:100%; }
+			
+/* shortcode - 1/4 */
+.no_sidebar .vc_col-sm-3 .grid_shortcode .invicta_grid .entry { width:100%; }
+			.vc_col-sm-3 .grid_shortcode .invicta_grid .entry { width:100%; }
+			
+/* shortcode - 1/6 */
+.no_sidebar .vc_col-sm-2 .grid_shortcode .invicta_grid .entry { width:100%; }
+			.vc_col-sm-2 .grid_shortcode .invicta_grid .entry { width:100%; }
+			
+/* shortcode - 2/3 */
+.no_sidebar .vc_col-sm-8 .grid_shortcode .invicta_grid .entry { width:280px; }
+			.vc_col-sm-8 .grid_shortcode .invicta_grid .entry { width:199px; }
+			
+/* shortcode - 3/4 */
+.no_sidebar .vc_col-sm-9 .grid_shortcode .invicta_grid .entry { width:197px; }
+			.vc_col-sm-9 .grid_shortcode .invicta_grid .entry { width:229px; }
+			
+/* shortcode - 5/6 */
+.no_sidebar .vc_col-sm-10 .grid_shortcode .invicta_grid .entry { width:225px; }
+			.vc_col-sm-10 .grid_shortcode .invicta_grid .entry { width:259px; }
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Isotope
+== ------------------------------------------------------------------- ==
+*/
+
+.js_active .invicta_grid.isotope {
+	opacity:0;
+}
+
+/* filtering */
+
+.isotope-item {
+	z-index: 2;
+	}
+
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+	}
+
+/* transitions */
+
+.isotope,
+.isotope .isotope-item {
+	-webkit-transition-duration: 0.8s;
+	 -moz-transition-duration: 0.8s;
+	  -ms-transition-duration: 0.8s;
+	   -o-transition-duration: 0.8s;
+	      transition-duration: 0.8s;
+	}
+
+.isotope {
+	-webkit-transition-property: height, width;
+	 -moz-transition-property: height, width;
+	  -ms-transition-property: height, width;
+	   -o-transition-property: height, width;
+	      transition-property: height, width;
+	}
+
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity, border-color;
+	 -moz-transition-property:    -moz-transform, opacity, border-color;
+	  -ms-transition-property:     -ms-transform, opacity, border-color;
+	   -o-transition-property:      -o-transform, opacity, border-color;
+	      transition-property:         transform, opacity, border-color;
+	}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+	-webkit-transition-duration: 0s;
+	 -moz-transition-duration: 0s;
+	  -ms-transition-duration: 0s;
+	   -o-transition-duration: 0s;
+	      transition-duration: 0s;
+	}
+
+/* disable CSS transitions for containers with infinite scrolling */
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
+/* filtering */
+
+.isotope-item {
+	z-index: 2;
+	}
+
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+	}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Forms
+== ------------------------------------------------------------------- ==
+*/
+
+input[type="text"], 
+input[type="input"], 
+input[type="password"],
+input[type="email"], 
+input[type="number"], 
+input[type="url"], 
+input[type="tel"], 
+input[type="search"], 
+textarea, 
+select {
+	outline:0;
+	-webkit-appearance:none;
+	-webkit-font-smoothing:antialiased;
+	border:1px solid #e1e1e1;
+	padding:10px 8px;
+	color:#777;
+	width:200px;
+	max-width:100%;
+	border-color:#e1e1e1;
+	background-color:#fcfcfc;
+	color:#919191;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	     -o-border-radius:2px;
+	        border-radius:2px;
+	font-size:0.90em;
+	}
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="email"]:focus, 
+input[type="number"]:focus, 
+input[type="url"]:focus, 
+input[type="tel"]:focus, 
+input[type="search"]:focus,
+textarea:focus {
+	-webkit-box-shadow:0 0 2px 0 rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow:0 0 2px 0 rgba(0, 0, 0, 0.2);
+	     -o-box-shadow:0 0 2px 0 rgba(0, 0, 0, 0.2);
+            box-shadow:0 0 2px 0 rgba(0, 0, 0, 0.2);
+	background-color:#FFF;
+	color:#555;
+	}
+	
+input[type="submit"],
+.shipping_calculator button[type="submit"], 
+.checkout-button,
+.woocommerce button[name="calc_shipping"],
+#submit, 
+.invicta_button, 
+.blog_loop .entry .more-link, 
+.woocommerce .widget_price_filter .price_slider_amount .button, 
+.woocommerce-page .widget_price_filter .price_slider_amount .button, 
+.woocommerce .single_product_details .cart .button, 
+.woocommerce-page .single_product_details .cart .button {
+	padding:10px 22px;
+	cursor:pointer;
+	border:none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-appearance: none;
+	-webkit-transition:background-color 0.5s ease;
+	   -moz-transition:background-color 0.5s ease;
+	     -o-transition:background-color 0.5s ease;
+	        transition:background-color 0.5s ease;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	     -o-border-radius:2px;
+	        border-radius:2px;
+	background:#616161;
+	color:#FFF !important;
+	font-weight:600;
+	font-size:0.85em;
+	line-height:150%;
+	display:inline-block;
+	}
+	
+input[type="submit"]:hover, 
+#submit:hover, 
+.invicta_button:hover, 
+.checkout-button:hover,
+.woocommerce button[name="calc_shipping"]:hover,
+.blog_loop .entry .more-link:hover, 
+.woocommerce .widget_price_filter .price_slider_amount .button:hover, 
+.woocommerce-page .widget_price_filter .price_slider_amount .button:hover, 
+.woocommerce .single_product_details .cart .button:hover, 
+.woocommerce-page .single_product_details .cart .button:hover {
+	-webkit-transition:none;
+	   -moz-transition:none;
+	     -o-transition:none;
+	        transition:none;
+	text-decoration:none !important;
+	opacity:1;
+	}
+	
+select {
+	background:#fafafa url('images/icons/dropdown_arrow.png') no-repeat right center;
+	}
+
+/* invicta button */
+
+.invicta_button {
+	background-repeat:repeat-x;
+	background-position:0 0;
+	font-size:0.9em;
+	}
+	
+	/* invicta button wrapper */
+	
+	.invicta_button_wrapper {
+		display:inline-block;
+		margin:0 2px 5px 0;
+		}
+		.invicta_button_wrapper.invicta-alignment-center {
+			display:block;
+			text-align:center;
+			margin-bottom:50px !important;
+			}
+		.invicta_button_wrapper.invicta-alignment-right {
+			display:block;
+			float:right;
+			}
+
+	/* invicta button icons */
+	
+	.invicta_button i { 
+		font-size:1.2em;
+		}
+		.invicta_button.invicta-icon_position-left i { margin-right:5px; }
+		.invicta_button.invicta-icon_position-right i { margin-left:5px; }
+		
+	/* invicta button sizes */
+	
+	.invicta_button.invicta-size-medium { font-size:1.2em; padding:10px 26px; }
+	.invicta_button.invicta-size-large 	{ font-size:1.8em; padding:10px 36px; }
+		
+	/* invicta button colors */
+	
+	.invicta_button.invicta-color-red,
+	.invicta_button.invicta-color-green, 
+	.invicta_button.invicta-color-blue, 
+	.invicta_button.invicta-color-silver, 
+	.invicta_button.invicta-color-gold {
+		-webkit-transition:all 0.3s ease;
+		   -moz-transition:all 0.3s ease;
+		     -o-transition:all 0.3s ease;
+		        transition:all 0.3s ease;
+		background-image:url(images/backgrounds/button.png);
+		border:1px solid transparent;
+		padding-top:9px;
+		padding-bottom:9px;
+		}
+		
+	.invicta_button.invicta-color-red:hover,
+	.invicta_button.invicta-color-green:hover, 
+	.invicta_button.invicta-color-blue:hover, 
+	.invicta_button.invicta-color-silver:hover, 
+	.invicta_button.invicta-color-gold:hover { 
+		opacity:1;
+/*
+		-webkit-transition:none;
+		   -moz-transition:none;
+		     -o-transition:none;
+		        transition:none;
+*/
+		}
+		
+	.invicta_button.invicta-color-red {
+		border-color:#e44949;
+		background-color:#e04b4b; 	
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.2);
+		color:#5d1a1b !important;
+		}	
+		.invicta_button.invicta-color-red:hover {
+			background-color:#F76767;
+			}
+		
+	.invicta_button.invicta-color-green {
+		border-color:#83a846;
+		background-color:#83a846;
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.3); 	
+		color:#415324 !important;
+		}
+		.invicta_button.invicta-color-green:hover {
+			background-color:#98C450;	
+			}
+		
+	.invicta_button.invicta-color-blue {
+		border-color:#7bb0e7;
+		background-color:#7bb0e7; 	
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.3); 	
+		color:#3f5871 !important;
+		}
+		.invicta_button.invicta-color-blue:hover {
+			background-color:#8dc2fb;	
+			}
+		
+	.invicta_button.invicta-color-silver {
+		border-color:#d7d7d7;
+		background-color:#d7d7d7; 	
+		text-shadow:0 1px 0 rgba(255, 255, 255, 1); 	
+		color:#444 !important;
+		}
+		.invicta_button.invicta-color-silver:hover {
+			background-color:#EEEEEE;
+			}
+		
+	.invicta_button.invicta-color-gold {
+		border-color:#edae44;
+		background-color:#edae44; 	
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.3); 	
+		color:#745521 !important;
+		}
+		.invicta_button.invicta-color-gold:hover {
+			background-color:#FFC666;	
+			}
+		
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Search Form
+== ------------------------------------------------------------------- ==
+*/
+
+.searchform {
+	position:relative;
+	}
+	.searchform input[type="text"],
+	.searchform input[type="search"] {
+		padding:10px 28px 10px 10px;
+		width:100%;
+		}
+	.searchform button {
+		background:none;
+		border:none;
+		margin:0;
+		padding:9px 10px;
+		font-size:1.1em;
+		cursor:pointer;
+		position:absolute;
+		top:2px;
+		right:0;
+		color:#a2a2a2;
+		-webkit-transition:color 0.3s ease;
+		   -moz-transition:color 0.3s ease;
+		     -o-transition:color 0.3s ease;
+		        transition:color 0.3s ease;
+		}
+		
+.main_column .searchform {
+	width:70%;
+	margin:0 auto;
+	}
+	
+.page_header .header_meta .searchform {
+	display:inline-block;
+	}
+	.page_header .header_meta .searchform input[type="text"], 
+	.page_header .header_meta .searchform input[type="search"] {
+		border:none;
+		background:transparent;
+		padding-top:4px;
+		padding-bottom:4px;
+		padding-left:5px;
+		font-style:italic;
+		margin:0;
+		width:150px;
+		font-size:0.85em;
+		}
+	.page_header .header_meta .searchform button {
+		top:0;
+		padding:4px 7px;
+		font-size:0.9em;
+		}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Hover Effect
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_hover_effect {
+	overflow:hidden;
+	opacity:1 !important;
+	display:block;
+	position:relative;
+	}
+	.invicta_hover_effect .element {
+		display:block;
+		-webkit-transition:all 0.2s linear;
+		        transition:all 0.2s linear;
+		}
+		.invicta_hover_effect .element img {
+			display:block;
+			}
+	.invicta_hover_effect .mask {
+		position:absolute;
+		display:block;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background-color:rgb(250,101,42);
+		background-color:rgba(250,101,42,0.70);
+		overflow:hidden;
+		-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		opacity:0;
+		-webkit-transition:opacity 0.4s ease-in-out;
+		        transition:opacity 0.4s ease-in-out;
+		border:9px solid rgba(0,0,0,0.15);
+		}
+	.invicta_hover_effect .caption {
+		display:block;
+		position:absolute;
+		padding:0 18px;
+		width:100%;
+		top:50%;
+		text-align:center;
+		}
+		.invicta_hover_effect .caption .title, 
+		.invicta_hover_effect .caption .description {
+			display:block;
+			color:#FFF;
+			text-shadow:0px 1px rgb(0,0,0);
+			text-shadow:0px 1px 0px rgba(0,0,0,0.40);
+			margin:0;
+			-webkit-transition:all 0.2s ease-in-out;
+			        transition:all 0.2s ease-in-out;
+		   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		   filter: alpha(opacity=0);
+		   opacity: 0;
+			}
+		.invicta_hover_effect .caption .title {
+			font-size:1.1em;
+			margin-bottom:2px;
+		    -webkit-transform:translateY(-100px);
+		        -ms-transform:translateY(-100px);
+		            transform:translateY(-100px);
+			}
+		.invicta_hover_effect .caption .description {
+			font-size:0.85em;
+			margin-bottom:2px;
+		    -webkit-transform:translateY(100px);
+		        -ms-transform:translateY(100px);
+		            transform:translateY(100px);
+			}
+		.invicta_hover_effect .caption i {
+			font-size:30px;
+			}
+		
+/* hover */
+.invicta_hover_effect:hover,
+.hovered .invicta_hover_effect {
+	opacity:1 !important;
+	}
+	.invicta_hover_effect:hover .element, 
+	.hovered .invicta_hover_effect .element {
+	    -webkit-transform:scale(1.05);
+	        -ms-transform:scale(1.05);
+	            transform:scale(1.05);
+		}
+	.invicta_hover_effect:hover .mask, 
+	.hovered .invicta_hover_effect .mask {
+	   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	   filter: alpha(opacity=100);
+	   opacity: 1;
+		}
+	.invicta_hover_effect:hover .title, 
+	.hovered .invicta_hover_effect .title, 
+	.invicta_hover_effect:hover .description, 
+	.hovered .invicta_hover_effect .description {
+	   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	   filter: alpha(opacity=100);
+	   opacity: 1;
+	    -webkit-transform:translateY(0px);
+	        -ms-transform:translateY(0px);
+	            transform:translateY(0px);
+		}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Post/Project Navigation
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_post_navigation {
+	margin:40px 0 0 0;
+	font-size:0.9em;
+	line-height:150%;
+	-ms-word-wrap: break-word;
+        word-wrap: break-word;
+	}
+	.invicta_post_navigation cite {
+		display:block;
+		font-style:italic;
+		font-size:1.1em;
+		color:#737373;
+		}
+	.invicta_post_navigation span {
+		color:#959595;
+		font-size:0.9em;
+		}
+	.invicta_post_navigation i {
+		margin:0 3px;
+		-webkit-transition:margin 0.2s ease;
+		   -moz-transition:margin 0.2s ease;
+		     -o-transition:margin 0.2s ease;
+		        transition:margin 0.2s ease;
+		}
+		.invicta_post_navigation .prev a:hover i { margin-right:7px; }
+		.invicta_post_navigation .next a:hover i { margin-left:7px; }
+	.invicta_post_navigation .prev { 
+		float:left;
+		width:50%;
+		text-align:right;
+		padding-right:20px;
+		}
+	.invicta_post_navigation .next { 
+		float:right;
+		width:50%;
+		text-align:left;
+		padding-left:20px;
+		}
+		
+.invicta_post_navigation .prev { border-right:1px solid #d4d4d4; }
+.invicta_post_navigation .next { border-left:none; }
+
+.portfolio_details .invicta_post_navigation .next { border-left:1px solid #d4d4d4; }
+.portfolio_details .invicta_post_navigation .prev { border-right:none; }
+	
+.portfolio_details .extended .invicta_post_navigation {
+	margin-top:0;
+	}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Tags
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_tags a {
+	background:#efefef;
+	padding:2px 10px;
+	color:inherit;
+	border-left:2px solid #fb652b;
+	-webkit-border-radius:0 3px 3px 0;
+	   -moz-border-radius:0 3px 3px 0;
+	     -o-border-radius:0 3px 3px 0;
+	        border-radius:0 3px 3px 0;
+	font-size:0.9em;
+	margin-right:6px;
+	display:inline-block;
+	margin-bottom:6px;
+	-webkit-transition:all 0.5s ease;
+	   -moz-transition:all 0.5s ease;
+	     -o-transition:all 0.5s ease;
+	        transition:all 0.5s ease;
+	white-space:nowrap;
+	}
+	.invicta_tags a:hover {
+		background:#fb652b;
+		color:#FFF;
+		-webkit-transition:none;
+		   -moz-transition:none;
+		     -o-transition:none;
+		        transition:none;
+		}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Avatar
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_avatar {
+	border:solid 8px #ededed;
+	display:inline-block;
+	-webkit-border-radius:500px;
+	   -moz-border-radius:500px;
+	     -o-border-radius:500px;
+	        border-radius:500px;
+	overflow:hidden;
+	max-width:100%;
+	}
+	.invicta_avatar img {
+		display:block;
+		max-width:100%;
+		-webkit-border-radius:500px;
+		   -moz-border-radius:500px;
+		     -o-border-radius:500px;
+		        border-radius:500px;
+		}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Image Hover Effect
+== ------------------------------------------------------------------- ==
+*/
+
+.image_hover_effect {
+	position:relative;
+	display:block;
+	overflow:hidden;
+	}
+.image_hover_effect .hover_span {
+	width:100%;
+	height:100%;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background:rgba(255,255,255,0.30);
+	border:10px solid rgba(0,0,0,0.20);
+	}
+.image_hover_effect .hover_span .icon {
+	display:block;
+	width:50px;
+	height:50px;
+	background:#dedede;
+	position:absolute;
+	top:-50%;
+	left:50%;
+	margin-left:-25px;
+	margin-top:-25px;
+	-webkit-border-radius:40px;
+	   -moz-border-radius:40px;
+	     -o-border-radius:40px;
+	        border-radius:40px;
+	border:4px solid #f5f5f5;
+	}
+	.image_hover_effect .hover_span .icon i {
+		font-size:20px;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin:-10px 0 0 -10px;
+		color:#5b5b5b;
+		}
+		.image_hover_effect .hover_span .icon i:before {
+			width:1em;
+			text-align:center;
+			}
+		
+/* medium */		
+
+.columns_3.no_sidebar .image_hover_effect .hover_span 			{ border-width:9px; }
+.columns_3.no_sidebar .image_hover_effect .hover_span .icon 	{ border-width:3px; width:40px; height:40px; margin:-20px 0 0 -20px; }
+.columns_3.no_sidebar .image_hover_effect .hover_span .icon i 	{ font-size:16px; margin:-8px 0 0 -8px; }
+				
+/* small */		
+
+.columns_4 .image_hover_effect .hover_span,
+.columns_3 .image_hover_effect .hover_span, 
+.grid_shortcode .image_hover_effect .hover_span 		{ border-width:7px; }
+
+.columns_4 .image_hover_effect .hover_span .icon, 
+.columns_3 .image_hover_effect .hover_span .icon, 
+.grid_shortcode .image_hover_effect .hover_span .icon 	{ border-width:3px; width:40px; height:40px; margin:-20px 0 0 -20px; }
+
+.columns_4 .image_hover_effect .hover_span .icon i, 
+.columns_3 .image_hover_effect .hover_span .icon i, 
+.grid_shortcode .image_hover_effect .hover_span .icon i { font-size:16px; margin:-8px 0 0 -8px; }
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Pagination
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_pagination {
+	overflow:hidden;
+	padding:4px 0;
+	font-size:0.85em;
+	}
+	.invicta_pagination .pages {
+		float:left;
+		}
+	.invicta_pagination .nav {
+		float:right;
+		}
+		.invicta_pagination .nav .meta {
+			margin-right:10px;
+		}
+		
+.invicta_pagination .btn {
+	border-radius:2px;
+	background:#e6e6e6;
+	padding:6px 10px 5px 10px;
+	margin-right:4px;
+	color:inherit;
+	-webkit-transition:all 0.5s ease;
+	   -moz-transition:all 0.5s ease;
+	     -o-transition:all 0.5s ease;
+	        transition:all 0.5s ease;
+	}
+	.invicta_pagination .btn.current {
+		background:#666666;
+		color:#FFF;
+		}
+	.invicta_pagination .first_page,
+	.invicta_pagination .last_page {
+		background-color:#d9d9d9;
+		}
+	.invicta_pagination a.btn:hover {
+		background:#fb652b;
+		color:#FFF;
+		-webkit-transition:none;
+		   -moz-transition:none;
+		     -o-transition:none;
+		        transition:none;
+		}
+	
+.invicta_pagination .bullet { margin-right:5px; }
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Highlights
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_highlight {
+	background:#FFCC66;
+	color:#565656;
+	padding:1px 5px 2px 5px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	}
+	.invicta_highlight.red 		{ background:#d13939; color:#FFF;  }
+	.invicta_highlight.green 	{ background:#84ab40; color:#FFF; }
+	.invicta_highlight.blue 	{ background:#1282b0; color:#FFF; }
+	.invicta_highlight.gray 	{ background:#666666; color:#FFF; }
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Headings
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_heading {
+	text-align:center;
+	margin-bottom:50px !important;
+	margin-top:25px;
+	}
+	.invicta_heading .primary {
+		font-size:2em;
+		color:#282828;
+		margin-bottom:5px;
+		line-height:130%;
+		padding:0 15%;
+		}
+	.invicta_heading .secondary {
+		font-size:1.15em;
+		font-weight:300;
+		line-height:150%;
+		padding:0 20%;
+		margin-bottom:0;
+		margin-top:0;
+		}
+	.invicta_heading .primary strong { 
+		color:#fb652b; 
+		font-weight:normal;
+		}
+	.invicta_heading .secondary strong { 
+		font-weight:500; 
+		}
+		
+/* margins */
+	
+.wpb_row:first-child .invicta_heading {
+	margin-top:0;
+	}
+	
+.invicta_heading.small {
+	margin-top:0;
+}
+		
+/* alignments */
+	
+.invicta_heading.left .primary, 
+.invicta_heading.left .secondary { 
+	text-align:left;
+	padding:0;
+	}
+	
+.invicta_heading.right .primary, 
+.invicta_heading.right .secondary { 
+	text-align:right;
+	padding:0;
+	}
+	
+/* size */	
+
+.invicta_heading.small {
+	margin-bottom:20px !important;
+}
+.invicta_heading.small .primary {
+	font-size:1.5em;
+	margin-bottom:3px;
+	}
+.invicta_heading.small .secondary { 
+	font-size:1em;
+	}
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Heading Separators
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_heading_separator {
+	border-bottom:1px solid #e8e8e8;
+	margin-bottom:50px;
+	text-align:center;
+	clear:both;
+	height:1px;
+	}
+	.invicta_heading_separator div {
+		color:#282828;
+		font-size:1.4em;
+		top:-11px;
+		display:inline-block;
+		background-color:#FFF;
+		padding:1px 1em;
+		position:relative;
+		}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Widgets
+== ------------------------------------------------------------------- ==
+*/
+
+.widget { 
+	margin-bottom:40px; 
+	}
+.page_footer .widget:last-child {
+	margin-bottom:0;
+	}
+
+	.widget .widget_title {
+		margin-top:0;
+		margin-bottom:15px;
+		font-size:1.0em;
+		}
+		.side_column .widget .widget_title {
+			font-size:1.1em;
+		}
+		
+/* form elements */
+
+.widget input[type="text"], 
+.widget input[type="input"], 
+.widget input[type="password"],
+.widget input[type="email"], 
+.widget input[type="number"], 
+.widget input[type="url"], 
+.widget input[type="tel"], 
+.widget input[type="search"], 
+.widget textarea, 
+.widget select {
+	width:100%
+}
+
+/* list widgets */
+
+.widget li {
+	line-height:150%;
+	margin-bottom:5px;
+	padding-left:10px;
+	position:relative;
+	}
+	.widget li a {
+		-webkit-transition:color 0.5s ease;
+		   -moz-transition:color 0.5s ease;
+		     -o-transition:color 0.5s ease;
+		        transition:color 0.5s ease;
+		}
+		.widget li a:hover {
+			-webkit-transition:none;
+			   -moz-transition:none;
+			     -o-transition:none;
+			        transition:none;
+			}
+	.widget li .count {
+		font-size:0.9em;
+		opacity:0.6;
+		margin-left:2px;
+		position:relative;
+		top:-1px;
+	}
+	.widget ul li:before {
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		display: inline-block;
+		text-decoration: inherit;
+		content: "\F105";
+		color:#fb652b;
+		position:absolute;
+		left:0;
+		}
+	.widget li ul {
+		margin-left:11px;
+		margin-top:5px;
+		}
+	.widget li.recentcomments {
+		padding-left: 16px;
+		}
+
+	
+/* tags */
+
+.widget_tag_cloud a {
+	font-size:1em !important;
+	padding:0px 8px;
+	margin-bottom:8px;
+	text-transform:lowercase;
+	}
+	
+/* search */
+
+.widget_search {
+	margin-bottom:25px;
+	}
+	
+/* categories */
+
+.widget_categories ul {
+	border-top:1px solid #e3e3e3;
+	}
+	.widget_categories li {
+		border:1px solid #e3e3e3;
+		border-left:none;
+		border-top:none;
+		margin-bottom:0;
+		position:relative;
+		padding-left:0;
+		}
+		.widget_categories ul li:before {
+			content:none;
+			margin-right:0;	
+			}
+
+.widget_categories li.current-cat,
+.widget_categories li:hover {
+	-webkit-transition:none;
+	   -moz-transition:none;
+	     -o-transition:none;
+	        transition:none;
+	}
+		
+.widget_categories li a {
+	padding:7px 13px;
+	padding-right:30px;
+	display:block;
+	background:#f6f6f6;
+	border-left:2px solid #a3a3a3;
+	-webkit-transition:all 0.5s ease;
+	   -moz-transition:all 0.5s ease;
+	     -o-transition:all 0.5s ease;
+	        transition:all 0.5s ease;
+	-ms-word-wrap:break-word;
+	    word-wrap:break-word;
+	}
+	.widget_categories li.current-cat a,
+	.widget_categories li a:hover {
+		color:inherit;
+		background:#fcfcfc;
+		-webkit-transition:none;
+		   -moz-transition:none;
+		     -o-transition:none;
+		        transition:none;
+		}
+	.widget_categories li.current-cat a {
+		border-left:2px solid #fb652b;
+		}
+	.widget_categories li.current-cat > a {
+		background:#f6f6f6 !important;
+		}
+		.widget_categories .children li.current-cat > a {
+			background:#fcfcfc !important;
+			}
+	.widget_categories li a:before {
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		display: inline-block;
+		text-decoration: inherit;
+		content: "\F02B";
+		margin-right:10px;
+		}
+.widget_categories li .count {
+	position:absolute;
+	right:10px;
+	top:7px;
+	}
+
+.widget_categories ul.children {
+	margin:0;
+	}		
+	.widget_categories ul.children ul a {
+		padding-left:25px;
+		}
+	.widget_categories ul.children li {
+		border-right:none;
+		}
+		.widget_categories ul.children li:last-child {
+			border-bottom:none;
+			}
+	.widget_categories ul.children li a {
+		background:#fcfcfc;
+		border-left-color:#cecece;
+		font-size:0.9em;
+		border-right:none;
+		}
+		.widget_categories ul.children li a:hover {
+			border-left-color:#B9B9B9;
+			background:#ffffff;
+			}
+		.widget_categories ul.children li.current-cat a {
+			border-left-color:#fb652b;
+			}
+		.widget_categories ul.children li a:before {
+			content:none;
+			}
+	
+/* categories (photos) */		
+
+.widget_categories.widget_photos_categories li a:before {
+	content: "\F03E";
+	}
+.widget_categories.widget_photos_categories li .count { 
+	opacity:0.3;
+	top:8px;
+	font-size:0.8em;
+	}
+.widget_categories.widget_photos_categories li:hover .count, 
+.widget_categories.widget_photos_categories li.current-cat .count {
+	opacity:1;
+	}
+	
+.widget_categories.widget_photos_categories ul.children li a {
+	padding-top:5px;
+	padding-bottom:5px;
+	}
+	
+.widget_categories.widget_photos_categories .tooltip {
+	margin-top:20px;
+	font-size:0.9em;
+	font-style:italic;
+	line-height:150%;	
+	position:relative;
+	color:#969696;
+	background:#F8F8F8;
+	border:1px solid #F8F8F8;
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	     -o-border-radius:5px;
+	        border-radius:5px;
+	padding:8px 10px;
+	}
+	.widget_categories.widget_photos_categories .tooltip:after {
+		content:'';
+		position:absolute;
+		top:-7px;
+		left:30px;
+		border-width:0 7px 7px 7px;
+		border-style:solid;
+		border-color:#F8F8F8 transparent;
+		display:block;
+		width:0;
+		}
+	.widget_categories.widget_photos_categories .tooltip:before {
+		content:'';
+		position:absolute;
+		top:-8px;
+		left:29px;
+		border-width:0 8px 7px 8px;
+		border-style:solid;
+		border-color:#F8F8F8 transparent;
+		display:block;
+		width:0;
+		}
+						
+/* calendar */
+
+.widget_calendar #calendar_wrap table {
+	width:100%;
+	}
+	
+.widget_calendar #calendar_wrap table caption {
+	margin-bottom:5px;
+	text-align:center;
+	}	
+	
+.widget_calendar #calendar_wrap thead th {
+	border:1px solid #e3e3e3;
+	background:#f8f8f8;
+	font-weight:600;
+	border-color:#d5d5d5; 
+	padding-top:5px;
+	padding-bottom:5px;
+	}		
+.widget_calendar #calendar_wrap tbody td {
+	text-align:center;
+	font-size:0.9em;
+	border:1px solid #e3e3e3;
+	}
+	.widget_calendar #calendar_wrap tbody td a {
+		color:#fb652b;
+		font-weight:600;
+		display:block;
+		border:1px solid transparent;
+		}
+		.widget_calendar #calendar_wrap tbody td a:hover {
+			border:1px solid #c6c6c6;
+			}
+		.widget_calendar #calendar_wrap td.pad {
+			background:#fcfcfc;
+			}
+		.widget_calendar #calendar_wrap td#today {
+			color:#fb652b;
+			font-weight:600;
+			}
+.widget_calendar tfoot {
+	font-size:0.9em;
+	font-style:italic;
+	}	
+	.widget_calendar tfoot #prev { text-align:left; }
+	.widget_calendar tfoot #next { text-align:right; }
+
+
+/* recent comments */
+
+.widget_recent_comments a {
+	color:#fb652b;
+	}
+	.widget_recent_comments a:hover {
+		text-decoration:underline;
+		opacity:0.9;
+		}
+.widget_recent_comments ul li:before {
+	content:'\F075';
+	color:inherit !important;
+	font-size:11px;
+	}
+		
+
+/* posts */		
+
+.blog_loop_widget .entry {
+	overflow:hidden;
+	margin-bottom:15px;
+	}
+	.blog_loop_widget .entry:last-child {
+		margin-bottom:0;
+		}
+.blog_loop_widget .entry .post_details {
+	padding-left:40px;
+	line-height:130%;
+	}
+	.blog_loop_widget .entry .post_details .post_meta {
+		font-size:0.9em;
+		color:#aeaeae;
+		}
+.blog_loop_widget .entry .post_thumbnail {
+	float:left;
+	width:30px;
+	}
+	.blog_loop_widget .entry .post_thumbnail a {
+		-webkit-transition:opacity 0.3s ease;
+		   -moz-transition:opacity 0.3s ease;
+		     -o-transition:opacity 0.3s ease;
+		        transition:opacity 0.3s ease;
+		}
+	.blog_loop_widget .entry .post_thumbnail a:hover {
+		opacity:0.8;
+		}
+	.blog_loop_widget .entry .post_thumbnail img {
+		width:30px;
+		height:30px;
+		}
+.blog_loop_widget .entry.no_thumbnail .post_details {
+	padding-left:12px;
+	position:relative;
+	}
+	.blog_loop_widget .entry.no_thumbnail .post_details:before {
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		text-decoration: inherit;
+		content: "\F105";
+		position:absolute;
+		left:0;
+		}
+		
+.visual_composer_invicta_styles .widget .wpb_content_element.wpb_tabs {
+	margin-bottom:0;
+	}
+.wpb_tab .blog_loop_widget {
+	padding:10px 0 5px 0;
+	font-size:1.1em;
+	}
+	
+/* manual widget - about us */
+
+.widget_about_manual .social_links { margin-top:15px; }
+.widget_about_manual .social_links a { margin-right:7px; font-size:1.2em; }
+.widget_about_manual .map { margin-top:20px; }
+
+/* manual widget - recent posts */
+
+.widget_recent_posts_manual {
+	line-height:140%;
+	}
+	.widget_recent_posts_manual ul li {
+		margin-bottom:10px;
+		}
+		.widget_recent_posts_manual ul li:last-child { margin-bottom:0; }
+	
+/* social sharer */
+
+.invicta_social_sharer { display:inline-block; }
+.invicta_social_sharer iframe { max-width:none; }
+.invicta_social_sharer .twitter-share-button { margin-bottom:0 !important; }
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Video/Audio Players (MediaElementJS)
+== ------------------------------------------------------------------- ==
+*/	
+
+.invicta_canvas .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background-color:#9f9f9f;
+	}
+
+.invicta_canvas .mejs-controls .mejs-time-rail .mejs-time-current {
+	background-color:#fb652b;
+	}
+	
+.invicta_canvas .mejs-controls .mejs-time-rail span {
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+	     -o-border-radius: 0;
+	        border-radius: 0;
+	}
+	
+.mejs-controls .mejs-button button:focus {
+	outline:none !important;
+	}
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ Invicta Gallery
+== ------------------------------------------------------------------- ==
+*/	
+
+.invicta_gallery {
+	margin-bottom:15px;
+	}
+.invicta_gallery .flexslider {
+	border:none;
+	background:none;
+	-webkit-border-radius:0 !important;
+	   -moz-border-radius:0 !important;
+	     -o-border-radius:0 !important;
+	        border-radius:0 !important;
+	box-shadow:none;
+	margin-bottom:2px;
+	}
+	.invicta_gallery .flexslider img,
+	.invicta_gallery .flexslider a {
+		margin-bottom:0 !important;
+		}
+	.invicta_gallery .flexslider.thumbs li { 
+		margin-right:2px;
+		}
+	.invicta_gallery .flex-direction-nav a {
+		width:30px;
+		height:20px;
+		margin-top:-10px;
+		}
+	.invicta_gallery .flex-direction-nav a:before {
+		font-size:20px;
+		}
+	.invicta_gallery .thumbs .flex-active-slide {
+		opacity:0.5;
+		}
+	.invicta_gallery .thumbs li {
+		cursor:n-resize;
+		}
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ WP Gallery
+== ------------------------------------------------------------------- ==
+*/	
+
+.gallery dl {
+	margin-bottom:4px;
+	}
+
+.gallery dl dd {
+	margin:auto;
+	font-size:auto;
+	line-height:auto;
+	}
+
+.gallery a,
+.gallery img {
+	display:block;
+	}
+
+.gallery {
+	margin-bottom: 20px;
+	/* margin-left: -4px; */
+	}
+
+.gallery-item {
+	float: left;
+	margin: 0 4px 4px 0;
+	overflow: hidden;
+	position: relative;
+	}
+
+.gallery-columns-1.gallery-size-medium,
+.gallery-columns-1.gallery-size-thumbnail,
+.gallery-columns-2.gallery-size-thumbnail,
+.gallery-columns-3.gallery-size-thumbnail {
+	display: table;
+	margin: 0 auto 20px;
+	}
+
+.gallery-columns-1 .gallery-item,
+.gallery-columns-2 .gallery-item,
+.gallery-columns-3 .gallery-item {
+	text-align: center;
+	}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 23%;
+	max-width: -webkit-calc(25% - 4px);
+	max-width:         calc(25% - 4px);
+	}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 19%;
+	max-width: -webkit-calc(20% - 4px);
+	max-width:         calc(20% - 4px);
+	}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 15%;
+	max-width: -webkit-calc(16.7% - 4px);
+	max-width:         calc(16.7% - 4px);
+	}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 13%;
+	max-width: -webkit-calc(14.28% - 4px);
+	max-width:         calc(14.28% - 4px);
+	}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 11%;
+	max-width: -webkit-calc(12.5% - 4px);
+	max-width:         calc(12.5% - 4px);
+	}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 9%;
+	max-width: -webkit-calc(11.1% - 4px);
+	max-width:         calc(11.1% - 4px);
+	}
+
+.gallery-columns-1 .gallery-item:nth-of-type(1n),
+.gallery-columns-2 .gallery-item:nth-of-type(2n),
+.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.gallery-columns-4 .gallery-item:nth-of-type(4n),
+.gallery-columns-5 .gallery-item:nth-of-type(5n),
+.gallery-columns-6 .gallery-item:nth-of-type(6n),
+.gallery-columns-7 .gallery-item:nth-of-type(7n),
+.gallery-columns-8 .gallery-item:nth-of-type(8n),
+.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-right: 0;
+	}
+
+.gallery-caption {
+	background-color:rgba(0, 0, 0, 0.7);
+	box-sizing:border-box;
+	color:#fff;
+	font-size:10px !important;
+	line-height:130% !important;
+	margin:0;
+	max-height:50%;
+	opacity:0;
+	padding:4px 8px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align:left;
+	-webkit-transition:opacity 400ms ease;
+	        transition:opacity 400ms ease;
+	width:100%;
+	}
+
+.gallery-caption:before {
+	/* box-shadow: 0 -10px 15px #000 inset; */
+	content: "";
+	height: 100%;
+	min-height: 49px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	}
+
+.gallery-item:hover .gallery-caption {
+	opacity: 1;
+	}
+
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+	}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Invicta Museum
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_photoslider {
+	position:relative;
+	overflow:hidden;
+	}
+	
+	/* stage */
+	.invicta_photoslider .stage {
+		height:500px;
+		text-align:center;
+		overflow:hidden;
+		position:relative;
+		}
+		.invicta_photoslider .stage img {
+			display:inline-block;
+			vertical-align:middle;
+			height:100%;
+			}
+			
+	/* thumbnails */
+	.invicta_photoslider .thumbnails {
+		margin-top:5px;
+		overflow:hidden;
+		}
+		.invicta_photoslider .thumbnails .thumb {
+			float:left;
+			width:10%;
+			}
+			.invicta_photoslider .thumbnails .thumb img {
+				display:block;
+				}
+				
+	/* nav arrows */
+	.invicta_photoslider .nav_arrows {
+		position:absolute;
+		top:50%;
+		width:100%;
+		font-size:20px;
+		margin-top:-30px;
+		}
+		.invicta_photoslider .nav_arrows a {
+			 position:absolute;
+			 padding:20px;
+			 color:inherit;
+			 -webkit-transition:all 0.3s ease;
+			    -moz-transition:all 0.3s ease;
+			      -o-transition:all 0.3s ease;
+			         transition:all 0.3s ease;
+			}
+			.invicta_photoslider .nav_arrows a:hover {
+				opacity:1;
+				text-decoration:none;
+				}
+		.invicta_photoslider .nav_arrows .prev {  left:0px;  padding-left:15px; }
+		.invicta_photoslider .nav_arrows .next { right:0px; padding-right:15px; }
+				
+		.invicta_photoslider .nav_arrows .prev { 
+		    -webkit-transform:translateX(-50px);
+		        -ms-transform:translateX(-50px);
+		            transform:translateX(-50px);
+			}
+		.invicta_photoslider .nav_arrows .next { 
+		    -webkit-transform:translateX(50px);
+		        -ms-transform:translateX(50px);
+		            transform:translateX(50px);
+			}
+		.invicta_photoslider:hover .nav_arrows .prev { 
+		    -webkit-transform:translateX(0px);
+		        -ms-transform:translateX(0px);
+		            transform:translateX(0px);
+			}
+		.invicta_photoslider:hover .nav_arrows .next { 
+		    -webkit-transform:translateX(0px);
+		        -ms-transform:translateX(0px);
+		            transform:translateX(0px);
+			}
+			
+	/* controller */
+	.invicta_photoslider .controller {
+		background:#737373;
+		margin-top:2px;
+		padding:2px 3px 1px 3px;
+		overflow:hidden;
+		}
+		.invicta_photoslider .controller span {
+			color:#FFF;
+			font-size:0.85em;
+			margin:0 5px;
+			}
+		.invicta_photoslider .controller a {
+			color:#FFF;
+			display:inline-block;
+			margin:0 5px;
+			}
+			.invicta_photoslider .controller a:hover {
+				text-decoration:none;
+				opacity:1;
+				}
+		.invicta_photoslider .controller .play { font-size:12px; margin-left:8px; }
+		.invicta_photoslider .controller .counter, 
+		.invicta_photoslider .controller .mosaic { float:right; }
+		
+	/* thumbnails pane */
+	.invicta_photoslider .thumbnails_pane {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:500px;
+		background:rgb(255, 255, 255);
+		background:rgba(255, 255, 255, 0.6);
+		padding:8px;
+		overflow:scroll;
+		}
+		.invicta_photoslider .thumbnails_pane .thumbnails {
+			display:block !important;
+			margin-top:0;
+			}
+			.invicta_photoslider .thumbnails_pane .thumbnails .thumb {
+				margin:8px;
+				width:58px;
+				height:52px;
+				border:solid 3px #FFF;
+				-webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.30);
+				   -moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.30);
+				     -o-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.30);
+				        box-shadow:0px 0px 5px 0px rgba(0,0,0,0.30);
+				-webkit-transition:all 0.2s ease;
+				   -moz-transition:all 0.2s ease;
+				     -o-transition:all 0.2s ease;
+				        transition:all 0.2s ease;
+				}
+			.invicta_photoslider .thumbnails_pane .thumbnails .thumb.current {
+				border-color:#fb652b;
+				}
+			.invicta_photoslider .thumbnails_pane .thumbnails .thumb:hover {
+			    -webkit-transform:scale(1.2);
+			        -ms-transform:scale(1.2);
+			            transform:scale(1.2);
+			    opacity:1;
+				}
+			.invicta_photoslider .thumbnails_pane .thumbnails .thumb.current:hover {
+				-webkit-transform:none;
+			        -ms-transform:none;
+			            transform:none;
+			    cursor:default;
+				}
+	
+.js_active .invicta_photoslider .thumbnails { display:none; }
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Visual Composer Shortcodes
+== ------------------------------------------------------------------- ==
+*/
+
+/* google map */
+
+.visual_composer_invicta_styles .wpb_gmaps_widget .wpb_map_wraper {
+	padding:0;
+}
+
+/* separator */
+
+.visual_composer_invicta_styles .wpb_separator,
+.visual_composer_invicta_styles .vc_text_separator {
+	border-color:#e8e8e8;
+	margin-top:25px;
+	}
+
+.visual_composer_invicta_styles .vc_text_separator div {
+	color:#282828;
+	font-size:1.4em;
+	top:-11px;
+	}
+	
+/* togggle / faq */
+	
+.visual_composer_invicta_styles .wpb_toggle {
+	background-color:#fcfcfc;
+	background-image:url(images/icons/toggle_open.png);
+	border:1px solid #e3e3e3;
+	border-left-color:#b6b6b6;
+	border-left-width:2px;
+	padding:10px 0 9px 0;
+	padding-left:37px;
+	background-position:11px 9px;
+	font-size:1em;
+	margin-bottom:3px !important;
+	color:inherit;
+	}
+	.visual_composer_invicta_styles .wpb_toggle.wpb_toggle_title_active {
+		background-image:url(images/icons/toggle_close.png);
+		margin-bottom:0 !important;
+		border-left-color:#fb652b;
+		}
+	.visual_composer_invicta_styles .wpb_toggle_content {
+		border:1px solid #e3e3e3;
+		border-top:none;
+		background:#ffffff;
+		padding:15px;
+		padding-left:37px;
+		margin:0;
+		margin-bottom:4px;
+		font-size:0.9em;
+		}
+
+.visual_composer_invicta_styles .vc_toggle {
+	margin-bottom: 3px;
+	}		
+	.visual_composer_invicta_styles .vc_toggle .vc_toggle_title {
+		background: #fcfcfc url(images/icons/toggle_open.png) no-repeat left center;
+		border:1px solid #e3e3e3;
+		border-left-color:#b6b6b6;
+		border-left-width:2px;
+		padding:10px 0 9px 0;
+		padding-left:37px !important;
+		background-position:11px 11px;
+		margin-bottom:3px !important;
+		}
+		.visual_composer_invicta_styles .vc_toggle .vc_toggle_title h4 {
+			color: inherit;
+			font-size: 1em;
+			}
+		.visual_composer_invicta_styles .vc_toggle .vc_toggle_title i { 
+			display: none;		
+			}
+			
+	.visual_composer_invicta_styles .vc_toggle .vc_toggle_content {
+		border:1px solid #e3e3e3;
+		border-top:none;
+		background:#ffffff;
+		padding:15px;
+		padding-left:37px;
+		margin:0;
+		margin-bottom:4px;
+		font-size:0.9em;
+		}
+			
+.visual_composer_invicta_styles .vc_toggle.vc_toggle_active .vc_toggle_title {
+	background-image:url(images/icons/toggle_close.png);
+	border-left-color:#fb652b;
+	}
+		
+/* tabs */
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs { font-size:0.9em; }
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .tab_icon { display:none; }
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li a i { margin-right:5px; }
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab {
+	background-color:#FFF;
+	border:1px solid #e3e3e3;
+	overflow:hidden;
+	padding:1.0em 1.5em;
+	}
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav {
+	position:relative;
+	top:1px;
+	z-index:1;
+	}
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li {
+	background-color:#fcfcfc;
+	border:1px solid #e3e3e3;
+	border-top-width:1px;
+	margin-right:-1px;
+	position:relative;
+	float:none;
+	display:inline-block;
+	}
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li.ui-tabs-active {
+	background:#FFF;
+	border:1px solid #e3e3e3;
+	border-bottom:1px solid #fff;
+	border-top:2px solid #fb652b;
+	}
+	.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li.ui-tabs-active a {
+		color:#282828;
+		padding-top:11px;
+		}
+		
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li:hover { background:#f5f5f5; }
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li.ui-tabs-active:hover { background:#FFF; }
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li a {
+	color:inherit;
+	padding:6px 20px;
+	}
+	.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav a:hover {
+		opacity:1;
+		}
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tabs_nav li {
+	-webkit-transition:background-color 0.3s ease;
+	   -moz-transition:background-color 0.3s ease;
+	     -o-transition:background-color 0.3s ease;
+	        transition:background-color 0.3s ease;
+	}
+.visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-tabs-active {
+	-webkit-transition:none;
+	   -moz-transition:none;
+	     -o-transition:none;
+	        transition:none;
+	}
+	
+/* tabs tour */	
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour { font-size:0.9em; }
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .tab_icon { display:none; }
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li a i { margin-right:5px; font-size:1.1em; }
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tour_tabs_wrapper .wpb_tab {
+	background-color:#FFF;
+	border:1px solid #e3e3e3;
+	overflow:hidden;
+	padding:1.3em 1.7em;
+	}
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav {
+	position:relative;
+	left:1px;
+	z-index:1;
+	}
+	
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li {
+	background-color:#fcfcfc;
+	border:1px solid #e3e3e3;
+	border-top-width:1px;
+	position:relative;
+	margin-bottom:-1px;
+	margin-left:4%;
+	}
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active {
+	background:#FFF;
+	border:1px solid #e3e3e3;
+	border-right:1px solid #fff;
+	border-left:2px solid #fb652b;
+	margin-left:0;
+	}
+	.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active a {
+		color:#282828;
+		}
+		
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li:hover { background:#f5f5f5; }
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active:hover { background:#FFF; }
+		
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li a {
+	color:inherit;
+	padding:6px 20px;
+	-ms-word-wrap: break-word;
+	    word-wrap: break-word;
+	white-space: normal;
+	}
+	.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav a:hover {
+		opacity:1;
+		}
+		
+.visual_composer_invicta_styles .wpb_tour_next_prev_nav span {
+	display:none;
+	}
+		
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tour_tabs_wrapper .wpb_tabs_nav li {
+	clear: none;
+	width: auto;
+	-webkit-transition:background-color 0.3s ease;
+	   -moz-transition:background-color 0.3s ease;
+	     -o-transition:background-color 0.3s ease;
+	        transition:background-color 0.3s ease;
+	}
+.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-tabs-active {
+	-webkit-transition:none;
+	   -moz-transition:none;
+	     -o-transition:none;
+	        transition:none;
+	}
+
+
+/* accordion */
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_accordion { font-size:0.9em; }
+
+.visual_composer_invicta_styles .wpb_content_element.wpb_accordion .tab_icon { display:none; }
+.visual_composer_invicta_styles .wpb_content_element.wpb_accordion .wpb_tabs_nav li a i { margin-right:5px; }
+
+.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header {
+	background:#fcfcfc;
+	border:1px solid #e3e3e3;
+	border-left-color: #b6b6b6;
+	border-left-width: 2px;
+	margin-bottom: 3px !important;
+	color: inherit;
+	-webkit-appearance: none;
+	}
+	.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header a {
+		color:inherit;
+		}
+		.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+			opacity:1;
+			}
+	.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header { 
+		-webkit-transition:all 0.3s ease;
+		   -moz-transition:all 0.3s ease;
+		     -o-transition:all 0.3s ease;
+		        transition:all 0.3s ease;	
+	}
+	.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active {
+		margin-bottom:0 !important;
+		border-left-color:#fb652b;
+		background:#FFF;
+		border-bottom:0;
+		color:#282828;
+		font-size:1.1em;
+		}
+		.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active a {
+			cursor:default;
+			}
+
+.visual_composer_invicta_styles .wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon, 
+.visual_composer_invicta_styles .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	width:18px;
+	height:18px;	
+	cursor:pointer;
+	display:none;
+	}
+	.visual_composer_invicta_styles .wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon {
+		background-image:url(images/icons/toggle_open.png);
+		}		
+	.visual_composer_invicta_styles .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+		background-image:url(images/icons/toggle_close.png);
+		cursor:default;
+		}
+
+.visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content {
+	border: 1px solid #e3e3e3;
+	border-top: none;
+	background: #ffffff;
+	padding:10px 15px;
+	padding-top:5px;
+	margin: 0;
+	margin-bottom: 4px;
+	border-left-color: #fb652b;
+	border-left-width: 2px;
+	}
+
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Shortcodes
+== ------------------------------------------------------------------- ==
+*/
+
+/* Invicta Person */
+
+.invicta_person {
+	text-align:center;
+	line-height:150%;
+	position:relative;
+	border-bottom:2px solid #e3e3e3;
+	padding-bottom:1px;
+	-webkit-transition:border-color 0.3s ease;
+	   -moz-transition:border-color 0.3s ease;
+	     -o-transition:border-color 0.3s ease;
+	        transition:border-color 0.3s ease;
+	max-width:300px;
+	}
+	.invicta_person .wrapper {
+		background-color:#fafafa;
+		padding-bottom:15px;
+		}
+	.invicta_person .thumbnail {
+		position:relative;
+		}
+		.invicta_person .thumbnail:before {
+			width:100%;
+			height:50%;
+			background:#FFF;
+			display:block;
+			content:'';
+			position:absolute;
+			top:0;
+			left:0;
+			}
+		.invicta_person .invicta_avatar {
+			border-width:5px;
+			width:70%;
+			position:relative;
+			}
+			.invicta_person .invicta_avatar img {
+				width:100%;
+			}
+	.invicta_person .info {
+		padding:0 20px;
+		}
+	.invicta_person a:hover {
+		opacity:1;
+		}
+	.invicta_person .title {
+		color:#282828;
+		font-size:1.1em;
+		margin-top:5px;
+		}
+	.invicta_person .sub_title {
+		font-size:0.90em;
+		}
+	.invicta_person .excerpt {
+		font-size:0.90em;
+		line-height:150%;
+		padding:15px 0;
+		margin:13px 0;
+		position:relative;
+		}
+		.invicta_person .excerpt:before {
+			content:' ';
+			width:100%;
+			height:1px;
+			background:#e3e3e3;
+			position:absolute;
+			top:0;
+			left:0;
+			}
+		.invicta_person .excerpt:after {
+			content:' ';
+			width:100%;
+			height:1px;
+			background:#e3e3e3;
+			position:absolute;
+			bottom:0;
+			left:0;
+			}
+	.invicta_person .social {
+		margin-top:10px;
+		font-size:1.1em;
+		}
+		.invicta_person .social a {
+			color:inherit;
+			margin:0 2px 7px 3px;
+			}
+			.invicta_person .social a:hover { text-decoration:none; }
+			.invicta_person .social i.icon-envelope { font-size:0.85em; bottom:1px; position:relative; }
+
+	.invicta_person .button {
+		margin-top:15px;
+		margin-bottom:0px;
+		font-size:0.95em;
+		}
+		.invicta_person .button .invicta_button { padding:7px 15px; }
+	
+		
+.invicta_person.condensed {
+	text-align:left;
+	background-color:#fafafa;
+	padding:6px 10px;
+	overflow:hidden;
+	margin-bottom:10px;
+	border-bottom:none;
+	max-width:100%;
+	}
+	.invicta_person.condensed:last-child {
+		margin-bottom:50px;
+		}
+	.invicta_person.condensed .photo {
+		width:55px;
+		float:left;
+		margin-bottom:0;
+		}
+		.invicta_person.condensed .photo {
+			border-width:4px;
+		}
+	.invicta_person.condensed .social {
+		font-size:1em;
+		}
+	.invicta_person.condensed .info {
+		padding-left:65px;
+		padding-top:8px;
+		}
+		.invicta_person.condensed .info .details {
+			margin-top:7px;
+			}
+			.invicta_person.condensed .info .details p {
+				margin-bottom:2px;
+				font-size:0.9em;
+				line-height:140%;
+				}
+	.invicta_person.condensed .wrapper { padding-bottom:0; }
+	.invicta_person.condensed .button { display:none; }
+	.invicta_person.condensed .title { margin-top:0; }
+		
+.wpb_tour_tabs_wrapper .invicta_person.condensed {
+	margin-bottom:5px;
+	}
+	.wpb_tour_tabs_wrapper .invicta_person.condensed:first-child {
+		margin-top:7px;
+	}
+
+
+/*
+		
+.invicta_person.condensed {
+	text-align:left;
+	background-color:#fafafa;
+	padding:6px 10px;
+	overflow:hidden;
+	margin-bottom:10px;
+	}
+	.invicta_person.condensed:last-child {
+		margin-bottom:50px;
+		}
+	.invicta_person.condensed .photo {
+		width:55px;
+		float:left;
+		margin-bottom:0;
+		}
+		.invicta_person.condensed .photo {
+			border-width:4px;
+		}
+	.invicta_person.condensed .social {
+		font-size:1em;
+		}
+	.invicta_person.condensed .info {
+		padding-left:65px;
+		padding-top:8px;
+		}
+		.invicta_person.condensed .info .details {
+			margin-top:7px;
+			}
+			.invicta_person.condensed .info .details p {
+				margin-bottom:2px;
+				font-size:0.9em;
+				line-height:140%;
+				}
+
+	.invicta_person .invicta_hover_effect {
+		-webkit-border-radius:500px;
+		   -moz-border-radius:500px;
+		   -moz-border-radius:500px;
+		        border-radius:500px;
+		display:block;
+		overflow:hidden;
+		-webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+		}
+		.invicta_person .invicta_hover_effect .mask {
+			-webkit-border-radius:500px;
+			   -moz-border-radius:500px;
+			   -moz-border-radius:500px;
+			        border-radius:500px;
+			}
+	
+	.invicta_person.default > a:hover {
+		opacity:1;
+		}
+		
+.wpb_tour_tabs_wrapper .invicta_person.condensed {
+	margin-bottom:5px;
+	}
+	.wpb_tour_tabs_wrapper .invicta_person.condensed:first-child {
+		margin-top:7px;
+	}
+*/
+
+/* Invicta Instagram Feed */
+
+.invicta_instagramfeed {
+	overflow:hidden;
+	}
+	.invicta_instagramfeed .entry {
+		float:left;
+		width:55px;
+		margin:0 10px 10px 0;
+		}
+		.invicta_instagramfeed .entry a, 
+		.invicta_instagramfeed .entry img { 
+			display:block; 
+			}
+		.invicta_instagramfeed .entry a {
+			-webkit-transition:opacity 0.3s ease;
+			   -moz-transition:opacity 0.3s ease;
+			     -o-transition:opacity 0.3s ease;
+			        transition:opacity 0.3s ease;
+			}
+			.invicta_instagramfeed .entry a:hover {
+				opacity:0.8;
+				}
+
+/* Invicta Twitter Feed */
+
+.invicta_twitterfeed .tweet {
+	margin-bottom:15px;
+	line-height:150%;
+	font-size:0.9em;
+	}
+	.invicta_twitterfeed .tweet:last-child { margin-bottom:0; }
+.page_footer .invicta_twitterfeed .tweet {
+	font-size:1em;
+	}
+	
+	.invicta_twitterfeed .tweet i {
+		margin-right:5px;
+		}
+		
+	.invicta_twitterfeed .tweet .user { color:#282828; }
+	.invicta_twitterfeed .tweet .user:hover { text-decoration:none; opacity:1; }
+	
+	.invicta_twitterfeed .tweet .hash { color:#999999; }
+	.invicta_twitterfeed .tweet .hash:hover { text-decoration:none; opacity:1; }
+	
+	.invicta_twitterfeed .tweet .tweet_date {
+		display:block;
+		font-size:0.9em;
+		}
+		.invicta_twitterfeed .tweet .tweet_date a { color:#999999; font-style:italic; }
+		.invicta_twitterfeed .tweet .tweet_date a:hover { text-decoration:none; opacity:1; }
+
+/* Invicta Social Links */
+
+.invicta_sociallinks {
+	font-size:0.9em;
+	line-height:150%;
+	}
+	.invicta_sociallinks .intro {
+		margin-bottom:15px;
+		}
+.page_footer .invicta_sociallinks {
+	font-size:1em;
+	}
+	.invicta_sociallinks .social_links a { 
+		margin:0 7px 7px 0;
+		display:inline-block;
+		font-size:1.3em; 
+		color:inherit;
+		}
+		.invicta_sociallinks .social_links a:hover { text-decoration:none; }
+	.invicta_sociallinks .social_links i.icon-envelope { font-size:0.85em; bottom:1px; position:relative; }
+	
+	
+
+/* Invicta Contacts */
+
+.invicta_contacts {
+	font-size:0.9em;
+	line-height:150%;
+	}
+	.invicta_contacts .widget_title {
+		font-size:1.1em;
+		}
+		.page_footer .invicta_contacts .widget_title {
+			font-size:1.0em;
+			}
+	.invicta_contacts .intro {
+		margin-bottom:15px;
+		}
+.page_footer .invicta_contacts {
+	font-size:1em;
+	}
+		
+.text_styles .invicta_contacts a { color:inherit; }
+.text_styles .invicta_contacts a:hover { text-decoration:none; }
+		
+		
+.invicta_contacts ul {
+	margin-bottom:0 !important;
+	}
+.invicta_contacts ul li {
+	position:relative;
+	padding-left:18px;
+	padding-right:20px;
+	margin-bottom:10px;
+	-ms-word-wrap: break-word;
+        word-wrap: break-word;
+	}
+	.invicta_contacts li:before {
+		color:inherit !important;
+		font-size:1.2em;
+		position:absolute;
+		left:0;
+		}
+		.invicta_contacts li.address:before 	{ content:'\F015'; }
+		.invicta_contacts li.phone:before 		{ content:'\F095'; }
+		.invicta_contacts li.mobile:before 		{ content:'\F10B'; font-size:1.5em; left:1px; }
+		.invicta_contacts li.email:before 		{ content:'\F0E0'; font-size:0.9em; left:-1px; }
+		.invicta_contacts li.map:before 		{ content:'\F041'; left:1px; }
+		.invicta_contacts li.url:before 		{ content:'\F0C1'; left:-1px; }
+		
+		.invicta_contacts li.email:after,
+		.invicta_contacts li.map:after, 
+		.invicta_contacts li.url:after {
+			font-family:FontAwesome;
+			content:'\F08E';
+			position:absolute;
+			right:0;
+			top:2px;
+			color:#cbcbcb;
+			font-size:0.85em;
+			}
+
+
+/* Invicta Timespan */
+
+.invicta_timespan {
+	overflow:hidden;
+	font-size:0.9em;
+	}
+.page_footer .invicta_timespan { font-size:1em; }
+	.invicta_timespan .invicta_timespan_graphic {
+		float:left;
+		width:100px;
+		height:100px;
+		}
+	.invicta_timespan .description {
+		font-size:0.95em;
+		padding-left:120px;
+		line-height:150%;
+		padding-top:10px;
+		}
+	
+.invicta_timespan_graphic {
+	position:relative;
+	}
+	.invicta_timespan_graphic .frame, 
+	.invicta_timespan_graphic .span {
+		width:100%;
+		height:100%;
+		background-size:100px 100px;
+		position:absolute;
+		top:0;
+		left:0;
+		}
+	.invicta_timespan_graphic .frame { background:url(images/timespan/frame.png) no-repeat center center; }
+	.invicta_timespan_graphic .span { background:url(images/timespan/0.png) no-repeat center center; }
+	
+	.invicta_timespan_graphic.period_0 .span, 
+	.invicta_timespan_graphic.period_12 .span 		{ background-image:url(images/timespan/0.png); }
+	.invicta_timespan_graphic.period_0_5 .span  	{ background-image:url(images/timespan/0.5.png); }
+	.invicta_timespan_graphic.period_1 .span  		{ background-image:url(images/timespan/1.png); }
+	.invicta_timespan_graphic.period_1_5 .span  	{ background-image:url(images/timespan/1.5.png); }
+	.invicta_timespan_graphic.period_2 .span  		{ background-image:url(images/timespan/2.png); }
+	.invicta_timespan_graphic.period_2_5 .span  	{ background-image:url(images/timespan/2.5.png); }
+	.invicta_timespan_graphic.period_3 .span  		{ background-image:url(images/timespan/3.png); }
+	.invicta_timespan_graphic.period_3_5 .span  	{ background-image:url(images/timespan/3.5.png); }
+	.invicta_timespan_graphic.period_4 .span  		{ background-image:url(images/timespan/4.png); }
+	.invicta_timespan_graphic.period_4_5 .span  	{ background-image:url(images/timespan/4.5.png); }
+	.invicta_timespan_graphic.period_5 .span  		{ background-image:url(images/timespan/5.png); }
+	.invicta_timespan_graphic.period_5_5 .span  	{ background-image:url(images/timespan/5.5.png); }
+	.invicta_timespan_graphic.period_6 .span  		{ background-image:url(images/timespan/6.png); }
+	.invicta_timespan_graphic.period_6_5 .span  	{ background-image:url(images/timespan/6.5.png); }
+	.invicta_timespan_graphic.period_7 .span  		{ background-image:url(images/timespan/7.png); }
+	.invicta_timespan_graphic.period_7_5 .span  	{ background-image:url(images/timespan/7.5.png); }
+	.invicta_timespan_graphic.period_8 .span  		{ background-image:url(images/timespan/8.png); }
+	.invicta_timespan_graphic.period_8_5 .span  	{ background-image:url(images/timespan/8.5.png); }
+	.invicta_timespan_graphic.period_9 .span  		{ background-image:url(images/timespan/9.png); }
+	.invicta_timespan_graphic.period_9_5 .span  	{ background-image:url(images/timespan/9.5.png); }
+	.invicta_timespan_graphic.period_10 .span 		{ background-image:url(images/timespan/10.png); }
+	.invicta_timespan_graphic.period_10_5 .span 	{ background-image:url(images/timespan/10.5.png); }
+	.invicta_timespan_graphic.period_11 .span 		{ background-image:url(images/timespan/11.png); }
+	.invicta_timespan_graphic.period_11_5 .span 	{ background-image:url(images/timespan/11.5.png); }
+	
+	.invicta_timespan_graphic.begin_at_0 .span,
+	.invicta_timespan_graphic.begin_at_12 .span {
+		}
+	.invicta_timespan_graphic.begin_at_0_5 .span {
+		-webkit-transform:rotate(15deg);
+		   -moz-transform:rotate(15deg);
+		    -ms-transform:rotate(15deg);
+		     -o-transform:rotate(15deg);
+		        transform:rotate(15deg);
+		}
+	.invicta_timespan_graphic.begin_at_1 .span {
+		-webkit-transform:rotate(30deg);
+		   -moz-transform:rotate(30deg);
+		    -ms-transform:rotate(30deg);
+		     -o-transform:rotate(30deg);
+		        transform:rotate(30deg);
+		}
+	.invicta_timespan_graphic.begin_at_1_5 .span {
+		-webkit-transform:rotate(45deg);
+		   -moz-transform:rotate(45deg);
+		    -ms-transform:rotate(45deg);
+		     -o-transform:rotate(45deg);
+		        transform:rotate(45deg);
+		}
+	.invicta_timespan_graphic.begin_at_2 .span {
+		-webkit-transform:rotate(60deg);
+		   -moz-transform:rotate(60deg);
+		    -ms-transform:rotate(60deg);
+		     -o-transform:rotate(60deg);
+		        transform:rotate(60deg);
+		}
+	.invicta_timespan_graphic.begin_at_2_5 .span {
+		-webkit-transform:rotate(75deg);
+		   -moz-transform:rotate(75deg);
+		    -ms-transform:rotate(75deg);
+		     -o-transform:rotate(75deg);
+		        transform:rotate(75deg);
+		}
+	.invicta_timespan_graphic.begin_at_3 .span {
+		-webkit-transform:rotate(90deg);
+		   -moz-transform:rotate(90deg);
+		    -ms-transform:rotate(90deg);
+		     -o-transform:rotate(90deg);
+		        transform:rotate(90deg);
+		}
+	.invicta_timespan_graphic.begin_at_3_5 .span {
+		-webkit-transform:rotate(105deg);
+		   -moz-transform:rotate(105deg);
+		    -ms-transform:rotate(105deg);
+		     -o-transform:rotate(105deg);
+		        transform:rotate(105deg);
+		}
+	.invicta_timespan_graphic.begin_at_4 .span {
+		-webkit-transform:rotate(120deg);
+		   -moz-transform:rotate(120deg);
+		    -ms-transform:rotate(120deg);
+		     -o-transform:rotate(120deg);
+		        transform:rotate(120deg);
+		}
+	.invicta_timespan_graphic.begin_at_4_5 .span {
+		-webkit-transform:rotate(135deg);
+		   -moz-transform:rotate(135deg);
+		    -ms-transform:rotate(135deg);
+		     -o-transform:rotate(135deg);
+		        transform:rotate(135deg);
+		}
+	.invicta_timespan_graphic.begin_at_5 .span {
+		-webkit-transform:rotate(150deg);
+		   -moz-transform:rotate(150deg);
+		    -ms-transform:rotate(150deg);
+		     -o-transform:rotate(150deg);
+		        transform:rotate(150deg);
+		}
+	.invicta_timespan_graphic.begin_at_5_5 .span {
+		-webkit-transform:rotate(165deg);
+		   -moz-transform:rotate(165deg);
+		    -ms-transform:rotate(165deg);
+		     -o-transform:rotate(165deg);
+		        transform:rotate(165deg);
+		}
+	.invicta_timespan_graphic.begin_at_6 .span {
+		-webkit-transform:rotate(180deg);
+		   -moz-transform:rotate(180deg);
+		    -ms-transform:rotate(180deg);
+		     -o-transform:rotate(180deg);
+		        transform:rotate(180deg);
+		}
+	.invicta_timespan_graphic.begin_at_6_5 .span {
+		-webkit-transform:rotate(195deg);
+		   -moz-transform:rotate(195deg);
+		    -ms-transform:rotate(195deg);
+		     -o-transform:rotate(195deg);
+		        transform:rotate(195deg);
+		}
+	.invicta_timespan_graphic.begin_at_7 .span {
+		-webkit-transform:rotate(210deg);
+		   -moz-transform:rotate(210deg);
+		    -ms-transform:rotate(210deg);
+		     -o-transform:rotate(210deg);
+		        transform:rotate(210deg);
+		}
+	.invicta_timespan_graphic.begin_at_7_5 .span {
+		-webkit-transform:rotate(225deg);
+		   -moz-transform:rotate(225deg);
+		    -ms-transform:rotate(225deg);
+		     -o-transform:rotate(225deg);
+		        transform:rotate(225deg);
+		}
+	.invicta_timespan_graphic.begin_at_8 .span {
+		-webkit-transform:rotate(240deg);
+		   -moz-transform:rotate(240deg);
+		    -ms-transform:rotate(240deg);
+		     -o-transform:rotate(240deg);
+		        transform:rotate(240deg);
+		}
+	.invicta_timespan_graphic.begin_at_8_5 .span {
+		-webkit-transform:rotate(255deg);
+		   -moz-transform:rotate(255deg);
+		    -ms-transform:rotate(255deg);
+		     -o-transform:rotate(255deg);
+		        transform:rotate(255deg);
+		}
+	.invicta_timespan_graphic.begin_at_9 .span {
+		-webkit-transform:rotate(270deg);
+		   -moz-transform:rotate(270deg);
+		    -ms-transform:rotate(270deg);
+		     -o-transform:rotate(270deg);
+		        transform:rotate(270deg);
+		}
+	.invicta_timespan_graphic.begin_at_9_5 .span {
+		-webkit-transform:rotate(285deg);
+		   -moz-transform:rotate(285deg);
+		    -ms-transform:rotate(285deg);
+		     -o-transform:rotate(285deg);
+		        transform:rotate(285deg);
+		}
+	.invicta_timespan_graphic.begin_at_10 .span {
+		-webkit-transform:rotate(300deg);
+		   -moz-transform:rotate(300deg);
+		    -ms-transform:rotate(300deg);
+		     -o-transform:rotate(300deg);
+		        transform:rotate(300deg);
+		}
+	.invicta_timespan_graphic.begin_at_10_5 .span {
+		-webkit-transform:rotate(315deg);
+		   -moz-transform:rotate(315deg);
+		    -ms-transform:rotate(315deg);
+		     -o-transform:rotate(315deg);
+		        transform:rotate(315deg);
+		}
+	.invicta_timespan_graphic.begin_at_11 .span {
+		-webkit-transform:rotate(330deg);
+		   -moz-transform:rotate(330deg);
+		    -ms-transform:rotate(330deg);
+		     -o-transform:rotate(330deg);
+		        transform:rotate(330deg);
+		}
+	.invicta_timespan_graphic.begin_at_11_5 .span {
+		-webkit-transform:rotate(345deg);
+		   -moz-transform:rotate(345deg);
+		    -ms-transform:rotate(345deg);
+		     -o-transform:rotate(345deg);
+		        transform:rotate(345deg);
+		}
+
+
+/* Invicta Contact Form */
+
+.wpcf7 {
+	margin-bottom:50px !important;
+	}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="input"], 
+.wpcf7 input[type="password"],
+.wpcf7 input[type="email"], 
+.wpcf7 input[type="number"], 
+.wpcf7 input[type="url"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="search"], 
+.wpcf7 select {
+	width:65%;
+	}
+.wpcf7 textarea {
+	width:100%;
+	height:250px;
+	}
+	
+.wpcf7 .form_field {
+	margin-bottom:15px;	
+	}
+	.wpcf7 .form_field label {
+		display:block;
+		color:#282828;
+		}
+		.wpcf7 .form_field label cite {
+			color:#fb652b;
+			margin-left:5px;
+			font-weight:bold;
+			}
+	.wpcf7 .form_field input[type="text"], 
+	.wpcf7 .form_field input[type="input"], 
+	.wpcf7 .form_field input[type="password"],
+	.wpcf7 .form_field input[type="email"], 
+	.wpcf7 .form_field input[type="number"], 
+	.wpcf7 .form_field input[type="url"], 
+	.wpcf7 .form_field input[type="tel"], 
+	.wpcf7 .form_field input[type="search"], 
+	.wpcf7 .form_field select {
+		width:100%;
+		}
+	
+	.wpcf7 .form_field_group {
+		clear:both;
+		overflow:hidden;
+		}
+		.wpcf7 .form_field_group .form_field {
+			float:left;
+			width:50%;
+			padding-right:30px;
+			}
+			.wpcf7 .form_field_group.group_2 .form_field { width:50%; }
+			.wpcf7 .form_field_group.group_3 .form_field { width:33.3333333%; }
+			.wpcf7 .form_field_group.group_4 .form_field { width:25%; }
+			.wpcf7 .form_field_group .form_field:last-child { padding-right:0; }
+
+/* Invicta Steps */
+
+.invicta_steps {
+	text-align:center;
+	position:relative;
+	}
+	.invicta_steps .step {
+		display:inline-block;
+		padding:0 25px;
+		position:relative;
+		vertical-align:top;
+		}
+		.invicta_steps .step .icon {
+			width:96px;
+			height:96px;
+			margin:0 auto;
+			-webkit-border-radius:96px;
+			   -moz-border-radius:96px;
+			     -o-border-radius:96px;
+			        border-radius:96px;
+			background:#fbfbfb;
+			border:1px solid #e6e6e6;
+			position:relative;
+			margin-bottom:15px;
+			text-align:center;
+			}
+			.invicta_steps .step .icon .index {
+				color:#c3c3c3;
+				font-size:40px !important;
+				line-height:96px;
+				font-weight:bold;
+				}
+			.invicta_steps .step .icon i {
+				color:#c3c3c3;
+				font-size:40px;
+				position:absolute;
+				top:50%;
+				left:50%;
+				margin:-20px 0 0 -20px;
+				}
+				.invicta_steps .step .icon i:before {
+					width:1em;
+					text-align:center;
+					}
+		.invicta_steps .step .name {
+			color:#282828;
+			font-size:1.2em;
+			line-height:150%;
+			margin-bottom:10px;
+			}
+			
+.invicta_steps .step .line {
+	position:absolute;
+	top:50px;
+	left:0;
+	width:100%;
+	height:1px;
+	border-top:1px dashed #cdcdcd;
+	}
+	
+.invicta_steps .step:first-child .line 	{ width:50%; right:0; 	 left:auto; }
+.invicta_steps .step:last-child .line 	{ width:50%; right:auto; left:0; 	}
+
+.invicta_steps .step .icon,
+.invicta_steps .step .icon i { 
+	-webkit-transition:all 0.3s ease;
+	   -moz-transition:all 0.3s ease;
+	     -o-transition:all 0.3s ease;
+	        transition:all 0.3s ease;
+	}
+.invicta_steps .step:hover .icon {
+	background:#fb652b;
+	box-shadow: inset 0px 0px 0px 6px rgba(0,0,0,0.10);
+	border: none;
+	}
+	.invicta_steps .step:hover .icon i {
+		color:#FFF;
+	    -webkit-transform:scale(0.7);
+	        -ms-transform:scale(0.7);
+	            transform:scale(0.7);
+	}
+	
+/* Invicta Counters */
+
+.js_active .invicta_counters { display:none; }
+.invicta_counters.wpb_content_element { margin-bottom:20px; }
+
+.invicta_counters {
+	text-align:center;
+	position:relative;	
+	}
+	.invicta_counters .counter {
+		display:inline-block;
+		margin:0 30px;
+		margin-bottom:30px;
+		position:relative;
+		vertical-align:top;
+		}
+		.invicta_counters .counter .counter_elem {
+			font-size:2em;
+		}
+		.invicta_counters .counter .name {
+			margin-top:3px;
+			font-size:0.9em;
+			}
+
+
+/* Invicta ProgressBars */
+
+.invicta_progressbars {
+	position:relative;	
+	}
+	.invicta_progressbars .progress_bar {
+		margin-bottom:15px;
+		}
+		.invicta_progressbars .progress_bar .legend {
+			}
+			.invicta_progressbars .progress_bar .legend .name {
+				float:left;
+				color:#282828;
+				line-height:150%;
+				}
+			.invicta_progressbars .progress_bar .legend .value {
+				float:right;
+				color:#b6b6b6;
+				font-size:0.8em;
+				}
+		.invicta_progressbars .progress_bar .bar {
+			clear:both;
+			height:12px;
+			background:#ececec;
+			-webkit-border-radius:25px;
+			   -moz-border-radius:25px;
+			     -o-border-radius:25px;
+			        border-radius:25px;
+			-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.1) inset;
+			   -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.1) inset;
+			     -o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.1) inset;
+			        box-shadow:0 1px 2px rgba(0, 0, 0, 0.1) inset;
+			padding:4px;
+			}
+			.invicta_progressbars .progress_bar .bar .progress {
+				height:5px;
+				width:0;
+				background:#b0b0b0;
+				-webkit-border-radius:25px;
+				   -moz-border-radius:25px;
+				     -o-border-radius:25px;
+				        border-radius:25px;
+				-webkit-transition:width 1s ease;
+				   -moz-transition:width 1s ease;
+				     -o-transition:width 1s ease;
+				        transition:width 1s ease;
+				}
+
+/* Invicta Testimonial */
+
+.invicta_testimonial {
+	}
+	.invicta_testimonial .text {
+		font-family:Georgia, "Times New Roman", serif;
+		font-style:italic;
+		}
+	.invicta_testimonial .invicta_avatar {
+		width:55px;
+		height:55px;
+		border-width:3px;
+		}
+	.invicta_testimonial .meta .info {
+		padding-top:7px;
+		}
+		.invicta_testimonial .name {
+			color:#282828;
+			font-weight:500;
+			line-height:150%;
+			}
+		.invicta_testimonial .source, 
+		.invicta_testimonial .country {
+			font-size:0.85em;
+			line-height:150%;
+			}
+
+.invicta_testimonial.style_1 {
+	}		
+	.invicta_testimonial.style_1 .text {
+		position:relative;
+		background:#fcfcfc;
+		border:1px solid #e3e3e3;
+		padding:10px 15px;
+		font-size:0.95em;
+		line-height:150%;
+		}
+		.invicta_testimonial.style_1 .text:after {
+			content:'';
+			position:absolute;
+			bottom:-7px;
+			left:50px;
+			border-width:8px 7px 0;
+			border-style:solid;
+			border-color:#fcfcfc transparent;
+			display:block;
+			width:0;
+			}
+		.invicta_testimonial.style_1 .text:before {
+			content:'';
+			position:absolute;
+			bottom:-8px;
+			left:49px;
+			border-width:8px 8px 0;
+			border-style:solid;
+			border-color:#d2d2d2 transparent;
+			display:block;
+			width:0;
+			}
+	.invicta_testimonial.style_1 .invicta_avatar {
+		float:left;
+		margin-right:10px;
+		}
+	.invicta_testimonial.style_1 .meta {
+		margin-top:15px;
+		margin-left:31px;
+		}
+	.invicta_testimonial.style_1.no_photo .meta {
+		margin-top:5px;
+		margin-left:20px;
+	}
+				
+.invicta_testimonial.style_2 {
+	}		
+	.invicta_testimonial.style_2 .media {
+		float:left;
+		width:55px;
+		}
+	.invicta_testimonial.style_2 .meta {
+		padding-left:70px;
+		}
+		.invicta_testimonial.style_2 .meta .text {
+			margin-top:7px;
+			font-size:0.95em;
+			line-height:150%;
+			}
+	.invicta_testimonial.style_2.no_photo .meta {
+		padding-left:0;
+		}
+		.invicta_testimonial.style_2.no_photo .meta .info {
+			padding-top:0;
+			}
+
+/* Invicta Testimonial Carousel */
+
+.invicta_testimonial_carousel {
+	position:relative;
+	padding-bottom:30px;
+	height:0;
+	-webkit-transition:height 500ms ease;
+	        transition:height 500ms ease;
+	}
+	.invicta_testimonial_carousel .group {
+		overflow:hidden;
+		position:absolute;
+		width:100%;
+		}
+	
+	.invicta_testimonial_carousel .invicta_testimonial { 
+		width:50%; 
+		position:relative;
+		}
+	.invicta_testimonial_carousel .invicta_testimonial .media { width:105px; height:105px; position:relative; }
+	.invicta_testimonial_carousel .invicta_testimonial .invicta_avatar { width:105px; height:105px; border-width:5px; }
+	.invicta_testimonial_carousel .invicta_testimonial .meta .name { font-size:1.3em; }
+	
+	.invicta_testimonial_carousel .invicta_testimonial.right_aligned { margin-top:45px; text-align:right; z-index:3; }
+	.invicta_testimonial_carousel .invicta_testimonial.right_aligned .media { float:right; right:-13px; }
+	.invicta_testimonial_carousel .invicta_testimonial.right_aligned .meta { padding-left:60px; padding-right:115px; }
+	
+	.invicta_testimonial_carousel .invicta_testimonial.left_aligned { text-align:left; z-index:2; }
+	.invicta_testimonial_carousel .invicta_testimonial.left_aligned .media { float:left; left:-13px; }
+	.invicta_testimonial_carousel .invicta_testimonial.left_aligned .meta { padding-left:110px; padding-right:60px; }
+	
+	.invicta_testimonial_carousel .invicta_testimonial.full_aligned { width:100%; padding:0 100px; text-align:left; z-index:2; }
+	.invicta_testimonial_carousel .invicta_testimonial.full_aligned .media { float:left; left:0px; }
+	.invicta_testimonial_carousel .invicta_testimonial.full_aligned .meta { padding-left:120px; padding-right:0; }
+	
+	.invicta_testimonial_carousel .invicta_testimonial { float:left; }
+	
+.invicta_testimonial_carousel .nav_arrows {
+	background:#eee;
+	position:absolute;
+	z-index:4;
+	width:100%;
+	top:50%;
+	margin-top:-10px;
+	}
+	.invicta_testimonial_carousel .nav_arrows a {		
+		color:inherit;
+	    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	    filter: alpha(opacity=30);
+		opacity:0.3;
+		-webkit-transition:opacity 0.3s ease;
+		   -moz-transition:opacity 0.3s ease;
+		     -o-transition:opacity 0.3s ease;
+		        transition:opacity 0.3s ease;
+		}
+		.invicta_testimonial_carousel .nav_arrows a:hover {
+			text-decoration:none;
+		    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		    filter: alpha(opacity=100);
+			opacity:1;
+			-webkit-transition:none;
+			   -moz-transition:none;
+			     -o-transition:none;
+			        transition:none;
+
+		}
+		.invicta_testimonial_carousel .nav_arrows a i {
+			position:absolute;
+			font-size:14px;
+			top:50%;
+			left:50%;
+			margin:-6px 0 0 -6px;
+			}
+	.invicta_testimonial_carousel .nav_arrows .prev { position:absolute; left:0; }
+		.invicta_testimonial_carousel .nav_arrows .prev i { margin-left:-4px; }
+	.invicta_testimonial_carousel .nav_arrows .next { position:absolute; right:0; }
+		.invicta_testimonial_carousel .nav_arrows .next i { margin-left:-3px; }
+	
+.invicta_testimonial_carousel .nav_bullets { 
+	position:absolute;
+	bottom:-20px;
+	width:100%;
+	text-align:center;
+	z-index:4;
+	}
+	
+	.invicta_testimonial_carousel .nav_bullets a {
+		width:8px;
+		height:8px;
+		-webkit-border-radius:8px;
+		   -moz-border-radius:8px;
+		     -o-border-radius:8px;
+		        border-radius:8px;
+		-webkit-transition:background-color 0.3s ease;
+		   -moz-transition:background-color 0.3s ease;
+		     -o-transition:background-color 0.3s ease;
+		        transition:background-color 0.3s ease;
+		display:inline-block;
+		background-color:#e3e3e3;
+		text-indent:-9999px;
+		margin:0 1px;
+		}
+		.invicta_testimonial_carousel .nav_bullets a.current,
+		.invicta_testimonial_carousel .nav_bullets a.current:hover { 
+			background-color:#737373; 
+			}
+		.invicta_testimonial_carousel .nav_bullets a:hover { 
+			background-color:rgba(115,115,115,0.50); 
+			-webkit-transition:none;
+			   -moz-transition:none;
+			     -o-transition:none;
+			        transition:none;
+			}
+	
+.invicta_testimonial_carousel .background {
+	width:100%;
+	text-align:center;
+	line-height:100%;
+	font-size:100px;
+	font-family:Georgia;
+	font-style:italic;
+	letter-spacing:-2px;
+	color:#FFF;
+	-ms-filter:"progid: DXImageTransform.Microsoft.Alpha(Opacity=8)";
+	filter:alpha(opacity=8);
+	opacity:0.08;
+	position:absolute;
+	top:50%;
+	margin-top:-50px;
+	z-index:0;
+	}
+	
+.invicta_testimonial_carousel .invicta_testimonial { display:none; }	
+	
+.vc_row-fluid .vc_col-sm-6 .invicta_testimonial_carousel .invicta_testimonial,
+.vc_row-fluid .vc_col-sm-3 .invicta_testimonial_carousel .invicta_testimonial,
+.vc_row-fluid .vc_col-sm-2 .invicta_testimonial_carousel .invicta_testimonial,
+.vc_row-fluid .vc_col-sm-4 .invicta_testimonial_carousel .invicta_testimonial { width:100%; padding:0 40px; text-align:left; z-index:2; margin-top:0; margin-bottom:30px; }
+
+.vc_row-fluid .vc_col-sm-6 .invicta_testimonial_carousel .invicta_testimonial:last-child,
+.vc_row-fluid .vc_col-sm-3 .invicta_testimonial_carousel .invicta_testimonial:last-child,
+.vc_row-fluid .vc_col-sm-2 .invicta_testimonial_carousel .invicta_testimonial:last-child,
+.vc_row-fluid .vc_col-sm-4 .invicta_testimonial_carousel .invicta_testimonial:last-child { margin-bottom:0; }
+
+.vc_row-fluid .vc_col-sm-6 .invicta_testimonial_carousel .invicta_testimonial .media,
+.vc_row-fluid .vc_col-sm-3 .invicta_testimonial_carousel .invicta_testimonial .media,
+.vc_row-fluid .vc_col-sm-2 .invicta_testimonial_carousel .invicta_testimonial .media,
+.vc_row-fluid .vc_col-sm-4 .invicta_testimonial_carousel .invicta_testimonial .media { display:none; }
+
+.vc_row-fluid .vc_col-sm-6 .invicta_testimonial_carousel .invicta_testimonial .meta,
+.vc_row-fluid .vc_col-sm-3 .invicta_testimonial_carousel .invicta_testimonial .meta,
+.vc_row-fluid .vc_col-sm-2 .invicta_testimonial_carousel .invicta_testimonial .meta,
+.vc_row-fluid .vc_col-sm-4 .invicta_testimonial_carousel .invicta_testimonial .meta { padding-left:0; padding-right:0; }
+
+.vc_row-fluid .vc_col-sm-6 .invicta_testimonial_carousel .background,
+.vc_row-fluid .vc_col-sm-3 .invicta_testimonial_carousel .background,
+.vc_row-fluid .vc_col-sm-2 .invicta_testimonial_carousel .background,
+.vc_row-fluid .vc_col-sm-4 .invicta_testimonial_carousel .background { display:none; }
+
+.vc_row-fluid .vc_col-sm-6 .invicta_testimonial_carousel .invicta_testimonial .meta .name,
+.vc_row-fluid .vc_col-sm-3 .invicta_testimonial_carousel .invicta_testimonial .meta .name,
+.vc_row-fluid .vc_col-sm-2 .invicta_testimonial_carousel .invicta_testimonial .meta .name,
+.vc_row-fluid .vc_col-sm-4 .invicta_testimonial_carousel .invicta_testimonial .meta .name { font-size:1.1em; }
+	
+		
+/* Invicta Iconbox */
+	
+.invicta_iconbox .icon {
+	display:inline-block;
+	width:46px;
+	height:46px;
+	background:#f6f6f6;
+	-webkit-border-radius:40px;
+	   -moz-border-radius:40px;
+	     -o-border-radius:40px;
+	        border-radius:40px;
+	border:3px solid #ededed;
+	position:relative;
+
+	}
+.invicta_iconbox a.icon {
+	-webkit-transition:background-color 0.3s ease;
+	   -moz-transition:background-color 0.3s ease;
+	     -o-transition:background-color 0.3s ease;
+	        transition:background-color 0.3s ease;
+	}
+	.invicta_iconbox a.icon:hover {
+		text-decoration:none;
+		background-color:#FFF;
+		opacity:1;
+		}
+	.invicta_iconbox .icon i {
+		color:#545454;
+		font-size:20px;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin:-10px 0 0 -10px;
+		}
+		.invicta_iconbox .icon i:before {
+			width:1em;
+			text-align:center;
+			}
+	.invicta_iconbox .title {
+		color:#282828;
+		font-size:1.2em;
+		margin-bottom:5px;
+		display:inline-block;
+		}
+		.invicta_iconbox .title:hover {
+			opacity:1;
+			text-decoration:none;
+			}
+	.invicta_iconbox .text {
+		line-height:150%;
+		}
+		
+.invicta_iconbox.default {
+	}
+	.invicta_iconbox.default .icon {
+		float:left;
+		}
+	.invicta_iconbox.default .content {
+		padding-left:60px;
+		padding-top:6px;
+		}
+		
+.invicta_iconbox.centered {
+	text-align:center;
+	}
+	
+.invicta_iconbox.clean {
+	}	
+	.invicta_iconbox.clean .icon {
+		width:auto;
+		height:auto;
+		background:none;
+		-webkit-border-radius:none;
+		   -moz-border-radius:none;
+		     -o-border-radius:none;
+		        border-radius:none;
+		border:none;
+		display:inline;
+		}
+		.invicta_iconbox.clean .icon i {
+			position:relative;
+			top:0;
+			left:0;
+			margin:0;
+			font-size:16px;
+			}
+	.invicta_iconbox.clean .title { 
+		display:inline;
+		margin-left:8px;
+		}
+	.invicta_iconbox.clean .text {
+		margin-top:8px;
+		}
+
+
+/* Invicta Letter */
+
+.invicta_letter {
+	background:#fafafa;
+	padding:30px 40px;
+	margin-bottom:50px;
+	}
+	.invicta_letter .media {
+		float:right;
+		width:190px;
+		text-align:center;
+		}
+		.invicta_letter .photo {
+			margin-top:10px;
+			width:190px;
+			height:190px;
+			}
+		.invicta_letter .signature {
+			margin:20px 0;
+			}
+	.invicta_letter .text {
+		padding-right:250px;
+		}	
+		.invicta_letter .title {
+			margin-bottom:25px;
+			font-size:1.6em;
+			}
+		.invicta_letter .content {
+			font-family:Georgia;
+			font-style:italic;
+			text-indent:20px;
+			}
+
+.invicta_letter.no_media .media {
+	display:none;
+	}
+.invicta_letter.no_media .text {
+	padding:0;
+	}
+	
+/* invicta partners */
+
+.invicta_partners {
+	overflow:hidden;
+	text-align:center;
+	margin-bottom:30px !important;
+	}
+	.invicta_partners .partner {
+		display:inline-block;
+		margin:0 21px;
+		margin-bottom:20px;
+		vertical-align:middle;
+		max-width:200px;
+		position:relative;
+		}
+		.invicta_partners .partner a, 
+		.invicta_partners .partner img {
+			display:block;
+			}
+		.text_styles .invicta_partners .partner a {
+			color:#737373;
+			display:block;
+			position:relative;
+			}
+			.text_styles .invicta_partners .partner a:hover { 
+				text-decoration:none;
+				}
+	.invicta_partners .partner .default_logo i {
+		display:block;
+		font-size:40px;
+		padding-bottom:5px;
+		}
+		
+/* invicta world map */
+
+.invicta_world_map {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.invicta_world_map .responsive_labels {
+		margin-top:20px;
+		overflow:hidden;
+		font-size:0.85em;
+		line-height:160%;
+		-ms-word-wrap:break-word;
+		    word-wrap:break-word;
+		display:none;
+		}
+		.invicta_world_map .responsive_labels span {
+			display:block;
+			margin-bottom:5px;
+			float:left;
+			width:50%;
+			padding-right:20px;
+			line-height:130%
+			}
+			.invicta_world_map .responsive_labels .invicta_flag {
+				background-position:left top;
+			}
+	.invicta_world_map .map_canvas {
+		position:relative;
+		}
+	.invicta_world_map .map_graphic {
+		max-width:100%;
+		display:block;
+		}
+	.invicta_world_map .marker {
+		background:#fb652b;
+		border:2px solid #FFF;
+		-webkit-box-shadow:0px 0px 1px 1px #fb652b;
+		   -moz-box-shadow:0px 0px 1px 1px #fb652b;
+		     -o-box-shadow:0px 0px 1px 1px #fb652b;
+		        box-shadow:0px 0px 1px 1px #fb652b;
+		-webkit-border-radius:10px;
+		   -moz-border-radius:10px;
+		     -o-border-radius:10px;
+		        border-radius:10px;
+		width:8px;
+		height:8px;
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:1;
+		-webkit-transition:all 0.1s ease;
+		   -moz-transition:all 0.1s ease;
+		     -o-transition:all 0.1s ease;
+		        transition:all 0.1s ease;
+		}
+		.invicta_world_map .marker.animated,
+		.invicta_world_map .marker:hover {
+		    -webkit-transform:scale(1.5);
+		        -ms-transform:scale(1.5);
+		            transform:scale(1.5);
+			}
+	.invicta_world_map .label {
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:2;
+		max-width:100px;
+		text-shadow:1px 1px 1px #FFF;
+		text-transform:uppercase;
+		font-size:11px;
+		line-height:120%;
+		font-weight:bold;
+		color:#737373;
+		-webkit-transition:all 0.4s ease;
+		   -moz-transition:all 0.4s ease;
+		     -o-transition:all 0.4s ease;
+		        transition:all 0.4s ease;
+		}
+		.invicta_world_map .label.animated {
+		    -webkit-transform:scale(1.6);
+		        -ms-transform:scale(1.6);
+		            transform:scale(1.6);
+			}
+	
+	/* world map - south america */
+	.invicta_world_map .marker.br 	{ left:33.0%; top:70.0%; }
+	.invicta_world_map .marker.ar 	{ left:28.8%; top:80.0%; }
+	.invicta_world_map .marker.bo	{ left:28.5%; top:68.8%; }
+	.invicta_world_map .marker.cl	{ left:26.0%; top:84.5%; }
+	.invicta_world_map .marker.co	{ left:25.8%; top:61.1%; }
+	.invicta_world_map .marker.ec	{ left:24.1%; top:62.8%; }
+	.invicta_world_map .marker.gy	{ left:29.9%; top:58.6%; }
+	.invicta_world_map .marker.pe	{ left:25.7%; top:67.8%; }
+	.invicta_world_map .marker.py	{ left:30.1%; top:73.0%; }
+	.invicta_world_map .marker.sr	{ left:30.5%; top:58.6%; }
+	.invicta_world_map .marker.gf	{ left:30.9%; top:58.9%; }
+	.invicta_world_map .marker.tt	{ left:29.3%; top:55.8%; }
+	.invicta_world_map .marker.uy 	{ left:30.5%; top:81.5%; }
+	.invicta_world_map .marker.ve	{ left:27.8%; top:58.1%; }
+	.invicta_world_map .marker.aw 	{ left:27.1%; top:54.9%; }
+	.invicta_world_map .marker.as 	{ left:2.9%; top:80.9%; }
+	.invicta_world_map .marker.ws 	{ left:2.7%; top:80.9%; }
+	.invicta_world_map .marker.pf 	{ left:9.9%; top:75.9%; }
+	.invicta_world_map .marker.pn 	{ left:15.9%; top:78.9%; }
+	.invicta_world_map .marker.fk 	{ left:29.9%; top:92.9%; }
+	.invicta_world_map .marker.ck 	{ left:6.6%; top:82.5%; }
+	.invicta_world_map .marker.to 	{ left:0.9%; top:84.9%; }
+	.invicta_world_map .marker.nu 	{ left:2.9%; top:84.9%; }
+	.invicta_world_map .marker.tv 	{ left:0.9%; top:76.9%; }
+	.invicta_world_map .marker.tk	{ left:2.9%; top:76.9%; }
+	.invicta_world_map .marker.wf 	{ left:1.2%; top:80.1%; }
+	.invicta_world_map .marker.gs 	{ left:35.9%; top:93.6%; }
+	.invicta_world_map .marker.ki	{ left:13.9%; top:64.9%; }
+	
+	/* world map - north america */
+	.invicta_world_map .marker.us 	{ left:19.0%; top:41.7%; }
+	.invicta_world_map .marker.ca 	{ left:16.0%; top:27.7%; }
+	.invicta_world_map .marker.gl 	{ left:35.4%; top:10.7%; }
+	.invicta_world_map .marker.mx 	{ left:18.0%; top:48.7%; }
+	.invicta_world_map .marker.aq 	{ left:50.0%; top:99.5%; }
+	.invicta_world_map .marker.sj 	{ left:51.2%; top:6.9%; }
+	.invicta_world_map .marker.pm 	{ left:31.4%; top:34.2%; }
+	
+	/* world map - central america */
+	.invicta_world_map .marker.gt 	{ left:21.1%; top:53.5%; }
+	.invicta_world_map .marker.hn 	{ left:22.7%; top:53.9%; }
+	.invicta_world_map .marker.pa 	{ left:24.4%; top:57.3%; }
+	.invicta_world_map .marker.bz 	{ left:21.9%; top:52.1%; }
+	.invicta_world_map .marker.sv 	{ left:21.6%; top:54.4%; }
+	.invicta_world_map .marker.ni 	{ left:22.8%; top:55.0%; }
+	.invicta_world_map .marker.cr 	{ left:23.3%; top:56.3%; }
+	.invicta_world_map .marker.cu 	{ left:24.5%; top:50.2%; }
+	.invicta_world_map .marker.jm 	{ left:24.5%; top:52.2%; }
+	.invicta_world_map .marker.ht 	{ left:26.2%; top:51.4%; }
+	.invicta_world_map .marker.dm 	{ left:27.3%; top:51.7%; }
+	.invicta_world_map .marker.ag 	{ left:28.9%; top:52.9%; }
+	.invicta_world_map .marker.do 	{ left:28.9%; top:52.9%; }
+	.invicta_world_map .marker.ai 	{ left:28.7%; top:52.7%; }
+	.invicta_world_map .marker.vg 	{ left:28.5%; top:52.1%; }
+	.invicta_world_map .marker.bm 	{ left:28.9%; top:43.7%; }
+	.invicta_world_map .marker.bb 	{ left:29.6%; top:53.9%; }
+	.invicta_world_map .marker.gd 	{ left:29.6%; top:53.9%; }
+	.invicta_world_map .marker.vc 	{ left:29.1%; top:53.9%; }
+	.invicta_world_map .marker.vc 	{ left:29.1%; top:53.6%; }
+	.invicta_world_map .marker.bs 	{ left:24.9%; top:48.5%; }
+	.invicta_world_map .marker.pr 	{ left:28.1%; top:51.7%; }
+	.invicta_world_map .marker.vi 	{ left:28.1%; top:51.7%; }
+	.invicta_world_map .marker.an 	{ left:28.5%; top:55.3%; }
+	.invicta_world_map .marker.ms 	{ left:28.8%; top:52.8%; }
+	.invicta_world_map .marker.kn 	{ left:28.8%; top:52.8%; }
+	.invicta_world_map .marker.lc 	{ left:28.6%; top:52.6%; }
+	.invicta_world_map .marker.ky 	{ left:24.2%; top:51.9%; }
+	.invicta_world_map .marker.tc 	{ left:26.9%; top:48.9%; }
+
+	/* world map - europe */
+	.invicta_world_map .marker.pt 	{ left:44.0%; top:39.5%; }
+	.invicta_world_map .marker.ru 	{ left:72.5%; top:22.8%; }
+	.invicta_world_map .marker.gb 	{ left:45.8%; top:30.5%; }
+	.invicta_world_map .marker.fr 	{ left:47.2%; top:34.2%; }
+	.invicta_world_map .marker.no 	{ left:49.0%; top:24.3%; }
+	.invicta_world_map .marker.se 	{ left:50.7%; top:25.7%; }
+	.invicta_world_map .marker.is 	{ left:41.7%; top:20.7%; }
+	.invicta_world_map .marker.fi 	{ left:53.7%; top:22.7%; }
+	.invicta_world_map .marker.ie 	{ left:44.3%; top:30.3%; }
+	.invicta_world_map .marker.ee 	{ left:53.4%; top:26.0%; }
+	.invicta_world_map .marker.lv 	{ left:53.2%; top:27.0%; }
+	.invicta_world_map .marker.lt 	{ left:53.0%; top:28.0%; }
+	.invicta_world_map .marker.dk 	{ left:49.1%; top:28.0%; }
+	.invicta_world_map .marker.de 	{ left:49.1%; top:32.2%; }
+	.invicta_world_map .marker.nl 	{ left:47.8%; top:31.0%; }
+	.invicta_world_map .marker.be 	{ left:47.3%; top:31.5%; }
+	.invicta_world_map .marker.lu 	{ left:47.8%; top:31.8%; }
+	.invicta_world_map .marker.ch 	{ left:48.5%; top:35.0%; }
+	.invicta_world_map .marker.it 	{ left:50.3%; top:37.8%; }
+	.invicta_world_map .marker.es 	{ left:45.5%; top:39.2%; }
+	.invicta_world_map .marker.pl 	{ left:52.1%; top:31.8%; }
+	.invicta_world_map .marker.cz 	{ left:50.6%; top:33.0%; }
+	.invicta_world_map .marker.at 	{ left:50.6%; top:34.0%; }
+	.invicta_world_map .marker.si 	{ left:50.2%; top:35.0%; }
+	.invicta_world_map .marker.hr 	{ left:51.2%; top:36.0%; }
+	.invicta_world_map .marker.ba 	{ left:51.8%; top:37.0%; }
+	.invicta_world_map .marker.rs 	{ left:52.0%; top:36.0%; }
+	.invicta_world_map .marker.sk 	{ left:52.3%; top:33.6%; }
+	.invicta_world_map .marker.hu 	{ left:52.3%; top:35.1%; }
+	.invicta_world_map .marker.gr 	{ left:52.5%; top:39.8%; }
+	.invicta_world_map .marker.tr 	{ left:54.8%; top:39.5%; }
+	.invicta_world_map .marker.ua 	{ left:54.8%; top:32.9%; }
+	.invicta_world_map .marker.bg 	{ left:53.6%; top:37.2%; }
+	.invicta_world_map .marker.ro 	{ left:53.4%; top:35.4%; }
+	.invicta_world_map .marker.md 	{ left:53.9%; top:35.2%; }
+	.invicta_world_map .marker.by 	{ left:54.4%; top:30.1%; }
+	.invicta_world_map .marker.az 	{ left:59.6%; top:39.5%; }
+	.invicta_world_map .marker.ad 	{ left:46.4%; top:37.8%; }
+	.invicta_world_map .marker.sm 	{ left:50.3%; top:37.1%; }
+	.invicta_world_map .marker.me 	{ left:52.1%; top:39.0%; }
+	.invicta_world_map .marker.mc 	{ left:48.4%; top:36.7%; }
+	.invicta_world_map .marker.mt 	{ left:50.5%; top:42.1%; }
+	.invicta_world_map .marker.mk 	{ left:52.6%; top:39.2%; }
+	.invicta_world_map .marker.li 	{ left:49.0%; top:35.0%; }
+	.invicta_world_map .marker.va 	{ left:50.2%; top:37.8%; }
+	.invicta_world_map .marker.gi 	{ left:45.1%; top:41.8%; }
+	.invicta_world_map .marker.fo 	{ left:44.2%; top:23.4%; }
+	.invicta_world_map .marker.cy 	{ left:55.4%; top:42.2%; }
+	.invicta_world_map .marker.je	{ left:46.1%; top:32.8%; }
+	.invicta_world_map .marker.gg	{ left:45.9%; top:32.6%; }
+	.invicta_world_map .marker.im 	{ left:45.1%; top:29.5%; }
+	
+	/* world map - asia */
+	.invicta_world_map .marker.au 	{ left:83.4%; top:76.1%; }
+	.invicta_world_map .marker.nz 	{ left:93.9%; top:87.1%; }
+	.invicta_world_map .marker.id 	{ left:76.2%; top:66.0%; }
+	.invicta_world_map .marker.ph 	{ left:80.2%; top:56.0%; }
+	.invicta_world_map .marker.jp 	{ left:85.0%; top:41.7%; }
+	.invicta_world_map .marker.in 	{ left:68.5%; top:50.9%; }
+	.invicta_world_map .marker.cn 	{ left:75.8%; top:43.8%; }
+	.invicta_world_map .marker.vn 	{ left:76.6%; top:55.0%; }
+	.invicta_world_map .marker.th 	{ left:74.4%; top:53.0%; }
+	.invicta_world_map .marker.kr 	{ left:81.8%; top:41.9%; }
+	.invicta_world_map .marker.kp 	{ left:81.6%; top:40.0%; }
+	.invicta_world_map .marker.np 	{ left:70.2%; top:46.0%; }
+	.invicta_world_map .marker.mn 	{ left:74.3%; top:38.1%; }
+	.invicta_world_map .marker.my 	{ left:74.7%; top:60.2%; }
+	.invicta_world_map .marker.sg 	{ left:74.9%; top:60.7%; }
+	.invicta_world_map .marker.kh 	{ left:75.7%; top:55.5%; }
+	.invicta_world_map .marker.mm 	{ left:73.1%; top:51.6%; }
+	.invicta_world_map .marker.bd 	{ left:71.4%; top:49.6%; }
+	.invicta_world_map .marker.sa 	{ left:58.8%; top:48.7%; }
+	.invicta_world_map .marker.pk 	{ left:66.5%; top:47.1%; }
+	.invicta_world_map .marker.iq 	{ left:58.8%; top:44.1%; }
+	.invicta_world_map .marker.af 	{ left:65.1%; top:45.1%; }
+	.invicta_world_map .marker.ye 	{ left:59.7%; top:52.8%; }
+	.invicta_world_map .marker.kz 	{ left:65.1%; top:32.6%; }
+	.invicta_world_map .marker.ir 	{ left:62.2%; top:43.8%; }
+	.invicta_world_map .marker.uz 	{ left:64.5%; top:37.5%; }
+	.invicta_world_map .marker.tm 	{ left:62.7%; top:39.9%; }
+	.invicta_world_map .marker.qa 	{ left:60.5%; top:47.9%; }
+	.invicta_world_map .marker.pw 	{ left:83.1%; top:58.4%; }
+	.invicta_world_map .marker.om 	{ left:61.7%; top:51.1%; }
+	.invicta_world_map .marker.ge 	{ left:58.6%; top:37.5%; }
+	.invicta_world_map .marker.am 	{ left:58.6%; top:39.5%; }
+	.invicta_world_map .marker.tl 	{ left:81.8%; top:66.7%; }
+	.invicta_world_map .marker.sy 	{ left:57.2%; top:42.5%; }
+	.invicta_world_map .marker.lk 	{ left:68.9%; top:57.9%; }
+	.invicta_world_map .marker.pg 	{ left:86.2%; top:65.6%; }
+	.invicta_world_map .marker.kw 	{ left:59.6%; top:45.7%; }
+	.invicta_world_map .marker.il 	{ left:56.3%; top:43.6%; }
+	.invicta_world_map .marker.bt 	{ left:71.9%; top:46.4%; }
+	.invicta_world_map .marker.mv 	{ left:66.2%; top:59.6%; }
+	.invicta_world_map .marker.al 	{ left:52.1%; top:39.8%; }
+	.invicta_world_map .marker.bn 	{ left:77.7%; top:60.9%; }
+	.invicta_world_map .marker.io 	{ left:66.1%; top:61.9%; }
+	.invicta_world_map .marker.sb 	{ left:66.4%; top:61.9%; }
+	.invicta_world_map .marker.ae 	{ left:61.7%; top:48.8%; }
+	.invicta_world_map .marker.tj 	{ left:66.8%; top:40.8%; }
+	.invicta_world_map .marker.kg 	{ left:66.8%; top:40.0%; }
+	.invicta_world_map .marker.tw 	{ left:79.9%; top:48.9%; }
+	.invicta_world_map .marker.sc 	{ left:62.9%; top:61.9%; }
+	.invicta_world_map .marker.mo 	{ left:77.6%; top:49.9%; }
+	.invicta_world_map .marker.lb 	{ left:56.4%; top:43.0%; }
+	.invicta_world_map .marker.jo 	{ left:57.0%; top:45.1%; }
+	.invicta_world_map .marker.hk 	{ left:78.0%; top:49.7%; }
+	.invicta_world_map .marker.fj 	{ left:95.9%; top:71.9%; }
+	.invicta_world_map .marker.cx 	{ left:75.9%; top:67.9%; }
+	.invicta_world_map .marker.cc 	{ left:74.5%; top:68.9%; }
+	.invicta_world_map .marker.fm 	{ left:91.8%; top:57.9%; }
+	.invicta_world_map .marker.nr 	{ left:93.9%; top:61.9%; }
+	.invicta_world_map .marker.mh 	{ left:94.9%; top:54.9%; }
+	.invicta_world_map .marker.vu	{ left:93.6%; top:71.9%; }
+	.invicta_world_map .marker.mp 	{ left:86.9%; top:57.9%; }
+	.invicta_world_map .marker.nf 	{ left:93.9%; top:77.9%; }
+	.invicta_world_map .marker.nc 	{ left:92.4%; top:73.9%; }
+	.invicta_world_map .marker.la 	{ left:74.7%; top:51.0%; }
+	.invicta_world_map .marker.hm	{ left:67.9%; top:91.9%; }
+	.invicta_world_map .marker.tf 	{ left:65.1%; top:90.1%; }
+	.invicta_world_map .marker.gu 	{ left:87.7%; top:59.1%; }
+	
+	/* world map - africa */
+	.invicta_world_map .marker.tz 	{ left:56.1%; top:64.8%; }
+	.invicta_world_map .marker.sd 	{ left:54.8%; top:54.5%; }
+	.invicta_world_map .marker.za 	{ left:53.2%; top:78.9%; }
+	.invicta_world_map .marker.so 	{ left:58.9%; top:59.5%; }
+	.invicta_world_map .marker.ng 	{ left:49.4%; top:56.4%; }
+	.invicta_world_map .marker.na 	{ left:51.5%; top:76.2%; }
+	.invicta_world_map .marker.mz 	{ left:55.7%; top:71.7%; }
+	.invicta_world_map .marker.ma 	{ left:44.6%; top:43.9%; }
+	.invicta_world_map .marker.mr 	{ left:43.8%; top:50.9%; }
+	.invicta_world_map .marker.lr 	{ left:44.2%; top:57.9%; }
+	.invicta_world_map .marker.et 	{ left:57.3%; top:57.7%; }
+	.invicta_world_map .marker.eg 	{ left:54.6%; top:47.1%; }
+	.invicta_world_map .marker.ao 	{ left:51.3%; top:67.9%; }
+	.invicta_world_map .marker.zw 	{ left:54.2%; top:73.4%; }
+	.invicta_world_map .marker.zm	{ left:53.8%; top:69.9%; }
+	.invicta_world_map .marker.tn 	{ left:49.1%; top:41.9%; }
+	.invicta_world_map .marker.ne 	{ left:48.8%; top:51.9%; }
+	.invicta_world_map .marker.mg 	{ left:59.3%; top:72.9%; }
+	.invicta_world_map .marker.ly 	{ left:51.2%; top:47.6%; }
+	.invicta_world_map .marker.cd 	{ left:52.7%; top:62.5%; }
+	.invicta_world_map .marker.td 	{ left:51.1%; top:52.9%; }
+	.invicta_world_map .marker.cf 	{ left:51.9%; top:57.9%; }
+	.invicta_world_map .marker.cv 	{ left:41.1%; top:54.7%; }
+	.invicta_world_map .marker.cm 	{ left:50.2%; top:59.9%; }
+	.invicta_world_map .marker.bw 	{ left:52.9%; top:74.9%; }
+	.invicta_world_map .marker.dz 	{ left:46.9%; top:45.3%; }
+	.invicta_world_map .marker.eh 	{ left:42.9%; top:47.9%; }
+	.invicta_world_map .marker.ug 	{ left:55.3%; top:60.9%; }
+	.invicta_world_map .marker.tg 	{ left:47.2%; top:56.9%; }
+	.invicta_world_map .marker.sz 	{ left:54.9%; top:76.3%; }
+	.invicta_world_map .marker.sl 	{ left:43.5%; top:57.6%; }
+	.invicta_world_map .marker.sn 	{ left:42.4%; top:54.7%; }
+	.invicta_world_map .marker.st 	{ left:47.9%; top:61.9%; }
+	.invicta_world_map .marker.rw 	{ left:54.6%; top:62.9%; }
+	.invicta_world_map .marker.mw 	{ left:55.3%; top:69.6%; }
+	.invicta_world_map .marker.ls 	{ left:53.5%; top:77.9%; }
+	.invicta_world_map .marker.ke 	{ left:57.1%; top:62.1%; }
+	.invicta_world_map .marker.gw 	{ left:42.8%; top:55.7%; }
+	.invicta_world_map .marker.gn 	{ left:43.5%; top:56.1%; }
+	.invicta_world_map .marker.gh 	{ left:46.3%; top:57.8%; }
+	.invicta_world_map .marker.ga 	{ left:49.9%; top:62.3%; }
+	.invicta_world_map .marker.er 	{ left:56.9%; top:53.9%; }
+	.invicta_world_map .marker.gq 	{ left:49.5%; top:61.3%; }
+	.invicta_world_map .marker.dj 	{ left:58.1%; top:55.9%; }
+	.invicta_world_map .marker.ci 	{ left:45.2%; top:56.9%; }
+	.invicta_world_map .marker.bi 	{ left:54.7%; top:63.8%; }
+	.invicta_world_map .marker.bf 	{ left:46.2%; top:54.7%; }
+	.invicta_world_map .marker.bj 	{ left:47.7%; top:55.9%; }
+	.invicta_world_map .marker.ml 	{ left:45.5%; top:51.6%; }
+	.invicta_world_map .marker.cg 	{ left:51.0%; top:62.1%; }
+	.invicta_world_map .marker.bv 	{ left:47.9%; top:90.9%; }
+	.invicta_world_map .marker.bh 	{ left:60.5%; top:47.6%; }
+	.invicta_world_map .marker.ps 	{ left:55.3%; top:44.5%; }
+	.invicta_world_map .marker.km 	{ left:58.6%; top:68.4%; }
+	.invicta_world_map .marker.gm 	{ left:42.5%; top:55.1%; }
+	.invicta_world_map .marker.yt 	{ left:58.9%; top:69.1%; }
+	.invicta_world_map .marker.mu 	{ left:61.9%; top:73.9%; }
+	
+	/* europe map */
+	.invicta_europe_map .marker.al	{ left:48.5%; top:85.4%; }
+	.invicta_europe_map .marker.ad	{ left:20.6%; top:76.8%; }
+	.invicta_europe_map .marker.at	{ left:39.9%; top:68.1%; }
+	.invicta_europe_map .marker.az	{ left:90.5%; top:76.5%; }
+	.invicta_europe_map .marker.by	{ left:58.8%; top:53.6%; }
+	.invicta_europe_map .marker.be	{ left:28.6%; top:57.3%; }
+	.invicta_europe_map .marker.ba	{ left:45.1%; top:78.1%; }
+	.invicta_europe_map .marker.bg	{ left:56.5%; top:79.5%; }
+	.invicta_europe_map .marker.hr	{ left:42.5%; top:72.9%; }
+	.invicta_europe_map .marker.cy	{ left:81.1%; top:95.1%; }
+	.invicta_europe_map .marker.cz	{ left:44.2%; top:62.1%; }
+	.invicta_europe_map .marker.dk	{ left:35.7%; top:45.5%; }
+	.invicta_europe_map .marker.ee	{ left:54.1%; top:38.6%; }
+	.invicta_europe_map .marker.fi	{ left:53.7%; top:29.1%; }
+	.invicta_europe_map .marker.fr	{ left:24.7%; top:66.7%; }
+	.invicta_europe_map .marker.ge	{ left:85.9%; top:79.1%; }
+	.invicta_europe_map .marker.de	{ left:35.8%; top:60.4%; }
+	.invicta_europe_map .marker.gr	{ left:50.4%; top:88.4%; }
+	.invicta_europe_map .marker.va	{ left:37.2%; top:83.4%; }
+	.invicta_europe_map .marker.hu	{ left:50.1%; top:65.4%; }
+	.invicta_europe_map .marker.is	{ left:17%; top:12.8%; }
+	.invicta_europe_map .marker.ie	{ left:15.8%; top:45.7%; }
+	.invicta_europe_map .marker.it	{ left:38.0%; top:82.2%; }
+	.invicta_europe_map .marker.kz	{ left:0.00%; top:0.00%; }
+	.invicta_europe_map .marker.lv	{ left:55.1%; top:43.1%; }
+	.invicta_europe_map .marker.li	{ left:35.1%; top:69.8%; }
+	.invicta_europe_map .marker.lt	{ left:53.3%; top:47.6%; }
+	.invicta_europe_map .marker.lu	{ left:31.9%; top:60.6%; }
+	.invicta_europe_map .marker.mk	{ left:51.1%; top:84.1%; }
+	.invicta_europe_map .marker.mt	{ left:39.4%; top:98.4%; }
+	.invicta_europe_map .marker.md	{ left:59.6%; top:68.5%; }
+	.invicta_europe_map .marker.mc	{ left:30%; top:76%; }
+	.invicta_europe_map .marker.me	{ left:47.9%; top:83.2%; }
+	.invicta_europe_map .marker.nl	{ left:30.2%; top:53.9%; }
+	.invicta_europe_map .marker.no	{ left:36.4%; top:34.2%; }
+	.invicta_europe_map .marker.pl	{ left:47.1%; top:56.1%; }
+	.invicta_europe_map .marker.pt	{ left:3.7%; top:79.3%; }
+	.invicta_europe_map .marker.ro	{ left:55.2%; top:73.6%; }
+	.invicta_europe_map .marker.ru	{ left:81%; top:33.7%; }
+	.invicta_europe_map .marker.sm	{ left:37.9%; top:78.7%; }
+	.invicta_europe_map .marker.rs	{ left:48.2%; top:80.2%; }
+	.invicta_europe_map .marker.sk	{ left:49.1%; top:61.4%; }
+	.invicta_europe_map .marker.si	{ left:40.1%; top:72.1%; }
+	.invicta_europe_map .marker.es	{ left:11.8%; top:81.1%; }
+	.invicta_europe_map .marker.se	{ left:42.0%; top:40.2%; }
+	.invicta_europe_map .marker.ch	{ left:32.8%; top:70.7%; }
+	.invicta_europe_map .marker.tr	{ left:60.8%; top:83.9%; }
+	.invicta_europe_map .marker.ua	{ left:63.7%; top:61.9%; }
+	.invicta_europe_map .marker.gb	{ left:22.1%; top:50.7%; }
+	
+	/* usa map */
+	.invicta_usa_map .marker.al { left:69.4%; top:66.5%; }
+	.invicta_usa_map .marker.az { left:21.3%; top:61.2%; }
+	.invicta_usa_map .marker.ar { left:57.9%; top:60.9%; }
+	.invicta_usa_map .marker.ca { left:7.3%; top:48.2%; }
+	.invicta_usa_map .marker.co { left:33.4%; top:45.1%; }
+	.invicta_usa_map .marker.ct { left:91.5%; top:25.7%; }
+	.invicta_usa_map .marker.de { left:88.2%; top:37.7%; }
+	.invicta_usa_map .marker.fl { left:81.4%; top:83.6%; }
+	.invicta_usa_map .marker.ga { left:76.2%; top:66.2%; }
+	.invicta_usa_map .marker.id { left:18.8%; top:24.9%; }
+	.invicta_usa_map .marker.il { left:62.8%; top:39.9%; }
+	.invicta_usa_map .marker.in { left:68.3%; top:39.1%; }
+	.invicta_usa_map .marker.ia { left:55.1%; top:33.6%; }
+	.invicta_usa_map .marker.ks { left:46.9%; top:47.9%; }
+	.invicta_usa_map .marker.ky { left:71.8%; top:47.4%; }
+	.invicta_usa_map .marker.la { left:58.3%; top:74.9%; }
+	.invicta_usa_map .marker.me { left:94.9%; top:8.9%; }
+	.invicta_usa_map .marker.md { left:88.1%; top:40.1%; }
+	.invicta_usa_map .marker.ma { left:92.2%; top:22.1%; }
+	.invicta_usa_map .marker.mi { left:70.3%; top:27.6%; }
+	.invicta_usa_map .marker.mn { left:52.8%; top:19.6%; }
+	.invicta_usa_map .marker.ms { left:63.6%; top:68.1%; }
+	.invicta_usa_map .marker.mo { left:57.6%; top:47.7%; }
+	.invicta_usa_map .marker.mt { left:28.9%; top:14.9%; }
+	.invicta_usa_map .marker.ne { left:44.8%; top:36.8%; }
+	.invicta_usa_map .marker.nv { left:13.5%; top:40.8%; }
+	.invicta_usa_map .marker.nh { left:91.9%; top:17.9%; }
+	.invicta_usa_map .marker.nj { left:88.9%; top:32.8%; }
+	.invicta_usa_map .marker.nm { left:31.9%; top:61.9%; }
+	.invicta_usa_map .marker.ny { left:86.4%; top:22.2%; }
+	.invicta_usa_map .marker.nc { left:82.8%; top:52.9%; }
+	.invicta_usa_map .marker.nd { left:43.1%; top:13.8%; }
+	.invicta_usa_map .marker.oh { left:74.1%; top:37.3%; }
+	.invicta_usa_map .marker.ok { left:48.8%; top:59.2%; }
+	.invicta_usa_map .marker.or { left:8.8%; top:21.1%; }
+	.invicta_usa_map .marker.pa { left:82.6%; top:32.2%; }
+	.invicta_usa_map .marker.ri { left:93.1%; top:24.3%; }
+	.invicta_usa_map .marker.sc { left:80.7%; top:60.4%; }
+	.invicta_usa_map .marker.sd { left:42.9%; top:24.7%; }
+	.invicta_usa_map .marker.tn { left:69.2%; top:55.1%; }
+	.invicta_usa_map .marker.tx { left:46.3%; top:77.3%; }
+	.invicta_usa_map .marker.ut { left:22.7%; top:42.9%; }
+	.invicta_usa_map .marker.vt { left:89.8%; top:16.3%; }
+	.invicta_usa_map .marker.va { left:82.9%; top:44.4%; }
+	.invicta_usa_map .marker.wa { left:10.5%; top:9.1%; }
+	.invicta_usa_map .marker.wv { left:78.1%; top:43.1%; }
+	.invicta_usa_map .marker.wi { left:60.9%; top:24.1%; }
+	.invicta_usa_map .marker.wy { left:30.6%; top:29.7%; }
+	
+/* Call to Actions */
+
+.invicta_calltoaction {
+	background-color:#fafafa;
+	border:1px solid #e3e3e3;
+	padding:30px 40px;
+	}
+	.invicta_calltoaction .button {
+		float:right;
+		padding-left:100px;
+		}
+		.invicta_calltoaction .button .invicta_button_wrapper { 
+			margin:0; 
+			margin-top:7px;
+			}
+	.invicta_calltoaction .text {
+		}
+		.invicta_calltoaction .primary {
+			font-size:1.6em;
+			color:#282828;
+			margin-bottom:5px;
+			line-height:125%;
+			}
+		.invicta_calltoaction .secondary {
+			font-size:1.1em;
+			font-weight:300;
+			line-height:150%;
+			}
+			.invicta_calltoaction .secondary strong { 
+				font-weight:500; 
+				}
+
+.invicta_calltoaction.style_2 { border-style:solid; }				
+.invicta_calltoaction.style_2 { border-style:dashed; }
+.invicta_calltoaction.style_3 { border-style:none; }
+.invicta_calltoaction.style_4 { border-style:solid; border-left-width:4px; border-right-width:4px; }
+.invicta_calltoaction.style_5 { border-style:solid; background-color:transparent !important; }
+				
+.vc_col-sm-6.wpb_column .invicta_calltoaction, 
+.vc_col-sm-4.wpb_column .invicta_calltoaction, 
+.vc_col-sm-3.wpb_column .invicta_calltoaction, 
+.vc_col-sm-2.wpb_column .invicta_calltoaction { 
+	text-align:center; 
+	}
+.vc_col-sm-6.wpb_column .invicta_calltoaction .button,
+.vc_col-sm-4.wpb_column .invicta_calltoaction .button, 
+.vc_col-sm-3.wpb_column .invicta_calltoaction .button,
+.vc_col-sm-2.wpb_column .invicta_calltoaction .button {
+	float:none;
+	margin-bottom:20px;
+	margin-top:0;
+	padding:0;
+	}
+.vc_col-sm-6.wpb_column .invicta_calltoaction .primary, 
+.vc_col-sm-4.wpb_column .invicta_calltoaction .primary, 
+.vc_col-sm-3.wpb_column .invicta_calltoaction .primary, 
+.vc_col-sm-2.wpb_column .invicta_calltoaction .primary { 
+	font-size:1.4em; 
+	}
+.vc_col-sm-6.wpb_column .invicta_calltoaction .secondary,
+.vc_col-sm-4.wpb_column .invicta_calltoaction .secondary, 
+.vc_col-sm-3.wpb_column .invicta_calltoaction .secondary,
+.vc_col-sm-2.wpb_column .invicta_calltoaction .secondary { 
+	font-size:1.0em; 
+	}
+		
+/* Pricing Tables */
+.invicta_pricingtable {
+	margin-bottom: 50px;
+}	
+
+/* Separator with text */
+
+.visual_composer_invicta_styles .vc_separator h4 {
+	font-size: 18px;
+}	
+		
+/* WordPress */
+
+.text_styles .widget_pages a, 
+.text_styles .widget_nav_menu a { 
+	color:inherit; 
+	}
+
+.text_styles .widget_pages a:hover, 
+.text_styles .widget_nav_menu a:hover { 
+	text-decoration:none;
+	opacity:1; 
+	}	
+	
+.main_column .vc_wp_search .searchform {
+	width:100%;
+	}
+	
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Contact Form 7
+== ------------------------------------------------------------------- ==
+*/
+
+.invicta_canvas .wpcf7-form-control-wrap {
+	display:block;
+	}
+
+.invicta_canvas span.wpcf7-not-valid-tip {
+	width:20px;
+	height:20px;
+	text-indent:-9999px;
+	left:auto;
+	right:10px;
+	top:50%;
+	margin-top:-10px;
+	background:url(images/icons/warning.png) no-repeat center center;
+	border:none;
+	position:absolute;
+	}
+.invicta_canvas .wpcf7-validates-as-required {
+	padding-right:35px;
+	}
+.invicta_canvas .wpcf7-response-output {
+	background:url(images/icons/warning.png) no-repeat 3px 2px;
+	padding-left:25px;
+	margin-left:0;
+	margin-right:0;
+	line-height:150%;
+	border-width:1px;
+	}
+	
+	
+/*
+== ------------------------------------------------------------------- ==
+== @@ WPML
+== ------------------------------------------------------------------- ==
+*/
+
+#lang_sel ul li:before,
+#lang_sel_click ul li:before {
+	margin:0;
+	display:inline;
+	}
+
+.header_meta .language_switcher {
+	margin-left:0px;
+	}
+.header_meta .language_switcher #lang_sel,
+.header_meta .language_switcher #lang_sel_click {
+	display:inline-block;
+	height:auto;
+	font-family:inherit;
+	text-align:left;
+	}
+	.header_meta .language_switcher #lang_sel img.iclflag,
+	.header_meta .language_switcher #lang_sel_click img.iclflag {
+		vertical-align:middle;
+		top:-1px;
+		}
+	.header_meta .language_switcher #lang_sel li,
+	.header_meta .language_switcher #lang_sel_click li {
+		float:none;
+		width:120px;
+		}
+	.header_meta .language_switcher #lang_sel ul ul,
+	.header_meta .language_switcher #lang_sel_click ul ul { 
+		z-index:2;
+		top:21px;
+		border:none;
+		padding-top:7px !important;
+		height:auto;
+		display:block;
+		width:120px;
+		-webkit-box-shadow:0px 6px 14px 0 rgba(0, 0, 0, 0.1);
+		   -moz-box-shadow:0px 6px 14px 0 rgba(0, 0, 0, 0.1);
+		        box-shadow:0px 6px 14px 0 rgba(0, 0, 0, 0.1);
+		}
+		.header_meta .language_switcher #lang_sel ul ul.visible_with_js,
+		.header_meta .language_switcher #lang_sel_click ul ul.visible_with_js {
+			visibility:visible;
+			}
+
+.header_meta .language_switcher #lang_sel a,
+.header_meta .language_switcher #lang_sel_click a {
+	border:none;
+	}		
+.header_meta .language_switcher #lang_sel a.lang_sel_sel,
+.header_meta .language_switcher #lang_sel_click a.lang_sel_sel {
+	background-color:transparent;
+	color:inherit;
+	padding-left:6px;
+	}
+	
+.header_meta .language_switcher #lang_sel ul ul a,
+.header_meta .language_switcher #lang_sel_click ul ul a {
+	border:solid 1px #e3e3e3;
+	border-bottom-style:none;
+	background:#FFF;
+	color:#737373;
+	padding-top:7px;
+	padding-bottom:7px;
+	}
+	.header_meta .language_switcher #lang_sel ul ul a:hover,
+	.header_meta .language_switcher #lang_sel_click ul ul a:hover {
+		background:#fafafa;
+		}
+	.header_meta .language_switcher #lang_sel ul ul li:last-child a,
+	.header_meta .language_switcher #lang_sel_click ul ul li:last-child a {
+		border-bottom-style:solid;
+		}
+		
+		
+/*
+== ------------------------------------------------------------------- ==
+== @@ Visual Composer Frontend Editing Mode
+== ------------------------------------------------------------------- ==
+*/
+
+#vc-properties-panel .edit_form_line i.invicta_icon {
+	font-size:18px;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - Larger Screens
+== ------------------------------------------------------------------- ==
+*/
+
+@media only screen and (min-width:1140px) {
+	
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - Smaller than standard 960px
+== ------------------------------------------------------------------- ==
+*/
+
+@media only screen and (max-width:1000px) {
+
+
+	.invicta_boxed_layout.invicta_fixed_header .header_wrapper { width:782px; }
+	.invicta_fixed_header .header_wrapper { position:relative; }
+	.invicta_fixed_header .header_wrapper_extras { padding-top:0 !important; }
+	.invicta_fixed_header .page_header .header_main nav { margin-top:0; }
+
+}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - Tablet portrait size to standard 960px (1º)
+== ------------------------------------------------------------------- ==
+*/
+@media only screen and (min-width:768px) and (max-width:1000px) {
+
+	/* canvas columns */
+	.responsive .invicta_canvas 				{ width:682px; }
+	.responsive .invicta_canvas .main_column 	{ width:420px; }
+	.responsive .invicta_canvas .side_column 	{ width:192px; }
+	
+	/* boxed layout */
+	.responsive.invicta_boxed_layout #invicta_root { 
+		max-width:782px;
+		}
+	.responsive.invicta_boxed_layout.invicta_fixed_header .header_wrapper { 
+		width:782px; 
+		}
+	
+	/* invicta grid */
+	.responsive .invicta_grid > .entry 				{ width:185px; }
+	.responsive .no_sidebar .invicta_grid .entry 	{ width:187px; }
+	.responsive .no_sidebar.columns_4 .invicta_grid .entry 	{ width:306px; }
+	.responsive .no_sidebar.columns_2 .invicta_grid .entry 	{ width:306px; }
+	
+		/* shortcode - full width */
+		.responsive .no_sidebar .grid_shortcode .invicta_grid .entry { width:306px; }
+					.responsive .grid_shortcode .invicta_grid .entry { width:185px; }
+		
+		/* shortcode - 1/2 */
+		.responsive .no_sidebar .vc_col-sm-6 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-6 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 1/3 */
+		.responsive .no_sidebar .vc_col-sm-4 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-4 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 1/4 */
+		.responsive .no_sidebar .vc_col-sm-3 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-3 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 1/6 */
+		.responsive .no_sidebar .vc_col-sm-2 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-2 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 2/3 */
+		.responsive .no_sidebar .vc_col-sm-8 .grid_shortcode .invicta_grid .entry { width:190px; }
+					.responsive .vc_col-sm-8 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 3/4 */
+		.responsive .no_sidebar .vc_col-sm-9 .grid_shortcode .invicta_grid .entry { width:219px; }
+					.responsive .vc_col-sm-9 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 5/6 */
+		.responsive .no_sidebar .vc_col-sm-10 .grid_shortcode .invicta_grid .entry { width:248px; }
+					.responsive .vc_col-sm-10 .grid_shortcode .invicta_grid .entry { width:148px; }
+		
+	/* header */
+	.responsive .page_header .header_main {
+		height:220px !important;
+		}
+	.responsive .page_header .logo {
+		float:none;
+		height:160px;
+		text-align:center;
+		}
+		.responsive .page_header .header_main .logo a {
+			margin: 0 auto;
+			display:inline-block;
+			}
+	.responsive .sf-menu > li { line-height:100%; padding-bottom:13px; }
+	.responsive .page_header .header_main nav {
+		float:none;
+		position:relative;
+		left:0;
+		right:0;
+		margin-top:0px !important;
+		}
+		.responsive .page_header .header_main .sf-menu {
+			text-align:center;
+			}
+			.responsive .page_header .header_main .sf-menu > li {
+				float:none;
+				display:inline-block;
+				}
+				.responsive .page_header .header_main .sf-menu > li li {
+					text-align:left;
+					}
+			
+	/* default home slideshow */				
+	.responsive .page_header .home_slideshow .default_slideshow { height:300px; }
+	.responsive .page_header .home_slideshow .default_slideshow img { margin-top:25px; }
+	
+	/* invicta steps shortcode */
+	
+	.responsive .invicta_steps .step {
+		display:block;
+		width:100% !important;
+		text-align:left;
+		clear:both;
+		padding:0;
+		padding-bottom:30px;
+		overflow:hidden;
+		}
+		.responsive .invicta_steps .step .icon {
+			margin:0;
+			float:left;
+			}
+			
+	.responsive .invicta_steps .step .info {
+		padding-left:130px;
+		padding-top:15px;
+		}
+			
+	.responsive .invicta_steps .step .line { 
+		width:1px;
+		height:100%;
+		left:48px;
+		border-top:none;
+		border-left:1px dashed #cdcdcd;
+		}
+		.responsive .invicta_steps .step:first-child .line 	{ height:100%; top:0; 	 left:48px; }
+		.responsive .invicta_steps .step:last-child .line 	{ height:50%;  top:auto; left:48px; }
+		
+	/* video detail page */
+	.responsive .video_page .condensed .post_text,  
+	.responsive .video_page .condensed .post_meta { float:none; width:100%; padding:0 20px; }
+	.responsive .video_page .condensed .post_text { padding-bottom:20px; }
+	.responsive .video_page .condensed .post_meta { margin-bottom:20px;  }
+	.responsive .video_page .condensed .post_meta .meta { display:inline; }
+		
+	/* videos list page */
+	.responsive .video_list_page .videos_carousel .entry { width:200px; }
+	.responsive .video_list_page.no_sidebar .videos_carousel .entry { width:207px; }
+	
+	.responsive .video_list_page .featured_videos .main_video_section, 
+	.responsive .video_list_page .featured_videos .popular_videos_section { float:none; width:100%; }
+	.responsive .video_list_page .featured_videos .main_video_section {
+		width:96%;
+		}
+	.responsive .video_list_page .featured_video { border-right:0; border-bottom-width:2px; }
+	.responsive .video_list_page .featured_video .video { float:none; width:100%; }
+	.responsive .video_list_page .featured_video .info { float:none; width:100%; }
+	.responsive .video_list_page .featured_video .info .post_meta { float:left; }
+	.responsive .video_list_page .featured_video .info .button { float:right; }
+	
+	/* photo slider */
+	.responsive .invicta_photoslider .stage,
+	.responsive .invicta_photoslider .thumbnails_pane { height:304px; }
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - All mobile sizes (3º)
+== ------------------------------------------------------------------- ==
+*/
+@media only screen and (max-width:767px) {
+
+	.responsive .invicta_canvas 					{ width:268px; }
+		
+	/* boxed layout */
+	.responsive.invicta_boxed_layout #invicta_root { 
+		max-width:368px;
+		}
+	.responsive.invicta_boxed_layout.invicta_fixed_header .header_wrapper { 
+		width:368px; 
+		}
+	
+	.responsive .invicta_grid > .entry 				{ width:248px; }
+	.responsive .no_sidebar .invicta_grid .entry 	{ width:248px; }
+	
+	/* invicta grid */
+	
+		/* shortcode - full width */
+		.responsive .no_sidebar .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .grid_shortcode .invicta_grid .entry { width:100%; }
+		
+		/* shortcode - 1/2 */
+		.responsive .no_sidebar .vc_col-sm-6 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-6 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 1/3 */
+		.responsive .no_sidebar .vc_col-sm-4 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-4 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 1/4 */
+		.responsive .no_sidebar .vc_col-sm-3 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-3 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 1/6 */
+		.responsive .no_sidebar .vc_col-sm-2 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-2 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 2/3 */
+		.responsive .no_sidebar .vc_col-sm-8 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-8 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 3/4 */
+		.responsive .no_sidebar .vc_col-sm-9 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-9 .grid_shortcode .invicta_grid .entry { width:100%; }
+					
+		/* shortcode - 5/6 */
+		.responsive .no_sidebar .vc_col-sm-10 .grid_shortcode .invicta_grid .entry { width:100%; }
+					.responsive .vc_col-sm-10 .grid_shortcode .invicta_grid .entry { width:100%; }		
+
+	.responsive .page_header .header_meta .callus,
+	.responsive .page_header .header_meta .social {
+		float:none;
+		margin:0;
+		text-align:center;
+		}
+		.responsive .page_header .header_meta .callus {
+			line-height:inherit;
+			margin-bottom:7px;
+			}
+			.responsive .page_header .header_meta .callus .meta {
+				display:block;
+				margin-right:0;
+				line-height:170%;
+				}
+	.responsive .page_header .header_meta .social_links a {
+		margin:0 4px;	
+		}	
+	.responsive .page_header .header_main {
+		height:240px !important;
+		}
+	.responsive .page_header .header_main .logo {
+		float:none;
+		height:160px;
+		text-align:center;
+		}
+		.responsive .page_header .header_main .logo a {
+			margin: 0 auto;
+			display:inline-block;
+			}
+			
+	.responsive .page_header .header_main nav {
+		float:none;
+		margin-top:0 !important;
+		position:relative;
+		left:0;
+		right:0;
+		}
+		.responsive .page_header .header_main nav ul {
+			display:none;
+			}
+		.responsive .page_header .header_main nav select {
+			display:block;
+			width:100%;
+			}
+			
+	.responsive .page_footer .socket .copyrights,
+	.responsive .page_footer .socket .navigation {
+		float:none;
+		text-align:center;
+		}
+		.responsive .page_footer .socket .navigation ul {
+			margin-top:7px;
+			}
+		.responsive .page_footer .socket .navigation ul li {
+			float:none;
+			display:inline-block;
+			margin:0 6px;
+			}
+			
+	.responsive .invicta_canvas .main_column, 
+	.responsive .invicta_canvas .side_column { width:auto; float:none !important; }
+	.responsive .invicta_canvas .side_column {
+		margin-top:50px;
+		}
+	
+	.responsive .blog_loop .entry .post_meta .primary_meta, 
+	.responsive .blog_loop .entry .post_meta .secondary_meta {
+		float:left;
+		text-align:left;
+		}	
+		
+	.responsive .comments_loop .children {
+		margin-left:10%;
+		}
+		
+	/* invicta headings */
+	
+	.responsive .invicta_heading .primary, 
+	.responsive .invicta_heading .secondary {
+		padding:0;
+		}
+		
+	/* invicta letter shortcode */ 
+	.responsive .invicta_letter .media {
+		float:none;
+		width:auto;
+		}
+		.responsive .invicta_letter .media {
+			max-width:200px;
+			margin:0 auto;
+			}
+		.responsive .invicta_letter .media .signature {
+			margin-top:0;
+			}
+	.responsive .invicta_letter .text {
+		padding:0;
+		}
+		
+	/* invicta steps shortcode */
+	
+	.responsive .invicta_steps .step {
+		display:block;
+		width:100% !important;
+		text-align:left;
+		clear:both;
+		padding:0;
+		padding-bottom:30px;
+		overflow:hidden;
+		}
+		.responsive .invicta_steps .step .icon {
+			margin:0;
+			float:left;
+			}
+			
+	.responsive .invicta_steps .step .info {
+		padding-left:130px;
+		padding-top:15px;
+		}
+			
+	.responsive .invicta_steps .step .line { 
+		width:1px;
+		height:100%;
+		left:48px;
+		border-top:none;
+		border-left:1px dashed #cdcdcd;
+		}
+		.responsive .invicta_steps .step:first-child .line 	{ height:100%; top:0; 	 left:48px; }
+		.responsive .invicta_steps .step:last-child .line 	{ height:0; }
+		
+	/* default home slideshow */				
+	.responsive .page_header .home_slideshow .default_slideshow { height:210px; }
+	.responsive .page_header .home_slideshow .default_slideshow img { margin-top:30px; }
+	
+	/* invicta contactform shortcode */
+	
+	.responsive .wpcf7 input[type="text"], 
+	.responsive .wpcf7 input[type="input"], 
+	.responsive .wpcf7 input[type="password"],
+	.responsive .wpcf7 input[type="email"], 
+	.responsive .wpcf7 input[type="number"], 
+	.responsive .wpcf7 input[type="url"], 
+	.responsive .wpcf7 input[type="tel"], 
+	.responsive .wpcf7 input[type="search"], 
+	.responsive .wpcf7 select {
+		width:100%;
+		}
+		
+	.responsive .wpcf7 .form_field_group .form_field { 
+		float:none;
+		width:100%;
+		padding-right:0;
+		}
+		
+	/* invicta tabs shortcode */
+	.responsive.visual_composer_invicta_styles .wpb_tabs .wpb_tabs_nav li {
+		display:block;
+		width:100%;
+		}
+		
+	/* portfolio */
+	
+	.responsive .portfolio_details .entry.condensed .project_thumbnail {
+		margin-bottom:30px;
+		}
+		
+	/* videos */
+	.responsive .videos_loop { display:none !important; }
+	.responsive .videos_loop_responsive { display:block; }
+	
+	/* testimonial carousel */
+	.responsive .invicta_testimonial_carousel .invicta_testimonial { width:100%; padding:0 40px; text-align:left; z-index:2; margin-top:0; margin-bottom:30px; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial:last-child { margin-bottom:0; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial .media { display:none; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial .meta { padding-left:0; padding-right:0; }
+	.responsive .invicta_testimonial_carousel .background { display:none; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial .meta .name { font-size:1.1em; }
+
+	/* world map */
+	.invicta_world_map .map_canvas .marker { box-shadow:none; }
+	.invicta_world_map .map_canvas .label { display:none; }
+	.invicta_world_map .responsive_labels { display:block; }
+	.invicta_world_map .responsive_labels span { width:50%; }
+	
+	/* video detail page */
+	.responsive .video_page .condensed .post_text,  
+	.responsive .video_page .condensed .post_meta { float:none; width:100%; padding:0 20px; }
+	.responsive .video_page .condensed .post_text { padding-bottom:20px; }
+	.responsive .video_page .condensed .post_meta { margin-bottom:20px; }
+	.responsive .video_page .condensed .post_meta .meta { display:inline; }
+	
+	/* videos list page */
+	.responsive .video_list_page .videos_carousel .entry {
+		width:248px;
+		}
+	.responsive .video_list_page .videos_carousel .entry .video_thumbnail img {
+		width:248px;
+		height:150px;
+		}
+		
+	.responsive .video_list_page .featured_video { border-right:0; border-bottom-width:2px; }
+	.responsive .video_list_page .featured_video .video { float:none; width:100%; }
+	.responsive .video_list_page .featured_video .info { float:none; width:100%; }
+	
+	/* photo slider */
+	.responsive .invicta_photoslider .stage, 
+	.responsive .invicta_photoslider .thumbnails_pane { height:180px; }
+	
+	/* call to actions */
+	.responsive .invicta_calltoaction {
+		text-align:center;
+		}
+		.responsive .invicta_calltoaction .button {
+			float:none;
+			margin-bottom:20px;
+			margin-top:0;
+			padding:0;
+			}
+		.responsive .invicta_calltoaction .primary { font-size:1.4em; }
+		.responsive .invicta_calltoaction .secondary { font-size:1.0em; }
+		
+	/* title area */
+	.responsive .page_header .title_area {
+		padding-top:22px;
+		padding-bottom:22px;
+		}
+	.responsive .page_header .title_area h1 {
+		line-height:120%;
+		}
+	.responsive .page_header .title_area .alignleft, 
+	.responsive .page_header .title_area .alignright {
+		float:none;
+		text-align:center;
+		margin:0;
+		}
+
+}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - Phone landscape size to tablet portrait (2º)
+== ------------------------------------------------------------------- ==
+*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+							
+	.responsive .invicta_canvas {
+		width:428px;
+		}
+		
+	/* boxed layout */
+	.responsive.invicta_boxed_layout #invicta_root { 
+		max-width:528px;
+		}
+	.responsive.invicta_boxed_layout.invicta_fixed_header .header_wrapper { 
+		width:528px; 
+		}
+		
+	.responsive .invicta_grid > .entry 				{ width:408px; }
+	.responsive .no_sidebar .invicta_grid > .entry 	{ width:408px; }
+	
+	/* testimonial carousel */
+	.responsive .invicta_testimonial_carousel .invicta_testimonial { width:100%; padding:0 40px; text-align:left; z-index:2; margin-top:0; margin-bottom:30px; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial:last-child { margin-bottom:0; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial .media { display:block; float:left; left:0px; width:60px; height:60px; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial .media .invicta_avatar { width:60px; height:60px; border-width:2px; }
+	.responsive .invicta_testimonial_carousel .invicta_testimonial .meta { padding-left:72px; padding-right:0; }
+	.responsive .invicta_testimonial_carousel .background { display:none; }
+			
+	/* world map */
+	.invicta_world_map .responsive_labels span { width:33.333333%; }
+	
+	/* videos list page */
+
+	.responsive .video_list_page .videos_carousel .entry { width:194px; }
+	.responsive .video_list_page .videos_carousel .entry .video_thumbnail img { height:120px; }
+	
+	.responsive .video_list_page .featured_videos .main_video_section, 
+	.responsive .video_list_page .featured_videos .popular_videos_section { float:none; width:100%; }
+	.responsive .video_list_page .featured_videos .popular_videos_section {
+		padding-left:0;
+		margin-top:20px;
+		}
+		.responsive .video_list_page .featured_videos .popular_videos_section .entry {
+			width:50%;
+			display:inline-block;
+			}
+			
+	
+	/* photo slider */
+	.responsive .invicta_photoslider .stage, 
+	.responsive .invicta_photoslider .thumbnails_pane { height:296px; }
+	
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - Phone portrait size to phone landscape size
+== ------------------------------------------------------------------- ==
+*/
+@media only screen and (max-width:479px) {
+
+	/* blog */
+	.responsive .blog_loop .entry .post_extras .post_sharing, 
+	.responsive .blog_loop .entry .post_extras .post_tags {
+		float:none;
+		}
+		.responsive .blog_loop .entry .post_extras .post_tags { margin-bottom:10px; }
+	.responsive .blog_loop .entry .post_author .media {
+		float:none;
+		width:auto;
+		margin-bottom:20px;
+		padding:0;
+		}
+	.responsive .blog_loop .entry .post_author .text {
+		float:none;
+		width:auto;
+		text-align:center;
+		padding:0;
+		}
+		.responsive .blog_loop_pagination .nav .meta {
+			display:none;
+			}
+			
+	/* comments list */
+	.responsive .comments_loop .entry .text .head .author { float:none; display:block; }
+	.responsive .comments_loop .entry .text .head .date { float:none; display:block; margin-left:0; }
+	
+	/* comment form */
+	.responsive .comment_form .legend {
+		position:relative;
+		top:0;
+		right:0;
+		text-align:left;
+		}
+		
+	/* default home slideshow */				
+	.responsive .page_header .home_slideshow .default_slideshow { height:130px; }
+	.responsive .page_header .home_slideshow .default_slideshow img { margin-top:20px; }
+	
+	/* invicta letter shortcode */
+	.responsive .invicta_letter .photo {
+		width:160px;
+		height:160px;
+		}
+	
+	/* invicta steps shortcode */
+	
+	.responsive .invicta_steps .step .icon {
+		width:46px;
+		height:46px;
+		}
+		.responsive .invicta_steps .step:hover .icon {
+			box-shadow: inset 0px 0px 0px 3px rgba(0,0,0,0.10);
+		}
+		.responsive .invicta_steps .step .icon i {
+			font-size:20px;
+			margin:-10px 0 0 -10px;
+			}
+		.responsive .invicta_steps .step .icon .index { 
+			font-size:12px !important;
+			line-height:46px;
+			}
+	.responsive .invicta_steps .step .line {
+		left:23px;
+		}
+		.responsive .invicta_steps .step:first-child .line 	{ height:100%; top:0; 	 left:23px; }
+		.responsive .invicta_steps .step:last-child .line 	{ height:0; }
+		
+	.responsive .invicta_steps .step .info {
+		padding-left:60px;
+		padding-top:8px;
+		}
+		
+	/* invicta tabs shortcode */
+	.responsive.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li {
+		margin-left:0;
+		}
+	.responsive.visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav {
+		left:0;
+		}
+		
+	/* blog loop shortcode */
+	.responsive .no_sidebar .vc_col-sm-12 .columns_2 .blog_loop_shortcode .entry .post_thumbnail { float:none; }
+	.responsive .no_sidebar .vc_col-sm-12 .columns_2 .blog_loop_shortcode .entry .post_thumbnail { width:auto; margin-right:0; }
+
+	
+}
+
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - Retina
+== ------------------------------------------------------------------- ==
+*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)     ,
+only screen and (   min--moz-device-pixel-ratio: 2)     ,
+only screen and (     -o-min-device-pixel-ratio: 2/1)   ,
+only screen and (        min-device-pixel-ratio: 2)     ,
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx)  { 
+	
+	select, 
+	.page_header .header_main nav select {
+		background-image:url('images/icons/dropdown_arrow@2x.png');
+		background-size:30px 13px;
+		}
+		
+	.page_header .logo.default a {
+		background:url('images/logo@2x.png') no-repeat 0 0;
+		background-size:140px 53px;	
+		}
+		
+	/* toggle shortcode */
+	.visual_composer_invicta_styles .wpb_toggle {
+		background-image:url(images/icons/toggle_open@2x.png);
+		background-size:18px 18px;
+		}
+	.visual_composer_invicta_styles .wpb_toggle.wpb_toggle_title_active {
+		background-image:url(images/icons/toggle_close@2x.png);
+		background-size:18px 18px;
+		}
+		
+	/* contact form 7 */
+	
+	.invicta_canvas span.wpcf7-not-valid-tip, 
+	.invicta_canvas .wpcf7-response-output {
+		background-image:url(images/icons/warning@2x.png);
+		background-size:20px 20px;
+		}
+		
+	/* invicta timespan graphic */
+	
+	.invicta_timespan_graphic .frame, 
+	.invicta_timespan_graphic .span {
+		background-size:100px 100px; 
+		}
+	.invicta_timespan_graphic .frame { background-image:url(images/timespan/frame@2x.png); }
+		
+	.invicta_timespan_graphic.period_0 .span, 
+	.invicta_timespan_graphic.period_12 .span 	{ background-image:url(images/timespan/0@2x.png); }
+	.invicta_timespan_graphic.period_0_5 .span 	{ background-image:url(images/timespan/0.5@2x.png); }
+	.invicta_timespan_graphic.period_1 .span  	{ background-image:url(images/timespan/1@2x.png); }
+	.invicta_timespan_graphic.period_1_5 .span  { background-image:url(images/timespan/1.5@2x.png); }
+	.invicta_timespan_graphic.period_2 .span  	{ background-image:url(images/timespan/2@2x.png); }
+	.invicta_timespan_graphic.period_2_5 .span  { background-image:url(images/timespan/2.5@2x.png); }
+	.invicta_timespan_graphic.period_3 .span  	{ background-image:url(images/timespan/3@2x.png); }
+	.invicta_timespan_graphic.period_3_5 .span  { background-image:url(images/timespan/3.5@2x.png); }
+	.invicta_timespan_graphic.period_4 .span  	{ background-image:url(images/timespan/4@2x.png); }
+	.invicta_timespan_graphic.period_4_5 .span  { background-image:url(images/timespan/4.5@2x.png); }
+	.invicta_timespan_graphic.period_5 .span  	{ background-image:url(images/timespan/5@2x.png); }
+	.invicta_timespan_graphic.period_5_5 .span  { background-image:url(images/timespan/5.5@2x.png); }
+	.invicta_timespan_graphic.period_6 .span  	{ background-image:url(images/timespan/6@2x.png); }
+	.invicta_timespan_graphic.period_6_5 .span  { background-image:url(images/timespan/6.5@2x.png); }
+	.invicta_timespan_graphic.period_7 .span  	{ background-image:url(images/timespan/7@2x.png); }
+	.invicta_timespan_graphic.period_7_5 .span  { background-image:url(images/timespan/7.5@2x.png); }
+	.invicta_timespan_graphic.period_8 .span  	{ background-image:url(images/timespan/8@2x.png); }
+	.invicta_timespan_graphic.period_8_5 .span  { background-image:url(images/timespan/8.5@2x.png); }
+	.invicta_timespan_graphic.period_9 .span  	{ background-image:url(images/timespan/9@2x.png); }
+	.invicta_timespan_graphic.period_9_5 .span  { background-image:url(images/timespan/9.5@2x.png); }
+	.invicta_timespan_graphic.period_10 .span 	{ background-image:url(images/timespan/10@2x.png); }
+	.invicta_timespan_graphic.period_10_5 .span { background-image:url(images/timespan/10.5@2x.png); }
+	.invicta_timespan_graphic.period_11 .span 	{ background-image:url(images/timespan/11@2x.png); }
+	.invicta_timespan_graphic.period_11_5 .span { background-image:url(images/timespan/11.5@2x.png); }
+	
+}
+
+/*
+== ------------------------------------------------------------------- ==
+== @@ Media Queries - Dead spaces on boxed layout
+== ------------------------------------------------------------------- ==
+*/
+
+@media only screen and (min-width:1000px) and (max-width:1060px) {
+	.responsive.invicta_boxed_layout #invicta_root { max-width:100%; }
+	.responsive.invicta_boxed_layout.invicta_fixed_header .header_wrapper { width:100%; }
+}
+@media only screen and (min-width:768px) and (max-width:783px) {
+	.responsive.invicta_boxed_layout #invicta_root { max-width:100%; }
+.responsive.invicta_boxed_layout.invicta_fixed_header .header_wrapper { width:100%; }
+}
+@media only screen and (min-width:480px) and (max-width:528px) {
+	.responsive.invicta_boxed_layout #invicta_root { max-width:100%; }
+	.responsive.invicta_boxed_layout.invicta_fixed_header .header_wrapper { width:100%; }
+}
+@media only screen and (max-width:368px) {
+	.responsive.invicta_boxed_layout #invicta_root { max-width:100%; }
+	.responsive.invicta_boxed_layout.invicta_fixed_header .header_wrapper { width:100%; }
+}
