@@ -77,7 +77,7 @@ input[type="submit"],
 .widget_categories ul.children li a:hover { 
 	border-left-color:rgb(115, 115, 115); 
 	border-left-color:rgba(115, 115, 115, 0.5); 
-	background-color:#ffffff !important; 
+	background-color:#FFFFFF !important; 
 	}
 
 #invicta_root,
@@ -114,7 +114,7 @@ textarea:focus,
 .widget_calendar #calendar_wrap tfoot td.pad, 
 .invicta_person .thumbnail:before,
 .header_meta .language_switcher #lang_sel ul ul a {
-	background-color:#ffffff;
+	background-color:#FFFFFF;
 	}		
 
 .invicta_fixed_header .header_wrapper { 
@@ -124,12 +124,12 @@ textarea:focus,
 
 .visual_composer_invicta_styles .wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active { 
 	border-color:#e3e3e3; 
-	border-right-color:#ffffff; 
+	border-right-color:#FFFFFF; 
 	}
 	
 .visual_composer_invicta_styles .wpb_content_element.wpb_tabs .wpb_tabs_nav li.ui-tabs-active { 
 	border-color:#e3e3e3; 
-	border-bottom-color:#ffffff;
+	border-bottom-color:#FFFFFF;
 	}
 	
 .visual_composer_invicta_styles .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header { 
@@ -146,12 +146,12 @@ textarea:focus,
 
 .photos_loop .entry .gallery_photos img.main, 
 .photos_loop .entry .gallery_photos img.thumbnail {
-	border-color:#ffffff;
+	border-color:#FFFFFF;
 	}
 	
 .invicta_pagination .btn.current,
 .invicta_pagination a.btn:hover {
-	color:#ffffff;
+	color:#FFFFFF;
 	}
 	
 input[type="submit"],
@@ -164,12 +164,12 @@ input[type="submit"],
 .woocommerce-page .widget_price_filter .price_slider_amount .button, 
 .woocommerce .single_product_details .cart .button, 
 .woocommerce-page .single_product_details .cart .button { 
-	color:#ffffff !important; 
+	color:#FFFFFF !important; 
 	}
 	
 .invicta_photoslider .controller span, 
 .invicta_photoslider .controller a {
-	color:#ffffff;
+	color:#FFFFFF;
 	}
 
 .page_header .title_area,
@@ -230,7 +230,7 @@ textarea,
 	}
 	
 .widget_categories li.current-cat > a {
-	background-color:#ffffff !important;
+	background-color:#FFFFFF !important;
 	}
 	
 .widget_categories.widget_photos_categories .tooltip:after, 
@@ -441,7 +441,7 @@ select,
 
 .sf-menu ul li { 
 		border-bottom-color:#e3e3e3; 
-	border-top-color:#ffffff; 
+	border-top-color:#FFFFFF; 
 		}
 
 
@@ -471,12 +471,107 @@ select,
 */
 
 
+	.page_header, 
+	.header_meta .language_switcher #lang_sel ul ul a {
+		background-color:#FFFFFF; 
+		}
+		
+	.invicta_fixed_header .header_wrapper { 
+		background-color:rgb(255, 255, 255);
+		background-color:rgba(255, 255, 255, 0.85);
+		}
+		
+	.page_header .header_meta {
+		background-color:#fdfdfd;
+		border-bottom-color:#e8e8e8;
+		}
+		
+	.page_header .header_main nav select,
+	.page_header .home_slideshow, 
+	.header_meta .language_switcher #lang_sel ul ul a:hover {
+		background-color:#fdfdfd;
+		}
+		
+	.page_header .sf-menu a,
+	.page_header .header_main nav select, 
+	.header_meta .language_switcher #lang_sel ul ul a {
+		color:#737373;
+		}
+		
+	.page_header .header_meta, 
+	.page_header .header_meta .social_links, 
+	.page_header .header_meta .tagline, 
+	.page_header .header_meta .searchbox, 
+	.page_header .searchform button {
+		color:#b2b2b2;
+		}
+		
+	.page_header .header_meta .searchbox .divider {
+		color:rgb(178, 178, 178);
+		color:rgba(178, 178, 178, 0.7);
+		}
+		
+	.page_header .header_main nav select {
+		border-color:#e8e8e8;
+		}
+
+	.page_header input[type="text"], 
+	.page_header input[type="password"], 
+	.page_header input[type="email"], 
+	.page_header input[type="number"], 
+	.page_header input[type="url"], 
+	.page_header input[type="tel"], 
+	.page_header input[type="search"],
+	.page_header textarea {
+		color:#b2b2b2;
+		}
+				
+	.page_header input[type="text"]:focus, 
+	.page_header input[type="password"]:focus, 
+	.page_header input[type="email"]:focus, 
+	.page_header input[type="number"]:focus, 
+	.page_header input[type="url"]:focus, 
+	.page_header input[type="tel"]:focus, 
+	.page_header input[type="search"]:focus,
+	.page_header textarea:focus {
+		color:#737373;
+		}
+		
+	.page_header .header_meta {
+		border-top-color:#424242;
+		}
+		
+		
+		
+	
+
 /*
 == ------------------------------------------------------------------- ==
 == @@ Styling - Colors - Title Area
 == ------------------------------------------------------------------- ==
 */
 
+
+	.page_header .title_area {
+		background-color:#fafafa; 
+		}
+		
+	.page_header .title_area {
+		border-color:#e3e3e3; 
+		}
+		
+	.page_header .title_area h1 {
+		color:#282828; 
+		}
+		
+	.page_header .title_area, 
+	.page_header .title_area a {
+		color:#737373; 
+		}
+		
+		
+		
+		
 	
 
 /*
@@ -791,6 +886,61 @@ select,
 == ------------------------------------------------------------------- ==
 */
 
+
+	.page_header .sf-menu a {
+		color:#737373;
+		}
+		
+	.page_header .sf-menu ul li {
+		background-color:#f9f9f9;
+		}
+		
+	.page_header .header_main nav select {
+		background-color:#f9f9f9;
+		}
+		
+	.page_header .sf-menu ul li:hover,
+	.page_header .sf-menu ul li.sfHover, 
+	.page_header .sf-menu ul .current_page_item,
+	.page_header .sf-menu ul .current_page_parent,
+	.page_header .sf-menu ul .current_page_ancestor {
+		background-color:#FFFFFF;
+		}
+		
+	.page_header .sf-menu ul li {
+		border-bottom-color:#e2e2e2;
+		border-top-color:#fdfdfd;
+		}
+		
+	.page_header .sf-menu a:hover, 
+	.page_header .sf-menu > .current_page_ancestor > a
+	.page_header .sf-menu > li:hover > a,
+	.page_header .sf-menu > li.sfHover > a,
+	.page_header .sf-menu > .current_page_item > a,
+	.page_header .sf-menu > .current_page_parent > a,
+	.page_header .sf-menu > .current_page_ancestor > a {
+		color:#fb652b;
+		}
+		
+	.page_header .sf-arrows ul li > .sf-with-ul:focus:after,
+	.page_header .sf-arrows ul li:hover > .sf-with-ul:after,
+	.page_header .sf-arrows ul .sfHover > .sf-with-ul:after {
+		border-left-color:#fb652b;
+		}
+		
+	.page_header .sf-menu ul {
+		border-color:#fb652b;
+		}
+	.page_header .sf-menu ul .current_page_item > a, 
+	.page_header .sf-menu ul .current_page_parent > a, 
+	.page_header .sf-menu ul .current_page_ancestor > a {
+		color:#fb652b;
+		}
+		
+	.page_header .sf-arrows ul .sf-with-ul:after {
+		border-left-color:#aaaaaa;
+		}
+	
 		
 
 /*
@@ -799,6 +949,25 @@ select,
 == ------------------------------------------------------------------- ==
 */
 
+		
+	#invicta_root .invicta_hover_effect .mask {	
+		background-color:#fb652b;
+		background-color:rgba(251, 101, 43, 0.7);
+		}
+		
+	#invicta_root .invicta_hover_effect .caption .title, 
+	#invicta_root .invicta_hover_effect .caption .description {
+		color:#FFFFFF;
+		}
+		
+	.invicta_steps .step:hover .icon {	
+		background-color:#fb652b;
+		}
+		
+	.invicta_steps .step:hover .icon i {
+		color:#FFFFFF;
+		}
+	
 	
 
 /*
@@ -808,8 +977,8 @@ select,
 */
 
 .page_header .home_slideshow {
-	border-top-color:#ffffff;
-	border-bottom-color:#ffffff;
+	border-top-color:#d3d3d3;
+	border-bottom-color:#d3d3d3;
 	}
 
 
@@ -1010,22 +1179,9 @@ input[type="submit"]:hover,
 */
 
 .invicta_boxed_layout .body_background {
-					background-image:url(http://invicta:8888/wp-content/themes/invicta/styles/images/patterns/19.png);
+					background-image:none;
 				background-attachment:fixed;
 	background-repeat:repeat;
-	background-position:center center;
-}
-
-.invicta_boxed_layout .body_background {
-	background-image:url(http://invicta:8888/wp-content/uploads/2013/10/1.jpg);
-	background-attachment:fixed;
-		
-	background-position:center center;
-}
-
-.invicta_boxed_layout .body_background { 
-	background-attachment:fixed;
-	background-size:cover;
 	background-position:center center;
 }
 
@@ -1194,7 +1350,7 @@ h6 { font-size:0.9em; }
 .woocommerce .cart .quantity .qty, 
 .woocommerce-page .cart .quantity .qty { 
 	border-color:#e3e3e3;
-	background-color:#ffffff;
+	background-color:#FFFFFF;
 	color:#b2b2b2;
 	}
 	
@@ -1255,8 +1411,8 @@ h6 { font-size:0.9em; }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active, 
 .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
 	border-top-color:#fb652b;
-	border-bottom-color:#ffffff;
-	background-color:#ffffff;
+	border-bottom-color:#FFFFFF;
+	background-color:#FFFFFF;
 	}
 	
 .woocommerce div.product .woocommerce-tabs ul.tabs li:hover, 
@@ -1269,7 +1425,7 @@ h6 { font-size:0.9em; }
 .woocommerce table.shop_table .remove, 
 .woocommerce_header_cart .widget_shopping_cart_content li, 
 .woocommerce .product_sorting .sort_param ul { 
-	background-color:#ffffff;
+	background-color:#FFFFFF;
 	}
 	
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, 
@@ -1285,7 +1441,7 @@ h6 { font-size:0.9em; }
 	
 .woocommerce div.proudct .woocommerce-tabs .panel, 
 .woocommerce-page div.product .woocommerce-tabs .panel { 
-	background-color:#ffffff;
+	background-color:#FFFFFF;
 	border-color:#e3e3e3;
 	}
 	
@@ -1317,7 +1473,7 @@ h6 { font-size:0.9em; }
 	
 .woocommerce table.shop_table td.actions .coupon .input-text { 
 	border-color:#e3e3e3;
-	background-color:#ffffff;
+	background-color:#FFFFFF;
 	color:#b2b2b2;
 	}
 
@@ -1339,7 +1495,7 @@ h6 { font-size:0.9em; }
 	
 /*
 == ------------------------------------------------------------------- ==
-== @@ 
+== @@ Logo Spacing
 == ------------------------------------------------------------------- ==
 */	
 
@@ -1353,5 +1509,4 @@ h6 { font-size:0.9em; }
 == @@ Custom CSS Code
 == ------------------------------------------------------------------- ==
 */
-
 

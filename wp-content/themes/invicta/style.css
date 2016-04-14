@@ -9,3 +9,5 @@ License URI: -
 Theme URI: http://themeforest.net/item/invicta-wordpress-theme/6155540
 Tags: light, one-column, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-colors, editor-style, featured-images, post-formats, theme-options, translation-ready
 */
+
+.page_header .header_main{background:#fff !important;opacity:0.5;}
