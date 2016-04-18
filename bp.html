@@ -1,0 +1,70 @@
+<html>
+<head>
+    <style>
+        body {
+            background: #fff;
+        }
+
+        #pole {
+            margin: auto;
+            width: 100px;
+        }
+
+        #middle{
+            margin: auto;
+        }
+
+        #middle {
+            background-image: repeating-linear-gradient(-30deg, #c00 0, #c00 20px, #fff 20px, #fff 40px, #c00 40px, #c00 60px, #fff 60px, #fff 80px);
+            background-size: 200% 200%;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            height: 250px;
+            width: 80px;
+            animation: slide 2s linear infinite;
+            -webkit-animation: slide 2s linear infinite;
+        }
+
+        .glass {
+            background-image: linear-gradient(90deg, transparent 15%, #fff 25%, transparent 40%, transparent 60%, #fff 70%, transparent 80%);
+            position: absolute;
+            height: 250px;
+            width: 80px;
+        }
+
+        .shade {
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, transparent 10%, transparent 75%, rgba(0, 0, 0, 0.6) 100%);
+            position: absolute;
+            height: 250px;
+            width: 80px;
+        }
+
+        @keyframes slide {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: 160px 0;
+            }
+        }
+
+        .bg{
+            background: url(src/logo.jpg) no-repeat;
+            background-size: 100%;
+            width: 350px;
+            padding-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div id="pole">
+            <div id="middle">
+                <div class="glass"></div>
+                <div class="shade"></div>
+                <div class="stripes"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
